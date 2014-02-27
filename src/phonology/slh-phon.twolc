@@ -1,0 +1,78 @@
+!! =================================== !
+!! The Southern Puget Sound Salish morphophonological/twolc rules file !
+!! =================================== !
+
+Alphabet
+ a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
+ á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç
+
+ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
+ Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
+
+c̓
+č̓
+ɬ
+l
+ƛ̕
+w̓
+t̓
+y̓
+p̓
+k̓
+kʷ
+k̓ʷ
+q
+qʷ
+q̓
+q̓ʷ
+xʷ
+x̌ʷ
+b̓
+n̓
+m̓
+ˀ
+!! There must be a capital ɬ
+
+C̓
+Č̓
+ɬ
+L̓
+ƛ̕
+W̓
+T̓
+Y̓
+P̓
+K̓
+Kʷ
+K̓ʷ
+Q
+Qʷ
+Q̓
+Q̓ʷ
+Xʷ
+X̌ʷ
+B̓
+N̓
+M̓
+
+ %>:0 ;
+
+Sets
+
+ Vow = a e i o u y æ ø å 
+       á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý ;
+ Cns = b c d f g h j k l m n p q r s t v w x z ð þ ;
+ 
+Rules
+
+"Deleting stem-final s in s genitive"
+ s:0 <=> Vow s %>: _ ;
+
+!€ primus%>s
+!€ primus00
+
+!€grís%>s
+!€grís00
+
+!$grís%>s
+!$grís0s
