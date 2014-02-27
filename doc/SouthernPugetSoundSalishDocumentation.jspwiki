@@ -8,7 +8,15 @@
   / [affixes|https://victorio.uit.no/langtech/trunk/langs/slh/src/morphology/affixes/] 
   / [syntax|https://victorio.uit.no/langtech/trunk/langs/slh/src/syntax] 
   / [twolc|https://victorio.uit.no/langtech/trunk/langs/slh/src/phonology/slh-phon.twolc]   
-  / [yaml|https://victorio.uit.no/langtech/trunk/langs/slh/test/src/morphology/]
+  / [number convertors|https://victorio.uit.no/langtech/trunk/langs/slh/src/transcriptions/]
+* Test files: [yaml|https://victorio.uit.no/langtech/trunk/langs/slh/test/src/morphology/]
+
+
+!!! Demo page
+
+At the end of [this page|http://giellatekno.uit.no/num.eng.html] there is
+an experimental numerals to number words generator for 
+Southern Puget Sound Salish.
 
 !!! Project pages
 
