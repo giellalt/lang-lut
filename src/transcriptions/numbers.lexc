@@ -104,13 +104,13 @@ ačiˀ% yəxʷ% kʷi% : ONESM ;
 LEXICON ONESM
 dəč̓uˀ% miljon% :1 OVERTHOUSANDS ;!! Check this
 saliˀ:2 MILJON ;
-sɬixʷ:3 MILJON ;
-sbuus:4 MILJON ;
-scəlac:5 MILJON ;
+ɬixʷ:3 MILJON ;
+buus:4 MILJON ;
+cəlac:5 MILJON ;
 dᶻəlačiˀ:6 MILJON ;
 c̓uˀkʷs:7 MILJON ;
 c̓ukʷs+Use/NG:7 MILJON ;
-taqačiˀ:8 MILJON ;
+təqačiˀ:8 MILJON ;
 x̌ʷəl:9 MILJON ;
 
 
@@ -124,8 +124,6 @@ LEXICON MILJON
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		! x00.000.000
 sbək̓ʷač:1 HUNDREDT ;	! 100.000.000
-stoereluhkie:1 HUNDREDT ;	! 100.000.000
-stoerreluhkie:1 HUNDREDT ;	! 100.000.000
 :%0 TENST ;		!  20.000.000
 :%0 TEENST ;		!  10.000.000
 :%0%0 ONEST ;		!   2.000.000
