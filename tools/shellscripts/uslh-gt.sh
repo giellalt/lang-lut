@@ -7,7 +7,7 @@
 # This file must be processed by ./configure before being used.
 # The script only works with hfst transducers.
 
-# 1. Use /Users/rueter/bin/lookup to identify the lookup tool
+# 1. Use /Users/jackrueter/bin/lookup to identify the lookup tool
 # 2. test for the existence of the variable GTLANG_xxx
 #    if found, use the fst in the language dir that GTLANG_xxx points to;
 #    if not, or if there is no fst in that location, test whether
@@ -17,7 +17,7 @@
 ###### Variables: #######
 
 fsttype=xfst
-lookuptool="/Users/rueter/bin/lookup"
+lookuptool="/Users/jackrueter/bin/lookup"
 fstflags="-q -flags mbTT"
 shareddir=/usr/local${prefix}/share/$fsttype/slh
 localdir=$GTLANG_slh/src
