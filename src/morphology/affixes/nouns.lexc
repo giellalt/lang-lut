@@ -3,13 +3,23 @@
 !! The UNDEFINED language nouns inflect in cases.
 
 LEXICON Cases
-+N+sg+nom:0     #   ;
-+N+pl+nom:i     #   ;
-+N+sg+loc:as    #   ;
-+N+pl+loc:ias   #   ;
-+N+sg+acc:at    #   ;
-+N+pl+acc:iat   #   ;
-#:0   Nouns   ;
++N+Sg+Nom:0     #   ;
++N+Pl+Nom:i     #   ;
+!#:0   Nouns   ;
+
+LEXICON N_with-PL_RED3
+SG-SUF ;
+PL_RED3 ;
+
+LEXICON SG-SUF
++N+Sg: # ;
+
+LEXICON PL_RED3
++N+Pl:%^Red3	# ;
+!!€ bəlbəlups bəlups+N+Pl
+!!$ bəlups bəlups+N+Pl
+!!€ k̓ʷəčk̓ʷəčədiˀ k̓ʷəčədiˀ+N+Pl
+!!$ k̓ʷəčədiˀ k̓ʷəčədiˀ+N+Pl
 
 ! vim: set ft=xfst-lexc:
 

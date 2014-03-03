@@ -5,6 +5,32 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Southern Puget Sound Salish LANGUAGE.
 
  !!!Multichar_Symbols definitions
 
+!!Letters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 !!Analysis symbols
 ----------------
 The morphological analyses of wordforms of UNDEFINED language are presented
@@ -20,6 +46,7 @@ The Usage extents are marked using following tags:
 The nominals are inflected in the following Case and Number
 
 The possession is marked as such:
+
 The comparative forms are:
 Numerals are classified under:
 Verb moods are:
@@ -47,6 +74,8 @@ To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
 And following triggers to control variation
+ * %^Red3  3-segment reduplication 
+
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:

@@ -3,7 +3,8 @@
 !! Prefixes in UNDEFINED language are bound to beginning of other words.
 
 LEXICON Prefixes
-nounprefix-     Nouns   ;
++PxSg1:d%<     Nouns   ;
++PxSg2:ad%<     Nouns   ;
 verbprefix-     Verbs   ;
 
 

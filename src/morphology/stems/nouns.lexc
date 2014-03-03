@@ -4,5 +4,13 @@
 
 LEXICON Nouns
 noun    Cases   ;
+bəlups:bəlups N_with-PL_RED3	"racoon" ;
+ǰəšəd:ǰə«šəd N_with-PL_RED3	"foot" ;
+k̓ʷəčədiˀ:k̓ʷəčədiˀ N_with-PL_RED3	"rabbit" ;
+luƛ̕:luƛ̕ N_with-PL_RED3 "elder" ;
+qəlub:qəlub N_with-PL_RED3 "eye" ;
+sčətxʷəd:s«čətxʷəd N_with-PL_RED3 "bear" ;
+sdaˀ:s«daˀ N_with-PL_RED3 "name" ;
+sx̌ʷiˀab:s«x̌ʷiˀab N_with-PL_RED3 "story" ;
 
 ! vim: set ft=xfst-lexc:

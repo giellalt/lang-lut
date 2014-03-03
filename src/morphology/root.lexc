@@ -20,6 +20,89 @@
 
 Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
+!! !!Letters
+b̓
+
+c̓
+č
+č̓
+dᶻ
+ə
+gʷ
+ǰ
+
+k̓
+kʷ
+k̓ʷ
+
+l̓
+ɬ
+ƛ̕
+
+m̓
+n̓
+
+p̓
+
+q̓
+qʷ
+q̓ʷ
+
+š
+
+t̓
+
+w̓
+y̓
+
+x̌
+xʷ
+x̌ʷ
+
+y̓
+ˀ
+B̓
+
+C̓
+Č
+Č̓
+Dᶻ
+Ə
+Gʷ
+ǰ
+
+K̓
+Kʷ
+K̓ʷ
+
+L̓
+ɬ
+ƛ̕
+
+M̓
+N̓
+
+P̓
+
+Q̓
+Qʷ
+Q̓ʷ
+
+Š
+
+T̓
+
+W̓
+Y̓
+
+X̌
+Xʷ
+X̌ʷ
+
+Y̓
+
+
+
 !! !!Analysis symbols
 !! ----------------
 !! The morphological analyses of wordforms of UNDEFINED language are presented
@@ -42,7 +125,9 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
  +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh
 
 !! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
+ +PxSg1 +PxSg2
+
+ +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
 !! The comparative forms are:
  +Comp +Superl
 !! Numerals are classified under:
@@ -104,6 +189,8 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 !! And following triggers to control variation
  {front} {back}
+%^Red3 !!= * @CODE@ 3-segment reduplication 
+
 
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
@@ -112,11 +199,11 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-0   Nouns   ;
-0   Verbs   ;
-0   Adjectives  ;
-0   Pronouns    ;
-0   Numerals    ;
-0   Prefixes    ;
+   Nouns   ;
+   Verbs   ;
+   Adjectives  ;
+   Pronouns    ;
+   Numerals    ;
+   Prefixes    ;
 
 ! vim: set ft=xfst-lexc:

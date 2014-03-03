@@ -3,12 +3,118 @@
 !! =================================== !
 
 Alphabet
- a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
- á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç
+ a b c d g h i k l m n o p q r s t u v w x y z æ ø å
+ á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý
 
- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
- Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
+ A B C D G H I K L M N O P Q R S T U V W X Y Z Æ Ø Å
+ Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý
 
+b̓
+
+c̓
+č
+č̓
+dᶻ
+ə
+gʷ
+ǰ
+
+k̓
+kʷ
+k̓ʷ
+
+l̓
+ɬ
+ƛ̕
+
+m̓
+n̓
+
+p̓
+
+q
+q̓
+qʷ
+q̓ʷ
+
+š
+
+t̓
+
+w̓
+y̓
+
+x̌
+xʷ
+x̌ʷ
+
+y̓
+ˀ
+!! There must be a capital ɬ
+
+B̓
+
+C̓
+Č
+Č̓
+Dᶻ
+Ə
+Gʷ
+ǰ
+
+K̓
+Kʷ
+K̓ʷ
+
+L̓
+ɬ
+ƛ̕
+
+M̓
+N̓
+
+P̓
+
+Q
+Q̓
+Qʷ
+Q̓ʷ
+
+Š
+
+T̓
+
+W̓
+Y̓
+
+X̌
+Xʷ
+X̌ʷ
+
+Y̓
+
+
+! 3-segment reduplication
+R31:b R31:l
+
+R32:l
+E3:ə
+
+! triggers
+%^Red3:0 !!= * @CODE@ 3-segment reduplication 
+
+%» %« 
+ %> %< # ;
+
+
+Sets
+
+ Vow = a e i o u y æ ø å ə
+       á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý 
+       A E I O U Y Æ Ø Å Ə
+       Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý ;
+ Cns = b c d f g h j k l m n p q r s t v w x z
+š Š ǰ J̌ č Č
 c̓
 č̓
 ɬ
@@ -30,13 +136,11 @@ x̌ʷ
 b̓
 n̓
 m̓
-ˀ
-!! There must be a capital ɬ
-
+B C D F G H J K L M N P Q R S T V W X Z 
 C̓
 Č̓
 ɬ
-L̓
+L
 ƛ̕
 W̓
 T̓
@@ -54,14 +158,8 @@ X̌ʷ
 B̓
 N̓
 M̓
-
- %>:0 ;
-
-Sets
-
- Vow = a e i o u y æ ø å 
-       á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý ;
- Cns = b c d f g h j k l m n p q r s t v w x z ð þ ;
+ˀ
+;
  
 Rules
 
@@ -76,3 +174,88 @@ Rules
 
 !$grís%>s
 !$grís0s
+
+! Vowels
+"0:ə in reduplication"
+!! __@RULENAME@__
+ 0:ə <=> [ # | %« ] 0: _ 0: Cns: ə Cns: :* %^Red3: ;
+
+"0:u in reduplication"
+!! __@RULENAME@__
+ 0:u <=> [ # | %« ] 0: _ 0: Cns: u Cns: :* %^Red3: ;
+
+"0:i in reduplication"
+!! __@RULENAME@__
+ 0:i <=> [ # | %« ] 0: _ 0: Cns: i Cns: :* %^Red3: ;
+
+"0:a in reduplication"
+!! __@RULENAME@__
+ 0:a <=> [ # | %« ] 0: _ 0: Cns: a Cns: :* %^Red3: ;
+
+! Consonants
+
+"0:b in reduplication"
+!! __@RULENAME@__
+ 0:b <=> [ # | %« ] _ 0: 0: b Vow: Cns: :* %^Red3: ;
+     	  [ # | %« ] 0: 0: _ Cns Vow: b :* %^Red3: ;
+
+"0:t in reduplication"
+!! __@RULENAME@__
+ 0:t <=> [ # | %« ] _ 0: 0: t Vow: Cns: :* %^Red3: ;
+     	  [ # | %« ] 0: 0: _ Cns Vow: t :* %^Red3: ;
+
+"0:d in reduplication"
+!! __@RULENAME@__
+ 0:d <=> [ # | %« ] _ 0: 0: d Vow: Cns: :* %^Red3: ;
+     	  [ # | %« ] 0: 0: _ Cns Vow: d :* %^Red3: ;
+
+"0:š in reduplication"
+!! __@RULENAME@__
+ 0:š <=> [ # | %« ] _ 0: 0: š Vow: Cns: :* %^Red3: ;
+	 [ # | %« ] 0: 0: _ Cns Vow: š :* %^Red3: ;
+
+"0:č in reduplication"
+!! __@RULENAME@__
+ 0:č <=> [ # | %« ] _ 0: 0: č Vow: Cns: :* %^Red3: ;
+	 [ # | %« ] 0: 0: _ Cns Vow: č :* %^Red3: ;
+
+"0:l in reduplication"
+!! __@RULENAME@__
+ 0:l <=> [ # | %« ] 0: 0: _ [ Cns - q ] Vow: l :* %^Red3: ;
+
+"0:l̓ in reduplication"
+!! __@RULENAME@__
+ 0:l̓ <=>
+      [ # | %« ] 0: 0: _ [ q ] Vow: l :* %^Red3: ;
+
+"0:ƛ̕ in reduplication"
+!! __@RULENAME@__
+ 0:ƛ̕ <=> [ # | %« ] 0: 0: _ Cns Vow: ƛ̕ :* %^Red3: ;
+         [ # | %« ] _ 0: 0: ƛ̕ Vow: Cns :* %^Red3: ;
+
+"0:k̓ʷ in reduplication"
+!! __@RULENAME@__
+ 0:k̓ʷ <=> [ # | %« ] _ 0: 0: k̓ʷ Vow: Cns: :* %^Red3: ;
+	 [ # | %« ] 0: 0: _ Cns Vow: k̓ʷ :* %^Red3: ;
+
+
+"0:q in reduplication"
+!! __@RULENAME@__
+ 0:q <=> [ # | %« ] 0: 0: _ Cns Vow: q :* %^Red3: ;
+         [ # | %« ] _ 0: 0: q Vow: Cns :* %^Red3: ;
+
+"0:x̌ʷ in reduplication"
+!! __@RULENAME@__
+ 0:x̌ʷ <=> [ # | %« ] 0: 0: _ Cns Vow: x̌ʷ :* %^Red3: ;
+         [ # | %« ] _ 0: 0: x̌ʷ Vow: Cns :* %^Red3: ;
+
+"0:ˀ in reduplication"
+!! __@RULENAME@__
+ 0:ˀ <=> [ # | %« ] 0: 0: _ Cns Vow: ˀ :* %^Red3: ;
+         [ # | %« ] _ 0: 0: ˀ Vow: Cns :* %^Red3: ;
+
+
+!
+"Require 0: before Red3:0 "
+!! __@RULENAME@__
+%^Red3:0 => 0: :* _ ;
