@@ -101,7 +101,7 @@ X̌ʷ
 
 Y̓
 
-
+%«
 
 !! !!Analysis symbols
 !! ----------------
@@ -179,7 +179,7 @@ Y̓
 !! source and target part-of-speech.
  +V→N +V→V +V→A
  +Der/xxx
-
+ +Der/Dim !!= * @CODE@ diminutive
 
 !! Morphophonology
 !! ---------------
@@ -189,6 +189,8 @@ Y̓
 
 !! And following triggers to control variation
  {front} {back}
+%^Red1CV1toCV2C !!= * @CODE@ 2-segment to 3-segments with vowel change 
+%^Red1CV1toCV2CPL !!= * @CODE@ 2-segment to 3-segments with vowel change Plural
 %^Red3 !!= * @CODE@ 3-segment reduplication 
 
 
@@ -196,10 +198,27 @@ Y̓
 !! flag diacritics to restrict morhpological combinatorics:
 @P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@
 
+! NOUNS
+@U.PossPx.S3@
+
+@U.PossPx.Sg1@
+@U.PossPx.Sg2@
+@U.PossPx.Sg3@
+@U.PossPx.Pl1@
+@U.PossPx.Pl2@
+@U.PossPx.Pl3@
+
+@R.PossPx.Sg1@
+@R.PossPx.Sg2@
+@D.PossPx@
+@C.PossPx@
+
+
+
 LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-   Nouns   ;
+!   Nouns   ; This is fed entirely by Prefixes
    Verbs   ;
    Adjectives  ;
    Pronouns    ;

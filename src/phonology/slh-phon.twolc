@@ -101,6 +101,8 @@ R32:l
 E3:ə
 
 ! triggers
+%^Red1CV1toCV2C:0 !!= * @CODE@ 2-segment to 3-segments with vowel change 
+%^Red1CV1toCV2CPL:0 !!= * @CODE@ 2-segment to 3-segments with vowel change Plural
 %^Red3:0 !!= * @CODE@ 3-segment reduplication 
 
 %» %« 
@@ -163,99 +165,159 @@ M̓
  
 Rules
 
-"Deleting stem-final s in s genitive"
- s:0 <=> Vow s %>: _ ;
-
-!€ primus%>s
-!€ primus00
-
-!€grís%>s
-!€grís00
-
-!$grís%>s
-!$grís0s
 
 ! Vowels
+"ə:i in reduplication"
+!! __@RULENAME@__
+ ə:i <=>
+         [ # | %« | %< ] Cns _ 0: [ Cns | Vow ] :* %^Red1CV1toCV2C: ;
+         [ # | %« | %< ] 0: 0: Cns _ 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
+
 "0:ə in reduplication"
 !! __@RULENAME@__
- 0:ə <=> [ # | %« ] 0: _ 0: Cns: ə Cns: :* %^Red3: ;
+ 0:ə <=> [ # | %« | %< ] 0: _ 0: Cns: ə Cns: :* %^Red3: ;
 
 "0:u in reduplication"
 !! __@RULENAME@__
- 0:u <=> [ # | %« ] 0: _ 0: Cns: u Cns: :* %^Red3: ;
+ 0:u <=> [ # | %« | %< ] 0: _ 0: Cns: u Cns: :* %^Red3: ;
 
 "0:i in reduplication"
 !! __@RULENAME@__
- 0:i <=> [ # | %« ] 0: _ 0: Cns: i Cns: :* %^Red3: ;
+ 0:i <=> [ # | %« | %< ] 0: _ 0: Cns: i Cns: :* %^Red3: ;
+         [ # | %« | %< ] 0: _ Cns ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
 
 "0:a in reduplication"
 !! __@RULENAME@__
- 0:a <=> [ # | %« ] 0: _ 0: Cns: a Cns: :* %^Red3: ;
+ 0:a <=> [ # | %« | %< ] 0: _ 0: Cns: a Cns: :* %^Red3: ;
 
 ! Consonants
 
+"0:p in reduplication"
+!! __@RULENAME@__
+ 0:p <=> [ # | %« | %< ] 0: 0: _ Cns Vow: p [ Cns | Vow ]* %^Red3: ;
+         [ # | %« | %< ] _ 0: 0: p Vow: Cns [ Cns | Vow ]* %^Red3: ;
+        [ # | %« | %< ] p  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %« | %< ] 0: 0: p  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %« | %< ] _ 0: p ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
+
 "0:b in reduplication"
 !! __@RULENAME@__
- 0:b <=> [ # | %« ] _ 0: 0: b Vow: Cns: :* %^Red3: ;
-     	  [ # | %« ] 0: 0: _ Cns Vow: b :* %^Red3: ;
+ 0:b <=> [ # | %« | %< ] _ 0: 0: b Vow: Cns: [ Cns | Vow ]* %^Red3: ;
+     	  [ # | %« | %< ] 0: 0: _ Cns Vow: b [ Cns | Vow ]* %^Red3: ;
+        [ # | %« | %< ] b  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %« | %< ] 0: 0: b  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %« | %< ] _ 0: b ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
 
 "0:t in reduplication"
 !! __@RULENAME@__
- 0:t <=> [ # | %« ] _ 0: 0: t Vow: Cns: :* %^Red3: ;
-     	  [ # | %« ] 0: 0: _ Cns Vow: t :* %^Red3: ;
+ 0:t <=> [ # | %« | %< ] _ 0: 0: t Vow: Cns: [ Cns | Vow ]* %^Red3: ;
+     	  [ # | %« | %< ] 0: 0: _ Cns Vow: t [ Cns | Vow ]* %^Red3: ;
+        [ # | %« | %< ] t  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %« | %< ] 0: 0: t  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %« | %< ] _ 0: t ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
+
+"0:t̓ in reduplication"
+!! __@RULENAME@__
+ 0:t̓ <=> [ # | %« | %< ] _ 0: 0: t̓ Vow: Cns: [ Cns | Vow ]* %^Red3: ;
+ 	  [ # | %« | %< ] 0: 0: _ Cns Vow: t̓ [ Cns | Vow ]* %^Red3: ;
+         [ # | %« | %< ] t̓  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %« | %< ] 0: 0: t̓  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %« | %< ] _ 0: t̓ ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
+
 
 "0:d in reduplication"
 !! __@RULENAME@__
- 0:d <=> [ # | %« ] _ 0: 0: d Vow: Cns: :* %^Red3: ;
-     	  [ # | %« ] 0: 0: _ Cns Vow: d :* %^Red3: ;
-
-"0:š in reduplication"
-!! __@RULENAME@__
- 0:š <=> [ # | %« ] _ 0: 0: š Vow: Cns: :* %^Red3: ;
-	 [ # | %« ] 0: 0: _ Cns Vow: š :* %^Red3: ;
+ 0:d <=> [ # | %« | %< ] _ 0: 0: d Vow: Cns: [ Cns | Vow ]* %^Red3: ;
+     	  [ # | %« | %< ] 0: 0: _ Cns Vow: d [ Cns | Vow ]* %^Red3: ;
+        [ # | %« | %< ] d  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %« | %< ] 0: 0: d  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %« | %< ] _ 0: d ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
 
 "0:č in reduplication"
 !! __@RULENAME@__
- 0:č <=> [ # | %« ] _ 0: 0: č Vow: Cns: :* %^Red3: ;
-	 [ # | %« ] 0: 0: _ Cns Vow: č :* %^Red3: ;
+ 0:č <=> [ # | %« | %< ] _ 0: 0: č Vow: Cns: [ Cns | Vow ]* %^Red3: ;
+	 [ # | %« | %< ] 0: 0: _ Cns Vow: č [ Cns | Vow ]* %^Red3: ;
+        [ # | %« | %< ] č  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %« | %< ] 0: 0: č  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %« | %< ] _ 0: č ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
+
+"0:š in reduplication"
+!! __@RULENAME@__
+ 0:š <=> [ # | %« | %< ] _ 0: 0: š Vow: Cns: [ Cns | Vow ]* %^Red3: ;
+	 [ # | %« | %< ] 0: 0: _ Cns Vow: š [ Cns | Vow ]* %^Red3: ;
+        [ # | %« | %< ] š  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %« | %< ] 0: 0: š  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %« | %< ] _ 0: š ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
 
 "0:l in reduplication"
 !! __@RULENAME@__
- 0:l <=> [ # | %« ] 0: 0: _ [ Cns - q ] Vow: l :* %^Red3: ;
+ 0:l <=> [ # | %« | %< ] 0: 0: _ [ Cns - q ] Vow: l [ Cns | Vow ]* %^Red3: ;
+	 [ # | %« | %< ] _ 0: 0: l Vow: Cns [ Cns | Vow ]* %^Red3: ;
+        [ # | %« | %< ] l  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %« | %< ] 0: 0: l  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %« | %< ] _ 0: l ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
 
 "0:l̓ in reduplication"
 !! __@RULENAME@__
  0:l̓ <=>
-      [ # | %« ] 0: 0: _ [ q ] Vow: l :* %^Red3: ;
+      [ # | %« | %< ] 0: 0: _ [ q ] Vow: l [ Cns | Vow ]* %^Red3: ;
+	 [ # | %« | %< ] _ 0: 0: l̓ Vow: Cns [ Cns | Vow ]* %^Red3: ;
+        [ # | %« | %< ] l̓  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %« | %< ] 0: 0: l̓  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %« | %< ] _ 0: l̓ ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
 
 "0:ƛ̕ in reduplication"
 !! __@RULENAME@__
- 0:ƛ̕ <=> [ # | %« ] 0: 0: _ Cns Vow: ƛ̕ :* %^Red3: ;
-         [ # | %« ] _ 0: 0: ƛ̕ Vow: Cns :* %^Red3: ;
+ 0:ƛ̕ <=> [ # | %« | %< ] 0: 0: _ Cns Vow: ƛ̕ [ Cns | Vow ]* %^Red3: ;
+         [ # | %« | %< ] _ 0: 0: ƛ̕ Vow: Cns [ Cns | Vow ]* %^Red3: ;
+        [ # | %« | %< ] ƛ̕  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %« | %< ] 0: 0: ƛ̕  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %« | %< ] _ 0: ƛ̕ ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
 
 "0:k̓ʷ in reduplication"
 !! __@RULENAME@__
- 0:k̓ʷ <=> [ # | %« ] _ 0: 0: k̓ʷ Vow: Cns: :* %^Red3: ;
-	 [ # | %« ] 0: 0: _ Cns Vow: k̓ʷ :* %^Red3: ;
+ 0:k̓ʷ <=> [ # | %« | %< ] 0: 0: _ Cns Vow: k̓ʷ [ Cns | Vow ]* %^Red3: ;
+         [ # | %« | %< ] _ 0: 0: k̓ʷ Vow: Cns: [ Cns | Vow ]* %^Red3: ;
+        [ # | %« | %< ] k̓ʷ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %« | %< ] 0: 0: k̓ʷ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %« | %< ] _ 0: k̓ʷ ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
 
 
 "0:q in reduplication"
 !! __@RULENAME@__
- 0:q <=> [ # | %« ] 0: 0: _ Cns Vow: q :* %^Red3: ;
-         [ # | %« ] _ 0: 0: q Vow: Cns :* %^Red3: ;
+ 0:q <=> [ # | %« | %< ] 0: 0: _ Cns Vow: q [ Cns | Vow ]* %^Red3: ;
+         [ # | %« | %< ] _ 0: 0: q Vow: Cns [ Cns | Vow ]* %^Red3: ;
+        [ # | %« | %< ] q  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %« | %< ] 0: 0: q  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %« | %< ] _ 0: q ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
 
 "0:x̌ʷ in reduplication"
 !! __@RULENAME@__
- 0:x̌ʷ <=> [ # | %« ] 0: 0: _ Cns Vow: x̌ʷ :* %^Red3: ;
-         [ # | %« ] _ 0: 0: x̌ʷ Vow: Cns :* %^Red3: ;
+ 0:x̌ʷ <=> [ # | %« | %< ] 0: 0: _ Cns Vow: x̌ʷ [ Cns | Vow ]* %^Red3: ;
+         [ # | %« | %< ] _ 0: 0: x̌ʷ Vow: Cns [ Cns | Vow ]* %^Red3: ;
+        [ # | %« | %< ] x̌ʷ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %« | %< ] 0: 0: x̌ʷ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %« | %< ] _ 0: x̌ʷ ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
 
 "0:ˀ in reduplication"
 !! __@RULENAME@__
- 0:ˀ <=> [ # | %« ] 0: 0: _ Cns Vow: ˀ :* %^Red3: ;
-         [ # | %« ] _ 0: 0: ˀ Vow: Cns :* %^Red3: ;
+ 0:ˀ <=> [ # | %« | %< ] 0: 0: _ Cns Vow: ˀ [ Cns | Vow ]* %^Red3: ;
+         [ # | %« | %< ] _ 0: 0: ˀ Vow: Cns [ Cns | Vow ]* %^Red3: ;
+        [ # | %« | %< ] ˀ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %« | %< ] 0: 0: ˀ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %« | %< ] _ 0: ˀ ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
 
 
 !
 "Require 0: before Red3:0 "
 !! __@RULENAME@__
 %^Red3:0 => 0: :* _ ;
+
+"Require 0: before Red1CV1toCV2C:0 "
+!! __@RULENAME@__
+%^Red1CV1toCV2C:0 => 0: :* _ ;
+
+"Require 0: before Red1CV1toCV2CPL:0 "
+!! __@RULENAME@__
+%^Red1CV1toCV2CPL:0 => 0: :* _ ;
+
