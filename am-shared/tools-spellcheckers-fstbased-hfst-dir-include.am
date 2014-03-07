@@ -1,0 +1,266 @@
+## Process this file with automake to produce Makefile.in
+
+## Copyright (C) 2011 Samediggi
+
+## This program is free software: you can redistribute it and/or modify
+## it under the terms of the GNU General Public License as published by
+## the Free Software Foundation, either version 3 of the License, or
+## (at your option) any later version.
+
+## This program is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+## GNU General Public License for more details.
+
+## You should have received a copy of the GNU General Public License
+## along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+GT_SPELLER_HFST=generator-fstspeller-gt-norm.hfst
+GT_SPELLER_ACCEPTOR=acceptor.default.hfst
+
+# This is how we zip files to work with hfst-ospell and libvoikko
+# (=max compression, working from 28.1.2014 for all platforms):
+ZIPFLAGS=-9
+
+####### Automake targets: ########
+
+GT_ERRMODELS=
+if WANT_SPELLERS
+if CAN_HFST
+#GT_ERRMODELS+=errmodel.edit-distance-1.hfst
+
+# Only build speller if it is enabled (default=yes)
+if WANT_SPELLERAUTOMAT
+GT_ERRMODELS+=errmodel.default.hfst
+# libvoikko can't yet handle multiple error models - do NOT include this line:
+# errmodel.ocr.hfst
+
+# Require zip to turn on zhfst target:
+if WANT_VOIKKO
+GT_SPELLING_HFST=$(GTLANG2).zhfst
+endif # WANT_VOIKKO
+endif # WANT_SPELLERAUTOMAT
+endif # CAN_HFST
+
+if CAN_HFST
+if WANT_VOIKKO
+voikkosharedir=$(libdir)/voikko/3/
+#! @param GT_VOIKKO optional, set to spell checker automata names if
+#!					installable
+voikkoshare_DATA=$(GT_SPELLING_HFST)
+endif # WANT_VOIKKO
+endif # CAN_HFST
+endif # WANT_SPELLERS
+
+noinst_DATA=$(GT_ERRMODELS) $(OXT_FILES)
+
+###################################
+####### HFST build rules: #########
+
+####### Esater egg version info: #######
+# Easter egg content:
+easteregg.txt: $(srcdir)/version.txt
+	$(AM_V_GEN)$(GTCORE)/scripts/make-hfstspeller-version-easter-egg.sh \
+		$(GTLANG2) $(top_srcdir) $^ > $@
+
+# Easter egg suggestions:
+easteregg.suggs.txt: easteregg.txt
+	$(AM_V_GEN)sed -e 's/^/nuvviDspeller:/' < $< \
+		| sed = \
+		| sed 'N;s/\n/	/' \
+		| perl -pe 's/(.)\t(.+)/\2\t0.0\1/' \
+		> $@
+
+# Easter egg string acceptor:
+easteregg.hfst: easteregg.txt
+	$(AM_V_GEN)$(HFST_STRINGS2FST) $(HFST_FLAGS) -j < $< \
+		| $(HFST_PROJECT) $(HFST_FLAGS) --project=lower > $@
+
+####### Error model: #######
+# Error model building - edit distance based on transducer alphabet:
+editdist.%.hfst: editdist.%.txt $(GT_SPELLER_ACCEPTOR)
+	$(AM_V_GEN)$(GTCORE)/scripts/editdist.py -v -s -d 1 -e '@0@' -i $<   \
+		-a $(GT_SPELLER_ACCEPTOR) \
+		| $(HFST_TXT2FST) $(HFST_FLAGS) -e '@0@' -o $@
+
+# Helper fst:
+anystar.hfst:
+	$(AM_V_GEN)echo "?*;" | $(HFST_REGEXP2FST) -S -o $@
+
+# Error model building - list of strings known to be misspelled:
+strings.%.hfst: strings.%.txt anystar.hfst
+	$(AM_V_GEN)grep -v '^#' $< | grep -v '^$$'   \
+		| $(HFST_STRINGS2FST) $(HFST_FLAGS) -j \
+		| $(HFST_CONCATENATE)   anystar.hfst - \
+		| $(HFST_CONCATENATE) - anystar.hfst   \
+		-o $@
+
+# Combine edit distance with string pattern edits:
+editStrings.%.hfst: strings.%.hfst editdist.%.hfst
+	$(AM_V_GEN)$(HFST_DISJUNCT) $^       \
+		| $(HFST_MINIMIZE) $(HFST_FLAGS) \
+		| $(HFST_REPEAT) -f 1 -t 2       \
+		-o $@
+
+# Error model building - list of words known to be misspelled:
+words.%.hfst: words.%.txt easteregg.suggs.txt
+	$(AM_V_GEN)grep -h -v '^#' $^ | grep -v '^$$'   \
+		| $(HFST_STRINGS2FST) $(HFST_FLAGS) -j -o $@
+
+# The final error model is assembled here:
+errmodel.%.hfst: words.%.hfst editStrings.%.hfst
+	$(AM_V_GEN)$(HFST_DISJUNCT) $^ \
+		| $(HFST_FST2FST) $(HFST_FLAGS) -f olw -o $@
+
+####### Alternate error model: #######
+# Alternatively, the error model can be constructed as a long list of regular
+# expressions, semicolon separated:
+errmodel.%.hfst: errmodel.%.regex easteregg.suggs.hfst
+	$(AM_V_GEN)$(HFST_REGEXP2FST) $(HFSTFLAGS) -S -i $< \
+		| $(HFST_DISJUNCT) - easteregg.hfst \
+		-o $@
+
+####### Add corpus-based weights: #######
+# copy cleaned corpus into the local dir:
+$(CORPUSNAME).clean.txt: \
+	$(top_srcdir)/tools/spellcheckers/fstbased/data/$(CORPUSNAME).clean.txt
+	$(AM_V_GEN)cp -f $< $@
+
+# sort the clean corpus:
+%.sort.txt: %.clean.txt
+	$(AM_V_GEN)sort < $< > $@
+
+# token count:
+%.wordcount.txt: %.sort.txt
+	$(AM_V_GEN)wc -l < $< > $@
+
+%.uniq.txt: %.sort.txt
+	$(AM_V_at)uniq -c < $< > $@
+
+# type count:
+%.typecount.txt: %.uniq.txt
+	$(AM_V_GEN)wc -l < $< > $@
+
+# calculate unit weight, smoothed using ALPHA:
+%.unitweight.txt: %.wordcount.txt %.typecount.txt
+	$(AM_V_GEN)paste $*.wordcount.txt $*.typecount.txt |\
+		sed -e "s/^/scale=5; -l($(ALPHA)\/(/" \
+		-e "s/	/ + ($(ALPHA) */" -e "s/$$/)))/" |\
+		bc -l > $@
+
+# add tropical weights to the corpus:
+%.tropical.txt: %.uniq.txt %.wordcount.txt %.typecount.txt
+	$(AM_V_GEN)cat $*.uniq.txt |\
+		$(AWK) -v CS="$$(cat $*.wordcount.txt)" -v ALPHA=$(ALPHA) \
+		-v DS="$$(cat $*.typecount.txt)" -f uniqc2tropical.awk > $@
+
+# build an fst of surface forms with tropical weights for each word form:
+%.surfs.hfst: %.tropical.txt
+	$(AM_V_GEN)cat $< |\
+		$(HFST_STRINGS2FST) -j $(HFST_FLAGS) -f openfst-tropical -o $@
+
+####### Speller acceptor: #######
+# Build the automaton used for the speller
+$(GT_SPELLER_ACCEPTOR): $(GT_SPELLER_HFST) easteregg.hfst
+	$(AM_V_GEN)cat $< \
+		| $(HFST_PROJECT) $(HFST_FLAGS) --project=lower \
+		| $(HFST_MINIMIZE_SPELLER) $(HFST_FLAGS)                \
+		| $(HFST_DISJUNCT) - easteregg.hfst \
+		| $(HFST_FST2FST) $(HFST_FLAGS) -f olw          \
+		-o $@
+
+####### *.zhfst file: #######
+# Finally build the zhfst file, and make a copy in a subdir named '3', so that
+# we can test it without installing it (the '3' dir is a voikko requirement):
+$(GT_SPELLING_HFST): index.xml \
+					 $(GT_ERRMODELS) \
+					 $(GT_SPELLER_ACCEPTOR)
+	$(AM_V_GEN)rm -f $@ && $(ZIP) $(ZIPFLAGS) -j $@ $^ && \
+		$(MKDIR_P) 3 && \
+		cp -f $@ 3/
+
+####### *.oxt files: #######
+# Hard-coded paths for the time being - to be generalised later.
+
+OXT_FILES=
+
+if WANT_SPELLERS
+if CAN_HFST
+if CAN_LOCALSYNC
+
+OXT_FILES+=$(GTLANG2)_LO-voikko-3.6-32b-win.oxt \
+           $(GTLANG2)_LO-voikko-4.1-32b-mac.oxt
+
+endif # CAN_LOCALSYNC
+endif # CAN_HFST
+endif # WANT_SPELLERS
+
+#### LO versions and bit width, valid values: ####
+# 3.6 (actually 3.6-4.0, implicitly 32-bit, both LO and OOo)
+# 4.1 (actually 4.1+,    implicitly 32-bit, LO only)
+#
+# These values corresponds to the version ID in the dir name of
+# the oxt template
+LO_VERSIONS=3.6 4.1
+
+# List of platforms supported by the build (Linux excluded, because the
+# oxt is distributed via package managers instead):
+LO_PLATFORMS=mac win
+
+# Bitness:
+LO_BITNESS=32b 64b
+
+#$(GTLANG2)_LO-voikko-$(LO_VERSION)-32b-win.oxt
+#OXT_FILES+=$(addsuffix .oxt, \
+#            $(addprefix \
+#                $(addprefix $(GTLANG2)_LO-voikko-,$(LO_VERSIONS)), \
+#                    $(addprefix $(GTLANG2)_LO-voikko-,$(LO_BITNESS)), \
+#                        $(LO_PLATFORMS)))
+#
+#LO_BIT_PLATFORMS=$(addprefix ,$(addprefix -,$(LO_PLATFORMS)))
+
+OXT_ROOT_DIR=$(GTHOME)/prooftools/toollibs/LibreOffice-voikko
+
+# Build receipt for OXT:
+# mkdir build dir
+# rsync into build/subdir
+# cp zhfst
+# modify oxt index file
+# zip build/subdir
+# copy to ./
+$(GTLANG2)_LO-voikko-4.1-32b-mac.oxt: $(GT_SPELLING_HFST)
+	$(AM_V_GEN)rm -f $@ && \
+		$(MKDIR_P) build/mac/ && \
+		cd build/mac && \
+		$(RSYNC) -av $(OXT_ROOT_DIR)/4.1-32b-mac/ ./ && \
+		cp ../../$< 3/ && \
+		$(ZIP) -r $(ZIPFLAGS) ../../$@ *
+
+$(GTLANG2)_LO-voikko-3.6-32b-win.oxt: $(GT_SPELLING_HFST)
+	$(AM_V_GEN)rm -f $@ && \
+		$(MKDIR_P) build/win/ && \
+		cd build/win && \
+		$(RSYNC) -av $(OXT_ROOT_DIR)/3.6-32b-win/ ./ && \
+		cp ../../$< 3/ && \
+		$(ZIP) -r $(ZIPFLAGS) ../../$@ *
+
+DATE=$(shell date +%Y%m%d)
+UPLOADSITE=sd@divvun.no:static_files/oxts
+
+upload:
+	scp $(GTLANG2)_LO-voikko-4.1-32b-mac.oxt \
+		$(UPLOADSITE)/$(GTLANG2)_LO-voikko-4.1-32b-mac-$(DATE).oxt
+	scp $(GTLANG2)_LO-voikko-3.6-32b-win.oxt \
+		$(UPLOADSITE)/$(GTLANG2)_LO-voikko-3.6-32b-win-$(DATE).oxt
+	ssh sd@divvun.no "cd staticfiles/oxts/ && \
+	   ln -sf $(GTLANG2)_LO-voikko-4.1-32b-mac-$(DATE).oxt \
+	          $(GTLANG2)_LO-voikko-4.1-32b-mac.oxt"
+	ssh sd@divvun.no "cd staticfiles/oxts/ && \
+	   ln -sf $(GTLANG2)_LO-voikko-3.6-32b-win-$(DATE).oxt \
+	          $(GTLANG2)_LO-voikko-3.6-32b-win.oxt"
+
+####### Other targets: ###########
+clean-local:
+	-rm -rf *.hfst *.xfst *.zhfst 3 easteregg.*
+
+# vim: set ft=automake:
