@@ -1,4 +1,4 @@
-! Divvun & Giellatekno - open source grammars for UNDEFINED language
+! Divvun & Giellatekno - open source grammars for LUSHOOTSEED language
 ! Copyright © 2012 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
@@ -13,9 +13,9 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ========================================================================== !
-! !!            !!!Southern Puget Sound Salish morphological analyser                      !
+! !!            !!!Lushootseed morphological analyser                      !
 ! ========================================================================== !
-!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Southern Puget Sound Salish LANGUAGE.
+!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF LUSHOOTSEED LANGUAGE.
  
 
 Multichar_Symbols  !!≈ !!!@CODE@ definitions
