@@ -1,0 +1,12 @@
+!! Prefixes
+!! --------
+!! Prefixes in UNDEFINED language are bound to beginning of other words.
+
+LEXICON Prefixes
+00@U.PossPx.Sg1@:d%<@U.PossPx.Sg1@     Nouns   ;
+00@U.PossPx.Sg2@:ad%<@U.PossPx.Sg2@     Nouns   ;
+ Nouns ;
+verbprefix-     Verbs   ;
+
+
+! vim: set ft=xfst-lexc:

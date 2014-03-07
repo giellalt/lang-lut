@@ -1,0 +1,11 @@
+!! Adjective inflection
+!! --------------------
+!! The Lushootseed language adjectives compare.
+
+LEXICON Comparisons
++A+Pos:0        Cases   ;
++A+Cmp:er       Cases   ;
++A+Sup:est      Cases   ;
+
+! vim: set ft=xfst-lexc:
+

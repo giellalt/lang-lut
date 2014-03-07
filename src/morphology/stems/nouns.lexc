@@ -1,0 +1,32 @@
+!! Nouns
+!! -----
+!! Nouns in UNDEFINED language are things.
+
+LEXICON Nouns
+noun    Cases   ;
+ˀəpus:ˀəpus N_with-PL_RED3 "aunt" ;
+bədaˀ:bədaˀ N_with-PL_RED3 "child" ;
+bəlups:bəlups N_with-PL_RED3	"raccoon" ;
+bəqsəd:bəqsəd N_with-PL_RED3 "nose" ;
+cqapsəb:cqapsəb N_with-PL_RED3 "neck" ;
+cubəd:cubəd N_with-PL_RED3 "eyebrow" ;
+čaləš:čaləš N_with-PL_RED3 "hand" ;
+ǰəšəd:ǰə%«šəd N_with-PL_RED3	"foot" ;
+k̓ʷəčədiˀ:k̓ʷəčədiˀ N_with-PL_RED3	"rabbit" ;
+k̓ʷiyəx̌:k̓ʷiyəx̌ N_with-PL_RED3 "stomach" ;
+luƛ̕:luƛ̕ N_with-PL_RED3 "elder" ;
+ɬalap:ɬalap N_with-PL_RED3 "tongue" ;
+qədxʷ:qədxʷ N_with-PL_RED3 "mouth" ;
+qəlub:qəlub N_with-PL_RED3 "eye" ;
+q̓ʷəladiˀ:q̓ʷəladiˀ N_with-PL_RED3 "ear" ; !
+sčətxʷəd:s%«čətxʷəd N_with-PL_RED3 "bear" ;
+sdaˀ:s%«daˀ N_with-PL_RED3 "name" ;
+sq̓ədᶻuˀ:s%«q̓ədᶻuˀ N_with-PL_RED3 "hair" ;
+st̓ək̓ʷəb:s%«t̓ək̓ʷəb N_with-PL_RED3 "log|stick" ;
+sx̌ayus:s%«x̌ayus N_with-PL_RED3 "head" ;
+sx̌ʷiˀab:s%«x̌ʷiˀab N_with-PL_RED3 "story" ;
+t̓aləkʷ:t̓aləkʷ N_with-PL_RED3 "elbow|shoulder" ;
+x̌qp̓ucid:x̌%«qp̓ucid N_with-PL_RED3 "knee" ;
+yəlab:yəlab N_with-PL_RED3 "either parent's sibling of either sex when parent is deceased" ;
+
+! vim: set ft=xfst-lexc:
