@@ -7,5 +7,5 @@
 # with UND untouched between commits, there will be no conflicts. It requires a
 # following line with an indent and a comment, though, to fool the automake
 # processing.
-bin_SCRIPTS=uslh-gt.sh \
+bin_SCRIPTS=ulut-gt.sh \
 	# Let this line end the definition

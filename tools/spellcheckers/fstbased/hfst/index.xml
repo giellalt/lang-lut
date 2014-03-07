@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
-    <locale>slh</locale>
-    <title>Giellatekno/Divvun/UiT fst-based speller for Southern Puget Sound Salish</title>
-    <description>This is an fst-based speller for Southern Puget Sound Salish. It is based
-    on the normative subset of the morphological analyser for Southern Puget Sound Salish.
+    <locale>lut</locale>
+    <title>Giellatekno/Divvun/UiT fst-based speller for Lushootseed</title>
+    <description>This is an fst-based speller for Lushootseed. It is based
+    on the normative subset of the morphological analyser for Lushootseed.
     The source code can be found at:
-    https://victorio.uit.no/langtech/trunk/langs/slh/
+    https://victorio.uit.no/langtech/trunk/langs/lut/
     License: GPL3+.</description>
     <version vcsrev="GT_REVISION">GT_VERSION</version>
     <date>DATE</date>
@@ -14,9 +14,9 @@
     <contact email="feedback@divvun.no" website="http://divvun.no"/>
   </info>
   <acceptor type="general" id="acceptor.default.hfst">
-    <title>Giellatekno/Divvun/UiT dictionary Southern Puget Sound Salish</title>
+    <title>Giellatekno/Divvun/UiT dictionary Lushootseed</title>
     <description>Giellatekno/Divvun/UiT dictionary for
-    Southern Puget Sound Salish compiled for HFST.</description>
+    Lushootseed compiled for HFST.</description>
   </acceptor>
   <errmodel id="errmodel.default.hfst">
     <title>Levenshtein edit distance transducer</title>

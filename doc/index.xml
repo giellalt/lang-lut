@@ -18,7 +18,7 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document>
   <header>
-    <title>Welcome to the Southern Puget Sound Salish project</title>
+    <title>Welcome to the Lushootseed project</title>
   </header>
   <body>
     <section id="status">
@@ -27,7 +27,7 @@
         You have successfully generated and rendered an
         <a
           href="http://forrest.apache.org">Apache Forrest&trade;</a> site for
-          the Southern Puget Sound Salish language project.
+          the Lushootseed language project.
       </p>
     </section>
     <section id="links">

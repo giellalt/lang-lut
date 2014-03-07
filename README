@@ -1,9 +1,9 @@
 .. -*- mode: rst -*-
 ========================================
- The Southern Puget Sound Salish morphology and tools
+ The Lushootseed morphology and tools
 ========================================
 
-This directory contains source files for the Southern Puget Sound Salish language morphology
+This directory contains source files for the Lushootseed language morphology
 and dictionary. The data and implementation are licenced under __LICENCE__
 licence also detailed in the LICENCE file of this directory. The authors named
 in the AUTHORS file are available to grant other licencing choices.
@@ -13,13 +13,13 @@ file INSTALL.
 
 Documentation is scattered around on giellateknos pages, e.g.:
 
-* http://giellatekno.uit.no/slhdoc/index.html
-* http://giellatekno.uit.no/doc/tools/docu-slh-manual.html
+* http://giellatekno.uit.no/lutdoc/index.html
+* http://giellatekno.uit.no/doc/tools/docu-lut-manual.html
 
 Requirements
 ------------
 
-In order to compile and use Southern Puget Sound Salish language morphology and dictionaries,
+In order to compile and use Lushootseed language morphology and dictionaries,
 you need:
 
 * Xerox Finite-State Morphology tools, or
@@ -33,7 +33,7 @@ Optionally:
 Downloading
 -----------
 
-The Southern Puget Sound Salish language sources can be acquired using `giellatekno SVN
+The Lushootseed language sources can be acquired using `giellatekno SVN
 repository <http://divvun.no/doc/infra/anonymous-svn.html>`_, from the
 language specific directory, after the core has been downloaded and initial
 setup has been performed.

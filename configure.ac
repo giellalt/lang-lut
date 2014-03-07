@@ -24,7 +24,7 @@
 # third is email address for bug reports
 # fourth is name of packages made by make dist, excluding .tar.gz
 # fifth is the project web address
-AC_INIT([gtlangs-slh], [20110617], [feedback@divvun.no], [gtlangs-slh],
+AC_INIT([gtlangs-lut], [20110617], [feedback@divvun.no], [gtlangs-lut],
         [http://divvun.no])
 # AC_REVISION is used to get SVN revision into bug reports
 AC_REVISION([$Revision$])
@@ -74,11 +74,11 @@ AC_SUBST(CYGWINJAVAPATH)
 # GTLANG is the language code used to identify this project; it should be same
 # as the directory name in gtsvn and same as ISO 639 three-letter code for the
 # language if possible
-AC_SUBST([GTLANG], [slh])
+AC_SUBST([GTLANG], [lut])
 # GTLANG2 is the shortest unambiguous language code for this project; it
 # should be the ISO 639-1 two-letter code if possible, otherwise usually same
 # as above
-AC_SUBST([GTLANG2], [slh])
+AC_SUBST([GTLANG2], [lut])
 
 # Tests and sets up giellatekno directories and scripts
 gt_PROG_SCRIPTS_PATHS
@@ -138,8 +138,8 @@ AC_CONFIG_FILES([test/src/morphology/run-morph-tester.sh], \
       [chmod a+x test/src/morphology/run-morph-tester.sh])
 AC_CONFIG_FILES([test/src/morphology/generate-noun-lemmas.sh], \
       [chmod a+x test/src/morphology/generate-noun-lemmas.sh])
-AC_CONFIG_FILES([tools/shellscripts/uslh-gt.sh], \
-      [chmod a+x tools/shellscripts/uslh-gt.sh])
+AC_CONFIG_FILES([tools/shellscripts/ulut-gt.sh], \
+      [chmod a+x tools/shellscripts/ulut-gt.sh])
 
 # This must be near the end of all configure.ac files:
 AC_OUTPUT

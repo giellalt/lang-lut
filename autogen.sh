@@ -5,7 +5,7 @@ function print_usage() {
     echo "Prepare Autotools build infrastructure"
     echo
     echo "  -h, --help          print this usage info"
-    echo "  -l, --add-langvar   Add env. variable \$GTLANG_slh to login script."
+    echo "  -l, --add-langvar   Add env. variable \$GTLANG_lut to login script."
     echo "                      This makes it possible to use the built fst's"
     echo "                      with the analyser and generator scripts."
     echo
@@ -31,7 +31,7 @@ while test $# -ge 1 ; do
 done
 
 # Variable setup for adding env. variable:
-GTLANG=slh
+GTLANG=lut
 LANGDIR=$(pwd)
 TIME=$(date +%H%M)
 DATE=$(date +%Y%m%d)
@@ -60,26 +60,26 @@ if test x$langvar = xlangvar ; then
 		echo
 		exit 1
 	else
-		if test x$GTLANG_slh = x$LANGDIR ; then
-			echo "\$GTLANG_slh already defined."
+		if test x$GTLANG_lut = x$LANGDIR ; then
+			echo "\$GTLANG_lut already defined."
 		else
 			# Already defined with a different value:
-			if test x$GTLANG_slh != x ; then
+			if test x$GTLANG_lut != x ; then
 				renew=renew
-				OLDLANGDIR=$GTLANG_slh
+				OLDLANGDIR=$GTLANG_lut
 			fi
 
 			# Add the variable to the login script:
 			cp $LOGINFILE $LOGINFILE.gtbackup.${DATE}-${TIME}
-			echo "export GTLANG_slh=$LANGDIR" >> $LOGINFILE
+			echo "export GTLANG_lut=$LANGDIR" >> $LOGINFILE
 			source $LOGINFILE
 
 			# Feedback depending on whether it was added or redefined:
 			if test x$renew = xrenew ; then
-			 echo "The env. variable \$GTLANG_slh has been redefined in"
+			 echo "The env. variable \$GTLANG_lut has been redefined in"
 			 echo "$LOGINFILE. The old value $OLDLANGDIR is no longer in use."
 			else
-			 echo "The env. variable \$GTLANG_slh has been added to $LOGINFILE."
+			 echo "The env. variable \$GTLANG_lut has been added to $LOGINFILE."
     		 echo "Your built fst's (those you get after 'make') will be used"
     		 echo "with the analyser and generator scripts. There's a backup of"
     		 echo "your old $LOGINFILE in $LOGINFILE.gtbackup.${DATE}-${TIME}."
@@ -91,16 +91,16 @@ fi
 
 # Check whether the variable is defined, warn the user if not or different from
 # the current dir:
-if   test x$GTLANG_slh = x ; then
-	echo "WARNING: The variable \$GTLANG_slh has not been defined. You will not"
+if   test x$GTLANG_lut = x ; then
+	echo "WARNING: The variable \$GTLANG_lut has not been defined. You will not"
 	echo "be able to use your own fst's with the analyser and generator scripts"
 	echo "if not defined. Please consider rerunning this script with option -l:"
 	echo
 	echo "$0 -l"
 	echo
-elif test x$GTLANG_slh != x$LANGDIR ; then
-	echo "WARNING: The variable \$GTLANG_slh has the value:"
-	echo "  $GTLANG_slh"
+elif test x$GTLANG_lut != x$LANGDIR ; then
+	echo "WARNING: The variable \$GTLANG_lut has the value:"
+	echo "  $GTLANG_lut"
 	echo "instead of the expected:"
 	echo "  $LANGDIR"
 	echo "Please consider rerunning this script with option -l to update the"
