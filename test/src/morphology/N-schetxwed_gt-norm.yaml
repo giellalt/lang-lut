@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - sčətxʷəd: # Noun 102 'eng bear' - full paradigm
+     sčətxʷəd+N+Sg: sčətxʷəd
+     sčətxʷəd+N+Sg+PxSg1: dsčətxʷəd
+     sčətxʷəd+N+Sg+PxSg2: adsčətxʷəd
+     sčətxʷəd+N+Sg+PxSg3: sčətxʷəds
+     sčətxʷəd+N+Sg+PxPl1: sčətxʷədčəɬ
+     sčətxʷəd+N+Sg+PxPl2: sčətxʷədləp
+     sčətxʷəd+N+Pl: sčətčətxʷəd
+     sčətxʷəd+N+Pl+PxSg1: dsčətčətxʷəd
+     sčətxʷəd+N+Pl+PxSg2: adsčətčətxʷəd
+     sčətxʷəd+N+Pl+PxSg3: sčətčətxʷəds
+     sčətxʷəd+N+Pl+PxPl1: sčətčətxʷədčəɬ
+     sčətxʷəd+N+Pl+PxPl2: sčətčətxʷədləp
+# bear cubs seem to be regular derivation
+     sčətxʷəd+N+Der/Dim+N+Sg: sčičtxʷəd
+     sčətxʷəd+N+Der/Dim+N+Sg+PxSg1: dsčičtxʷəd
+     sčətxʷəd+N+Der/Dim+N+Sg+PxSg2: adsčičtxʷəd
+     sčətxʷəd+N+Der/Dim+N+Sg+PxSg3: sčičtxʷəds
+     sčətxʷəd+N+Der/Dim+N+Sg+PxPl1: sčičtxʷədčəɬ
+     sčətxʷəd+N+Der/Dim+N+Sg+PxPl2: sčičtxʷədləp
+     sčətxʷəd+N+Der/Dim+N+Pl: sčičičtxʷəd
+     sčətxʷəd+N+Der/Dim+N+Pl+PxSg1: dsčičičtxʷəd
+     sčətxʷəd+N+Der/Dim+N+Pl+PxSg2: adsčičičtxʷəd
+     sčətxʷəd+N+Der/Dim+N+Pl+PxSg3: sčičičtxʷəds
+     sčətxʷəd+N+Der/Dim+N+Pl+PxPl1: sčičičtxʷədčəɬ
+     sčətxʷəd+N+Der/Dim+N+Pl+PxPl2: sčičičtxʷədləp
+
+
