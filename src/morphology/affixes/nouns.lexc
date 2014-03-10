@@ -25,8 +25,8 @@ LEXICON SG-SUF
 +Sg: POSS ;
 
 LEXICON PL_RED3
-+Pl@D.PossPx@:%^Red3@D.PossPx@	# ;
-+Pl:%^Red3	POSS ;
++Pl@D.PossPx@:%^Red2CVC2CVCCVC@D.PossPx@	# ;
++Pl:%^Red2CVC2CVCCVC	POSS ;
 !!€ bəlbəlups bəlups+N+Pl
 !!$ bəlups bəlups+N+Pl
 !!€ k̓ʷəčk̓ʷəčədiˀ k̓ʷəčədiˀ+N+Pl
