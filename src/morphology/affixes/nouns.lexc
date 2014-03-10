@@ -7,10 +7,10 @@ LEXICON Cases
 +N+Pl+Nom:i     #   ;
 !#:0   Nouns   ;
 
-LEXICON N_with-PL_RED3
+LEXICON N_with-PL_RED2
 +N: DIM_CV1toCV2C ;
 +N: SG-SUF ;
-+N: PL_RED3 ;
++N: PL_RED2 ;
 
 ! Derivation
 LEXICON DIM_CV1toCV2C
@@ -24,7 +24,7 @@ LEXICON SG-SUF
 +Sg@D.PossPx@:0@D.PossPx@ # ;
 +Sg: POSS ;
 
-LEXICON PL_RED3
+LEXICON PL_RED2
 +Pl@D.PossPx@:%^Red2CVC2CVCCVC@D.PossPx@	# ;
 +Pl:%^Red2CVC2CVCCVC	POSS ;
 !!€ bəlbəlups bəlups+N+Pl
