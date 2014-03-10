@@ -191,7 +191,7 @@ Y̓
  {front} {back}
 %^Red1CV1toCV2C !!= * @CODE@ 2-segment to 3-segments with vowel change 
 %^Red1CV1toCV2CPL !!= * @CODE@ 2-segment to 3-segments with vowel change Plural
-%^Red3 !!= * @CODE@ 3-segment reduplication 
+%^Red2CVC2CVCCVC !!= * @CODE@ 3-segment reduplication 
 
 
 !! We have manually optimised the structure of our lexicon using following
