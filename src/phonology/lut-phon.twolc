@@ -310,6 +310,24 @@ Rules
          [ # | %« | %< ] _ 0: ˀ ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
 
 
+"0:w̓ in reduplication"
+!! __@RULENAME@__
+ 0:w̓ <=>
+      [ # | %« | %< ] 0: 0: _ [ q ] Vow: w [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+	 [ # | %« | %< ] _ 0: 0: w̓ Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+        [ # | %« | %< ] w̓  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %« | %< ] 0: 0: w̓  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %« | %< ] _ 0: w̓ ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
+
+"0:y̓ in reduplication"
+!! __@RULENAME@__
+ 0:y̓ <=>
+      [ # | %« | %< ] 0: 0: _ [ q ] Vow: y [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+	 [ # | %« | %< ] _ 0: 0: y̓ Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+        [ # | %« | %< ] y̓  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %« | %< ] 0: 0: y̓  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %« | %< ] _ 0: y̓ ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
+
 !
 "Require 0: before Red2CVC2CVCCVC:0 "
 !! __@RULENAME@__
