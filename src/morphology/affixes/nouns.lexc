@@ -35,8 +35,7 @@ LEXICON PL_RED2
 LEXICON POSS
 @R.PossPx.Sg1@ PXSG1 ;
 @R.PossPx.Sg2@ PXSG2 ;
-@U.PossPx.Sg3@ PXSG3 ;
-@U.PossPx.Pl1@ PXPL1 ;
+@U.PossPx.SP3@ PXSG3 ;
 @U.PossPx.Pl2@ PXPL2 ;
 
 LEXICON PXSG1
@@ -46,10 +45,7 @@ LEXICON PXSG2
 +PxSg2: # ;
 
 LEXICON PXSG3
-+PxSg3:%>s # ;
-
-LEXICON PXPL1
-+PxPl1:%>čəɬ # ;
++PxSP3:%>s # ;
 
 LEXICON PXPL2
 +PxPl2:%>ləp # ;

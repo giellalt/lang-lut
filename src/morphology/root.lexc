@@ -127,7 +127,7 @@ Y̓
 !! The possession is marked as such:
  +PxSg1 +PxSg2
 
- +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
+ +PxSP3 +PxPl1 +PxPl2
 !! The comparative forms are:
  +Comp +Superl
 !! Numerals are classified under:
@@ -199,7 +199,7 @@ Y̓
 @P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@
 
 ! NOUNS
-@U.PossPx.S3@
+@U.PossPx.SP3@
 
 @U.PossPx.Sg1@
 @U.PossPx.Sg2@
