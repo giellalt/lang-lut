@@ -165,6 +165,35 @@ M̓
  
 
 !! Reduplications are worked with on the basis of the Lushootseed Dictionary by Dawn Bates, Thom Hess and Vi Hilbert. Seattle & London. 1994:xvii
+
+!! Red1
+!! C V1 => C V1 C V1 
+!€# s%«tubš
+!€0 s0tutubš 
+!€# ˀiɬ%«t̓isu
+!€0 ˀiɬ0t̓it̓isu
+
+!! C V1 => C V1 C ə  
+!€# s%«tuləkʷ
+!€0 s0tutələkʷ
+!€# yubil
+!€0 yuyəbil
+!€# ɬaɬil
+!€0 ɬaɬəlil
+!€# k̓ʷid
+!€0 k̓ʷik̓ʷəd
+
+!! C V1 => C V1 C   
+!€# pastəd
+!€0 papstəd
+!€# s%«x̌ʷiƛ̕əyˀ 
+!€0 s0x̌ʷix̌ʷƛ̕əyˀ
+
+!! C ə => C i C   %^Red1CV1toCV2C:
+!€# ˀəpus
+!€0 ˀiˀpus
+
+
 Rules
 
 
@@ -292,6 +321,25 @@ Rules
         [ # | %«:0 | %<:0 ] q  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
         [ # | %«:0 | %<:0 ] 0: 0: q  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
          [ # | %«:0 | %<:0 ] _ 0: q ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
+
+"0:qʷ in reduplication"
+!! __@RULENAME@__
+ 0:qʷ <=> [ # | %«:0 | %<:0 ] 0: 0: _ Cns Vow: qʷ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+         [ # | %«:0 | %<:0 ] _ 0: 0: qʷ Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+        [ # | %«:0 | %<:0 ] qʷ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %«:0 | %<:0 ] 0: 0: qʷ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %«:0 | %<:0 ] _ 0: qʷ ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
+
+
+
+"0:x̌ in reduplication"
+!! __@RULENAME@__
+ 0:x̌ <=> [ # | %«:0 | %<:0 ] 0: 0: _ Cns Vow: x̌ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+         [ # | %«:0 | %<:0 ] _ 0: 0: x̌ Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+        [ # | %«:0 | %<:0 ] x̌  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %«:0 | %<:0 ] 0: 0: x̌  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %«:0 | %<:0 ] _ 0: x̌ ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
+
 
 "0:x̌ʷ in reduplication"
 !! __@RULENAME@__
