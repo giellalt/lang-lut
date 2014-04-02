@@ -5,7 +5,6 @@
 # over by the test runner.
 
 ###### Variables: #######
-transducer=dict-gt-norm
-halftest=gen # analysis test
+transducer=gt-desc
 
-source $srcdir/../../run-yaml-testcases.sh $transducer $halftest
+source $srcdir/../../run-yaml-testcases.sh $transducer
