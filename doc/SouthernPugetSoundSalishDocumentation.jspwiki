@@ -9,7 +9,7 @@
   / [syntax|https://victorio.uit.no/langtech/trunk/langs/lut/src/syntax] 
   / [twolc|https://victorio.uit.no/langtech/trunk/langs/lut/src/phonology/lut-phon.twolc]   
   / [number convertors|https://victorio.uit.no/langtech/trunk/langs/lut/src/transcriptions/]
-* Test files: [yaml|https://victorio.uit.no/langtech/trunk/langs/lut/test/src/morphology/]
+* Test files: [yaml|https://victorio.uit.no/langtech/trunk/langs/lut/test/src/gt-norm-yamls/]
 
 
 !!! Demo page
