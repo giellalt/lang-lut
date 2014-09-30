@@ -20,40 +20,11 @@
 #! @param GT_PHONETICS_MAIN required, the source of phonetic transcription
 #! @param GT_PHONETICS_SUPPLEMENTS optional, other sources to distribute and
 #! 		  compile for other things
-#! Both @params are specified in $(GTLANG)/src/phonetics/Makefile.am.
-GT_PHONETICS_SRCS=$(GT_PHONETICS_MAIN) $(GT_PHONETICS_SUPPLEMENTS)
-
-# All sources need to be included in the tarball
-EXTRA_DIST=$(GT_PHONETICS_SRCS)
-
-####### Automake targets: ########
-
-# The rule transducer will be built, not installed
-GT_PHONETICS=
-
-if WANT_PHONETIC
-if CAN_HFST
-GT_PHONETICS+=$(patsubst %.xfscript,%.lookup.hfst,$(GT_PHONETICS_SRCS))
-GT_PHONETICS+=$(patsubst %.xfscript,%.compose.hfst,$(GT_PHONETICS_SRCS))
-endif # CAN_HFST
-
-if CAN_XFST
-GT_PHONETICS+=$(patsubst %.xfscript,%.lookup.xfst,$(GT_PHONETICS_SRCS))
-GT_PHONETICS+=$(patsubst %.xfscript,%.compose.xfst,$(GT_PHONETICS_SRCS))
-endif # CAN_XFST
-endif # WANT_PHONETIC
-
-noinst_DATA=$(GT_PHONETICS)
-
-####### Other targets: ###########
-clean-local:
-	-rm -f *.hfst *.xfst
+GT_PHONETICS_MAIN=text2ipa-$(GTLANG).xfscript
+GT_PHONETICS_SUPPLEMENTS=
 
 ##########################################
 # General build rules included from here:#
-include $(top_srcdir)/am-shared/twolc-include.am
-include $(top_srcdir)/am-shared/xfscript-include.am
-include $(top_srcdir)/am-shared/lookup-include.am
-include $(top_srcdir)/am-shared/silent_build-include.am
+include $(top_srcdir)/am-shared/src-phonetics-dir-include.am
 
 # vim: set ft=automake:
