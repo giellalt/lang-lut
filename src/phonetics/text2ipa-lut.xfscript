@@ -192,11 +192,6 @@ read regex [
 
 ] ;
 
-echo <<Inverting...>>
-
-invert net
-
-
 !  For reference: The SAMPA - IPA correspondence
 
 !  SAMPA   IPA  Description
