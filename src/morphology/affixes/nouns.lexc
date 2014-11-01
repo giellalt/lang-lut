@@ -14,23 +14,23 @@ LEXICON N_with-PL_RED2
 
 ! Derivation
 LEXICON DIM_CV1toCV2C
-+Der/Dim+N+Sg@D.PossPx@:%^Red1CV1toCV2C00@D.PossPx@ # ;
-+Der/Dim+N+Sg:%^Red1CV1toCV2C POSS ;
-+Der/Dim+N+Pl@D.PossPx@:%^Red1CV1toCV2CPL00@D.PossPx@ # ;
-+Der/Dim+N+Pl:%^Red1CV1toCV2CPL POSS ;
++Der/Dim+N+Sg+Nom@D.PossPx@:%^Red1CV1toCV2C000@D.PossPx@ # ;
++Der/Dim+N+Sg+Nom:%^Red1CV1toCV2C POSS ;
++Der/Dim+N+Pl+Nom@D.PossPx@:%^Red1CV1toCV2CPL000@D.PossPx@ # ;
++Der/Dim+N+Pl+Nom:%^Red1CV1toCV2CPL POSS ;
 
 ! Declension
 LEXICON SG-SUF
-+Sg@D.PossPx@:0@D.PossPx@ # ;
-+Sg: POSS ;
++Sg+Nom@D.PossPx@:00@D.PossPx@ # ;
++Sg+Nom: POSS ;
 
 LEXICON PL_RED2
-+Pl@D.PossPx@:%^Red2CVC2CVCCVC@D.PossPx@	# ;
-+Pl:%^Red2CVC2CVCCVC	POSS ;
-!!€ bəlbəlups bəlups+N+Pl
-!!$ bəlups bəlups+N+Pl
-!!€ k̓ʷəčk̓ʷəčədiˀ k̓ʷəčədiˀ+N+Pl
-!!$ k̓ʷəčədiˀ k̓ʷəčədiˀ+N+Pl
++Pl+Nom@D.PossPx@:%^Red2CVC2CVCCVC0@D.PossPx@	# ;
++Pl+Nom:%^Red2CVC2CVCCVC	POSS ;
+!!€ bəlbəlups bəlups+N+Pl+Nom
+!!$ bəlups bəlups+N+Pl+Nom
+!!€ k̓ʷəčk̓ʷəčədiˀ k̓ʷəčədiˀ+N+Pl+Nom
+!!$ k̓ʷəčədiˀ k̓ʷəčədiˀ+N+Pl+Nom
 
 LEXICON POSS
 @R.PossPx.Sg1@ PXSG1 ;
