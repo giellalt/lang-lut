@@ -12,5 +12,52 @@ LEXICON Persons
 +V+inf:0    #   ;
 !#:0   Nouns   ;
 
+LEXICON TV_BƏČDUB
+!! bəčdub:bəčdub
++V+TV+Asp/Prf@R.ASP.PRF@:ub0@R.ASP.PRF@ OC1/2_š ;
++V+TV+Asp/Prf@R.ASP.PRF@:000@R.ASP.PRF@ OCSP3 ;
+
+LEXICON TV_KʷƏDAD
+!! kʷədad:kʷədad
+! @U.ASP.PRF@
++V+TV+Asp/Prf@R.ASP.PRF@:000@R.ASP.PRF@ OC1/2_s ;
++V+TV+Asp/Prf@R.ASP.PRF@:000@R.ASP.PRF@ OCSP3 ;
+
+LEXICON OC1/2_š
+ OCSG1_š ;
+ OCSG2_icid ;
+ OCPL1 ;
+ OCPL2 ;
+
+LEXICON OC1/2_s
+ OCSG1_s ;
+ OCSG2_cid ;
+:ub OCPL1 ;
+:ub OCPL2 ;
+
+
+LEXICON OCSG1_š
++OcSg1:%>š K ;
+
+LEXICON OCSG1_s
++OcSg1:%>s K ;
+
+LEXICON OCSG2_icid
++OcSg2:%>icid K ;
+
+LEXICON OCSG2_cid
++OcSg2:%>cid K ;
+
+LEXICON OCSP3
++OcSP3:%>xʷ K ;
+
+LEXICON OCPL1
++OcPl1:%>uɬ K ;
+
+LEXICON OCPL2
++OcPl2:%>uɬəd K ;
+
+
+
 ! vim: set ft=xfst-lexc:
 

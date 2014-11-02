@@ -1,0 +1,26 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - bəčdub: # Verb pg 207 'eng knock sm down' - partial paradigm
+# Perfect aspect
+     bəčdub+V+TV+Asp/Prf+OcSg1: ˀubəčdubš # knocked me down
+     bəčdub+V+TV+Asp/Prf+OcSg2: ˀubəčdubicid # knocked you Sg down
+     bəčdub+V+TV+Asp/Prf+OcSP3: ˀubəčdxʷ # knocked him/her/it/them down
+     bəčdub+V+TV+Asp/Prf+OcPl1: ˀubəčdubuɬ # knocked us down
+     bəčdub+V+TV+Asp/Prf+OcPl2: ˀubəčdubuɬəd # knocked you (guys) down
+

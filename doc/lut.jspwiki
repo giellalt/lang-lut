@@ -55,12 +55,24 @@ The Usage extents are marked using following tags:
 
 The nominals are inflected in the following Case and Number
 
-The possession is marked as such:
+The possessor indices are marked as such:
+ * _+PxSg1_ first person singular
+ * _+PxSg2_ second person singular
+ * _+PxSP3_ third person singular or plural
+ * _+PxPl1_ first person plural
+ * _+PxPl2_ third person plural
 
 The comparative forms are:
 Numerals are classified under:
 Verb moods are:
 Verb personal forms are:
+!!Direct Object conjugation
+ * _+OcSg1_ * object conjugation first person singular
+ * _+OcSg2_ * object conjugation second person singular
+ * _+OcSP3_ * object conjugation third person singular or plural
+ * _+OcPl1_ * object conjugation first person plural
+ * _+OcPl2_ * object conjugation second person plural
+
 Other verb forms are
 
 Special symbols are classified with:
@@ -95,8 +107,12 @@ flag diacritics to restrict morhpological combinatorics:
 
 
 
+!VERBS
+
 
 
 The word forms in UNDEFINED language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
+
+ * __#; __ Clitic
 
