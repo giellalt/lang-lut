@@ -88,7 +88,8 @@ Semantics are classified with
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
- *  +Der/Dim  diminutive
+ * _+Der/Dim_ * diminutive
+ * _+Der/s_ * Noun derivation
 
 Morphophonology
 ---------------
@@ -108,6 +109,8 @@ flag diacritics to restrict morhpological combinatorics:
 
 
 !VERBS
+
+
 
 
 

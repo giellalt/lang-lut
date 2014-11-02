@@ -189,7 +189,8 @@ Y̓
 !! source and target part-of-speech.
  +V→N +V→V +V→A
  +Der/xxx
- +Der/Dim !!= * @CODE@ diminutive
+ +Der/Dim !!≈ * _@CODE@_ * diminutive
+ +Der/s !!≈ * _@CODE@_ * Noun derivation
 
 !! Morphophonology
 !! ---------------
@@ -226,6 +227,13 @@ Y̓
 !! !VERBS
 @U.ASP.PRF@
 @R.ASP.PRF@
+@R.ASP@
+
+@U.OBJ.1@
+@U.OBJ.2@
+
+@D.OBJ.1@
+@D.OBJ.2@
 
 @D.ASP@
 @C.ASP@

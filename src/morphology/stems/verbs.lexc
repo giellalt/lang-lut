@@ -4,8 +4,9 @@
 
 LEXICON Verbs
 verb    Persons   ;
-ˀəɬtub:ˀəɬt TV_BƏČDUB ;
-bəčdub:bəčd TV_BƏČDUB ;
-kʷədad:kʷədad TV_KʷƏDAD ;
+ˀəɬtub:ˀəɬt TV_BƏČDUB "feed sm" ;
+bəčdub:bəčd TV_BƏČDUB "knock sm down" ;
+labdub:labd TV_BƏČDUB "see sm" ;
+kʷədad:kʷədad TV_KʷƏDAD "grab sm" ;
 
 ! vim: set ft=xfst-lexc:
