@@ -1,0 +1,27 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kʷədad: # Verb pg 207 'eng grab sm' - partial paradigm
+# Perfect aspect
+     kʷədad+V+TV+Asp/Prf+OcSg1: ˀukʷədac # grabbed me 
+     kʷədad+V+TV+Asp/Prf+OcSg2: ˀukʷədacid # grabbed you Sg 
+     kʷədad+V+TV+Asp/Prf+OcSP3: ˀukʷədadxʷ # grabbed him/her/it/them
+     kʷədad+V+TV+Asp/Prf+OcPl1: ˀukʷədadubuɬ # grabbed us 
+     kʷədad+V+TV+Asp/Prf+OcPl2: ˀukʷədadubuɬəd # grabbed you (guys)
+     kʷədad+V+TV+Asp/Prf+Rc: ˀukʷədacut # grabbed myself, yourself... 
+

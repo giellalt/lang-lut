@@ -1,0 +1,11 @@
+!! Verbs
+!! -----
+!! Verbs in UNDEFINED language are actions.
+
+LEXICON Verbs
+verb    Persons   ;
+ˀəɬtub:ˀəɬt TV_BƏČDUB ;
+bəčdub:bəčd TV_BƏČDUB ;
+kʷədad:kʷədad TV_KʷƏDAD ;
+
+! vim: set ft=xfst-lexc:
