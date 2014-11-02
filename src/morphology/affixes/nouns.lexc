@@ -35,20 +35,21 @@ LEXICON PL_RED2
 LEXICON POSS
 @R.PossPx.Sg1@ PXSG1 ;
 @R.PossPx.Sg2@ PXSG2 ;
-@U.PossPx.SP3@ PXSG3 ;
+@U.PossPx.SP3@ PXSP3 ;
 @U.PossPx.Pl2@ PXPL2 ;
 
 LEXICON PXSG1
-+PxSg1: # ;
++PxSg1: K ;
 
 LEXICON PXSG2
-+PxSg2: # ;
++PxSg2: K ;
 
-LEXICON PXSG3
-+PxSP3:%>s # ;
+LEXICON PXSP3
++PxSP3:%>s K ;
 
 LEXICON PXPL2
-+PxPl2:%>ləp # ;
++PxPl2:%>ləp K ;
++PxPl2:%>lap K ;
 
 ! vim: set ft=xfst-lexc:
 
