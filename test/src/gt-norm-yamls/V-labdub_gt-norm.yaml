@@ -1,0 +1,33 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - labdub: # Verb pg 207 'eng see sm' - partial paradigm
+# Perfect aspect
+     labdub+V+TV+Asp/Prf+OcSg1: ˀulabdubš # saw me
+     labdub+V+TV+Asp/Prf+OcSg2: ˀulabdubicid # saw you Sg
+     labdub+V+TV+Asp/Prf+OcSP3: ˀulabdxʷ # saw him/her/it/them
+     labdub+V+TV+Asp/Prf+OcPl1: ˀulabdubuɬ # saw us
+     labdub+V+TV+Asp/Prf+OcPl2: ˀulabdubuɬəd # saw you (guys)
+# Deverbal noun
+#     labdub+V+TV+OcSg1+Der/s+N+Sg+Nom+PxSg2: adslabdubš # your seeing of me
+     labdub+V+TV+OcSg2+Der/s+N+Sg+Nom+PxSg1: dslabdubicid # my seeing of you Sg
+#     labdub+V+TV+OcSP3+Der/s+N+Sg+Nom+PxSg1: dslabdxʷ # my seeing of him/her/it/them
+#     labdub+V+TV+OcSP3+Der/s+N+Sg+Nom+PxSg2: adslabdxʷ # my seeing of him/her/it/them
+#     labdub+V+TV+OcPl1+Der/s+N+Sg+Nom+PxSg2: adslabdubuɬ # your seeing of us
+#     labdub+V+TV+OcPl2+Der/s+N+Sg+Nom+PxSg1: dslabdubuɬəd # my seeing of you (guys)
+

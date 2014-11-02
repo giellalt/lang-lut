@@ -13,9 +13,11 @@ LEXICON Persons
 !#:0   Nouns   ;
 
 LEXICON TV_BƏČDUB
-!! bəčdub:bəčdub
+!! bəčdub:bəčd
 +V+TV+Asp/Prf@R.ASP.PRF@:ub0@R.ASP.PRF@ OC1/2_š ;
 +V+TV+Asp/Prf@R.ASP.PRF@:000@R.ASP.PRF@ OCSP3 ;
++V+TV@D.ASP@:ub@D.ASP@ OC1/2_š ;
++V+TV@D.ASP@:00@D.ASP@ OCSP3 ;
 
 LEXICON TV_KʷƏDAD
 !! kʷədad:kʷədad
@@ -37,25 +39,34 @@ LEXICON OC1/2_s
 
 
 LEXICON OCSG1_š
-+OcSg1:%>š K ;
++OcSg10@U.OBJ.1@:%>š@U.OBJ.1@ DVN-POSS ;
 
 LEXICON OCSG1_s
-+OcSg1:%>s K ;
++OcSg10@U.OBJ.1@:%>s@U.OBJ.1@ DVN-POSS ;
 
 LEXICON OCSG2_icid
-+OcSg2:%>icid K ;
++OcSg20000@U.OBJ.2@:%>icid@U.OBJ.2@ DVN-POSS ;
 
 LEXICON OCSG2_cid
-+OcSg2:%>cid K ;
++OcSg2000@U.OBJ.2@:%>cid@U.OBJ.2@ DVN-POSS ;
 
 LEXICON OCSP3
-+OcSP3:%>xʷ K ;
++OcSP3:%>xʷ DVN-POSS ;
 
 LEXICON OCPL1
-+OcPl1:%>uɬ K ;
++OcPl100@U.OBJ.1@:%>uɬ@U.OBJ.1@ DVN-POSS ;
 
 LEXICON OCPL2
-+OcPl2:%>uɬəd K ;
++OcPl20000@U.OBJ.2@:%>uɬəd@U.OBJ.2@ DVN-POSS ;
+
+LEXICON DVN-POSS
+@R.ASP@ K ;
++Der/s+N+Sg+Nom@R.PossPx.Sg1@@D.OBJ.1@:0000@R.PossPx.Sg1@@D.OBJ.1@ PXSG1 ;
++Der/s+N+Sg+Nom@R.PossPx.Sg2@@D.OBJ.2@:0000@R.PossPx.Sg2@@D.OBJ.2@ PXSG2 ;
++Der/s+N+Sg+Nom@U.PossPx.SP3@:0000@U.PossPx.SP3@ PXSP3 ;
++Der/s+N+Sg+Nom@U.PossPx.Pl2@@D.OBJ.2@:0000@U.PossPx.Pl2@@D.OBJ.2@ PXPL2 ;
+
+
 
 
 
