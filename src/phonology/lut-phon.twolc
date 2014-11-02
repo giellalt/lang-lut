@@ -106,7 +106,7 @@ E3:ə
 %^Red2CVC2CVCCVC:0 !!= * @CODE@ 3-segment reduplication 
 
 %»:0 %«:0 
- %>:0 %<:0 # ;
+ %> %< # ;
 
 
 Sets
@@ -221,7 +221,20 @@ Rules
 !! __@RULENAME@__
  0:a <=> [ # | %«:0 | %<:0 ] 0: _ 0: Cns: a Cns: :* %^Red2CVC2CVCCVC: ;
 
-! Consonants
+!! !CONSONANTS
+"s:c after d:0"
+!! __@RULENAME@__
+s:c <=> d: %> _ # ;
+!€# ˀu%«kʷədad%>s
+!€0 ˀu0kʷəda00c
+
+"d:0 before s:c"
+!! __@RULENAME@__
+d:0 <=>	_ %> [ s: #| c ]  ;
+!€# ˀu%«kʷədad%>s
+!€0 ˀu0kʷəda00c
+!€# ˀu%«kʷədad%>cid
+!€0 ˀu0kʷəda00cid
 
 "0:p in reduplication"
 !! __@RULENAME@__

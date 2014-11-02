@@ -7,6 +7,6 @@ LEXICON Prefixes
 000@U.PossPx.Sg2@:ad%<@U.PossPx.Sg2@     Nouns   ;
  Nouns ;
 verbprefix-     Verbs   ;
-
+00@U.ASP.PRF@:ˀu@U.ASP.PRF@ Verbs ;
 
 ! vim: set ft=xfst-lexc:

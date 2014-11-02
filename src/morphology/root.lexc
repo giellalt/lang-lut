@@ -124,10 +124,13 @@ Y̓
  +Sg +Du +Pl
  +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh
 
-!! The possession is marked as such:
- +PxSg1 +PxSg2
+!! The possessor indices are marked as such:
+ +PxSg1 !!≈ * _@CODE@_ first person singular
+ +PxSg2 !!≈ * _@CODE@_ second person singular
+ +PxSP3 !!≈ * _@CODE@_ third person singular or plural
+ +PxPl1 !!≈ * _@CODE@_ first person plural
+ +PxPl2 !!≈ * _@CODE@_ third person plural
 
- +PxSP3 +PxPl1 +PxPl2
 !! The comparative forms are:
  +Comp +Superl
 !! Numerals are classified under:
@@ -137,6 +140,13 @@ Y̓
  +Ind +Prs +Prt +Pot +Cond +Imprt
 !! Verb personal forms are:
  +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3
+!! !!Direct Object conjugation
+ +OcSg1 !!≈ * _@CODE@_ * object conjugation first person singular
+ +OcSg2 !!≈ * _@CODE@_ * object conjugation second person singular
+ +OcSP3 !!≈ * _@CODE@_ * object conjugation third person singular or plural
+ +OcPl1 !!≈ * _@CODE@_ * object conjugation first person plural
+ +OcPl2 !!≈ * _@CODE@_ * object conjugation second person plural
+
 !! Other verb forms are
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
 
@@ -213,6 +223,12 @@ Y̓
 @D.PossPx@
 @C.PossPx@
 
+!! !VERBS
+@U.ASP.PRF@
+@R.ASP.PRF@
+
+@D.ASP@
+@C.ASP@
 
 
 LEXICON Root
@@ -224,5 +240,8 @@ LEXICON Root
    Pronouns    ;
    Numerals    ;
    Prefixes    ;
+
+LEXICON K
+#; !!= * __@CODE@__ Clitic
 
 ! vim: set ft=xfst-lexc:

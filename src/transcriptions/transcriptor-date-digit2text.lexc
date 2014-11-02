@@ -13,13 +13,26 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ==================== !
-! The South Sámi dates !
+! The Lushootseed dates !
 ! ==================== !
 
 
 ! 12.8.
 ! Borgemánu 12. b.
 ! Borgemánu guoktenuppelot beaivi
+! 1%.:
+! 2%.:səxʷpu%«puhigʷəd
+! 3%.:waq̓waq̓us
+! 3%.:spupuhigʷəd
+! 4%.:pəd%«x̌ʷiw̓aac
+! 5%.:pədč̓aˀəb
+! 6%.:pəds%«təgʷad
+! 7%.:pəd%«gʷədbixʷ
+! 8%.:pəd%«t̓aqaˀ
+! 9%.:pəd%«kʷəxʷic
+! 1%0%.:pədxʷit̓%«xʷit̓il
+! 11%.:pəd%«ƛ̕xʷayˀ
+! 12%.:səxʷ%«šic̓əlwaˀs
 
 Multichar_Symbols
 
@@ -44,110 +57,52 @@ LEXICON Root
 ! For each month: First the normative, then the non-normatives, then initial capital
 
  @U.MONTH.1@:tsïengelen% @U.MONTH.1@   31DAYS ;
- @U.MONTH.1@+Use/NG:garretsïengelen% @U.MONTH.1@   31DAYS ;
- @U.MONTH.1@+Use/NG:garre-tsïengelen% @U.MONTH.1@   31DAYS ;
- @U.MONTH.1@+Use/NG:orrejaepienasken% @U.MONTH.1@   31DAYS ;
- @U.MONTH.1@+Use/NG:orrejaepien-asken% @U.MONTH.1@   31DAYS ;
- 
- @U.MONTH.1@+Use/NG:Tsïengelen% @U.MONTH.1@   31DAYS ;
- @U.MONTH.1@+Use/NG:Garretsïengelen% @U.MONTH.1@   31DAYS ;
- @U.MONTH.1@+Use/NG:Garre-tsïengelen% @U.MONTH.1@   31DAYS ;
- @U.MONTH.1@+Use/NG:Orrejaepienasken% @U.MONTH.1@   31DAYS ;
- @U.MONTH.1@+Use/NG:Orrejaepien-asken% @U.MONTH.1@   31DAYS ;
 
  
- @U.MONTH.2@:goevten% @U.MONTH.2@     29DAYS ;
- @U.MONTH.2@+Use/NG:gierhkiengarresen% @U.MONTH.2@     29DAYS ;
- @U.MONTH.2@+Use/NG:gierhkien-garresen% @U.MONTH.2@     29DAYS ;
-
- @U.MONTH.2@+Use/NG:Goevten% @U.MONTH.2@     29DAYS ;
- @U.MONTH.2@+Use/NG:Gierhkiengarresen% @U.MONTH.2@     29DAYS ;
- @U.MONTH.2@+Use/NG:Gierhkien-garresen% @U.MONTH.2@     29DAYS ;
+ @U.MONTH.2@:Səxʷpupuhigʷəd% @U.MONTH.2@     29DAYS ;
+ @U.MONTH.2@:səxʷpupuhigʷəd+Use/NG% @U.MONTH.2@     29DAYS ;
 
 
- @U.MONTH.3@:njoktjen% @U.MONTH.3@     31DAYS ;
- @U.MONTH.3@+Use/NG:voerhtjenasken% @U.MONTH.3@     31DAYS ;
- @U.MONTH.3@+Use/NG:voerhtjen-asken% @U.MONTH.3@     31DAYS ;
-
- @U.MONTH.3@+Use/NG:Njoktjen% @U.MONTH.3@     31DAYS ;
- @U.MONTH.3@+Use/NG:Voerhtjenasken% @U.MONTH.3@     31DAYS ;
- @U.MONTH.3@+Use/NG:Voerhtjen-asken% @U.MONTH.3@     31DAYS ;
+ @U.MONTH.3@:Waq̓waq̓us% @U.MONTH.3@     31DAYS ;
+ @U.MONTH.3@:waq̓waq̓us+Use/NG% @U.MONTH.3@     31DAYS ;
+ @U.MONTH.3@:Spupuhigʷəd+Use/NG% @U.MONTH.3@     31DAYS ;
+ @U.MONTH.3@:spupuhigʷəd+Use/NG% @U.MONTH.3@     31DAYS ;
 
 
- @U.MONTH.4@:voerhtjen% @U.MONTH.4@      30DAYS ;
- @U.MONTH.4@+Use/NG:voerhtjenasken% @U.MONTH.4@     31DAYS ;
- @U.MONTH.4@+Use/NG:voerhtjen-asken% @U.MONTH.4@     31DAYS ;
-
- @U.MONTH.4@+Use/NG:Voerhtjen% @U.MONTH.4@      30DAYS ;
- @U.MONTH.4@+Use/NG:Voerhtjenasken% @U.MONTH.4@     31DAYS ;
- @U.MONTH.4@+Use/NG:Voerhtjen-asken% @U.MONTH.4@     31DAYS ;
+ @U.MONTH.4@:Pədx̌ʷiw̓aac% @U.MONTH.4@      30DAYS ;
+ @U.MONTH.4@:pədx̌ʷiw̓aac+Use/NG% @U.MONTH.4@     31DAYS ;
 
 
- @U.MONTH.5@:suehpeden% @U.MONTH.5@     31DAYS ;
- @U.MONTH.5@+Use/NG:maavnesen% @U.MONTH.5@     31DAYS ;
- @U.MONTH.5@+Use/NG:majjen% @U.MONTH.5@     31DAYS ;
- @U.MONTH.5@+Use/NG:gïjreasken% @U.MONTH.5@     31DAYS ;
- @U.MONTH.5@+Use/NG:gïjremaanoen% @U.MONTH.5@     31DAYS ;
- @U.MONTH.5@+Use/NG:gïjre-asken% @U.MONTH.5@     31DAYS ;
- @U.MONTH.5@+Use/NG:gïjre-maanoen% @U.MONTH.5@     31DAYS ;
-
- @U.MONTH.5@+Use/NG:Suehpeden% @U.MONTH.5@     31DAYS ;
- @U.MONTH.5@+Use/NG:Maavnesen% @U.MONTH.5@     31DAYS ;
- @U.MONTH.5@+Use/NG:Majjen% @U.MONTH.5@     31DAYS ;
- @U.MONTH.5@+Use/NG:Gïjreasken% @U.MONTH.5@     31DAYS ;
- @U.MONTH.5@+Use/NG:Gïjremaanoen% @U.MONTH.5@     31DAYS ;
- @U.MONTH.5@+Use/NG:Gïjre-asken% @U.MONTH.5@     31DAYS ;
- @U.MONTH.5@+Use/NG:Gïjre-maanoen% @U.MONTH.5@     31DAYS ;
+ @U.MONTH.5@:Pədč̓aˀəb% @U.MONTH.5@     31DAYS ;
+ @U.MONTH.5@:pədč̓aˀəb+Use/NG% @U.MONTH.5@     31DAYS ;
 
 
- @U.MONTH.6@:ruffien% @U.MONTH.6@     30DAYS ;
-
- @U.MONTH.6@+Use/NG:Ruffien% @U.MONTH.6@     30DAYS ;
-
-
- @U.MONTH.7@:snjaltjen% @U.MONTH.7@    31DAYS ;
-
- @U.MONTH.7@+Use/NG:Snjaltjen% @U.MONTH.7@    31DAYS ;
+ @U.MONTH.6@:Pədstəgʷad% @U.MONTH.6@     30DAYS ;
+ @U.MONTH.6@:pədstəgʷad+Use/NG% @U.MONTH.6@     30DAYS ;
 
 
- @U.MONTH.8@:mïetsken% @U.MONTH.8@      31DAYS ;
-
- @U.MONTH.8@+Use/NG:Mïetsken% @U.MONTH.8@      31DAYS ;
-
-
- @U.MONTH.9@:skïereden% @U.MONTH.9@     30DAYS ;
-
- @U.MONTH.9@+Use/NG:Skïereden% @U.MONTH.9@     30DAYS ;
+ @U.MONTH.7@:Pədgʷədbixʷ% @U.MONTH.7@    31DAYS ;
+ @U.MONTH.7@:pədgʷədbixʷ+Use/NG% @U.MONTH.7@    31DAYS ;
 
 
-@U.MONTH.10@:golken% @U.MONTH.10@    31DAYS ;
-@U.MONTH.10@+Use/NG:rïhkeden% @U.MONTH.10@    31DAYS ;
-
-@U.MONTH.10@+Use/NG:Golken% @U.MONTH.10@    31DAYS ;
-@U.MONTH.10@+Use/NG:Rïhkeden% @U.MONTH.10@    31DAYS ;
-
-@U.MONTH.11@:rahkan% @U.MONTH.11@    30DAYS ; ! bytt NG?
-@U.MONTH.11@+Use/NG:gålkoen% @U.MONTH.11@    30DAYS ; ! bytt NG?
-
-@U.MONTH.11@+Use/NG:Rahkan% @U.MONTH.11@    30DAYS ; ! bytt NG?
-@U.MONTH.11@+Use/NG:Gålkoen% @U.MONTH.11@    30DAYS ; ! bytt NG?
+ @U.MONTH.8@:Pədt̓aqaˀ% @U.MONTH.8@      31DAYS ;
+ @U.MONTH.8@:pədt̓aqaˀ+Use/NG% @U.MONTH.8@      31DAYS ;
 
 
-@U.MONTH.12@:goeven% @U.MONTH.12@    31DAYS ;
-@U.MONTH.12@+Use/NG:jåvleasken% @U.MONTH.12@    31DAYS ;
-@U.MONTH.12@+Use/NG:jåvle-asken% @U.MONTH.12@    31DAYS ;
-@U.MONTH.12@+Use/NG:javleasken% @U.MONTH.12@    31DAYS ;
-@U.MONTH.12@+Use/NG:jåvlemaanoen% @U.MONTH.12@    31DAYS ;
-@U.MONTH.12@+Use/NG:javle-asken% @U.MONTH.12@    31DAYS ;
-@U.MONTH.12@+Use/NG:jåvle-maanoen% @U.MONTH.12@    31DAYS ;
+ @U.MONTH.9@:Pədkʷəxʷic% @U.MONTH.9@     30DAYS ;
+ @U.MONTH.9@:pədkʷəxʷic+Use/NG% @U.MONTH.9@     30DAYS ;
 
-@U.MONTH.12@+Use/NG:Goeven% @U.MONTH.12@    31DAYS ;
-@U.MONTH.12@+Use/NG:Jåvleasken% @U.MONTH.12@    31DAYS ;
-@U.MONTH.12@+Use/NG:Jåvle-asken% @U.MONTH.12@    31DAYS ;
-@U.MONTH.12@+Use/NG:Javleasken% @U.MONTH.12@    31DAYS ;
-@U.MONTH.12@+Use/NG:Jåvlemaanoen% @U.MONTH.12@    31DAYS ;
-@U.MONTH.12@+Use/NG:Javle-asken% @U.MONTH.12@    31DAYS ;
-@U.MONTH.12@+Use/NG:Jåvle-maanoen% @U.MONTH.12@    31DAYS ;
+
+@U.MONTH.10@:Pədxʷit̓xʷit̓il% @U.MONTH.10@    31DAYS ;
+@U.MONTH.10@:pədxʷit̓xʷit̓il+Use/NG% @U.MONTH.10@    31DAYS ;
+
+
+@U.MONTH.11@:Pədƛ̕xʷayˀ% @U.MONTH.11@    30DAYS ; ! bytt NG?
+@U.MONTH.11@:pədƛ̕xʷayˀ+Use/NG% @U.MONTH.11@    30DAYS ; ! bytt NG?
+
+
+@U.MONTH.12@:Səxʷšic̓əlwaˀs% @U.MONTH.12@    31DAYS ;
+@U.MONTH.12@:səxʷšic̓əlwaˀs+Use/NG% @U.MONTH.12@    31DAYS ;
 
 
 LEXICON 29DAYS

@@ -17,30 +17,30 @@ Tests:
 
 
   Noun - sčətxʷəd: # Noun 102 'eng bear' - full paradigm
-     sčətxʷəd+N+Sg: sčətxʷəd
-     sčətxʷəd+N+Sg+PxSg1: dsčətxʷəd
-     sčətxʷəd+N+Sg+PxSg2: adsčətxʷəd
-     sčətxʷəd+N+Sg+PxSP3: sčətxʷəds
-#     sčətxʷəd+N+Sg+PxPl1: sčətxʷədčəɬ
-     sčətxʷəd+N+Sg+PxPl2: sčətxʷədləp
-     sčətxʷəd+N+Pl: sčətčətxʷəd
-     sčətxʷəd+N+Pl+PxSg1: dsčətčətxʷəd
-     sčətxʷəd+N+Pl+PxSg2: adsčətčətxʷəd
-     sčətxʷəd+N+Pl+PxSP3: sčətčətxʷəds
-#     sčətxʷəd+N+Pl+PxPl1: sčətčətxʷədčəɬ
-     sčətxʷəd+N+Pl+PxPl2: sčətčətxʷədləp
+     sčətxʷəd+N+Sg+Nom: sčətxʷəd
+     sčətxʷəd+N+Sg+Nom+PxSg1: dsčətxʷəd
+     sčətxʷəd+N+Sg+Nom+PxSg2: adsčətxʷəd
+     sčətxʷəd+N+Sg+Nom+PxSP3: sčətxʷəds
+     sčətxʷəd+N+Sg+Nom+PxPl1: sčətxʷədčəɬ
+     sčətxʷəd+N+Sg+Nom+PxPl2: sčətxʷədləp
+     sčətxʷəd+N+Pl+Nom: sčətčətxʷəd
+     sčətxʷəd+N+Pl+Nom+PxSg1: dsčətčətxʷəd
+     sčətxʷəd+N+Pl+Nom+PxSg2: adsčətčətxʷəd
+     sčətxʷəd+N+Pl+Nom+PxSP3: sčətčətxʷəds
+     sčətxʷəd+N+Pl+Nom+PxPl1: sčətčətxʷədčəɬ
+     sčətxʷəd+N+Pl+Nom+PxPl2: sčətčətxʷədləp
 # bear cubs seem to be regular derivation
-     sčətxʷəd+N+Der/Dim+N+Sg: sčičtxʷəd
-     sčətxʷəd+N+Der/Dim+N+Sg+PxSg1: dsčičtxʷəd
-     sčətxʷəd+N+Der/Dim+N+Sg+PxSg2: adsčičtxʷəd
-     sčətxʷəd+N+Der/Dim+N+Sg+PxSP3: sčičtxʷəds
-#     sčətxʷəd+N+Der/Dim+N+Sg+PxPl1: sčičtxʷədčəɬ
-     sčətxʷəd+N+Der/Dim+N+Sg+PxPl2: sčičtxʷədləp
-     sčətxʷəd+N+Der/Dim+N+Pl: sčičičtxʷəd
-     sčətxʷəd+N+Der/Dim+N+Pl+PxSg1: dsčičičtxʷəd
-     sčətxʷəd+N+Der/Dim+N+Pl+PxSg2: adsčičičtxʷəd
-     sčətxʷəd+N+Der/Dim+N+Pl+PxSP3: sčičičtxʷəds
-#     sčətxʷəd+N+Der/Dim+N+Pl+PxPl1: sčičičtxʷədčəɬ
-     sčətxʷəd+N+Der/Dim+N+Pl+PxPl2: sčičičtxʷədləp
+     sčətxʷəd+N+Der/Dim+N+Sg+Nom: sčičtxʷəd
+     sčətxʷəd+N+Der/Dim+N+Sg+Nom+PxSg1: dsčičtxʷəd
+     sčətxʷəd+N+Der/Dim+N+Sg+Nom+PxSg2: adsčičtxʷəd
+     sčətxʷəd+N+Der/Dim+N+Sg+Nom+PxSP3: sčičtxʷəds
+     sčətxʷəd+N+Der/Dim+N+Sg+Nom+PxPl1: sčičtxʷədčəɬ
+     sčətxʷəd+N+Der/Dim+N+Sg+Nom+PxPl2: sčičtxʷədləp
+     sčətxʷəd+N+Der/Dim+N+Pl+Nom: sčičičtxʷəd
+     sčətxʷəd+N+Der/Dim+N+Pl+Nom+PxSg1: dsčičičtxʷəd
+     sčətxʷəd+N+Der/Dim+N+Pl+Nom+PxSg2: adsčičičtxʷəd
+     sčətxʷəd+N+Der/Dim+N+Pl+Nom+PxSP3: sčičičtxʷəds
+     sčətxʷəd+N+Der/Dim+N+Pl+Nom+PxPl1: sčičičtxʷədčəɬ
+     sčətxʷəd+N+Der/Dim+N+Pl+Nom+PxPl2: sčičičtxʷədləp
 
 
