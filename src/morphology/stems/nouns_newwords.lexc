@@ -1,0 +1,29 @@
+!! This is where new words are added as lexc entries before they are
+!! added to the xml source files.
+!! ɬaləp̓:ɬaləp̓ N_with-PL_RED2 "tongue" ;
+
+
+LEXICON N_NEWWORDS
+test:test N_with-PL_RED2 "(eng) /(slh) " ;
+!! ADD NOUNS BELOW
+
+ɬaləp̓:ɬaləp̓   N_with-PL_RED2 "tongue/ ɬalap" ;
+qəluʔb:qəluʔb N_with-PL_RED2 "eye/qəluʔb" ;
+cubəd:cubəd N_with-PL_RED2 "eye brow" ;
+bəqsəd:bəqsəd N_with-PL_RED2 "nose" ;
+čaləs:čaləs N_with-PL_RED2 "hand" ;
+q̓ʷəladiʔ:q̓ʷəladiʔ N_with-PL_RED2 "ear/q̓ʷəladiʔ" ;
+qədxʷ:qədxʷ N_with-PL_RED2 "mouth/qədxʷ" ;
+sgʷədayucid:sgʷədayucid N_with-PL_RED2 "chin" ;
+ǰəsəd:ǰəsəd N_with-PL_RED2 "foot/ǰəšəd" ;
+sʔilalubid:sʔilalubid N_with-PL_RED2 "shoulder" ;
+sʔilidgʷəs:sʔilidgʷəs N_with-PL_RED2 "chest" ;
+bəlagʷəʔ:bəlagʷəʔ N_with-PL_RED2 "belly button" ;
+sʔacus:sʔacus N_with-PL_RED2 "face" ;
+sq̓ədᶻuʔ:sq̓ədᶻuʔ N_with-PL_RED2 "hair" ;
+sqwəlič:sqwəlič N_with-PL_RED2 "back" ;
+lax̌ad:lax̌ad N_with-PL_RED2 "arm" ;
+x̌qp̓ucid:x̌qp̓ucid N_with-PL_RED2 "knee" ;
+c̓uk̓ʷəb:c̓uk̓ʷəb N_with-PL_RED2 "skin" ;
+!
+dᶻədis:dᶻədis N_with-PL_RED2 "tooth" ;
