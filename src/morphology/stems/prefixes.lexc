@@ -6,6 +6,10 @@ LEXICON Prefixes
 00@U.PossPx.Sg1@:d%<@U.PossPx.Sg1@     Nouns   ;
 000@U.PossPx.Sg2@:ad%<@U.PossPx.Sg2@     Nouns   ;
  Nouns ;
+! These are the first Northern Lushootseed
+00@U.PossPx.Sg1@:d%<@U.PossPx.Sg1@     N_NEWWORDS   ;
+000@U.PossPx.Sg2@:ad%<@U.PossPx.Sg2@     N_NEWWORDS   ;
+ N_NEWWORDS ;
 verbprefix-     Verbs   ;
 00@U.ASP.PRF@:ˀu@U.ASP.PRF@ Verbs ;
 !
