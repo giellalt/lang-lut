@@ -27,10 +27,10 @@ LEXICON SG-SUF
 LEXICON PL_RED2
 +Pl+Nom@D.PossPx@:%^Red2CVC2CVCCVC0@D.PossPx@	# ;
 +Pl+Nom:%^Red2CVC2CVCCVC	POSS ;
-!!€ bəlbəlups bəlups+N+Pl+Nom
-!!$ bəlups bəlups+N+Pl+Nom
-!!€ k̓ʷəčk̓ʷəčədiˀ k̓ʷəčədiˀ+N+Pl+Nom
-!!$ k̓ʷəčədiˀ k̓ʷəčədiˀ+N+Pl+Nom
+!!€ bəlbəlups: bəlups+N+Pl+Nom
+!!$ bəlups: bəlups+N+Pl+Nom
+!!€ k̓ʷəčk̓ʷəčədiˀ: k̓ʷəčədiˀ+N+Pl+Nom
+!!$ k̓ʷəčədiˀ: k̓ʷəčədiˀ+N+Pl+Nom
 
 LEXICON POSS
 @R.PossPx.Sg1@ PXSG1 ;
