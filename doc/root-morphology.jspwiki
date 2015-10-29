@@ -2,8 +2,7 @@
            !!!Lushootseed morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF LUSHOOTSEED LANGUAGE.
 
-
- !!!Multichar_Symbols definitions
+ !!!Definitions for Multichar_Symbols
 
 !!Letters
 
@@ -32,8 +31,8 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF LUSHOOTSEED LANGUAGE.
 
 !!Analysis symbols
 ----------------
-The morphological analyses of wordforms of UNDEFINED language are presented
-in this system in terms of following symbols.
+The morphological analyses of wordforms for the Lushootseed
+language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
 The parts-of-speech are:
