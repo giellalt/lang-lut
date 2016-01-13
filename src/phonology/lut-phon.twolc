@@ -168,30 +168,30 @@ M̓
 
 !! Red1
 !! C V1 => C V1 C V1 
-!€# s%«tubš
-!€0 s0tutubš 
-!€# ˀiɬ%«t̓isu
-!€0 ˀiɬ0t̓it̓isu
+!!€# s%«tubš
+!!€0 s0tutubš 
+!!€# ˀiɬ%«t̓isu
+!!€0 ˀiɬ0t̓it̓isu
 
 !! C V1 => C V1 C ə  
-!€# s%«tuləkʷ
-!€0 s0tutələkʷ
-!€# yubil
-!€0 yuyəbil
-!€# ɬaɬil
-!€0 ɬaɬəlil
-!€# k̓ʷid
-!€0 k̓ʷik̓ʷəd
+!!€# s%«tuləkʷ
+!!€0 s0tutələkʷ
+!!€# yubil
+!!€0 yuyəbil
+!!€# ɬaɬil
+!!€0 ɬaɬəlil
+!!€# k̓ʷid
+!!€0 k̓ʷik̓ʷəd
 
 !! C V1 => C V1 C   
-!€# pastəd
-!€0 papstəd
-!€# s%«x̌ʷiƛ̕əyˀ 
-!€0 s0x̌ʷix̌ʷƛ̕əyˀ
+!!€# pastəd
+!!€0 papstəd
+!!€# s%«x̌ʷiƛ̕əyˀ 
+!!€0 s0x̌ʷix̌ʷƛ̕əyˀ
 
 !! C ə => C i C   %^Red1CV1toCV2C:
-!€# ˀəpus
-!€0 ˀiˀpus
+!!€# ˀəpus
+!!€0 ˀiˀpus
 
 
 Rules
@@ -225,16 +225,16 @@ Rules
 "s:c after d:0"
 !! __@RULENAME@__
 s:c <=> d: %> _ # ;
-!€# ˀu%«kʷədad%>s
-!€0 ˀu0kʷəda00c
+!!€# ˀu%«kʷədad%>s
+!!€0 ˀu0kʷəda00c
 
 "d:0 before s:c"
 !! __@RULENAME@__
 d:0 <=>	_ %> [ s: #| c ]  ;
-!€# ˀu%«kʷədad%>s
-!€0 ˀu0kʷəda00c
-!€# ˀu%«kʷədad%>cid
-!€0 ˀu0kʷəda00cid
+!!€# ˀu%«kʷədad%>s
+!!€0 ˀu0kʷəda00c
+!!€# ˀu%«kʷədad%>cid
+!!€0 ˀu0kʷəda00cid
 
 "0:p in reduplication"
 !! __@RULENAME@__
