@@ -1,0 +1,13 @@
+!! Pronouns
+!  --------
+!! Pronouns in UNDEFINED language are references to things.
+
+LEXICON Pronouns
+pronoun    Cases   ;
+čəd:čəd PRON-PERS-SG1 ;
+čəxʷ:čəxʷ PRON-PERS-SG2 ;
+čəɬ:čəɬ PRON-PERS-PL1 ;
+čələp:čələp PRON-PERS-PL2 ;
+əlgʷəˀ:əlgʷəˀ PRON-PERS-PL3 ;
+
+! vim: set ft=xfst-lexc:
