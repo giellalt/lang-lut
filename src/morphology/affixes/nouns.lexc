@@ -12,6 +12,16 @@ LEXICON N_with-PL_RED2
 +N: SG-SUF ;
 +N: PL_RED2 ;
 
+LEXICON N-FEM_with-PL_RED2
++N+Fem: DIM_CV1toCV2C ;
++N+Fem: SG-SUF ;
++N+Fem: PL_RED2 ;
+
+LEXICON N-MSC_with-PL_RED2
++N+Msc: DIM_CV1toCV2C ;
++N+Msc: SG-SUF ;
++N+Msc: PL_RED2 ;
+
 ! Derivation
 LEXICON DIM_CV1toCV2C
 +Der/Dim+N+Sg+Nom@D.PossPx@:%^Red1CV1toCV2C000@D.PossPx@ # ;

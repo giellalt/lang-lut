@@ -49,7 +49,7 @@ xʷ
 x̌ʷ
 
 y̓
-ˀ
+ʔ
 !! There must be a capital ɬ
 
 B̓
@@ -160,7 +160,7 @@ X̌ʷ
 B̓
 N̓
 M̓
-ˀ
+ʔ
 ;
  
 
@@ -170,8 +170,8 @@ M̓
 !! C V1 => C V1 C V1 
 !!€# s%«tubš
 !!€0 s0tutubš 
-!!€# ˀiɬ%«t̓isu
-!!€0 ˀiɬ0t̓it̓isu
+!!€# ʔiɬ%«t̓isu
+!!€0 ʔiɬ0t̓it̓isu
 
 !! C V1 => C V1 C ə  
 !!€# s%«tuləkʷ
@@ -186,12 +186,12 @@ M̓
 !! C V1 => C V1 C   
 !!€# pastəd
 !!€0 papstəd
-!!€# s%«x̌ʷiƛ̕əyˀ 
-!!€0 s0x̌ʷix̌ʷƛ̕əyˀ
+!!€# s%«x̌ʷiƛ̕əyʔ 
+!!€0 s0x̌ʷix̌ʷƛ̕əyʔ
 
 !! C ə => C i C   %^Red1CV1toCV2C:
-!!€# ˀəpus
-!!€0 ˀiˀpus
+!!€# ʔəpus
+!!€0 ʔiʔpus
 
 
 Rules
@@ -225,16 +225,16 @@ Rules
 "s:c after d:0"
 !! __@RULENAME@__
 s:c <=> d: %> _ # ;
-!!€# ˀu%«kʷədad%>s
-!!€0 ˀu0kʷəda00c
+!!€# ʔu%«kʷədad%>s
+!!€0 ʔu0kʷəda00c
 
 "d:0 before s:c"
 !! __@RULENAME@__
 d:0 <=>	_ %> [ s: #| c ]  ;
-!!€# ˀu%«kʷədad%>s
-!!€0 ˀu0kʷəda00c
-!!€# ˀu%«kʷədad%>cid
-!!€0 ˀu0kʷəda00cid
+!!€# ʔu%«kʷədad%>s
+!!€0 ʔu0kʷəda00c
+!!€# ʔu%«kʷədad%>cid
+!!€0 ʔu0kʷəda00cid
 
 "0:p in reduplication"
 !! __@RULENAME@__
@@ -362,13 +362,13 @@ d:0 <=>	_ %> [ s: #| c ]  ;
         [ # | %«:0 | %<:0 ] 0: 0: x̌ʷ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
          [ # | %«:0 | %<:0 ] _ 0: x̌ʷ ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
 
-"0:ˀ in reduplication"
+"0:ʔ in reduplication"
 !! __@RULENAME@__
- 0:ˀ <=> [ # | %«:0 | %<:0 ] 0: 0: _ Cns Vow: ˀ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-         [ # | %«:0 | %<:0 ] _ 0: 0: ˀ Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-        [ # | %«:0 | %<:0 ] ˀ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
-        [ # | %«:0 | %<:0 ] 0: 0: ˀ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
-         [ # | %«:0 | %<:0 ] _ 0: ˀ ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
+ 0:ʔ <=> [ # | %«:0 | %<:0 ] 0: 0: _ Cns Vow: ʔ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+         [ # | %«:0 | %<:0 ] _ 0: 0: ʔ Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+        [ # | %«:0 | %<:0 ] ʔ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+        [ # | %«:0 | %<:0 ] 0: 0: ʔ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+         [ # | %«:0 | %<:0 ] _ 0: ʔ ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
 
 
 "0:w̓ in reduplication"

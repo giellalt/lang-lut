@@ -30,7 +30,6 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF LUSHOOTSEED LANGUAGE.
 
 
 !!Analysis symbols
-----------------
 The morphological analyses of wordforms for the Lushootseed
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
@@ -70,6 +69,7 @@ Non-dictionary words can be recognised with:
 
 Question and Focus particles:
 
+Gender
 
 Semantics are classified with
 
@@ -80,7 +80,6 @@ source and target part-of-speech.
  * _+Der/s_ * Noun derivation
 
 Morphophonology
----------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
