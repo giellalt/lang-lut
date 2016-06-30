@@ -7,5 +7,8 @@ LEXICON Comparisons
 +A+Cmp:er       Cases   ;
 +A+Sup:est      Cases   ;
 
+LEXICON A_
++A: K ;
+
 ! vim: set ft=xfst-lexc:
 
