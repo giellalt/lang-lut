@@ -1,0 +1,10 @@
+!! Adverbs
+! --------------------
+!! The Lushootseed language adverbs
+
+LEXICON ADV_
++Adv:        K   ;
+
+
+! vim: set ft=xfst-lexc:
+
