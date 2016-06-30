@@ -4,5 +4,12 @@
 
 LEXICON Adjectives
 adjective    Comparisons   ;
+x̌ičəc A_ "red" ;
+kay̓kay̓alus A_ "sky blue" ;
+č́uɫəyʔalus A_ "green" ;
+x̌ibəč́ A_ "black" ;
+x̌ʷiqʷəq̓ʷ A_ "white" ;
+x̌ʷiqʷac A_ "yellow" ;
+
 
 ! vim: set ft=xfst-lexc:

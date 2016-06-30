@@ -1,0 +1,8 @@
+!! Adverbs
+!  ----------
+!! Adverbs in the LUSHOOTSEED language 
+
+LEXICON Adverbs
+čad:čad    ADV_  "where" ;
+
+! vim: set ft=xfst-lexc:
