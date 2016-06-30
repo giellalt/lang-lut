@@ -18,7 +18,8 @@ LEXICON PRON-PERS-PL2
 LEXICON PRON-PERS-PL3
 +Pron+Pers+Pl3+Nom:   #  ;
 
-
+LEXICON PRON-INTERR_
++Pron+Interr: K ;
 
 ! vim: set ft=xfst-lexc:
 

@@ -10,4 +10,6 @@ pronoun    Cases   ;
 čələp:čələp PRON-PERS-PL2 ;
 əlgʷəʔ:əlgʷəʔ PRON-PERS-PL3 ;
 
+stab:stab PRON-INTERR_ ;
+
 ! vim: set ft=xfst-lexc:
