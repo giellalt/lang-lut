@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
 ! The cardinal numerals described here are derived from a teachers guide
-! Book 1, dᶻixʷ, First. by Zalmai Zahir, Illustrated by Peggy kʷiˀalq Ahvakana. 
+! Book 1, dᶻixʷ, First. by Zalmai Zahir, Illustrated by Peggy kʷiʔalq Ahvakana. 
 ! No date or place of publication are given.
 ! This rendition still requires checking and correction from L1 speakers
 
@@ -24,7 +24,7 @@ Multichar_Symbols
   +NumNum    ! Tag to denote real numbers in one form or another
 cč̓
 dᶻ
-ˀk
+ʔk
 xʷ
 x̌
 
@@ -51,14 +51,14 @@ TEENS ;			! 10-19
 ONES ;			! 1-9
 
 LEXICON HUNDREDSM
-2:salˀ CUODIM ;
+2:saliʔ CUODIM ;
 3:ɬixʷ CUODIM ;
 4:buus CUODIM ;
 5:cəlac CUODIM ;
-6:dᶻəlačiˀ CUODIM ;
-7:c̓uˀkʷs CUODIM ;
+6:yəlaʔc CUODIM ;
+7:c̓uʔkʷs CUODIM ;
 7:c̓ukʷ+Use/NG CUODIM ;
-8:təqačiˀ CUODIM ;
+8:təqačiʔ CUODIM ;
 9:x̌ʷəl CUODIM ;
 
 LEXICON CUODIM
@@ -71,51 +71,51 @@ LEXICON HUNDREDM
 %0%0: MILJON ;
 
 LEXICON TEENSM
-1:padac% yəxʷ% kʷi%  TEENM ;
+1:ʔulub% ʔi% ti%  TEENM ;
 
 LEXICON TEENM
-1:dəč̓uˀ LOHKAIM ;
-2:salˀ LOHKAIM ;
+1:č̓uʔ LOHKAIM ;
+2:saliʔ LOHKAIM ;
 3:ɬixʷ LOHKAIM ;
 4:buus LOHKAIM ;
 5:cəlac LOHKAIM ;
-6:dᶻəlačiˀ LOHKAIM ;
-7:c̓uˀkʷs LOHKAIM ;
+6:yəlaʔc LOHKAIM ;
+7:c̓uʔkʷs LOHKAIM ;
 7:c̓ukʷ+Use/NG LOHKAIM ;
-8:təqačiˀ LOHKAIM ;
+8:təqačiʔ LOHKAIM ;
 9:x̌ʷəl LOHKAIM ;
 
 LEXICON LOHKAIM
 :%  MILJON ;
 
 LEXICON TENSM
-1%0:padac MILJON ;
+1%0:ʔulub MILJON ;
 !låhkede:1%0%. MILJON ;
-2:saliˀ LUHKIEM ;
+2:saliʔ LUHKIEM ;
 3:sɬixʷ LUHKIEM ;
 4:sbuus LUHKIEM ;
 5:scəlac LUHKIEM ;
-6:dᶻəlačiˀ LUHKIEM ;
-7:c̓uˀkʷs LUHKIEM ;
+6:yəlaʔc LUHKIEM ;
+7:c̓uʔkʷs LUHKIEM ;
 7:c̓ukʷs+Use/NG LUHKIEM ;
-8:taqačiˀ LUHKIEM ;
+8:təqačiʔ LUHKIEM ;
 9:x̌ʷəl LUHKIEM ;
 
 LEXICON LUHKIEM
-%0:ačiˀ MILJON ;
+%0:ačiʔ MILJON ;
 !låhkede:%0%. MILJON ;
-:ačiˀ% yəxʷ% kʷi%  ONESM ;
+:ačiʔ% ʔi% ti%  ONESM ;
 
 LEXICON ONESM
-1:dəč̓uˀ% miljon%  OVERTHOUSANDS ;!! Check this
-2:saliˀ MILJON ;
+1:č̓uʔ% miljon%  OVERTHOUSANDS ;!! Check this
+2:saliʔ MILJON ;
 3:ɬixʷ MILJON ;
 4:buus MILJON ;
 5:cəlac MILJON ;
-6:dᶻəlačiˀ MILJON ;
-7:c̓uˀkʷs MILJON ;
+6:yəlaʔc MILJON ;
+7:c̓uʔkʷs MILJON ;
 7:c̓ukʷs+Use/NG MILJON ;
-8:təqačiˀ MILJON ;
+8:təqačiʔ MILJON ;
 9:x̌ʷəl MILJON ;
 
 
@@ -140,14 +140,14 @@ HUNDREDST ;		! x00.000.000
 %0%0%0%0%0%0: COMMA ;	!  x000000
 
 LEXICON HUNDREDST
-2:salˀ%  CUODIT ; ! 200000-299999
+2:saliʔ%  CUODIT ; ! 200000-299999
 3:ɬixʷ%  CUODIT ; ! 300000-399999
 4:buus%  CUODIT ; ! 400000-499999
 5:cəlac%  CUODIT ;  ! 500000-599999
-6:dᶻəlačiˀ%  CUODIT ; ! 600000-699999
-7:c̓uˀkʷs%  CUODIT;  ! 700000-799999
+6:yəlaʔc%  CUODIT ; ! 600000-699999
+7:c̓uʔkʷs%  CUODIT;  ! 700000-799999
 7:c̓ukʷ+Use/NG%  CUODIT;
-8:təqačiˀ%  CUODIT ;	! 800000-899999
+8:təqačiʔ%  CUODIT ;	! 800000-899999
 9:x̌ʷəl%  CUODIT; ! 900000-999999
 
 LEXICON CUODIT
@@ -156,42 +156,42 @@ LEXICON CUODIT
 LEXICON HUNDREDT	! X = 1-9, Y = 0-9
 :%  TENST ;			! X2XYYY, X10YYY
 :%  TEENST ;		! X1XYYY
-%01:% dəč̓uˀ THOUSANDS ;
+%01:% č̓uʔ THOUSANDS ;
 %0:%  ONEST ;		! XX0YYY
 %0%0: THOUSANDS ;	! X00YYY
 
 LEXICON TEENST
-1:padac% yəxʷ% kʷi%    ONEST ;
-1%0:padac%  THOUSANDS ;
+1:ʔulub% ʔi% ti%    ONEST ;
+1%0:ʔulub%  THOUSANDS ;
 
 LEXICON LOHKAIT
 THOUSANDS ;
 
 LEXICON TENST
-2:saliˀ LUHKIET ;
+2:saliʔ LUHKIET ;
 3:sɬixʷ LUHKIET ;
 4:sbuus LUHKIET ;
 5:scəlac LUHKIET ;
-6:dᶻəlačiˀ LUHKIET ;
-7:c̓uˀkʷs LUHKIET ;
+6:yəlaʔc LUHKIET ;
+7:c̓uʔkʷs LUHKIET ;
 7:c̓ukʷs+Use/NG LUHKIET ;
-8:taqačiˀ LUHKIET ;
+8:təqačiʔ LUHKIET ;
 9:x̌ʷəl LUHKIET ;
 
 LEXICON LUHKIET
-%0:ačiˀ THOUSANDS ;
-:ačiˀ% yəxʷ% kʷi%  ONEST ; !! Check this
+%0:ačiʔ THOUSANDS ;
+:ačiʔ% ʔi% ti%  ONEST ; !! Check this
 
 LEXICON ONEST
-1:dəč̓uˀ THOUSANDS ;
-2:salˀ THOUSANDS ;
+1:č̓uʔ THOUSANDS ;
+2:saliʔ THOUSANDS ;
 3:ɬixʷ THOUSANDS ;
 4:buus THOUSANDS ;
 5:cəlac THOUSANDS ;
-6:dᶻəlačiˀ THOUSANDS ;
-7:c̓uˀkʷs THOUSANDS ;
+6:yəlaʔc THOUSANDS ;
+7:c̓uʔkʷs THOUSANDS ;
 7:c̓ukʷ+Use/NG THOUSANDS ;
-8:təqačiˀ THOUSANDS ;
+8:təqačiʔ THOUSANDS ;
 9:x̌ʷəl THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
@@ -215,14 +215,14 @@ LEXICON UNDERTHOUSAND
 
 
 LEXICON HUNDREDS
-2:salˀ%  CUODI ;
+2:saliʔ%  CUODI ;
 3:ɬixʷ%  CUODI ;
 4:buus%  CUODI ;
 5:cəlac%  CUODI ;
-6:dᶻəlačiˀ%  CUODI ;
-7:c̓uˀkʷs%  CUODI ;
+6:yəlaʔc%  CUODI ;
+7:c̓uʔkʷs%  CUODI ;
 7:c̓ukʷ+Use/NG%  CUODI ;
-8:təqačiˀ%  CUODI ;
+8:təqačiʔ%  CUODI ;
 9:x̌ʷəl%  CUODI ;
 
 LEXICON CUODI
@@ -239,41 +239,41 @@ LEXICON CUODAAT
 %0%0%.:    COMMA ;
 
 LEXICON TEENS
-1:padac% yəxʷ% kʷi%  ONES ;
+1:ʔulub% ʔi% ti%  ONES ;
 
 
 LEXICON TENS
-1%0:padac COMMA ;
+1%0:ʔulub COMMA ;
 !låhkede:1%0%. COMMA ;
-2:saliˀ LUHKIE ;
+2:saliʔ LUHKIE ;
 3:sɬixʷ LUHKIE ;
 4:sbuus LUHKIE ;
 5:scəlac LUHKIE ;
-6:dᶻəlačiˀ LUHKIE ;
-7:c̓uˀkʷs LUHKIE ;
+6:yəlaʔc LUHKIE ;
+7:c̓uʔkʷs LUHKIE ;
 7:c̓ukʷs+Use/NG LUHKIE ;
-8:taqačiˀ LUHKIE ;
+8:təqačiʔ LUHKIE ;
 9:x̌ʷəl LUHKIE ;
 
 LEXICON LUHKIE
-%0:ačiˀ COMMA ;
+%0:ačiʔ COMMA ;
 !låhkede:%0%. COMMA ;
-:ačiˀ% yəxʷ% kʷi%  ONES ;
+:ačiʔ% ʔi% ti%  ONES ;
 
 LEXICON ONES
 CARDINAL ;
 ORDINAL ;
 
 LEXICON CARDINAL
-1:dəč̓uˀ COMMA ;
-2:salˀ COMMA ;
+1:č̓uʔ COMMA ;
+2:saliʔ COMMA ;
 3:ɬixʷ COMMA ;
 4:buus COMMA ;
 5:cəlac COMMA ;
-6:dᶻəlačiˀ COMMA ;
-7:c̓uˀkʷs COMMA ;
+6:yəlaʔc COMMA ;
+7:c̓uʔkʷs COMMA ;
 7:c̓ukʷ+Use/NG COMMA ;
-8:təqačiˀ COMMA ;
+8:təqačiʔ COMMA ;
 9:x̌ʷəl COMMA ;
 
 LEXICON ORDINAL

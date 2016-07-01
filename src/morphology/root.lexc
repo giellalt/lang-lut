@@ -100,7 +100,6 @@ X̌ʷ
 
 Y̓
 
-%«
 
 !! !!Analysis symbols
 ! ----------------
@@ -136,7 +135,12 @@ Y̓
  +Attr +Card
  +Ord
 !! Verb moods are:
- +Ind +Prs +Prt +Pot +Cond +Imprt
+ +Ind +Pot +Cond +Imprt
+!! Verb tenses and aspect are:
+ +Fut +Prs +Prt
+ +RemPst !!≈ * _@CODE@_ * remote past tu- 
++Asp/Prf !!≈ * _@CODE@_ * perfective aspect ʔu-
++Asp/Stat !!≈ * _@CODE@_ * stative aspect ʔəs-
 !! Verb personal forms are:
  +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3
 !! !!Direct Object conjugation
@@ -250,9 +254,17 @@ Y̓
 @C.PossPx@
 
 !! !VERBS
-@U.ASP.PRF@
-@R.ASP.PRF@
-@R.ASP@
+@U.TAM.PRF@
+@R.TAM.PRF@
+@U.TAM.FUT@
+@R.TAM.FUT@
+@U.TAM.COND@
+@R.TAM.COND@
+@U.TAM.REM@
+@R.TAM.REM@
+@U.TAM.STAT@
+@R.TAM.STAT@
+@R.TAM@
 
 @U.OBJ.1@
 @U.OBJ.2@
@@ -260,8 +272,8 @@ Y̓
 @D.OBJ.1@
 @D.OBJ.2@
 
-@D.ASP@
-@C.ASP@
+@D.TAM@
+@C.TAM@
 
 
 LEXICON Root
