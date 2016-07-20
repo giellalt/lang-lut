@@ -20,19 +20,21 @@
 ! 12.8.
 ! Borgemánu 12. b.
 ! Borgemánu guoktenuppelot beaivi
-! 1%.:
+! 1%.:ƛ̕iq̓s
 ! 2%.:səxʷpu%«puhigʷəd
 ! 3%.:waq̓waq̓us
 ! 3%.:spupuhigʷəd
+! 4%.:slihibus
 ! 4%.:pəd%«x̌ʷiw̓aac
-! 5%.:pədč̓aˀəb
+! 5%.:pədč̓aʔəb
 ! 6%.:pəds%«təgʷad
 ! 7%.:pəd%«gʷədbixʷ
-! 8%.:pəd%«t̓aqaˀ
+! 8%.:pəd%«t̓aqaʔ
 ! 9%.:pəd%«kʷəxʷic
 ! 1%0%.:pədxʷit̓%«xʷit̓il
-! 11%.:pəd%«ƛ̕xʷayˀ
-! 12%.:səxʷ%«šic̓əlwaˀs
+! 11%.:pəd%«ƛ̕xʷayʔ
+! 12%.:səxʷ%«šic̓əlwaʔs
+! 12%.:pədšic̓əlwaʔs
 
 Multichar_Symbols
 
@@ -73,8 +75,8 @@ LEXICON Root
  @U.MONTH.4@:pədx̌ʷiw̓aac+Use/NG% @U.MONTH.4@     31DAYS ;
 
 
- @U.MONTH.5@:Pədč̓aˀəb% @U.MONTH.5@     31DAYS ;
- @U.MONTH.5@:pədč̓aˀəb+Use/NG% @U.MONTH.5@     31DAYS ;
+ @U.MONTH.5@:Pədč̓aʔəb% @U.MONTH.5@     31DAYS ;
+ @U.MONTH.5@:pədč̓aʔəb+Use/NG% @U.MONTH.5@     31DAYS ;
 
 
  @U.MONTH.6@:Pədstəgʷad% @U.MONTH.6@     30DAYS ;
@@ -85,8 +87,8 @@ LEXICON Root
  @U.MONTH.7@:pədgʷədbixʷ+Use/NG% @U.MONTH.7@    31DAYS ;
 
 
- @U.MONTH.8@:Pədt̓aqaˀ% @U.MONTH.8@      31DAYS ;
- @U.MONTH.8@:pədt̓aqaˀ+Use/NG% @U.MONTH.8@      31DAYS ;
+ @U.MONTH.8@:Pədt̓aqaʔ% @U.MONTH.8@      31DAYS ;
+ @U.MONTH.8@:pədt̓aqaʔ+Use/NG% @U.MONTH.8@      31DAYS ;
 
 
  @U.MONTH.9@:Pədkʷəxʷic% @U.MONTH.9@     30DAYS ;
@@ -97,12 +99,12 @@ LEXICON Root
 @U.MONTH.10@:pədxʷit̓xʷit̓il+Use/NG% @U.MONTH.10@    31DAYS ;
 
 
-@U.MONTH.11@:Pədƛ̕xʷayˀ% @U.MONTH.11@    30DAYS ; ! bytt NG?
-@U.MONTH.11@:pədƛ̕xʷayˀ+Use/NG% @U.MONTH.11@    30DAYS ; ! bytt NG?
+@U.MONTH.11@:Pədƛ̕xʷayʔ% @U.MONTH.11@    30DAYS ; ! bytt NG?
+@U.MONTH.11@:pədƛ̕xʷayʔ+Use/NG% @U.MONTH.11@    30DAYS ; ! bytt NG?
 
 
-@U.MONTH.12@:Səxʷšic̓əlwaˀs% @U.MONTH.12@    31DAYS ;
-@U.MONTH.12@:səxʷšic̓əlwaˀs+Use/NG% @U.MONTH.12@    31DAYS ;
+@U.MONTH.12@:Səxʷšic̓əlwaʔs% @U.MONTH.12@    31DAYS ;
+@U.MONTH.12@:səxʷšic̓əlwaʔs+Use/NG% @U.MONTH.12@    31DAYS ;
 
 
 LEXICON 29DAYS
