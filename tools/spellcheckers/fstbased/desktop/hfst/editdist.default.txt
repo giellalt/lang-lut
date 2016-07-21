@@ -1,33 +1,91 @@
 
 ## Inclusions: this is the real alphabet definition:
+
+A
+B
+B̓
+C
+C̓
+D
+G
+H
+I
+K
+K̓
+L
+L̓
+M
+M̓
+N
+N̓
+O
+P
+P̓
+Q
+Q̓
+R
+S
+T
+T̓
+U
+V
+W
+W̓
+X
+X̌
+Y
+Y̓
+Z
 a
 b
+b̓
 c
-č
+c̓
 d
-e
-f
 g
 h
 i
-î
-ï
-j
 k
+k̓
 l
+l̓
 m
+m̓
 n
+n̓
 o
 p
+p̓
+q
+q̓
 r
 s
 t
+t̓
 u
 v
 w
+w̓
 x
+x̌
 y
+y̓
 z
+Č
+č
+Š
+š
+Ə
+ǰ
+ə
+ɬ
+ʔ
+ʷ
+ᶻ
+Č̓
+č̓
+ƛ̕
+
 -
 .
 0
@@ -46,7 +104,45 @@ z
 @@
 
 ## Transition pair specifications + weight:
-a	á	0.4
+
+B	B̓	3
+C	C̓	3
+K	K̓	3
+L	L̓	3
+M	M̓	3
+N	N̓	3
+P	P̓	3
+Q	Q̓	3
+T	T̓	3
+W	W̓	3
+X	X̌	3
+Y	Y̓	3
+b	b̓	3
+c	c̓	3
+k	k̓	3
+l	l̓	3
+m	m̓	3
+n	n̓	3
+p	p̓	3
+q	q̓	3
+t	t̓	3
+w	w̓	3
+x	x̌	3
+y	y̓	3
+C	Č	3
+c	č	3
+S	Š	3
+s	š	3
+E	Ə	3
+j	ǰ	3
+e	ə	3
+l	ɬ	3
+q	ʔ	3
+w	ʷ	3
+z	ᶻ	3
+C	Č̓	3
+c	č̓	3
+l	ƛ̕	3
 
 ## Swaps:
 ## Change dh into hd with the weight 0.5:
