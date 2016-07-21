@@ -11,7 +11,7 @@ bəqsəd:bəqsəd N_with-PL_RED2 "nose" ;
 cqapsəb:cqapsəb N_with-PL_RED2 "neck" ;
 cubəd:cubəd N_with-PL_RED2 "eyebrow" ;
 čaləš:čaləš N_with-PL_RED2 "hand" ;
-ǰəšəd:ǰə%«šəd N_with-PL_RED2	"foot" ;
+ǰəšəd:ǰə√šəd N_with-PL_RED2	"foot" ;
 k̓ʷəčədiʔ:k̓ʷəčədiʔ N_with-PL_RED2	"rabbit" ;
 k̓ʷiyəx̌:k̓ʷiyəx̌ N_with-PL_RED2 "stomach" ;
 luƛ̕:luƛ̕ N_with-PL_RED2 "elder" ;
@@ -20,14 +20,14 @@ qədxʷ:qədxʷ N_with-PL_RED2 "mouth" ;
 qəlub:qəlub N_with-PL_RED2 "eye" ;
 q̓ʷəladiʔ:q̓ʷəladiʔ N_with-PL_RED2 "ear" ; !
 sʔubəd:s«ʔubəd N_with-PL_RED2 "hunter" ;
-sčətxʷəd:s%«čətxʷəd N_with-PL_RED2 "bear" ;
-sdaʔ:s%«daʔ N_with-PL_RED2 "name" ;
-sq̓ədᶻuʔ:s%«q̓ədᶻuʔ N_with-PL_RED2 "hair" ;
-st̓ək̓ʷəb:s%«t̓ək̓ʷəb N_with-PL_RED2 "log|stick" ;
-sx̌ayus:s%«x̌ayus N_with-PL_RED2 "head" ;
-sx̌ʷiʔab:s%«x̌ʷiʔab N_with-PL_RED2 "story" ;
+sčətxʷəd:s√čətxʷəd N_with-PL_RED2 "bear" ;
+sdaʔ:s√daʔ N_with-PL_RED2 "name" ;
+sq̓ədᶻuʔ:s√q̓ədᶻuʔ N_with-PL_RED2 "hair" ;
+st̓ək̓ʷəb:s√t̓ək̓ʷəb N_with-PL_RED2 "log|stick" ;
+sx̌ayus:s√x̌ayus N_with-PL_RED2 "head" ;
+sx̌ʷiʔab:s√x̌ʷiʔab N_with-PL_RED2 "story" ;
 t̓aləkʷ:t̓aləkʷ N_with-PL_RED2 "elbow|shoulder" ;
-x̌qp̓ucid:x̌%«qp̓ucid N_with-PL_RED2 "knee" ;
+x̌qp̓ucid:x̌√qp̓ucid N_with-PL_RED2 "knee" ;
 yəlab:yəlab N_with-PL_RED2 "either parent's sibling of either sex when parent is deceased" ;
 
 ! vim: set ft=xfst-lexc:
