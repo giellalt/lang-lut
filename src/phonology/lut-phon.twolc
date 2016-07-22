@@ -6,8 +6,15 @@ Alphabet
  a b c d g h i k l m n o p q r s t u v w x y z æ ø å
  á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý
 
+!! The Lushootseed language is written in lower case only
  A B C D G H I K L M N O P Q R S T U V W X Y Z Æ Ø Å
  Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý
+
+!! This transformation, accent loss, will be moved to post dict.
+á:a
+ú:u
+í:i
+ə́:ə
 
 
 b̓
