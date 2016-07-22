@@ -9,10 +9,9 @@ Config:
 
 Tests:
   Normativity tests: # We should not generate non-standard or irrelevant forms:
-    abrodh+V+PrfPrc:       "obr>eme"
-    abrodh+V+Ind+Prs+Sg3:  "obr>e"
-    hojjedh+V+Ind+Prs+Sg3: "håjj>a"
-    laakan+Adv:            "laakan"
-    snaare+A+Comp+Der1+Der/Dimin+Sg+Com: "snaerie>b»odtj>ine"
-    unnies+A+Sg+Gen:       "ånn>ene"
-    unnies+A+Sg+Gen+PxSg1: "ånn>ene"
+    sčətxʷəd+N+Pl+Nom: "sčətčətxʷəd"
+    kʷədad+V+TV+Asp/Prf+OcSg1: "ʔukʷədac"
+    bəčdub+V+TV+Asp/Prf+OcSP3: "ʔubəčdxʷ"
+    labdub+V+TV+OcSg2+Der/s+N+Sg+Nom+PxSg1: "dslabdubicid"
+
+
