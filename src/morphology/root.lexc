@@ -280,12 +280,12 @@ LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
 !   Nouns   ; This is fed entirely by Prefixes
-   Verbs   ;
-   Adjectives  ;
-   Adverbs  ;
-   Pronouns    ;
-   Numerals    ;
-   Prefixes    ;
+0   Verbs   ;
+0   Adjectives  ;
+0   Adverbs  ;
+0   Pronouns    ;
+0   Numerals    ;
+0   Prefixes    ;
 
 LEXICON K
 #; !!= * __@CODE@__ Clitic
