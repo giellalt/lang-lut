@@ -3,25 +3,25 @@
 !! Prefixes in UNDEFINED language are bound to beginning of other words.
 
 LEXICON Prefixes
-00@U.PossPx.Sg1@:d«@U.PossPx.Sg1@     Nouns   ;
-000@U.PossPx.Sg2@:ad«@U.PossPx.Sg2@     Nouns   ;
+00@U.PossPx.Sg1@:d%<@U.PossPx.Sg1@     Nouns   ;
+000@U.PossPx.Sg2@:ad%<@U.PossPx.Sg2@     Nouns   ;
  Nouns ;
 ! These are the first Northern Lushootseed
-00@U.PossPx.Sg1@:d«@U.PossPx.Sg1@     N_NEWWORDS   ;
-000@U.PossPx.Sg2@:ad«@U.PossPx.Sg2@     N_NEWWORDS   ;
+00@U.PossPx.Sg1@:d%<@U.PossPx.Sg1@     N_NEWWORDS   ;
+000@U.PossPx.Sg2@:ad%<@U.PossPx.Sg2@     N_NEWWORDS   ;
  N_NEWWORDS ;
 verbprefix-     Verbs   ;
-0000@U.TAM.COND@:ləs«@U.TAM.COND@ Verbs ;
-000@U.TAM.FUT@:ɬu«@U.TAM.FUT@ Verbs ;
-000@U.TAM.PRF@:ʔu«@U.TAM.PRF@ Verbs ;
-000@U.TAM.REM@:tu«@U.TAM.REM@ Verbs ;
-000@U.TAM.STAT@:ʔəs«@U.TAM.STAT@ Verbs ;
+0000@U.TAM.COND@:ləs%<@U.TAM.COND@ Verbs ;
+000@U.TAM.FUT@:ɬu%<@U.TAM.FUT@ Verbs ;
+000@U.TAM.PRF@:ʔu%<@U.TAM.PRF@ Verbs ;
+000@U.TAM.REM@:tu%<@U.TAM.REM@ Verbs ;
+000@U.TAM.STAT@:ʔəs%<@U.TAM.STAT@ Verbs ;
 !
-00@U.PossPx.Sg1@:d«@U.PossPx.Sg1@     DVNouns   ;
-000@U.PossPx.Sg2@:ad«@U.PossPx.Sg2@     DVNouns   ;
+00@U.PossPx.Sg1@:d%<@U.PossPx.Sg1@     DVNouns   ;
+000@U.PossPx.Sg2@:ad%<@U.PossPx.Sg2@     DVNouns   ;
  DVNouns   ;
 
 LEXICON DVNouns
-:s%« Verbs ;
+:s%< Verbs ;
 
 ! vim: set ft=xfst-lexc:
