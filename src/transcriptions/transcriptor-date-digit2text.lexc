@@ -65,31 +65,31 @@ LEXICON MONTH-FIRST
 
 ! For each month: First the normative, then the non-normatives, then initial capital
 
- 1@U.MONTH.1@:ƛ̕iq̓s% @U.MONTH.1@   31DAYS ;
+ @U.MONTH.1@:ƛ̕iq̓s% @U.MONTH.1@   31DAYS ;
 
-  2@U.MONTH.2@:Səxʷpupuhigʷəd% @U.MONTH.2@     29DAYS ;
+ @U.MONTH.2@:Səxʷpupuhigʷəd% @U.MONTH.2@     29DAYS ;
 
- 3@U.MONTH.3@:waq̓waq̓us% @U.MONTH.3@     31DAYS ;
- 3@U.MONTH.3@:spupuhigʷəd+Use/NG% @U.MONTH.3@     31DAYS ;
+ @U.MONTH.3@:waq̓waq̓us% @U.MONTH.3@     31DAYS ;
+ @U.MONTH.3@:spupuhigʷəd+Use/NG% @U.MONTH.3@     31DAYS ;
 
- 4@U.MONTH.4@:slihibus% @U.MONTH.4@      30DAYS ;
- 4@U.MONTH.4@:pədx̌ʷiw̓aac+Use/NG% @U.MONTH.4@     31DAYS ;
+ @U.MONTH.4@:slihibus% @U.MONTH.4@      30DAYS ;
+ @U.MONTH.4@:pədx̌ʷiw̓aac+Use/NG% @U.MONTH.4@     31DAYS ;
 
- 5@U.MONTH.5@:pədč̓aʔəb% @U.MONTH.5@     31DAYS ;
+ @U.MONTH.5@:pədč̓aʔəb% @U.MONTH.5@     31DAYS ;
 
- 6@U.MONTH.6@:pədstəgʷad% @U.MONTH.6@     30DAYS ;
+ @U.MONTH.6@:pədstəgʷad% @U.MONTH.6@     30DAYS ;
 
- 7@U.MONTH.7@:pədgʷədbixʷ% @U.MONTH.7@    31DAYS ;
+ @U.MONTH.7@:pədgʷədbixʷ% @U.MONTH.7@    31DAYS ;
 
- 8@U.MONTH.8@:pədt̓aqaʔ% @U.MONTH.8@      31DAYS ;
+ @U.MONTH.8@:pədt̓aqaʔ% @U.MONTH.8@      31DAYS ;
 
- 9@U.MONTH.9@:pədkʷəxʷic% @U.MONTH.9@     30DAYS ;
+ @U.MONTH.9@:pədkʷəxʷic% @U.MONTH.9@     30DAYS ;
 
-1%0@U.MONTH.10@:pədxʷit̓xʷit̓il% @U.MONTH.10@    31DAYS ;
+@U.MONTH.10@:pədxʷit̓xʷit̓il% @U.MONTH.10@    31DAYS ;
 
-11@U.MONTH.11@:pədƛ̕xʷayʔ% @U.MONTH.11@    30DAYS ; ! bytt NG?
+@U.MONTH.11@:pədƛ̕xʷayʔ% @U.MONTH.11@    30DAYS ;
 
-12@U.MONTH.12@:səxʷšic̓əlwaʔs% @U.MONTH.12@    31DAYS ;
+@U.MONTH.12@:səxʷšic̓əlwaʔs% @U.MONTH.12@    31DAYS ;
 
 
 LEXICON 29DAYS
