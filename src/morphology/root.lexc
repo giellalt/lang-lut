@@ -204,6 +204,15 @@ Y̓
 !! symbols in the lexicon files:
  {aä} {oö} {uü}
 
+!! place holders
+%{p1%}
+%{p2%}
+%{p3%}
+%{p4%}
+%{p5%}
+%{p6%}
+%{p7%}
+
 !! And following triggers to control variation
  {front} {back}
 %^Red1CV1toCV2C !!= * @CODE@ 2-segment to 3-segments with vowel change
