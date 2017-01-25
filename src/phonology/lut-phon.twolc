@@ -15,7 +15,7 @@ Alphabet
 ú:u
 í:i
 ə́:ə
-
+̓
 
 b̓
 
@@ -27,11 +27,11 @@ dᶻ
 gʷ
 ǰ
 
-k̓
+k̕
 kʷ
-k̓ʷ
+k̕ʷ
 
-l̓
+l̕
 ɬ
 ƛ̕
 
@@ -47,7 +47,7 @@ q̓ʷ
 
 š
 
-t̓
+t̕
 
 w̓
 y̓
@@ -60,46 +60,10 @@ y̓
 ʔ
 !! There must be a capital ɬ
 
-B̓
-
-C̓
-Č
-Č̓
-Dᶻ
-Ə
-Gʷ
-ǰ
-
-K̓
-Kʷ
-K̓ʷ
-
-L̓
 ɬ
 ƛ̕
 
-M̓
-N̓
 
-P̓
-
-Q
-Q̓
-Qʷ
-Q̓ʷ
-
-Š
-
-T̓
-
-W̓
-Y̓
-
-X̌
-Xʷ
-X̌ʷ
-
-Y̓
 
 
 ! 3-segment reduplication
@@ -129,23 +93,22 @@ E3:ə
 Sets
 
  Vow = a e i o u y æ ø å ə
-       á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý 
-       A E I O U Y Æ Ø Å Ə
-       Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý ;
+       á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý ;
+
  Cns = b c d f g h j k l m n p q r s t v w x y z 
-š Š ǰ J̌ č Č
+š ǰ  č
 c̓
 č̓
 ɬ
 l
 ƛ̕
 w̓
-t̓
+t̕
 y̓
 p̓
-k̓
+k̕
 kʷ
-k̓ʷ
+k̕ʷ
 q
 qʷ
 q̓
@@ -156,32 +119,13 @@ x̌ʷ
 b̓
 n̓
 m̓
-B C D F G H J K L M N P Q R S T V W X Z 
-C̓
-Č̓
+
 ɬ
-L
 ƛ̕
-W̓
-T̓
-Y̓
-P̓
-K̓
-Kʷ
-K̓ʷ
-Q
-Qʷ
-Q̓
-Q̓ʷ
-Xʷ
-X̌ʷ
-B̓
-N̓
-M̓
 ʔ
 
 ;
- 
+
 
 !! Reduplications are worked with on the basis of the Lushootseed Dictionary by Dawn Bates, Thom Hess and Vi Hilbert. Seattle & London. 1994:xvii
 
@@ -189,8 +133,8 @@ M̓
 !! C V1 => C V1 C V1 
 !!€# s√tubš
 !!€0 s0tutubš 
-!!€# ʔiɬ√t̓isu
-!!€0 ʔiɬ0t̓it̓isu
+!!€# ʔiɬ√t̕isu
+!!€0 ʔiɬ0t̕it̕isu
 
 !! C V1 => C V1 C ə  
 !!€# s√tuləkʷ
@@ -199,8 +143,8 @@ M̓
 !!€0 yuyəbil
 !!€# ɬaɬil
 !!€0 ɬaɬəlil
-!!€# k̓ʷid
-!!€0 k̓ʷik̓ʷəd
+!!€# k̕ʷid
+!!€0 k̕ʷik̕ʷəd
 
 !! C V1 => C V1 C   
 !!€# pastəd
@@ -294,19 +238,19 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 "%{p1%}:Cx in reduplication"
 !! __@RULENAME@__
  %{p1%}:Cx <=> %{p3%}: %{p2%}: _ Cns Vow: Cx [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-           where Cx in (p b t t̓ d dᶻ č š l l̓ ɬ ƛ̕ w w̓ y̓ k̓ʷ gʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
+           where Cx in (p b t t̕ d dᶻ č š l l̓ ɬ ƛ̕ w w̓ y̓ k̕ʷ gʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
 
 "%{p3%}:Cx in reduplication"
 !! __@RULENAME@__
  %{p3%}:Cx <=> _ %{p2%}: %{p1%}: Cx Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
                _ %{p2%}: %{p1%}: Cx Vow: Cns [ Cns | Vow ]* [ %^Red1CV1toCV2C:|%^Red1CV1toCV2CPL:] ;
-           where Cx in (p p̓ b t t̓ d dᶻ c c̓ č č̓ s š l l̓ ɬ ƛ̕ y w k k̓ k̓ʷ gʷ h xʷ q qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
+           where Cx in (p p̓ b t t̕ d dᶻ c c̓ č č̓ s š l l̓ ɬ ƛ̕ y w k k̕ k̕ʷ gʷ h xʷ q qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
 
 "%{p5%}:Cx in reduplication"
 !! __@RULENAME@__
  %{p5%}:Cx <=>
                _ %{p4%}: %{p3%}: %{p2%}: %{p1%}: Cx Vow: Cns [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
-           where Cx in (p p̓ b t t̓ d dᶻ c c̓ č č̓ s š l l̓ ɬ ƛ̕ y w k k̓ k̓ʷ gʷ h xʷ q qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
+           where Cx in (p p̓ b t t̕ d dᶻ c c̓ č č̓ s š l l̓ ɬ ƛ̕ y w k k̕ k̕ʷ gʷ h xʷ q qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
 !! sčətxʷəd+N+Der/Dim+N+Pl+Nom bear
 !!€ s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL
 !!€ s√čičič0txʷəd0
@@ -338,13 +282,13 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 !2016-12-20!        [ # | √:0 | %< ] 0: 0: t  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | √:0 | %< ] _ 0: t ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
 !2016-12-20!
-!2016-12-20!"0:t̓ in reduplication"
+!2016-12-20!"0:t̕ in reduplication"
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20! 0:t̓ <=> [ # | √:0 | %< ] _ 0: 0: t̓ Vow: Cns: [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20! 	  [ # | √:0 | %< ] 0: 0: _ Cns Vow: t̓ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!         [ # | √:0 | %< ] t̓  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
-!2016-12-20!        [ # | √:0 | %< ] 0: 0: t̓  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
-!2016-12-20!         [ # | √:0 | %< ] _ 0: t̓ ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
+!2016-12-20! 0:t̕ <=> [ # | √:0 | %< ] _ 0: 0: t̕ Vow: Cns: [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20! 	  [ # | √:0 | %< ] 0: 0: _ Cns Vow: t̕ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20!         [ # | √:0 | %< ] t̕  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+!2016-12-20!        [ # | √:0 | %< ] 0: 0: t̕  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+!2016-12-20!         [ # | √:0 | %< ] _ 0: t̕ ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
 !2016-12-20!
 !2016-12-20!
 !2016-12-20!"0:d in reduplication"
@@ -404,13 +348,13 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 !2016-12-20!        [ # | √:0 | %< ] 0: 0: y  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | √:0 | %< ] _ 0: y ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
 !2016-12-20!
-!2016-12-20!"0:k̓ʷ in reduplication"
+!2016-12-20!"0:k̕ʷ in reduplication"
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20! 0:k̓ʷ <=> [ # | √:0 | %< ] 0: 0: _ Cns Vow: k̓ʷ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!         [ # | √:0 | %< ] _ 0: 0: k̓ʷ Vow: Cns: [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!        [ # | √:0 | %< ] k̓ʷ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
-!2016-12-20!        [ # | √:0 | %< ] 0: 0: k̓ʷ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
-!2016-12-20!         [ # | √:0 | %< ] _ 0: k̓ʷ ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
+!2016-12-20! 0:k̕ʷ <=> [ # | √:0 | %< ] 0: 0: _ Cns Vow: k̕ʷ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20!         [ # | √:0 | %< ] _ 0: 0: k̕ʷ Vow: Cns: [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20!        [ # | √:0 | %< ] k̕ʷ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
+!2016-12-20!        [ # | √:0 | %< ] 0: 0: k̕ʷ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
+!2016-12-20!         [ # | √:0 | %< ] _ 0: k̕ʷ ə: 0: [ Cns | Vow ] :* %^Red1CV1toCV2CPL: ;
 !2016-12-20!
 !2016-12-20!
 !2016-12-20!"0:q in reduplication"
