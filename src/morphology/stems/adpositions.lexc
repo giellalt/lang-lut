@@ -1,0 +1,11 @@
+!! Adpositions
+!  ----------
+!! Adpositions in the LUSHOOTSEED language 
+
+LEXICON Adpositions
+ʔə:ʔə ADP_ "of" ;
+dxʷʔal:dxʷʔal ADP_ "for, to" ;
+ʔal:ʔal ADP_ "to" ;
+
+
+! vim: set ft=xfst-lexc:

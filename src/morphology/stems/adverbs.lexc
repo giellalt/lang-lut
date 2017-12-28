@@ -3,7 +3,13 @@
 !! Adverbs in the LUSHOOTSEED language 
 
 LEXICON Adverbs
-čad:čad    ADV_  "where" ;
-tul̓čad:tul̓√čád    ADV_  "where, whence" ; ! some type of spellrelax á:a probably dict
+čad:čad    ADV-INTERR_  "where" ;
+tul̓čad:tul̓√čád    ADV-INTERR_  "where, whence" ; ! some type of spellrelax á:a probably dict
+ʔəsčal:ʔəsčal  ADV-INTERR_  "how" ;
+
+day̓:day̓ ADV-DEGREE_ "very" ;
+hiqab:hiqab ADV-DEGREE_ "too" ; 
+
+ƛ̕al̕:ƛ̕al̕ ADV_ "also, too" ;
 
 ! vim: set ft=xfst-lexc:

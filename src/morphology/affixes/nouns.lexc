@@ -7,6 +7,11 @@ LEXICON Cases
 +N+Pl+Nom:i     #   ;
 !#:0   Nouns   ;
 
+LEXICON N_with-PL_RED1_qelb
+!+N: DIM_CV1toCV2C ; What should this be?
++N: SG-SUF ;
++N: PL_RED1_qelb ;
+
 LEXICON N_with-PL_RED2
 +N: DIM_CV1toCV2C ;
 +N: SG-SUF ;
@@ -34,6 +39,12 @@ LEXICON SG-SUF
 +Sg+Nom@D.PossPx@:00@D.PossPx@ # ;
 +Sg+Nom: POSS ;
 
+LEXICON PL_RED1_qelb
++Pl+Nom@D.PossPx@:%^Red1CV2CiCV0@D.PossPx@   # ;
++Pl+Nom:%^Red2CV2CiCV        POSS ;
+!! qəlb+N+Pl+Nom: __rain showers__
+!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV
+!!€ 00qi0qəlb0
 LEXICON PL_RED2
 +Pl+Nom@D.PossPx@:%^Red2CVC2CVCCVC0@D.PossPx@	# ;
 +Pl+Nom:%^Red2CVC2CVCCVC	POSS ;

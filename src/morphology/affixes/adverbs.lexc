@@ -5,6 +5,12 @@
 LEXICON ADV_
 +Adv:        K   ;
 
+LEXICON ADV-DEGREE_
++Adv+Degree:        K   ;
+
+LEXICON ADV-INTERR_
++Adv+Interr:        K   ;
+
 
 ! vim: set ft=xfst-lexc:
 

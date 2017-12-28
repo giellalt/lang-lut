@@ -1,0 +1,11 @@
+!! Adpositions
+! --------------------
+!! The Lushootseed language adpositions
+
+LEXICON ADP_
++Adp:        K   ;
+
+
+
+! vim: set ft=xfst-lexc:
+
