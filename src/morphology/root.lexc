@@ -34,7 +34,7 @@ k̓
 kʷ
 k̓ʷ
 
-l̓
+l̕
 ɬ
 ƛ̕
 
@@ -48,8 +48,7 @@ qʷ
 q̓ʷ
 
 š
-
-t̓
+t̕
 
 w̓
 y̓
@@ -60,45 +59,6 @@ x̌ʷ
 
 y̓
 ʔ
-B̓
-
-C̓
-Č
-Č̓
-Dᶻ
-Ə
-Gʷ
-ǰ
-
-K̓
-Kʷ
-K̓ʷ
-
-L̓
-ɬ
-ƛ̕
-
-M̓
-N̓
-
-P̓
-
-Q̓
-Qʷ
-Q̓ʷ
-
-Š
-
-T̓
-
-W̓
-Y̓
-
-X̌
-Xʷ
-X̌ʷ
-
-Y̓
 
 
 !! !!Analysis symbols
@@ -113,6 +73,9 @@ Y̓
 
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
+ +Aux +Cop
+!! Types of adverbs also include
+ +Degree
 
 !! The Usage extents are marked using following tags:
  +Err/Orth
@@ -215,6 +178,7 @@ Y̓
 
 !! And following triggers to control variation
  {front} {back}
+%^Red1CV2CiCV !!= * @CODE@ qəlb: qiqəlb 'rain showers'
 %^Red1CV1toCV2C !!= * @CODE@ 2-segment to 3-segments with vowel change
 %^Red1CV1toCV2CPL !!= * @CODE@ 2-segment to 3-segments with vowel change Plural
 %^Red2CVC2CVCCVC !!= * @CODE@ 3-segment reduplication
@@ -286,11 +250,12 @@ Y̓
 
 
 LEXICON Root
-!! The word forms in UNDEFINED language start from the lexeme roots of basic
+!! The word forms in LUSHOOTSEED language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
 !   Nouns   ; This is fed entirely by Prefixes
 0   Verbs   ;
 0   Adjectives  ;
+0   Adpositions  ;
 0   Adverbs  ;
 0   Pronouns    ;
 0   Numerals    ;
