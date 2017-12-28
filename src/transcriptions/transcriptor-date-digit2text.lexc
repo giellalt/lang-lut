@@ -29,9 +29,9 @@
 ! 5%.:pədč̓aʔəb
 ! 6%.:pəds%«təgʷad
 ! 7%.:pəd%«gʷədbixʷ
-! 8%.:pəd%«t̓aqaʔ
+! 8%.:pəd%«t̕aqaʔ
 ! 9%.:pəd%«kʷəxʷic
-! 1%0%.:pədxʷit̓%«xʷit̓il
+! 1%0%.:pədxʷit̕%«xʷit̕il
 ! 11%.:pəd%«ƛ̕xʷayʔ
 ! 12%.:səxʷ%«šic̓əlwaʔs
 ! 12%.:pədšic̓əlwaʔs
@@ -81,11 +81,11 @@ LEXICON MONTH-FIRST
 
  @U.MONTH.7@:pədgʷədbixʷ% @U.MONTH.7@    31DAYS ;
 
- @U.MONTH.8@:pədt̓aqaʔ% @U.MONTH.8@      31DAYS ;
+ @U.MONTH.8@:pədt̕aqaʔ% @U.MONTH.8@      31DAYS ;
 
  @U.MONTH.9@:pədkʷəxʷic% @U.MONTH.9@     30DAYS ;
 
-@U.MONTH.10@:pədxʷit̓xʷit̓il% @U.MONTH.10@    31DAYS ;
+@U.MONTH.10@:pədxʷit̕xʷit̕il% @U.MONTH.10@    31DAYS ;
 
 @U.MONTH.11@:pədƛ̕xʷayʔ% @U.MONTH.11@    30DAYS ;
 
@@ -210,11 +210,11 @@ LEXICON MONTH-SECOND
 
  7@U.MONTH.7@:pədgʷədbixʷ% @U.MONTH.7@    X_SECOND ;
 
- 8@U.MONTH.8@:pədt̓aqaʔ% @U.MONTH.8@      X_SECOND ;
+ 8@U.MONTH.8@:pədt̕aqaʔ% @U.MONTH.8@      X_SECOND ;
 
  9@U.MONTH.9@:pədkʷəxʷic% @U.MONTH.9@     X_SECOND ;
 
-1%0@U.MONTH.10@:pədxʷit̓xʷit̓il% @U.MONTH.10@    X_SECOND ;
+1%0@U.MONTH.10@:pədxʷit̕xʷit̕il% @U.MONTH.10@    X_SECOND ;
 
 11@U.MONTH.11@:pədƛ̕xʷayʔ% @U.MONTH.11@    X_SECOND ; 
 

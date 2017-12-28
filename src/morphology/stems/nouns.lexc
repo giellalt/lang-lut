@@ -4,6 +4,8 @@
 
 LEXICON Nouns
 noun    Cases   ;
+qəlb:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb N_with-PL_RED1_qelb "rain shower" ;
+
 bəlups:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups N_with-PL_RED2	"raccoon" ;
 ǰəšəd:ǰə√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šəd N_with-PL_RED2	"foot" ;
 luƛ̕:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}luƛ̕ N_with-PL_RED2 "elder" ;
@@ -29,7 +31,7 @@ tətupəl̕:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tətupəl̕ N_with-PL_RED2 "spider" ;
 yubəč:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yubəč N_with-PL_RED2 "king salmon" ;
 təǰabac:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təǰabac N_with-PL_RED2 "sea cucumber" ;
 puʔps:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}puʔps N_with-PL_RED2 "periwinkle" ;
-ťilus:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ťilus N_with-PL_RED2 "unidentified small clam" ;
+t̕ilus:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕ilus N_with-PL_RED2 "unidentified small clam" ;
 
 k̓ʷəčədiʔ:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ N_with-PL_RED2	"rabbit" ;
 k̓ʷiyəx̌:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷiyəx̌ N_with-PL_RED2 "stomach" ;
@@ -108,7 +110,7 @@ kay̓kay̓:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kay̓kay̓ N_with-PL_RED2 "blue jay" ;
 k̓aʔk̓aʔ:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓aʔk̓aʔ N_with-PL_RED2 "crow" ;
 c̓ix̌c̓ix̌:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓ix̌c̓ix̌ N_with-PL_RED2 "fish hawk" ;
 tətiʔəd:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tətiʔəd N_with-PL_RED2 "humming bird" ;
-k̓ʷič̓k̓ʷič̓̓lax̌ədxʷ:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷič̓k̓ʷič̓̓lax̌ədxʷ N_with-PL_RED2 "mudswallow" ;
+k̓ʷič̓k̓ʷič̓lax̌ədxʷ:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷič̓k̓ʷič̓lax̌ədxʷ N_with-PL_RED2 "mudswallow" ;
 sgʷəlub:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gʷəlub N_with-PL_RED2 "chicken|pheasant" ;
 x̌ədx̌əd:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ədx̌əd N_with-PL_RED2 "goose" ;
 
