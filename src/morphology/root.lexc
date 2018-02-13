@@ -20,45 +20,41 @@
 Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 !! !!Letters
-b̓
+b̓   !!= @CODE@ 
+c̓   !!= @CODE@ 
+č    !!= @CODE@ 
+č̓   !!= @CODE@ 
+dᶻ   !!= @CODE@ 
+gʷ   !!= @CODE@ 
+ǰ    !!= @CODE@ 
 
-c̓
-č
-č̓
-dᶻ
-ə
-gʷ
-ǰ
+k̓   !!= @CODE@ 
+kʷ   !!= @CODE@ 
+k̓ʷ  !!= @CODE@ 
 
-k̓
-kʷ
-k̓ʷ
+l̕   !!= @CODE@ 
+ƛ̕   !!= @CODE@ 
 
-l̕
-ɬ
-ƛ̕
+m̓   !!= @CODE@ 
+n̓   !!= @CODE@ 
 
-m̓
-n̓
+p̓   !!= @CODE@ 
 
-p̓
+q̓   !!= @CODE@ 
+qʷ   !!= @CODE@ 
+q̓ʷ  !!= @CODE@ 
 
-q̓
-qʷ
-q̓ʷ
+t̕   !!= @CODE@ 
+     !!= @CODE@ 
+w̓   !!= @CODE@ 
+y̓   !!= @CODE@ 
 
-š
-t̕
+x̌   !!= @CODE@ 
+xʷ   !!= @CODE@ 
+x̌ʷ  !!= @CODE@ 
 
-w̓
-y̓
+y̓   !!= @CODE@ 
 
-x̌
-xʷ
-x̌ʷ
-
-y̓
-ʔ
 
 
 !! !!Analysis symbols
@@ -68,116 +64,125 @@ y̓
 !! (It is highly suggested to follow existing standards when adding new tags).
 
 !! The parts-of-speech are:
- +N +A +Adv +V                                 !!≈
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!≈
+ +N +A +Adv +V                                 !!= * @CODE@
+ +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!= * @CODE@
 
 !! The parts of speech are further split up into:
- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
- +Aux +Cop
+ +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef  !!= * @CODE@
+ +Aux +Cop  !!= * @CODE@
+ 
 !! Types of adverbs also include
- +Degree
+ +Degree  !!= * @CODE@
 
 !! The Usage extents are marked using following tags:
- +Err/Orth
- +Use/-Spell
+ +Err/Orth  !!= * @CODE@
+ +Use/-Spell  !!= * @CODE@
 
 !! The nominals are inflected in the following Case and Number
- +Sg +Du +Pl
- +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh
+ +Sg +Du +Pl  !!= * @CODE@
+ +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh  !!= * @CODE@
 
 !! The possessor indices are marked as such:
- +PxSg1 !!≈ * _@CODE@_ first person singular
- +PxSg2 !!≈ * _@CODE@_ second person singular
- +PxSP3 !!≈ * _@CODE@_ third person singular or plural
- +PxPl1 !!≈ * _@CODE@_ first person plural
- +PxPl2 !!≈ * _@CODE@_ third person plural
+ +PxSg1 !!= * @CODE@ first person singular
+ +PxSg2 !!= * @CODE@ second person singular
+ +PxSP3 !!= * @CODE@ third person singular or plural
+ +PxPl1 !!= * @CODE@ first person plural
+ +PxPl2 !!= * @CODE@ third person plural
 
 !! The comparative forms are:
- +Comp +Superl
+ +Comp +Superl  !!= * @CODE@ 
+ 
 !! Numerals are classified under:
- +Attr +Card
- +Ord
+ +Attr +Card !!= * @CODE@ 
+ +Ord !!= * @CODE@ 
+ 
 !! Verb moods are:
- +Ind +Pot +Cond +Imprt
+ +Ind +Pot +Cond +Imprt !!= * @CODE@ 
+ 
 !! Verb tenses and aspect are:
- +Fut +Prs +Prt
- +RemPst !!≈ * _@CODE@_ * remote past tu- 
-+Asp/Prf !!≈ * _@CODE@_ * perfective aspect ʔu-
-+Asp/Stat !!≈ * _@CODE@_ * stative aspect ʔəs-
+ +Fut +Prs +Prt !!= * @CODE@ 
+ +RemPst !!= * @CODE@ * remote past tu- 
++Asp/Prf !!= * @CODE@ * perfective aspect ʔu-
++Asp/Stat !!= * @CODE@ * stative aspect ʔəs-
+
 !! Verb personal forms are:
- +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3
+ +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3 !!= * @CODE@ 
+ 
 !! !!Direct Object conjugation
- +OcSg1 !!≈ * _@CODE@_ * object conjugation first person singular
- +OcSg2 !!≈ * _@CODE@_ * object conjugation second person singular
- +OcSP3 !!≈ * _@CODE@_ * object conjugation third person singular or plural
- +OcPl1 !!≈ * _@CODE@_ * object conjugation first person plural
- +OcPl2 !!≈ * _@CODE@_ * object conjugation second person plural
+ +OcSg1 !!= * @CODE@ = object conjugation first person singular
+ +OcSg2 !!= * @CODE@ = object conjugation second person singular
+ +OcSP3 !!= * @CODE@ = object conjugation third person singular or plural
+ +OcPl1 !!= * @CODE@ = object conjugation first person plural
+ +OcPl2 !!= * @CODE@ = object conjugation second person plural
 
 !! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
+ +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess !!= * @CODE@ 
 
 ! Abbreviated words are classified with:
- +ABBR +ACR
+ +ABBR +ACR !!= * @CODE@ 
+ 
 !! Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT
++CLB +PUNCT +LEFT +RIGHT !!= * @CODE@ 
+
 !! The verbs are syntactically split according to transitivity:
- +TV +IV
+ +TV +IV !!= * @CODE@ 
+ 
 !! Special multiword units are analysed with:
- +Multi
+ +Multi !!= * @CODE@ 
+ 
 !! Non-dictionary words can be recognised with:
- +Guess
+ +Guess !!= * @CODE@ 
 
 !! Question and Focus particles:
- +Qst +Foc
+ +Qst +Foc !!= * @CODE@ 
 
 !! Gender
-+Msc
-+Fem
++Msc +Fem !!= * @CODE@ 
 
 !! Semantics are classified with
- +Sem/Mal +Sem/Fem +Sem/Sur
- +Sem/Plc
- +Sem/Org
- +Sem/Obj
- +Sem/Ani
- +Sem/Hum
- +Sem/Plant
- +Sem/Group
- +Sem/Time
- +Sem/Txt
- +Sem/Route
- +Sem/Measr
- +Sem/Wthr
- +Sem/Build
- +Sem/Edu
- +Sem/Veh
- +Sem/Clth
+ +Sem/Mal +Sem/Fem +Sem/Sur !!= * @CODE@ 
+ +Sem/Plc   !!= * @CODE@ 
+ +Sem/Org   !!= * @CODE@ 
+ +Sem/Obj   !!= * @CODE@ 
+ +Sem/Ani   !!= * @CODE@ 
+ +Sem/Hum   !!= * @CODE@ 
+ +Sem/Plant !!= * @CODE@ 
+ +Sem/Group !!= * @CODE@ 
+ +Sem/Time  !!= * @CODE@ 
+ +Sem/Txt   !!= * @CODE@ 
+ +Sem/Route !!= * @CODE@ 
+ +Sem/Measr !!= * @CODE@ 
+ +Sem/Wthr  !!= * @CODE@ 
+ +Sem/Build !!= * @CODE@ 
+ +Sem/Edu   !!= * @CODE@ 
+ +Sem/Veh   !!= * @CODE@ 
+ +Sem/Clth  !!= * @CODE@ 
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
- +V→N +V→V +V→A
- +Der/xxx
- +Der/Dim !!≈ * _@CODE@_ * diminutive
- +Der/s !!≈ * _@CODE@_ * Noun derivation
+ +V→N +V→V +V→A !!= * @CODE@ 
+ +Der/xxx !!= * @CODE@ 
+ +Der/Dim !!= * @CODE@ * diminutive
+ +Der/s !!= * @CODE@ * Noun derivation
 
 !! Morphophonology
 ! ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
- {aä} {oö} {uü}
+ {aä} {oö} {uü} !!= * @CODE@ 
 
 !! place holders
-%{p1%}
-%{p2%}
-%{p3%}
-%{p4%}
-%{p5%}
-%{p6%}
-%{p7%}
+%{p1%} !!= * @CODE@ 
+%{p2%} !!= * @CODE@ 
+%{p3%} !!= * @CODE@ 
+%{p4%} !!= * @CODE@ 
+%{p5%} !!= * @CODE@ 
+%{p6%} !!= * @CODE@ 
+%{p7%} !!= * @CODE@ 
 
 !! And following triggers to control variation
- {front} {back}
+ {front} {back} !!= * @CODE@ 
 %^Red1CV2CiCV !!= * @CODE@ qəlb: qiqəlb 'rain showers'
 %^Red1CV1toCV2C !!= * @CODE@ 2-segment to 3-segments with vowel change
 %^Red1CV1toCV2CPL !!= * @CODE@ 2-segment to 3-segments with vowel change Plural
@@ -187,81 +192,85 @@ y̓
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
- @P.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @D.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @C.NeedNoun@       !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
-!! 
+
+ @P.NeedNoun.ON@    !!= | @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @D.NeedNoun.ON@    !!= | @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @C.NeedNoun@       !!= | @CODE@ | (Dis)allow compounds with verbs unless nominalised
+
 !! For languages that allow compounding, the following flag diacritics are needed
 !! to control position-based compounding restrictions for nominals. Their use is
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
- @P.CmpFrst.FALSE@ !!≈ | @CODE@ | Require that words tagged as such only appear first
- @D.CmpPref.TRUE@  !!≈ | @CODE@ | Block such words from entering ENDLEX
- @P.CmpPref.FALSE@ !!≈ | @CODE@ | Block these words from making further compounds
- @D.CmpLast.TRUE@  !!≈ | @CODE@ | Block such words from entering R
- @D.CmpNone.TRUE@  !!≈ | @CODE@ | Combines with the next tag to prohibit compounding
- @U.CmpNone.FALSE@ !!≈ | @CODE@ | Combines with the prev tag to prohibit compounding
- @P.CmpOnly.TRUE@  !!≈ | @CODE@ | Sets a flag to indicate that the word has passed R
- @D.CmpOnly.FALSE@ !!≈ | @CODE@ | Disallow words coming directly from root.
-!! 
+
+ @P.CmpFrst.FALSE@ !!= | @CODE@ | Require that words tagged as such only appear first
+ @D.CmpPref.TRUE@  !!= | @CODE@ | Block such words from entering ENDLEX
+ @P.CmpPref.FALSE@ !!= | @CODE@ | Block these words from making further compounds
+ @D.CmpLast.TRUE@  !!= | @CODE@ | Block such words from entering R
+ @D.CmpNone.TRUE@  !!= | @CODE@ | Combines with the next tag to prohibit compounding
+ @U.CmpNone.FALSE@ !!= | @CODE@ | Combines with the prev tag to prohibit compounding
+ @P.CmpOnly.TRUE@  !!= | @CODE@ | Sets a flag to indicate that the word has passed R
+ @D.CmpOnly.FALSE@ !!= | @CODE@ | Disallow words coming directly from root.
+
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
- @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
- @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
-! NOUNS
-@U.PossPx.SP3@
+ @U.Cap.Obl@        !!= | @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Opt@        !!= | @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
-@U.PossPx.Sg1@
-@U.PossPx.Sg2@
-@U.PossPx.Sg3@
-@U.PossPx.Pl1@
-@U.PossPx.Pl2@
-@U.PossPx.Pl3@
+!! ! NOUNS
 
-@R.PossPx.Sg1@
-@R.PossPx.Sg2@
-@D.PossPx@
-@C.PossPx@
+@U.PossPx.SP3@ !!= * @CODE@ 
+@U.PossPx.Sg1@ !!= * @CODE@ 
+@U.PossPx.Sg2@ !!= * @CODE@ 
+@U.PossPx.Sg3@ !!= * @CODE@ 
+@U.PossPx.Pl1@ !!= * @CODE@ 
+@U.PossPx.Pl2@ !!= * @CODE@ 
+@U.PossPx.Pl3@ !!= * @CODE@ 
+
+@R.PossPx.Sg1@ !!= * @CODE@ 
+@R.PossPx.Sg2@ !!= * @CODE@ 
+@D.PossPx@	   !!= * @CODE@ 
+@C.PossPx@	   !!= * @CODE@ 
 
 !! !VERBS
-@U.TAM.PRF@
-@R.TAM.PRF@
-@U.TAM.FUT@
-@R.TAM.FUT@
-@U.TAM.COND@
-@R.TAM.COND@
-@U.TAM.REM@
-@R.TAM.REM@
-@U.TAM.STAT@
-@R.TAM.STAT@
-@R.TAM@
+@U.TAM.PRF@	 !!= * @CODE@ 
+@R.TAM.PRF@	 !!= * @CODE@ 
+@U.TAM.FUT@	 !!= * @CODE@ 
+@R.TAM.FUT@	 !!= * @CODE@ 
+@U.TAM.COND@ !!= * @CODE@ 
+@R.TAM.COND@ !!= * @CODE@ 
+@U.TAM.REM@	 !!= * @CODE@ 
+@R.TAM.REM@	 !!= * @CODE@ 
+@U.TAM.STAT@ !!= * @CODE@ 
+@R.TAM.STAT@ !!= * @CODE@ 
+@R.TAM@		 !!= * @CODE@ 
 
-@U.OBJ.1@
-@U.OBJ.2@
+@U.OBJ.1@	 !!= * @CODE@ 
+@U.OBJ.2@	 !!= * @CODE@ 
 
-@D.OBJ.1@
-@D.OBJ.2@
+@D.OBJ.1@	 !!= * @CODE@ 
+@D.OBJ.2@	 !!= * @CODE@ 
 
-@D.TAM@
-@C.TAM@
+@D.TAM@		 !!= * @CODE@ 
+@C.TAM@		 !!= * @CODE@ 
 
 
-LEXICON Root
+LEXICON Root !!= * __@CODE@__ Root lexicon
 !! The word forms in LUSHOOTSEED language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-!   Nouns   ; This is fed entirely by Prefixes
-0   Verbs   ;
-0   Adjectives  ;
-0   Adpositions  ;
-0   Adverbs  ;
-0   Pronouns    ;
-0   Numerals    ;
-0   Prefixes    ;
 
-LEXICON K
-#; !!= * __@CODE@__ Clitic
+!   Nouns   ; This is fed entirely by Prefixes
+0   Verbs   ;	    !!= * @CODE@
+0   Adjectives  ;   !!= * @CODE@
+0   Adpositions  ;  !!= * @CODE@
+0   Adverbs  ;	    !!= * @CODE@
+0   Pronouns    ;   !!= * @CODE@
+0   Numerals    ;   !!= * @CODE@
+0   Prefixes    ;   !!= * @CODE@
+
+LEXICON K !!= * __@CODE@__ Clitic lexicon
+#; 
 
 ! vim: set ft=xfst-lexc:
