@@ -165,7 +165,7 @@ place holders
 
 And following triggers to control variation
  *  {front} {back}  
- * %^Red1CV2CiCV  qəlb: qiqəlb 'rain showers'
+ * %^Red1CV2CiCV  qəlb: qiqəlb ''rain showers''
  * %^Red1CV1toCV2C  2-segment to 3-segments with vowel change
  * %^Red1CV1toCV2CPL  2-segment to 3-segments with vowel change Plural
  * %^Red2CVC2CVCCVC  3-segment reduplication
