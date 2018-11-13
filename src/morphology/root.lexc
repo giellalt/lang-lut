@@ -183,7 +183,7 @@ y̓   !!= @CODE@
 
 !! And following triggers to control variation
  {front} {back} !!= * @CODE@ 
-%^Red1CV2CiCV !!= * @CODE@ qəlb: qiqəlb 'rain showers'
+%^Red1CV2CiCV !!= * @CODE@ qəlb: qiqəlb ''rain showers''
 %^Red1CV1toCV2C !!= * @CODE@ 2-segment to 3-segments with vowel change
 %^Red1CV1toCV2CPL !!= * @CODE@ 2-segment to 3-segments with vowel change Plural
 %^Red2CVC2CVCCVC !!= * @CODE@ 3-segment reduplication
