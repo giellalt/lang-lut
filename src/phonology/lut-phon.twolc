@@ -246,7 +246,7 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 "%{p1%}:Cx in reduplication"
 !! __@RULENAME@__
  %{p1%}:Cx <=> %{p3%}: %{p2%}: _ Cns Vow: Cx [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-           where Cx in (p p̓ b t t̕ d dᶻ c c̓ č č̓ s š l̓ ɬ ƛ̕ w̓ y̓ k k̓ k̓ʷ gʷ h xʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
+           where Cx in (p p̓ b t t̕ d dᶻ c c̓ č č̓ s š l̓ ɬ ƛ̕ w k k̓ k̓ʷ gʷ h xʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
 !!2017-11-27where Cx in (p b t t̕ d dᶻ č š l l̓ ɬ ƛ̕ w w̓ y̓ k̓ʷ gʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
 
 "%{p3%}:Cx in reduplication"
@@ -274,10 +274,12 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 "%{p1%}:y̓ in reduplication"
 !! __@RULENAME@__
  %{p1%}:y̓ <=> %{p3%}: %{p2%}: _ q Vow: y [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+             %{p3%}: %{p2%}: _ Cns Vow: y̓ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
 
 "%{p1%}:w̓ in reduplication"
 !! __@RULENAME@__
  %{p1%}:w̓ <=> %{p3%}: %{p2%}: _ q Vow: w [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+             %{p3%}: %{p2%}: _ Cns Vow: w̓ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
 
 "%{p1%}:Cx in reduplication"
 !! __@RULENAME@__
