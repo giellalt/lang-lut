@@ -231,8 +231,9 @@ Rules
 "s:c after d:0"
 !! __@RULENAME@__
 s:c <=> d: %> _ # ;
-!!€# ʔu√%{p3%}%{p2%}%{p1%}kʷədad%>s
-!!€0 ʔu0000kʷəda00c
+
+!!€ ʔu√%{p3%}%{p2%}%{p1%}kʷədad%>s
+!!€ ʔu0000kʷəda0%>c
 
 "d:0 before s:c"
 !! __@RULENAME@__
@@ -246,7 +247,7 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 "%{p1%}:Cx in reduplication"
 !! __@RULENAME@__
  %{p1%}:Cx <=> %{p3%}: %{p2%}: _ Cns Vow: Cx [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-           where Cx in (p p̓ b t t̕ d dᶻ c c̓ č č̓ s š l̓ ɬ ƛ̕ w k k̓ k̓ʷ gʷ h xʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
+           where Cx in (p p̓ b t t̕ d dᶻ c c̓ č č̓ s š l̓ ɬ ƛ̕  k k̓ k̓ʷ gʷ h xʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
 !!2017-11-27where Cx in (p b t t̕ d dᶻ č š l l̓ ɬ ƛ̕ w w̓ y̓ k̓ʷ gʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
 
 "%{p3%}:Cx in reduplication"
