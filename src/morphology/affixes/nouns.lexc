@@ -3,9 +3,9 @@
 !! The Lushootseed language nouns inflect in cases.
 
 LEXICON Cases
-+N+Sg+Nom:0     #   ;
++N+Sg+Nom:     #   ;
 +N+Pl+Nom:i     #   ;
-!#:0   Nouns   ;
+!#:   Nouns   ;
 
 LEXICON N_with-PL_RED1_qelb
 !+N: DIM_CV1toCV2C ; What should this be?
@@ -29,24 +29,24 @@ LEXICON N-MSC_with-PL_RED2
 
 ! Derivation
 LEXICON DIM_CV1toCV2C
-+Der/Dim+N+Sg+Nom@D.PossPx@:%^Red1CV1toCV2C000@D.PossPx@ # ;
+@D.PossPx@+Der/Dim+N+Sg+Nom:@D.PossPx@%^Red1CV1toCV2C # ;
 +Der/Dim+N+Sg+Nom:%^Red1CV1toCV2C POSS ;
-+Der/Dim+N+Pl+Nom@D.PossPx@:%^Red1CV1toCV2CPL000@D.PossPx@ # ;
+@D.PossPx@+Der/Dim+N+Pl+Nom:@D.PossPx@%^Red1CV1toCV2CPL # ;
 +Der/Dim+N+Pl+Nom:%^Red1CV1toCV2CPL POSS ;
 
 ! Declension
 LEXICON SG-SUF
-+Sg+Nom@D.PossPx@:00@D.PossPx@ # ;
+@D.PossPx@+Sg+Nom:@D.PossPx@ # ;
 +Sg+Nom: POSS ;
 
 LEXICON PL_RED1_qelb
-+Pl+Nom@D.PossPx@:%^Red1CV2CiCV0@D.PossPx@   # ;
+@D.PossPx@+Pl+Nom:@D.PossPx@%^Red1CV2CiCV   # ;
 +Pl+Nom:%^Red2CV2CiCV        POSS ;
 !! qəlb+N+Pl+Nom: __rain showers__
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV
 !!€ 00qi0qəlb0
 LEXICON PL_RED2
-+Pl+Nom@D.PossPx@:%^Red2CVC2CVCCVC0@D.PossPx@	# ;
+@D.PossPx@+Pl+Nom:@D.PossPx@	#%^Red2CVC2CVCCVC ;
 +Pl+Nom:%^Red2CVC2CVCCVC	POSS ;
 !!€ bəlbəlups: bəlups+N+Pl+Nom
 !!$ bəlups: bəlups+N+Pl+Nom

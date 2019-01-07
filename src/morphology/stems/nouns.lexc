@@ -18,6 +18,7 @@ cubəd:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cubəd N_with-PL_RED2 "eyebrow" ;
 ɬalap:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬalap N_with-PL_RED2 "tongue" ;
 qəlub:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlub N_with-PL_RED2 "eye" ;
 sʔubəd:s«%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔubəd N_with-PL_RED2 "hunter" ;
+sbadil:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}badil N_with-PL_RED2 "mountain" ;
 sdaʔ:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}daʔ N_with-PL_RED2 "name" ;
 yəlab:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəlab N_with-PL_RED2 "either parent's sibling of either sex when parent is deceased" ;
 swəwaʔ:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wəwaʔ N_with-PL_RED2 "cougar" ;
