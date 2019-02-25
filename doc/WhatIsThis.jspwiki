@@ -1,7 +1,9 @@
 
 This is a (perhaps forthcoming) grammatical analyser for Southern Puget Sound Salish.
 
-It contains a numerals to number word converter only.
+It contains a numerals to number word converter. In addition, there is an
+experimental morphological analyser, containing some 300 stems and some
+verbal morphology.
 
 
 ----
