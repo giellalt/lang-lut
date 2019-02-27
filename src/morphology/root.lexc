@@ -269,6 +269,8 @@ LEXICON Root !!= * __@CODE@__ Root lexicon
 0   Pronouns    ;   !!= * @CODE@
 0   Numerals    ;   !!= * @CODE@
 0   Prefixes    ;   !!= * @CODE@
+    Punctuation ;
+    Symbols     ;
 
 LEXICON K !!= * __@CODE@__ Clitic lexicon
 #; 
