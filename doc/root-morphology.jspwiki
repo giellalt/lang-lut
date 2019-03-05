@@ -103,6 +103,7 @@ Other verb forms are
  *  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess  
 
  *  +ABBR +ACR  
+ * +Symbol = independent symbols in the text stream, like £, €, ©
 
 Special symbols are classified with:
  * +CLB +PUNCT +LEFT +RIGHT  
@@ -146,7 +147,7 @@ Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
  *  +V→N +V→V +V→A  
  *  +Der/xxx  
- *  +Der/Dim  * diminutive
+ *  +Der/Dimin  * diminutive
  *  +Der/s  * Noun derivation
 
 Morphophonology

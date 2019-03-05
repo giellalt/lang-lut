@@ -29,10 +29,10 @@ LEXICON N-MSC_with-PL_RED2
 
 ! Derivation
 LEXICON DIM_CV1toCV2C
-@D.PossPx@+Der/Dim+N+Sg+Nom:@D.PossPx@%^Red1CV1toCV2C # ;
-+Der/Dim+N+Sg+Nom:%^Red1CV1toCV2C POSS ;
-@D.PossPx@+Der/Dim+N+Pl+Nom:@D.PossPx@%^Red1CV1toCV2CPL # ;
-+Der/Dim+N+Pl+Nom:%^Red1CV1toCV2CPL POSS ;
+@D.PossPx@+Der+Der/Dimin+N+Sg+Nom:@D.PossPx@%^Red1CV1toCV2C # ;
++Der+Der/Dimin+N+Sg+Nom:%^Red1CV1toCV2C POSS ;
+@D.PossPx@+Der+Der/Dimin+N+Pl+Nom:@D.PossPx@%^Red1CV1toCV2CPL # ;
++Der+Der/Dimin+N+Pl+Nom:%^Red1CV1toCV2CPL POSS ;
 
 ! Declension
 LEXICON SG-SUF
@@ -46,10 +46,13 @@ LEXICON PL_RED1_qelb
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV
 !!€ 00qi0qəlb0
 LEXICON PL_RED2
-@D.PossPx@+Pl+Nom:@D.PossPx@	#%^Red2CVC2CVCCVC ;
+@D.PossPx@+Pl+Nom:@D.PossPx@%^Red2CVC2CVCCVC # ;
 +Pl+Nom:%^Red2CVC2CVCCVC	POSS ;
-!!€ bəlbəlups: bəlups+N+Pl+Nom
-!!$ bəlups: bəlups+N+Pl+Nom
+!! bəlups+N+Pl+Nom
+!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC
+!!€ 00bəlbəlups0
+!!$ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC
+!!$ 00000bəlups0
 !!€ k̓ʷəčk̓ʷəčədiʔ: k̓ʷəčədiʔ+N+Pl+Nom
 !!$ k̓ʷəčədiʔ: k̓ʷəčədiʔ+N+Pl+Nom
 

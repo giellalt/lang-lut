@@ -163,8 +163,9 @@ y̓   !!= @CODE@
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
  +V→N +V→V +V→A !!= * @CODE@ 
+ +Der
  +Der/xxx !!= * @CODE@ 
- +Der/Dim !!= * @CODE@ * diminutive
+ +Der/Dimin !!= * @CODE@ * diminutive
  +Der/s !!= * @CODE@ * Noun derivation
 
 !! Morphophonology
