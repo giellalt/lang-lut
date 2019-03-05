@@ -6,13 +6,13 @@ LEXICON Nouns
 noun    Cases   ;
 qəlb:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb N_with-PL_RED1_qelb "rain shower" ;
 
-bəlups:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups N_with-PL_RED2	"raccoon" ;
-ǰəšəd:ǰə√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šəd N_with-PL_RED2	"foot" ;
+bəlups:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups N_with-PL_RED2 "raccoon" ;
+ǰəšəd:ǰə√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šəd N_with-PL_RED2 "foot" ;
 luƛ̕:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}luƛ̕ N_with-PL_RED2 "elder" ;
 ʔəpus:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəpus N_with-PL_RED2 "aunt" ;
 bədaʔ:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bədaʔ N_with-PL_RED2 "child" ;
 bəqsəd:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəqsəd N_with-PL_RED2 "nose" ;
-cqapsəb:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cqapsəb N_with-PL_RED2 "neck" ;
+cqapsəb:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cqapsəb N_with-PL_RED2 "neck" ;!word-init 2019-03-05
 cubəd:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cubəd N_with-PL_RED2 "eyebrow" ;
 čaləš:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čaləš N_with-PL_RED2 "hand" ;
 ɬalap:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬalap N_with-PL_RED2 "tongue" ;
@@ -24,21 +24,22 @@ yəlab:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəlab N_with-PL_RED2 "either parent's sibl
 swəwaʔ:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wəwaʔ N_with-PL_RED2 "cougar" ;
 stiqiw:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tiqíw N_with-PL_RED2 "horse" ;
 stiqayuʔ:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tiqáyuʔ N_with-PL_RED2 "wolf" ;
-sbiaw:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}biáw N_with-PL_RED2 "coyote" ;
+sbiaw:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}biáw N_with-PL_RED2 "coyote" ;!plur 2019-03-05
 kəšu:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kəšu N_with-PL_RED2 "pig" ;
 bəščəb:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəščəb N_with-PL_RED2 "mink" ;
 pišpiš:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}píšpiš N_with-PL_RED2 "cat" ;
 tətupəl̕:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tətupəl̕ N_with-PL_RED2 "spider" ;
 yubəč:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yubəč N_with-PL_RED2 "king salmon" ;
-təǰabac:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təǰabac N_with-PL_RED2 "sea cucumber" ;
+təǰabac:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təǰabac N_with-PL_RED2 "sea cucumber" ;
 puʔps:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}puʔps N_with-PL_RED2 "periwinkle" ;
 t̕ilus:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕ilus N_with-PL_RED2 "unidentified small clam" ;
 
-k̓ʷəčədiʔ:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ N_with-PL_RED2	"rabbit" ;
+k̓ʷəčədiʔ:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ N_with-PL_RED2 "rabbit" ;
 k̓ʷiyəx̌:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷiyəx̌ N_with-PL_RED2 "stomach" ;
 qədxʷ:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qədxʷ N_with-PL_RED2 "mouth" ;
 q̓ʷəladiʔ:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ʷəladiʔ N_with-PL_RED2 "ear" ; !
 sčətxʷəd:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd N_with-PL_RED2 "bear|black bear" ;
+sč̓adᶻəp:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓adᶻəp N_with-P_RED "skirt" ;
 sq̓ədᶻuʔ:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ədᶻuʔ N_with-PL_RED2 "hair" ;
 st̕ək̓ʷəb:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕ək̓ʷəb N_with-PL_RED2 "log|stick" ;
 sx̌ayus:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ayus N_with-PL_RED2 "head" ;
@@ -73,9 +74,9 @@ sʔuladxʷ:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔuladxʷ N_with-PL_RED2 "salmon" ;
 sq̓aƛ̕:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓aƛ̕ N_with-PL_RED2 "otter" ;
 st̕əqxʷ:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕əqxʷ N_with-PL_RED2 "beaver" ;
 skʷəxʷic:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷəxʷic N_with-PL_RED2 "silver salmon" ;
-ƛ̕xʷayʔ:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕xʷayʔ N_with-PL_RED2 "dog salmon|chum salmon" ;
 scəqiʔ:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cəqiʔ N_with-PL_RED2 "sockeye salmon" ;
-p̓uay̓:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓uay̓ N_with-PL_RED2 "flounder" ;
+
+
 sqibk̓ʷ:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qibk̓ʷ N_with-PL_RED2 "octopus" ;
 ʔaləšək:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔaləšək N_with-PL_RED2 "turtle" ;
 waq̓waq̓:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}waq̓waq̓ N_with-PL_RED2 "frog" ;
@@ -83,7 +84,11 @@ sk̓ʷic̓i:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷic̓i N_with-PL_RED2 "sea urc
 q̓ʷəlačiʔ:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ʷəlačiʔ N_with-PL_RED2 "star fish" ;
 bəsqʷ:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəsqʷ N_with-PL_RED2 "crab" ;
 sup̓qs:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sup̓qs N_with-PL_RED2 "harbor seal" ;
+
+ƛ̕xʷayʔ:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕xʷayʔ N_with-PL_RED2 "dog salmon|chum salmon" ;
+p̓uay̓:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓uay̓ N_with-PL_RED2 "flounder" ;
 t̕aɬigʷs:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕aɬigʷs N_with-PL_RED2 "rock cod" ;
+
 x̌ʷəlč:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷəlč N_with-PL_RED2 "bay|ocean" ;
 kəlapx̌ʷəlč:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kəlapx̌ʷəlč N_with-PL_RED2 "jelly fish" ;
 sʔax̌ʷuʔ:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔax̌ʷuʔ N_with-PL_RED2 "clam" ;

@@ -3,26 +3,26 @@
 !! Prefixes in UNDEFINED language are bound to beginning of other words.
 
 LEXICON Prefixes
-00@U.PossPx.Sg1@:d%<@U.PossPx.Sg1@     Nouns   ;
-000@U.PossPx.Sg2@:ad%<@U.PossPx.Sg2@     Nouns   ;
+@U.PossPx.Sg1@:@U.PossPx.Sg1@d%<     Nouns   ;
+@U.PossPx.Sg2@:@U.PossPx.Sg2@ad%<     Nouns   ;
  Nouns ;
 ! These are the first Northern Lushootseed
-00@U.PossPx.Sg1@:d%<@U.PossPx.Sg1@     N_NEWWORDS   ;
-000@U.PossPx.Sg2@:ad%<@U.PossPx.Sg2@     N_NEWWORDS   ;
+@U.PossPx.Sg1@:@U.PossPx.Sg1@d%<     N_NEWWORDS   ;
+@U.PossPx.Sg2@:@U.PossPx.Sg2@ad%<     N_NEWWORDS   ;
  N_NEWWORDS ;
 verbprefix-     Verbs   ;
-0000@U.TAM.COND@:ləs%<@U.TAM.COND@ Verbs ;
-000@U.TAM.FUT@:ɬu%<@U.TAM.FUT@ Verbs ; ! qəlb 'rain': ɬuqəlb 'rain in the future' is this a noun, too?
-000@U.TAM.PRF@:ʔu%<@U.TAM.PRF@ Verbs ; ! qəlb 'rain': ʔuqəlb 'raining' doesn't sound perfect to me
-000@U.TAM.REM@:tu%<@U.TAM.REM@ Verbs ;
-000@U.TAM.STAT@:ʔəs%<@U.TAM.STAT@ Verbs ;
+@U.TAM.COND@:@U.TAM.COND@ləs%< Verbs ;
+@U.TAM.FUT@:@U.TAM.FUT@ɬu%< Verbs ; ! qəlb 'rain': ɬuqəlb 'rain in the future' is this a noun, too?
+@U.TAM.PRF@:@U.TAM.PRF@ʔu%< Verbs ; ! qəlb 'rain': ʔuqəlb 'raining' doesn't sound perfect to me
+@U.TAM.REM@:@U.TAM.REM@tu%< Verbs ;
+@U.TAM.STAT@:@U.TAM.STAT@ʔəs%< Verbs ;
 !ʔəsq̓iʔq̓aƛ̕əb _partly cloudy_ ɬasq̓iʔq̓aƛ̕əb __partly cloudy in the future__
 !ʔəsgiʔgəqəb __partly sunny__ ɬasgiʔgəqəb __partly sunny in the future__
 !ʔiɬgəqil __mostly sunny__ ɬasʔiɬgəqil __mostly sunny in the future__
 !ʔəsgəqəb __sunny__ ɬasgəqil __sunny in the future__
 !
-00@U.PossPx.Sg1@:d%<@U.PossPx.Sg1@     DVNouns   ;
-000@U.PossPx.Sg2@:ad%<@U.PossPx.Sg2@     DVNouns   ;
+@U.PossPx.Sg1@:@U.PossPx.Sg1@d%<     DVNouns   ;
+@U.PossPx.Sg2@:@U.PossPx.Sg2@ad%<     DVNouns   ;
  DVNouns   ;
 
 LEXICON DVNouns
