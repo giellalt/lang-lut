@@ -150,6 +150,16 @@ source and target part-of-speech.
  *  +Der/Dimin  * diminutive
  *  +Der/s  * Noun derivation
 
+
+!!Symbols that need to be escaped on the lower side (towards twolc):
+ ; »7 : Literal »
+ ; «7 : Literal «
+{{{
+  %[%>%]  - Literal >
+  %[%<%]  - Literal <
+}}}
+
+
 Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
