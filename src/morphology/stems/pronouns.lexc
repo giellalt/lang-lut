@@ -3,13 +3,24 @@
 !! Pronouns in the Lushootseed language are references to things.
 
 LEXICON Pronouns
-pronoun    Cases   ;
-čəd:čəd PRON-PERS-SG1 ;
-čəxʷ:čəxʷ PRON-PERS-SG2 ;
-čəɬ:čəɬ PRON-PERS-PL1 ;
-čələp:čələp PRON-PERS-PL2 ;
-əlgʷəʔ:əlgʷəʔ PRON-PERS-PL3 ;
 
-stab:stab PRON-INTERR_ ;
+PRON-PERS ;
+PRON-DEM ;
+PRON-INTERR ;
+
+LEXICON PRON-PERS
+čəd+Pron:čəd PRON-PERS-SG1 ;
+čəxʷ+Pron:čəxʷ PRON-PERS-SG2 ;
+čəɬ+Pron:čəɬ PRON-PERS-PL1 ;
+čələp+Pron:čələp PRON-PERS-PL2 ;
+əlgʷəʔ+Pron:əlgʷəʔ PRON-PERS-PL3 ;
+
+LEXICON PRON-DEM
+tiʔiɬ+Pron:tiʔiɬ PRON-DEM-MSC_ ;
+tiʔiɬ+Pron:tsiʔiɬ PRON-DEM-FEM_ ;
+kʷi+Pron:kʷi PRON-DEM_ ;
+
+LEXICON PRON-INTERR
+stab+Pron:stab PRON-INTERR_ ;
 
 ! vim: set ft=xfst-lexc:

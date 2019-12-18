@@ -4,22 +4,31 @@
 !! nouns, but with a colon (':') as separator.
 
 LEXICON PRON-PERS-SG1
-+Pron+Pers+Sg1+Nom:   #  ;
++Pers+Sg1+Nom:   #  ;
 
 LEXICON PRON-PERS-SG2
-+Pron+Pers+Sg2+Nom:   #  ;
++Pers+Sg2+Nom:   #  ;
 
 LEXICON	PRON-PERS-PL1
-+Pron+Pers+Pl1+Nom:   #  ;
++Pers+Pl1+Nom:   #  ;
 
 LEXICON PRON-PERS-PL2
-+Pron+Pers+Pl2+Nom:   #  ;
++Pers+Pl2+Nom:   #  ;
 
 LEXICON PRON-PERS-PL3
-+Pron+Pers+Pl3+Nom:   #  ;
++Pers+Pl3+Nom:   #  ;
 
 LEXICON PRON-INTERR_
-+Pron+Interr: K ;
++Interr: K ;
+
+LEXICON PRON-DEM_
++Dem: K ;
+
+LEXICON PRON-DEM-MSC_
++Dem+Msc: K ;
+
+LEXICON PRON-DEM-FEM_
++Dem+Fem: K ;
 
 ! vim: set ft=xfst-lexc:
 

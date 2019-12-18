@@ -3,13 +3,28 @@
 !! The Lushootseed language adverbs
 
 LEXICON ADV_
-+Adv:        K   ;
+:        K   ;
 
 LEXICON ADV-DEGREE_
-+Adv+Degree:        K   ;
++Deg:        K   ;
 
 LEXICON ADV-INTERR_
-+Adv+Interr:        K   ;
++Interr:        K   ;
+
+LEXICON ADV-PARENTHETIC_
++Parenthetic:        K   ;
+
+LEXICON ADV-QNT_
++Qnt: K ;
+
+LEXICON ADV-TOT_
++Tot: K ;
+
+LEXICON ADV-SPAT_
++Spat:        K   ;
+
+LEXICON ADV-TEMP_
++Temp:        K   ;
 
 
 ! vim: set ft=xfst-lexc:
