@@ -1,6 +1,12 @@
 !! Noun inflection
 ! ---------------
-!! The Lushootseed language nouns inflect in cases.
+!! The Lushootseed language nouns inflect in time person aspect.
+! s%<ɬalil%>tu%>b%>s%>əxʷ
+! VNoun+come.ashore+V+Caus+Mid+Px3+Now
+! np+come·ashore+[caus]+[md]+3s+now
+! %>tu ~ %>t
+! %>əb ~ %>b
+
 
 LEXICON Cases
 +N+Sg+Nom:     #   ;

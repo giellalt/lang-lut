@@ -3,13 +3,55 @@
 !! Adverbs in the LUSHOOTSEED language 
 
 LEXICON Adverbs
-čad:čad    ADV-INTERR_  "where" ;
-tul̕čad:tul̕√čád    ADV-INTERR_  "where, whence" ; ! some type of spellrelax á:a probably dict
-ʔəsčal:ʔəsčal  ADV-INTERR_  "how" ;
+čad+Adv:čad    ADV-INTERR_  "where" ;
+tul̕čad+Adv:tul̕√čád    ADV-INTERR_  "where, whence" ; ! some type of spellrelax á+Adv:a probably dict
+ʔəsčal+Adv:ʔəsčal  ADV-INTERR_  "how" ;
 
-day̓:day̓ ADV-DEGREE_ "very" ;
-hiqab:hiqab ADV-DEGREE_ "too" ; 
+cay+Adv:cay ADV-DEGREE_ "very" ;
+cick̓ʷ+Adv:cick̓ʷ ADV-DEGREE_ "very" ;
+cukʷ+v1+Adv:cukʷ ADV-DEGREE_ "only, uniquely" ;
+cukʷ+v2+Adv:cugʷ ADV-DEGREE_ "only, uniquely" ;
+day̓+Adv:day̓ ADV-DEGREE_ "only, uniquely, separate; foremost, especially; completely, all" ;
+hiqab+Adv:hiqab ADV-DEGREE_ "excessively, too (much)" ; 
 
-ƛ̕al̕:ƛ̕al̕ ADV_ "also, too" ;
+
+hikʷ+Adv:hikʷ ADV-DEGREE_ "big, very, really" ;
+laʔab+v1+Adv:laʔab ADV_ "really, a lot" ;
+laʔab+v2+Adv:həlaʔab ADV_ "really, a lot" ;
+ƛ̕al̕+Adv:ƛ̕al̕ ADV_ "also, too" ;
+put+Adv:put ADV_ "very much so, in a great way" ;
+x̌ʷəɬ% ti+Adv:x̌ʷəɬ% ti ADV_ "as though, like" ;
+x̌ʷul̕+Adv:x̌ʷul̕ ADV_ "just (that and nothing else)" ;
+
+tudiʔ+Adv:tudiʔ ADV-SPAT_ "yonder" ;
+tiləb+v1+Adv:tiləb ADV-SPAT_ "right there, suddenly" ;
+tiləb+v2+Adv:tiiləb ADV-SPAT_ "right there, suddenly" ;
+dxʷt̓aqt+Adv:dxʷt̓aqt ADV-SPAT_ "on shore" ;
+
+t̓aq̓t+Adv:t̓aq̓t ADV-SPAT_ "on shore" ;
+
+bək̓ʷ+Adv:bək̓ʷ ADV-TOT_ "all" ;
+qa+Adv:qa ADV-QUANT_ "many" ;
+
+ck̓ʷaqid+Adv:ck̓ʷaqid ADV-TEMP_ "always" ;
+cəɬul̕+Adv:cəɬul̕ ADV-TEMP_ "previously, in advance" ;
+daʔxʷ+Adv:daʔxʷ ADV-TEMP_ "just now" ;
+daw̓+Adv:daw̓ ADV-TEMP_ "just now" ;
+gʷaʔxʷ+Adv:gʷaʔxʷ ADV-TEMP_ "eventually, soon" ;
+huy+Adv:huy ADV-TEMP_ "then" ;
+tiləb+Adv:tiləb ADV-TEMP_ "immediately, bluntly" ;
+yaw̓+Adv:yaw̓ ADV-TEMP_ "only if, not until" ;
+hagʷ+Adv:hagʷ ADV-TEMP_ "long time ago" ;
+haʔkʷ+Adv:haʔkʷ ADV-TEMP_ "long time ago" ;
+
+gʷəhaw̓ə+Adv:gʷəhaw̓ə ADV-PARENTHETIC_ "it seems" ;
+xʷɬub+Adv:xʷɬub ADV-PARENTHETIC_ "ultimately, in fact" ;
+xʷuʔələʔ+Adv:xʷuʔələʔ ADV-PARENTHETIC_ "maybe, perhaps" ;
+tux̌ʷ+Adv:tux̌ʷ ADV-PARENTHETIC_ "in contrast to the usual or expected" ;
+
+ƛ̕ub+Aux:ƛ̕ub # "well; ought, should" ;
+xʷiʔ+v1+Aux+Neg:xʷiʔ # "no; not" ;
+xʷiʔ+v2+Aux+Neg:xʷiiʔ # "no; not" ;
+gʷəl+Aux+Top:gʷəl # "topic" ;
 
 ! vim: set ft=xfst-lexc:
