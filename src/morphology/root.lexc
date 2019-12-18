@@ -72,7 +72,13 @@ y̓   !!= @CODE@
  +Aux +Cop  !!= * @CODE@
  
 !! Types of adverbs also include
- +Degree  !!= * @CODE@
+ +Deg        !!= * @CODE@ this is degree
+ +Manner     !!= * @CODE@ with reference to type of adverb
+ +Parenthetic !!= * @CODE@ parenthetic
+ +Qnt	     !!= * @CODE@ quantifier
+ +Spat	     !!= * @CODE@ spatial
+ +Temp	     !!= * @CODE@ temporal
+ +Tot	     !!= * @CODE@ total, universal quantifiers
 
 !! The Usage extents are marked using following tags:
  +Err/Orth  !!= * @CODE@
@@ -100,10 +106,20 @@ y̓   !!= @CODE@
  +Ind +Pot +Cond +Imprt !!= * @CODE@ 
  
 !! Verb tenses and aspect are:
- +Fut +Prs +Prt !!= * @CODE@ 
- +RemPst !!= * @CODE@ * remote past tu- 
-+Asp/Prf !!= * @CODE@ * perfective aspect ʔu-
-+Asp/Stat !!= * @CODE@ * stative aspect ʔəs-
+ +Fut !!= * @CODE@ * future 
+ +Prs +Prt !!= * @CODE@ 
+ +RemPst !!= * @CODE@ * remote past tu%<
++Asp/Prf !!= * @CODE@ * perfective aspect ʔu%< , (Beck) punctual
++Asp/Prog !!= * @CODE@ * progressive aspect lə%<
++Asp/Stat !!= * @CODE@ * stative aspect ʔəs%< , (beck: as%<)
+
+!dəxʷ%< VNoun
+ +LOC !!= * @CODE@ * lack of control %>dxʷ
+ +Imprt !!= * @CODE@ = %>ɬi
+
++Surprise !!= * @CODE@ * surprise %>əw̓ə
+ +Top !!= * @CODE@ * topic marker 
+ +Now !!= * @CODE@ * focus? %>əxʷ
 
 !! Verb personal forms are:
  +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3 !!= * @CODE@ 
@@ -116,7 +132,9 @@ y̓   !!= @CODE@
  +OcPl2 !!= * @CODE@ = object conjugation second person plural
 
 !! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess !!= * @CODE@ 
+
+ +Inf +Ger +ConNeg +ConNegII +Neg 
+  +PrsPrc +PrfPrc +Sup +VGen +VAbess !!= * @CODE@ 
 
 ! Abbreviated words are classified with:
  +ABBR +ACR !!= * @CODE@ 
@@ -283,6 +301,9 @@ LEXICON Root !!= * __@CODE@__ Root lexicon
 0   Prefixes    ;   !!= * @CODE@
     Punctuation ;
     Symbols     ;
+
+LEXICON NUM_
+ K ;
 
 LEXICON K !!= * __@CODE@__ Clitic lexicon
 #; 
