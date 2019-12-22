@@ -1,48 +1,63 @@
 !! Verb inflection
 ! ---------------
-!! The Lushootseed language verbs inflect in persons.
+!! The Lushootseed language verbs inflect in object persons.
+
+! Hagiwara :7
+! +OcSg1:%>s
+! +OcSg2:%>sid
+! +OcPl1:%>ubuɬ
+! +OcPl2:%>ubuɬəd
+! +Oc3:%>d
+! +Refl:%>sut
+! +Recip:%>agʷəl
+! +Mid:%>əb
+!
 
 LEXICON COP_
 +Cop:	# ;
 
 LEXICON Persons
-+V+1sg:en   #   ;
-+V+2sg:et   #   ;
-+V+3sg:e    #   ;
-+V+1pl:ien  #   ;
-+V+2pl:iet  #   ;
-+V+3pl:iet  #   ;
-+V+inf:0    #   ;
++1sg:en   #   ;
++2sg:et   #   ;
++3sg:e    #   ;
++1pl:ien  #   ;
++2pl:iet  #   ;
++3pl:iet  #   ;
++inf:0    #   ;
 !#:0   Nouns   ;
 
 LEXICON TV_BƏČDUB
 !! bəčdub:bəčd
-@R.TAM.PRF@+V+TV+Asp/Prf:@R.TAM.PRF@ub0 OC1/2_š ;
-@R.TAM.PRF@+V+TV+Asp/Prf:@R.TAM.PRF@000 OCSP3 ;
-@R.TAM.FUT@+V+TV+Fut:@R.TAM.FUT@ub0 OC1/2_š ;
-@R.TAM.FUT@+V+TV+Fut:@R.TAM.FUT@000 OCSP3 ;
-@R.TAM.COND@+V+TV+Cond:@R.TAM.COND@ub0 OC1/2_š ;
-@R.TAM.COND@+V+TV+Cond:@R.TAM.COND@000 OCSP3 ;
-@R.TAM.REM@+V+TV+RemPst:@R.TAM.REM@ub0 OC1/2_š ;
-@R.TAM.REM@+V+TV+RemPst:@R.TAM.REM@000 OCSP3 ;
-@R.TAM.STAT@+V+TV+Asp/Stat:@R.TAM.STAT@ub0 OC1/2_š ;
-@R.TAM.STAT@+V+TV+Asp/Stat:@R.TAM.STAT@000 OCSP3 ;
-@D.TAM@+V+TV:@D.TAM@ub OC1/2_š ;
-@D.TAM@+V+TV:@D.TAM@00 OCSP3 ;
+@R.TAM.PRF@+TV+Asp/Prf:@R.TAM.PRF@ub OC1/2_š ;
+@R.TAM.PRF@+TV+Asp/Prf:@R.TAM.PRF@ OCSP3 ;
+@R.TAM.FUT@+TV+Fut:@R.TAM.FUT@ub OC1/2_š ;
+@R.TAM.FUT@+TV+Fut:@R.TAM.FUT@ OCSP3 ;
+@R.TAM.COND@+TV+Cond:@R.TAM.COND@ub OC1/2_š ;
+@R.TAM.COND@+TV+Cond:@R.TAM.COND@ OCSP3 ;
+@R.TAM.PROG@+TV+Prog:@R.TAM.PROG@ub OC1/2_š ;
+@R.TAM.PROG@+TV+Prog:@R.TAM.PROG@ OCSP3 ;
+@R.TAM.REM@+TV+RemPst:@R.TAM.REM@ub OC1/2_š ;
+@R.TAM.REM@+TV+RemPst:@R.TAM.REM@ OCSP3 ;
+@R.TAM.STAT@+TV+Asp/Stat:@R.TAM.STAT@ub OC1/2_š ;
+@R.TAM.STAT@+TV+Asp/Stat:@R.TAM.STAT@ OCSP3 ;
+@D.TAM@+TV:@D.TAM@ub OC1/2_š ;
+@D.TAM@+TV:@D.TAM@ OCSP3 ;
 
 LEXICON TV_KʷƏDAD
 !! kʷədad:kʷədad
 ! @U.TAM.PRF@
-@R.TAM.PRF@+V+TV+Asp/Prf:@R.TAM.PRF@000 OC1/2_s ;
-@R.TAM.PRF@+V+TV+Asp/Prf:@R.TAM.PRF@000 OCSP3 ;
-@R.TAM.FUT@+V+TV+Fut:@R.TAM.FUT@000 OC1/2_s ;
-@R.TAM.FUT@+V+TV+Fut:@R.TAM.FUT@000 OCSP3 ;
-@R.TAM.REM@+V+TV+RemPst:@R.TAM.REM@000 OC1/2_s ;
-@R.TAM.REM@+V+TV+RemPst:@R.TAM.REM@000 OCSP3 ;
-@R.TAM.COND@+V+TV+Cond:@R.TAM.COND@000 OC1/2_s ;
-@R.TAM.COND@+V+TV+Cond:@R.TAM.COND@000 OCSP3 ;
-@R.TAM.STAT@+V+TV+Asp/Stat:@R.TAM.STAT@000 OC1/2_s ;
-@R.TAM.STAT@+V+TV+Asp/Stat:@R.TAM.STAT@000 OCSP3 ;
+@R.TAM.PRF@+TV+Asp/Prf:@R.TAM.PRF@ OC1/2_s ;
+@R.TAM.PRF@+TV+Asp/Prf:@R.TAM.PRF@ OCSP3 ;
+@R.TAM.FUT@+TV+Fut:@R.TAM.FUT@ OC1/2_s ;
+@R.TAM.FUT@+TV+Fut:@R.TAM.FUT@ OCSP3 ;
+@R.TAM.REM@+TV+RemPst:@R.TAM.REM@ OC1/2_s ;
+@R.TAM.REM@+TV+RemPst:@R.TAM.REM@ OCSP3 ;
+@R.TAM.COND@+TV+Cond:@R.TAM.COND@ OC1/2_s ;
+@R.TAM.COND@+TV+Cond:@R.TAM.COND@ OCSP3 ;
+@R.TAM.PROG@+TV+Asp/Prog:@R.TAM.PROG@ OC1/2_s ;
+@R.TAM.PROG@+TV+Asp/Prog:@R.TAM.PROG@ OCSP3 ;
+@R.TAM.STAT@+TV+Asp/Stat:@R.TAM.STAT@ OC1/2_s ;
+@R.TAM.STAT@+TV+Asp/Stat:@R.TAM.STAT@ OCSP3 ;
 
 LEXICON OC1/2_š
  OCSG1_š ;
@@ -58,32 +73,32 @@ LEXICON OC1/2_s
 
 
 LEXICON OCSG1_š
-@U.OBJ.1@+OcSg10:@U.OBJ.1@%>š DVN-POSS ;
+@U.OBJ.1@+OcSg1:@U.OBJ.1@%>š DVN-POSS ;
 
 LEXICON OCSG1_s
-@U.OBJ.1@+OcSg10:@U.OBJ.1@%>s DVN-POSS ;
+@U.OBJ.1@+OcSg1:@U.OBJ.1@%>s DVN-POSS ;
 
 LEXICON OCSG2_icid
-@U.OBJ.2@+OcSg20000:@U.OBJ.2@%>icid DVN-POSS ;
+@U.OBJ.2@+OcSg2:@U.OBJ.2@%>icid DVN-POSS ;
 
 LEXICON OCSG2_cid
-@U.OBJ.2@+OcSg2000:@U.OBJ.2@%>cid DVN-POSS ;
+@U.OBJ.2@+OcSg2:@U.OBJ.2@%>cid DVN-POSS ;
 
 LEXICON OCSP3
 +OcSP3:%>xʷ DVN-POSS ;
 
 LEXICON OCPL1
-@U.OBJ.1@+OcPl100:@U.OBJ.1@%>uɬ DVN-POSS ;
+@U.OBJ.1@+OcPl1:@U.OBJ.1@%>uɬ DVN-POSS ;
 
 LEXICON OCPL2
-@U.OBJ.2@+OcPl20000:@U.OBJ.2@%>uɬəd DVN-POSS ;
+@U.OBJ.2@+OcPl2:@U.OBJ.2@%>uɬəd DVN-POSS ;
 
 LEXICON DVN-POSS
 @R.TAM@ K ;
-@R.PossPx.Sg1@@D.OBJ.1@+Der/s+N+Sg+Nom:@R.PossPx.Sg1@@D.OBJ.1@0000 PXSG1 ;
-@R.PossPx.Sg2@@D.OBJ.2@+Der/s+N+Sg+Nom:@R.PossPx.Sg2@@D.OBJ.2@0000 PXSG2 ;
-@U.PossPx.SP3@+Der/s+N+Sg+Nom:@U.PossPx.SP3@0000 PXSP3 ;
-@U.PossPx.Pl2@@D.OBJ.2@+Der/s+N+Sg+Nom:@U.PossPx.Pl2@@D.OBJ.2@0000 PXPL2 ;
+@R.PossPx.Sg1@@D.OBJ.1@+Der/s+N+Sg+Nom:@R.PossPx.Sg1@@D.OBJ.1@ PXSG1 ;
+@R.PossPx.Sg2@@D.OBJ.2@+Der/s+N+Sg+Nom:@R.PossPx.Sg2@@D.OBJ.2@ PXSG2 ;
+@U.PossPx.SP3@+Der/s+N+Sg+Nom:@U.PossPx.SP3@ PXSP3 ;
+@U.PossPx.Pl2@@D.OBJ.2@+Der/s+N+Sg+Nom:@U.PossPx.Pl2@@D.OBJ.2@0 PXPL2 ;
 
 
 
