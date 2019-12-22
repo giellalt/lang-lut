@@ -1,0 +1,10 @@
+!! Interjections
+!  ----------
+!! Interjections in the LUSHOOTSEED language 
+
+LEXICON Interjections
+
+hay+Interj:hay # "now, well" ;
+
+
+! vim: set ft=xfst-lexc:

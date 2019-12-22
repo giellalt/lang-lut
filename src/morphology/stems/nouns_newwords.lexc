@@ -32,12 +32,21 @@ kayə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kayə N-FEM_with-PL_RED2 "grandmother" ;
 sk̓ʷuy+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sk̓ʷuy N-FEM_with-PL_RED2 "mother" ;
 ƛ̕iq̓s+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕iq̓s N_with-PL_RED2 "January" ;
 x̌aʔx̌aʔəɬdat+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌aʔx̌aʔəɬdat N_with-PL_RED2 "Sunday" ;
+pədx̌ax̌aʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədx̌ax̌aʔ N_with-PL_RED2 "Sunday" ;
 p̓əɬq̓ʷabac+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓əɬq̓ʷabac N_with-PL_RED2 "Monday" ;
-scəbdatil+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}scəbdatil N_with-PL_RED2 "Tuesday" ;
-sɬixʷəɬdatil+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sɬixʷəɬdatil N_with-PL_RED2 "Wednesday" ;
+p̓əɬq̓ʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓əɬq̓ʷ N_with-PL_RED2 "Monday" ;
+scəbdatil+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}scəbdatil N_with-PL_RED2 "Tuesday" ;
+scəbdatil+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}scəbdati N_with-PL_RED2 "Tuesday" ;
+sɬixʷəɬdatil+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sɬixʷəɬdatil N_with-PL_RED2 "Wednesday" ;
+sɬixʷəɬdatil+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sɬixʷəɬdati N_with-PL_RED2 "Wednesday" ;
 sbuusəɬdatil+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sbuusəɬdatil N_with-PL_RED2 "Thursday" ;
+buusil+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}buusil N_with-PL_RED2 "Thursday" ;
+buusil+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}buusi N_with-PL_RED2 "Thursday" ;
 scəlacəɬdatil+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}scəlacəɬdatil N_with-PL_RED2 "Friday" ;
-č̓itabac+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓itabac N_with-PL_RED2 "Saturday" ;
+cəlacil+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cəlacil N_with-PL_RED2 "Friday" ;
+cəlacil+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cəlaci N_with-PL_RED2 "Friday" ;
+č̓itabac+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓itabac N_with-PL_RED2 "Saturday" ;
+č̓itabac+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓itabəc N_with-PL_RED2 "Saturday" ;
 səxʷpupuhigʷəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}səxʷpupuhigʷəd N_with-PL_RED2 "February" ;
 waq̓waq̓us+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}waq̓waq̓us N_with-PL_RED2 "March" ;
 slihibus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}slihibus N_with-PL_RED2 "April" ;
@@ -57,6 +66,7 @@ pədxʷit̕xʷit̕il+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədxʷit̕xʷit̕il N_with
 pədxʷič̕ib+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədxʷič̕ib N_with-PL_RED2 "October" ;
 pədƛ̕xʷayʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədƛ̕xʷayʔ N_with-PL_RED2 "November" ;
 səxʷšic̓əlwaʔs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}səxʷšic̓əlwaʔs N_with-PL_RED2 "December" ;
+pədt̕əs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədt̕əs N_with-PL_RED2 "winter" ;
 
 
 syaʔ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yaʔ N_with-PL_RED2 "friend" ;
@@ -74,4 +84,6 @@ q̓il̕bid+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓il̕bid  N_with-PL_RED2 "car" ;
 ʔalʔal+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔalʔal N_with-PL_RED2 "house" ;
 spiqʷuc+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}piqʷuc N_with-PL_RED2 "potato" ;
 staləɬ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}taləɬ N_with-PL_RED2 "niece; nephew" ;
+ƛ̕aƛ̕ac̓apəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕aƛ̕ac̓apəd N_with-PL_RED2 "ant" ;
 
+x̌ax̌aʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ax̌aʔ N_with-PL_RED2 "week" ;

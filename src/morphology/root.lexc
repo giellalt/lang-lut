@@ -186,6 +186,7 @@ y̓   !!= @CODE@
  +Der/Dimin !!= * @CODE@ * diminutive
  +Der/s !!= * @CODE@ * Noun derivation
 
++Clt !!= * @CODE@ %>əxʷ
 
         !! !!Symbols that need to be escaped on the lower side (towards twolc):
  »7     !!≈ ; @CODE@ : Literal »
@@ -271,10 +272,13 @@ y̓   !!= @CODE@
 @R.TAM.FUT@	 !!= * @CODE@ 
 @U.TAM.COND@ !!= * @CODE@ 
 @R.TAM.COND@ !!= * @CODE@ 
+@U.TAM.PROG@	 !!= * @CODE@ progressive
+@R.TAM.PROG@	 !!= * @CODE@ progressive
 @U.TAM.REM@	 !!= * @CODE@ 
 @R.TAM.REM@	 !!= * @CODE@ 
 @U.TAM.STAT@ !!= * @CODE@ 
 @R.TAM.STAT@ !!= * @CODE@ 
+
 @R.TAM@		 !!= * @CODE@ 
 
 @U.OBJ.1@	 !!= * @CODE@ 
@@ -296,16 +300,20 @@ LEXICON Root !!= * __@CODE@__ Root lexicon
 0   Adjectives  ;   !!= * @CODE@
 0   Adpositions  ;  !!= * @CODE@
 0   Adverbs  ;	    !!= * @CODE@
+0   Conjunctors  ;	    !!= * @CODE@
+0   Interjections  ;	    !!= * @CODE@
 0   Pronouns    ;   !!= * @CODE@
 0   Numerals    ;   !!= * @CODE@
 0   Prefixes    ;   !!= * @CODE@
     Punctuation ;
     Symbols     ;
 
+
 LEXICON NUM_
  K ;
 
 LEXICON K !!= * __@CODE@__ Clitic lexicon
++Clt:%>əxʷ # "now" ;
 #; 
 
 ! vim: set ft=xfst-lexc:
