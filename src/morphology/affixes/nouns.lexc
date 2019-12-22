@@ -9,36 +9,36 @@
 
 
 LEXICON Cases
-+N+Sg+Nom:     #   ;
-+N+Pl+Nom:i     #   ;
++Sg+Nom:     #   ;
++Pl+Nom:i     #   ;
 !#:   Nouns   ;
 
 LEXICON N_with-PL_RED1_qelb
-!+N: DIM_CV1toCV2C ; What should this be?
-+N: SG-SUF ;
-+N: PL_RED1_qelb ;
+!: DIM_CV1toCV2C ; What should this be?
+: SG-SUF ;
+: PL_RED1_qelb ;
 
 LEXICON N_with-PL_RED2
-+N: DIM_CV1toCV2C ;
-+N: SG-SUF ;
-+N: PL_RED2 ;
+: DIM_CV1toCV2C ;
+: SG-SUF ;
+: PL_RED2 ;
 
 LEXICON N-FEM_with-PL_RED2
-+N+Fem: DIM_CV1toCV2C ;
-+N+Fem: SG-SUF ;
-+N+Fem: PL_RED2 ;
++Fem: DIM_CV1toCV2C ;
++Fem: SG-SUF ;
++Fem: PL_RED2 ;
 
 LEXICON N-MSC_with-PL_RED2
-+N+Msc: DIM_CV1toCV2C ;
-+N+Msc: SG-SUF ;
-+N+Msc: PL_RED2 ;
++Msc: DIM_CV1toCV2C ;
++Msc: SG-SUF ;
++Msc: PL_RED2 ;
 
 ! Derivation
 LEXICON DIM_CV1toCV2C
-@D.PossPx@+Der+Der/Dimin+N+Sg+Nom:@D.PossPx@%^Red1CV1toCV2C # ;
-+Der+Der/Dimin+N+Sg+Nom:%^Red1CV1toCV2C POSS ;
-@D.PossPx@+Der+Der/Dimin+N+Pl+Nom:@D.PossPx@%^Red1CV1toCV2CPL # ;
-+Der+Der/Dimin+N+Pl+Nom:%^Red1CV1toCV2CPL POSS ;
+@D.PossPx@+Der+Der/Dimin+Sg+Nom:@D.PossPx@%^Red1CV1toCV2C # ;
++Der+Der/Dimin+Sg+Nom:%^Red1CV1toCV2C POSS ;
+@D.PossPx@+Der+Der/Dimin+Pl+Nom:@D.PossPx@%^Red1CV1toCV2CPL # ;
++Der+Der/Dimin+Pl+Nom:%^Red1CV1toCV2CPL POSS ;
 
 ! Declension
 LEXICON SG-SUF

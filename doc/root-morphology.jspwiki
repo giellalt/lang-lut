@@ -166,6 +166,7 @@ source and target part-of-speech.
  *  +Der/Dimin  * diminutive
  *  +Der/s  * Noun derivation
 
+ * +Clt  %>əxʷ
 
 !!Symbols that need to be escaped on the lower side (towards twolc):
  ; »7 : Literal »
@@ -250,10 +251,13 @@ given the proper use of these flags.
  * @R.TAM.FUT@	  
  * @U.TAM.COND@  
  * @R.TAM.COND@  
+ * @U.TAM.PROG@	  progressive
+ * @R.TAM.PROG@	  progressive
  * @U.TAM.REM@	  
  * @R.TAM.REM@	  
  * @U.TAM.STAT@  
  * @R.TAM.STAT@  
+
  * @R.TAM@		  
 
  * @U.OBJ.1@	  
@@ -274,9 +278,12 @@ word classes, or optionally from prefixes:
  * 0   Adjectives  ;   
  * 0   Adpositions  ;  
  * 0   Adverbs  ;	    
+ * 0   Conjunctors  ;	    
+ * 0   Interjections  ;	    
  * 0   Pronouns    ;   
  * 0   Numerals    ;   
  * 0   Prefixes    ;   
+
 
 
  * __LEXICON K __ Clitic lexicon

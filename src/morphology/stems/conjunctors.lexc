@@ -1,0 +1,10 @@
+!! Conjunctors
+!  ----------
+!! Conjunctors in the LUSHOOTSEED language 
+
+LEXICON Conjunctors
+
+ʔi+CC:ʔi # "and" ;
+
+
+! vim: set ft=xfst-lexc:

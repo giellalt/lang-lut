@@ -4,12 +4,17 @@
 
 LEXICON Verbs
 verb    Persons   ;
-ʔəɬtub:ʔəɬt TV_BƏČDUB "feed sm" ;
-bəčdub:bəčd TV_BƏČDUB "knock sm down" ;
-labdub:labd TV_BƏČDUB "see sm" ;
-kʷədad:kʷəda»d TV_KʷƏDAD "grab sm" ;
-x̌ədəd:x̌əd»əd TV_KʷƏDAD "push sm" ;
-tagʷš:tàgʷ»š TV_KʷƏDAD "buy sm" ;
+ʔəɬtub+V:ʔəɬt TV_BƏČDUB "feed sm" ;
+bəčdub+V:bəčd TV_BƏČDUB "knock sm down" ;
+labdub+V:labd TV_BƏČDUB "see sm" ;
+
+
+kʷədad+V:kʷəda»d TV_KʷƏDAD "grab sm" ;
+x̌ədəd+V:x̌əd»əd TV_KʷƏDAD "push sm" ;
+
+
+tagʷš+V:tàgʷ»š TV_KʷƏDAD "buy sm" ;
+cuyayus+V:cuyayus TV_KʷƏDAD  "busy oneself" ;
 
 tiʔəʔ:tiʔəʔ COP_ "is (copula quality)" ;
 
