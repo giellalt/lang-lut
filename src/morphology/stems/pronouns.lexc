@@ -16,9 +16,12 @@ LEXICON PRON-PERS
 əlgʷəʔ+Pron:əlgʷəʔ PRON-PERS-PL3 ;
 
 LEXICON PRON-DEM
-tiʔiɬ+Pron:tiʔiɬ PRON-DEM-MSC_ ;
+tiʔiɬ+v1+Pron:tiʔiɬ PRON-DEM-MSC_ ;
+tiʔiɬ+v2+Pron:tiiɬ PRON-DEM-MSC_ ;
 tiʔiɬ+Pron:tsiʔiɬ PRON-DEM-FEM_ ;
 kʷi+Pron:kʷi PRON-DEM_ ;
+ti+Pron:ti PRON-DEM-MSC_ ;
+ti+Pron:tsi PRON-DEM-FEM_ ;
 
 LEXICON PRON-INTERR
 stab+Pron:stab PRON-INTERR_ ;
