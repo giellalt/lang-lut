@@ -4,8 +4,8 @@
 !!! Dynamic documentation
 
 * [Links to generated source file documentation|Links.html]
-* Source files: [stems|https://gtsvn.uit.no/langtech/trunk/langs/lut/src/morphology/stems/]   
-  / [affixes|https://gtsvn.uit.no/langtech/trunk/langs/lut/src/morphology/affixes/] 
+* Source files: [stems|https://gtsvn.uit.no/langtech/trunk/langs/lut/src/fst/stems/]   
+  / [affixes|https://gtsvn.uit.no/langtech/trunk/langs/lut/src/fst/affixes/] 
   / [syntax|https://gtsvn.uit.no/langtech/trunk/langs/lut/src/syntax] 
   / [twolc|https://gtsvn.uit.no/langtech/trunk/langs/lut/src/phonology/lut-phon.twolc]   
   / [number convertors|https://gtsvn.uit.no/langtech/trunk/langs/lut/src/transcriptions/]
@@ -24,7 +24,7 @@ Southern Puget Sound Salish.
 
 !!! Grammatical issues
 
-* [The tags that are in use|https://gtsvn.uit.no/langtech/trunk/langs/lut/src/morphology/root.lexc]   
+* [The tags that are in use|https://gtsvn.uit.no/langtech/trunk/langs/lut/src/fst/root.lexc]   
 * [A list of morphological tags|/lang/common/MorphologicalTags.html]
 
 
