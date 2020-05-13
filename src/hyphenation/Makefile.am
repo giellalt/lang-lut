@@ -17,14 +17,12 @@
 
 ####### Source file defs: ########
 
-#! @param GT_TRANSCRIPTIONS_SRCS required, the source files for orthographic
-#!        transcriptions.
-#GT_TRANSCRIPTIONS_SRCS=clock.lexc date.lexc numbers.lexc
-GT_TRANSCRIPTIONS_SRCS=\
-		transcriptor-clock-digit2text.lexc \
-		transcriptor-date-digit2text.lexc \
-		transcriptor-numbers-digit2text.lexc
+#! @param GT_TWOLC_MAIN required, the source of phonology
+#! @param GT_TWOLC_SUPPLEMENTS optional, other sources to distribute and
+#! 		  compile for other things
+GT_HYPHENATION_MAIN=hyphenation.xfscript
+GT_HYPHENATION_SUPPLEMENTS=
 
-include $(top_srcdir)/../giella-core/am-shared/src-transcriptions-dir-include.am
+include $(top_srcdir)/../giella-core/am-shared/src-hyphenation-dir-include.am
 
 # vim: set ft=automake:
