@@ -7,6 +7,8 @@ LEXICON N_NEWWORDS
 test+N:test N_with-PL_RED2 "(eng) /(slh) " ;
 !! ADD NOUNS BELOW
 
+suq̓ʷaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}suq̓ʷaʔ N_with-PL_RED2 "younger sibling" ;
+sc̓aliʔ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓aliʔ N_with-PL_RED2 "heart" ;
 ɬaləp̓+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬaləp̓   N_with-PL_RED2 "tongue/ ɬalap" ;
 qəluʔb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəluʔb N_with-PL_RED2 "eye/qəluʔb" ;
 cubəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cubəd N_with-PL_RED2 "eye brow" ;
@@ -87,3 +89,14 @@ staləɬ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}taləɬ N_with-PL_RED2 "niece; neph
 ƛ̕aƛ̕ac̓apəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕aƛ̕ac̓apəd N_with-PL_RED2 "ant" ;
 
 x̌ax̌aʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ax̌aʔ N_with-PL_RED2 "week" ;
+ƛ̕aɬəb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕aɬəb N_with-PL_RED2 "salt" ;
+pəpə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pəpə N_with-PL_RED2 "peper" ;
+bətə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bətə N_with-PL_RED2 "butter" ;
+šukʷə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šukʷə N_with-PL_RED2 "sugar" ;
+spud+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pud N_with-PL_RED2 "spoon" ;!plural?
+sduukʷ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}duukʷ N_with-PL_RED2 "knife" ;
+skʷədulč+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷədulč N_with-PL_RED2 "bowl" ;
+ɬaʔx̌+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬaʔx̌ N_with-PL_RED2 "plate" ;
+č̓awəyʔulč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓awəyʔulč N_with-PL_RED2 "glass" ;
+silulč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}silulč N_with-PL_RED2 "cup" ;
+ʔik̓ʷusəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔik̓ʷusəd N_with-PL_RED2 "napkin" ;
