@@ -20,7 +20,7 @@ Tests:
      sčətxʷəd+N+Sg+Nom: sčətxʷəd
      sčətxʷəd+N+Sg+Nom+PxSg1: dsčətxʷəd
      sčətxʷəd+N+Sg+Nom+PxSg2: adsčətxʷəd
-     sčətxʷəd+N+Sg+Nom+PxSP3: sčətxʷəds
+     sčətxʷəd+N+Sg+Nom+PxSP3: sčətxʷəc
      sčətxʷəd+N+Sg+Nom+PxPl1: sčətxʷədčəɬ
      sčətxʷəd+N+Sg+Nom+PxPl2: sčətxʷədləp
      sčətxʷəd+N+Pl+Nom: sčətčətxʷəd
@@ -30,17 +30,17 @@ Tests:
      sčətxʷəd+N+Pl+Nom+PxPl1: sčətčətxʷədčəɬ
      sčətxʷəd+N+Pl+Nom+PxPl2: sčətčətxʷədləp
 # bear cubs seem to be regular derivation
-     sčətxʷəd+N+Der/Dimin+N+Sg+Nom: sčičtxʷəd
-     sčətxʷəd+N+Der/Dimin+N+Sg+Nom+PxSg1: dsčičtxʷəd
-     sčətxʷəd+N+Der/Dimin+N+Sg+Nom+PxSg2: adsčičtxʷəd
-     sčətxʷəd+N+Der/Dimin+N+Sg+Nom+PxSP3: sčičtxʷəds
-     sčətxʷəd+N+Der/Dimin+N+Sg+Nom+PxPl1: sčičtxʷədčəɬ
-     sčətxʷəd+N+Der/Dimin+N+Sg+Nom+PxPl2: sčičtxʷədləp
-     sčətxʷəd+N+Der/Dimin+N+Pl+Nom: sčičičtxʷəd
-     sčətxʷəd+N+Der/Dimin+N+Pl+Nom+PxSg1: dsčičičtxʷəd
-     sčətxʷəd+N+Der/Dimin+N+Pl+Nom+PxSg2: adsčičičtxʷəd
-     sčətxʷəd+N+Der/Dimin+N+Pl+Nom+PxSP3: sčičičtxʷəds
-     sčətxʷəd+N+Der/Dimin+N+Pl+Nom+PxPl1: sčičičtxʷədčəɬ
-     sčətxʷəd+N+Der/Dimin+N+Pl+Nom+PxPl2: sčičičtxʷədləp
+     sčətxʷəd+N+Der+Der/Dimin+N+Sg+Nom: sčičtxʷəd
+     sčətxʷəd+N+Der+Der/Dimin+N+Sg+Nom+PxSg1: dsčičtxʷəd
+     sčətxʷəd+N+Der+Der/Dimin+N+Sg+Nom+PxSg2: adsčičtxʷəd
+     sčətxʷəd+N+Der+Der/Dimin+N+Sg+Nom+PxSP3: sčičtxʷəds
+     sčətxʷəd+N+Der+Der/Dimin+N+Sg+Nom+PxPl1: sčičtxʷədčəɬ
+     sčətxʷəd+N+Der+Der/Dimin+N+Sg+Nom+PxPl2: sčičtxʷədləp
+     sčətxʷəd+N+Der+Der/Dimin+N+Pl+Nom: sčičičtxʷəd
+     sčətxʷəd+N+Der+Der/Dimin+N+Pl+Nom+PxSg1: dsčičičtxʷəd
+     sčətxʷəd+N+Der+Der/Dimin+N+Pl+Nom+PxSg2: adsčičičtxʷəd
+     sčətxʷəd+N+Der+Der/Dimin+N+Pl+Nom+PxSP3: sčičičtxʷəds
+     sčətxʷəd+N+Der+Der/Dimin+N+Pl+Nom+PxPl1: sčičičtxʷədčəɬ
+     sčətxʷəd+N+Der+Der/Dimin+N+Pl+Nom+PxPl2: sčičičtxʷədləp
 
 

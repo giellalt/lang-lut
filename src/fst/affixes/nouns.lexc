@@ -35,10 +35,10 @@ LEXICON N-MSC_with-PL_RED2
 
 ! Derivation
 LEXICON DIM_CV1toCV2C
-@D.PossPx@+Der+Der/Dimin+Sg+Nom:@D.PossPx@%^Red1CV1toCV2C # ;
-+Der+Der/Dimin+Sg+Nom:%^Red1CV1toCV2C POSS ;
-@D.PossPx@+Der+Der/Dimin+Pl+Nom:@D.PossPx@%^Red1CV1toCV2CPL # ;
-+Der+Der/Dimin+Pl+Nom:%^Red1CV1toCV2CPL POSS ;
+@D.PossPx@+Der+Der/Dimin+N+Sg+Nom:@D.PossPx@%^Red1CV1toCV2C # ;
++Der+Der/Dimin+N+Sg+Nom:%^Red1CV1toCV2C POSS ;
+@D.PossPx@+Der+Der/Dimin+N+Pl+Nom:@D.PossPx@%^Red1CV1toCV2CPL # ;
++Der+Der/Dimin+N+Pl+Nom:%^Red1CV1toCV2CPL POSS ;
 
 ! Declension
 LEXICON SG-SUF
