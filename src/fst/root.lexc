@@ -188,6 +188,36 @@ y̓   !!= @CODE@
 
 +Clt !!= * @CODE@ %>əxʷ
 
+!! !Tags distinguishing different versions of the same lemma (before POS)
++v1   !!≈ * @CODE@
++v2   !!≈ * @CODE@
++v3   !!≈ * @CODE@
++v4   !!≈ * @CODE@
++v5   !!≈ * @CODE@
++v6   !!≈ * @CODE@
++v7   !!≈ * @CODE@
++v8   !!≈ * @CODE@
++v9   !!≈ * @CODE@
++v10  !!≈ * @CODE@
++v11  !!≈ * @CODE@
++v12  !!≈ * @CODE@
++v13  !!≈ * @CODE@
++v14  !!≈ * @CODE@
++v15  !!≈ * @CODE@
++v16  !!≈ * @CODE@
++v17  !!≈ * @CODE@
++v18  !!≈ * @CODE@
++v19  !!≈ * @CODE@
++v20  !!≈ * @CODE@
++v21  !!≈ * @CODE@
++v22  !!≈ * @CODE@
++v23  !!≈ * @CODE@
++v24  !!≈ * @CODE@
+
+!! Note: These high +v... number are in use for one word only:
+
+
+
         !! !!Symbols that need to be escaped on the lower side (towards twolc):
  »7     !!≈ ; @CODE@ : Literal »
  «7     !!≈ ; @CODE@ : Literal «
