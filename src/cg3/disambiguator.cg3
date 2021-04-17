@@ -3,7 +3,7 @@
 
 # =================================================================== #
 # =================================================================== #
-#!!      !!! S O U T H   S Á M I   D I S A M B I G U A T O R          
+#!! S O U T H   S Á M I   D I S A M B I G U A T O R          
 # =================================================================== #
 # =================================================================== #
 
@@ -24,7 +24,7 @@
 
 
 # ========== #
-#!! !!!Delimiters 
+#!! # Delimiters 
 # ========== #
 
 
@@ -32,7 +32,7 @@ DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>"; #!!
 
 
 # ============= #
-#!! !!Tags and sets 
+#!! ## Tags and sets 
 # ============= #
 
 #!! * BOS/EOS
@@ -433,11 +433,11 @@ SET ROUTE = CONCRETE-ROUTE OR ABSTR-ROUTE ;
 SET PLACE = GEOGRAPHICAL-PLACE OR POLITICAL-PLACE OR GENERAL-PLACE OR ROUTE OR BUILDING ;
 
 # ============== #
-#!!  !!!Disambiguation #
+#!! # Disambiguation #
 # ============== #
 
 
-BEFORE-SECTIONS  #!! !!@CODE@
+BEFORE-SECTIONS  #!! ## @CODE@
 
 #!! Rule for adding Sem/Date as a tag to readings which looks like dates
 SUBSTITUTE:Date1 (Num Sg) (Num Sg Sem/Date) TARGET ("<[0-3][0-9][.][0-2][0-9][.][1-2][0-9][0-9][0-9]>"r Num) ;
@@ -446,9 +446,9 @@ SUBSTITUTE:Date1 (Num Sg) (Num Sg Sem/Date) TARGET ("<[0-3][0-9][.][0-2][0-9][.]
 SUBSTITUTE:Date1 (Num Sg) (Num Sg Sem/Year) TARGET ("<[1-2][0-9][0-9][0-9]>"r Num) ;
 
 
-SECTION  #!! !!@CODE@
+SECTION  #!! ## @CODE@
 
-#!! !!Cycle 0
+#!! ## Cycle 0
 
 #!! Removing non-lexicalised forms when lexicalised 
 
@@ -611,7 +611,7 @@ SELECT:Imprte (Imprt Sg2) (-1 CC LINK *-1C (Imprt Sg2) BARRIER S-BOUNDARY OR V) 
 SELECT:sjur VFIN IF ( NOT *0C VFIN BARRIER S-BOUNDARY OR CLB ) ;
 	## Saemieh leah akte åålmege jalhts joekehts laantine orre, gïele dïhte åålmegidie raasti dåaresth ektede.
 
-	#!! !!CC- and CS-Mapping
+	#!! ## CC- and CS-Mapping
 	# -------------------
 	
 
@@ -667,7 +667,7 @@ MAP (@COMP-CS<) TARGET $$ADVLCASE IF (-1 ("goh" CS) LINK -1 $$ADVLCASE)(1 COMMA 
 #MAP (@COMP-CS<) TARGET NP-MEMBER IF (*-1 ("goh" CS) BARRIER NOT-NP LINK NOT -1 VFIN OR CC)(0 Nom OR ADVLCASE)(NEGATE 0 Attr OR TITLE LINK 1 N OR A)(NOT *-1 (@COMP-CS<) BARRIER S-BOUNDARY);
 	## 
 
-#!! !!CNP mapping
+#!! ## CNP mapping
 
 #!! Mapping CNP to CC and CS.
 
@@ -685,7 +685,7 @@ MAP (@CNP) TARGET CC (-1C Inf LINK 2C Inf) ;
 MAP (@CNP) TARGET CC (*-1C (Pl Gen) BARRIER WORD)(1 (Pl Com)) ;
 
 
-#!! !!CVP Mapping
+#!! ## CVP Mapping
 
 #!! Mapping @CVP to all CS
 
@@ -718,7 +718,7 @@ MAP (@-FMAINV) TARGET Ger OR ConNeg OR PrfPrc OR Inf IF (*-1 VFIN BARRIER S-BOUN
 
 
 
-#!! !!PrfPrc
+#!! ## PrfPrc
 
 #!! Select PrfPrc if DerNomAct
 
@@ -727,7 +727,7 @@ SELECT:PrfPrs_DerNomAct PrfPrc (0 (Der/NomAct) LINK *-1 S-BOUNDARY BARRIER V)(NE
 	## Disse maahtam tjaeledh gosse sijhtem, jih aaj lohkedh gosse båarasåbpoe  sjidteme.
 	## Manne aktem gärjam man nomme jupmele-vaerie lohkeme.
 
-#!! !!Person
+#!! ## Person
 
 #!! leah Prs Sg2 = Pl3
 
@@ -761,12 +761,12 @@ SELECT:Ger Ger (0 (Der/NomAct) LINK *-1 REALCOPULAS BARRIER S-BOUNDARY) ;
 # REMOVE:NotContrIfEven (".*ijidh"r) IF (0 (".*[oe]dh"r));		
 # This rule might be problematic in light of the empirical work.		     
 
-#!! !!Span sentences
+#!! ## Span sentences
 
 
 #"<lea>" REMOVE:lea Pl3 IF (<*-1 Sg1 OR Sg2)(NOT *-1 (N Pl Nom));
 
-#!!  !Nomen
+#!! ### Nomen
 
 #!! REmove Px if not family
 
@@ -799,7 +799,7 @@ SELECT:NPlIll (N Pl Ill) (0 (N Pl Acc)) (NOT *0 (V TV) BARRIER S-BOUNDARY) ;
 # ..., mejtie juridigkesne veadtjaldahkesne staatide, jih deklarasjovnide.
 
 
-#!! !Verb or Noun
+#!! ### Verb or Noun
 
 SELECT:PlNomObj (N Pl Nom) IF (0 (V Pl3)) (NOT *0 VFIN BARRIER NPNH OR S-BOUNDARY) ;
 #...Henny Bergsland, mij vuelieh tjeeli mejtie Jonetta joejki
@@ -819,7 +819,7 @@ REMOVE:gïele VGen (0 ("gïele") LINK NEGATE -1 MAINV) ;
 # Dem
 
 	
-#!! !!CC and CS or Adv
+#!! ## CC and CS or Adv
 
 IFF:GoNotCs ("goh" Pcle) (-1 Neg OR ConNeg OR ("sån")); 
 	## Ih goh måjhtijh ahte månnoeh daesnie sagke seadtoesåbpoe årroen. # Pcle
@@ -856,7 +856,7 @@ SELECT:AdjAttrBeforeNoun (A Attr) IF ( 1C N ) ;
 
 # Select the Inessive reading of an unambiguous noun in front of a location verb:
 
-#!! !!Adj or Adv
+#!! ## Adj or Adv
 
 REMOVE:AdvNotA A (0 Adv)((1C V OR (A Sg Nom)) OR (1 Ela LINK *1 V BARRIER NOT-ADV));
 	## Minngemes aejkien goh dam heannedi lij 1988.
@@ -871,7 +871,7 @@ REMOVE:NotAAttr (A Attr) (NOT 1 N OR A LINK NEGATE 0 CC OR COMMA LINK 1 Attr) ;
 	## Dam maam dorje lea gaerhtelesvoeten jïh riektesvoeten mietie, jïh altese stillemh leah stynkehke jïh ihkuvasse tjåadtjoeh.
 	## Datne edtjh dov elkiejgujmie, dov måarine jïh dov mænnjajgujmie vïnhtsese tjaangedh, jïh fïerhten jielijijstie, urries jïh minngels, edtjh akth paarrh vïnhtsese vaedtsiehtidh, båetieh datnine ektine jieledh.
 	
-#!! !!Grammatisk ord eller N eller A
+#!! ## Grammatisk ord eller N eller A
 
 
 # "<altese>" N Sg Nom  Pron Pers Pl3 Gen  Pron Pers Sg Gen PxSg3  Pron Pers Sg3 Gen 
@@ -894,7 +894,7 @@ REMOVE:IllNotNom Nom (0 ILLADV)(1 VFIN) ;
 	## Dahkoe lin aaj sijhteme edtjin naan noere saemieh aaj båetedh.
 
 
-#!! !!N or V
+#!! ## N or V
 
 # "<aejkien>" N Sg Gen  V IV Ind Prs Du1 @+FMAINV 
 REMOVE:aejkie1 VFIN (0 ("aejkie" Gen))((-1 ("naan") OR (Indef Gen) OR ("aerebi") OR (Num Gen) OR Ord) OR (1 VFIN));
@@ -1030,7 +1030,7 @@ REMOVE:Inf_Not_Pl2_ProDrop (V TV Ind Prt Pl2) IF (NOT *-1 Pron + Pl2 + Nom);
 
 
 
-#!! !!!Proper nouns
+#!! # Proper nouns
 # ============
 
 #!! Rule set taken from sme

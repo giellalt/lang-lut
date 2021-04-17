@@ -191,7 +191,7 @@ E3:ə
 %{p7%}:0
 
 ! triggers
-%^Red1CV2CiCV:0 !!= * @CODE@ qəlb: qiqəlb __rain showers__
+%^Red1CV2CiCV:0 !!= * @CODE@ qəlb: qiqəlb **rain showers**
 %^Red1CV1toCV2C:0 !!= * @CODE@ 2-segment to 3-segments with vowel change 
 %^Red1CV1toCV2CPL:0 !!= * @CODE@ 2-segment to 3-segments with vowel change Plural
 
@@ -210,17 +210,17 @@ E3:ə
  ! Escaped chars
  %  
 
-        !! !!Symbols that need to be escaped on the lower side (towards twolc):
- »7     !!≈ ; @CODE@ : Literal »
- «7     !!≈ ; @CODE@ : Literal «
-        !! {{{
+        !! ## Symbols that need to be escaped on the lower side (towards twolc):
+ »7     !!≈ * **@CODE@**:  Literal »
+ «7     !!≈ * **@CODE@**:  Literal «
+        !! ```
  %[%>%] !!= @CODE@ - Literal >
  %[%<%] !!= @CODE@ - Literal <
-        !! }}}
+        !! ```
 √:0
 
 
-%- !!≈ ; @CODE@ : hyphen
+%- !!≈ * **@CODE@**:  hyphen
 
 ;
 
@@ -303,7 +303,7 @@ Rules
 
 ! Vowels
 "ə:0 in inflection"
-!! __@RULENAME@__
+!! **@RULENAME@**
  ə:0 <=> »: _ d: %> s: Vow ;
 !!€ x̌əd»əd%>sid
 !!€ x̌əd000%>cid
@@ -325,7 +325,7 @@ Rules
 ! 0:ə <=> [ # | √:0 | %< ] 0: _ 0: Cns: ə Cns: Lts:* %^Red2CVC2CVCCVC: ;
 
 "%{p2%}:ə in reduplication"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p2%}:ə <=> %{p3%}: _ %{p1%}: Cns: ə Cns: Lts:* %^Red2CVC2CVCCVC: ;
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC
 !!€ 00bəlbəlups0
@@ -335,7 +335,7 @@ Rules
 ! 0:u <=> [ # | √:0 | %< ] 0: _ 0: Cns: u Cns: Lts:* %^Red2CVC2CVCCVC: ;
 
 "%{p2%}:u in reduplication"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p2%}:u <=> %{p3%}: _ %{p1%}: Cns: u Cns: Lts:* %^Red2CVC2CVCCVC: ;
 
 !"0:i in reduplication"
@@ -344,19 +344,19 @@ Rules
 !         [ # | √:0 | %< ] 0: _ Cns ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
 
 "%{p2%}:i in reduplication"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p2%}:i <=>  _ %{p1%}: Cns: [i|í:] Cns: Lts:* %^Red2CVC2CVCCVC: ;
                _ %{p1%}: Cns: ə:0 Cns: Lts:* [%^Red1CV1toCV2CPL:|%^Red1CV1toCV2C:] ;
                _ %{p1%}: Cns: ə Cns: Lts:* [%^Red1CV2CiCV:] ; 
-!! qəlb+N+Pl+Nom: __rain showers__
+!! qəlb+N+Pl+Nom: **rain showers**
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV
 !!€ 00qi0qəlb0
-!! pišpiš+N+Pl+Nom: __cat/kissa__
+!! pišpiš+N+Pl+Nom: **cat/kissa**
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^Red2CVC2CVCCVC
 !!€ 00pišpišpiš0
 
 "%{p4%}:i in reduplication"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p4%}:i <=> _ %{p3%}:  %{p2%}:  %{p1%}: Cns: ə: Cns: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
 
 !"0:a in reduplication"
@@ -364,41 +364,41 @@ Rules
 ! 0:a <=> [ # | √:0 | %< ] 0: _ 0: Cns: a Cns: Lts:* %^Red2CVC2CVCCVC: ;
 
 "%{p2%}:a in reduplication"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p2%}:a <=> %{p3%}: _ %{p1%}: Cns: [ a | á: ] Cns: Lts:* %^Red2CVC2CVCCVC: ;
 
 "%{p1%}:0"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p1%}:0 <=> _ Lts:* [ %^Red1CV1toCV2CPL: | %^Red1CV1toCV2C: | # | %>: ] ;
 
 "%{p2%}:0"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p2%}:0 <=> _ %{p1%}: Lts:* \[ %^Red1CV1toCV2CPL: | %^Red1CV1toCV2C: | %^Red2CVC2CVCCVC: | %^Red1CV2CiCV: ] [ # | %>: ] ;
               
 
 "%{p3%}:0"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p3%}:0 <=> _ %{p2%}:  %{p1%}: Lts:* \[ %^Red1CV1toCV2CPL: | %^Red1CV1toCV2C: | %^Red2CVC2CVCCVC: | %^Red1CV2CiCV: ] [ # | %>: ] ;
 
 "%{p4%}:0"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p4%}:0 <=> _ %{p3%}:  %{p2%}:  %{p1%}: Lts:*  [ %^Red2CVC2CVCCVC: | %^Red1CV1toCV2C: | # | %>: ] ;
 
 "%{p5%}:0"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p5%}:0 <=> _ %{p4%}: %{p3%}:  %{p2%}:  %{p1%}: Lts:* [ %^Red2CVC2CVCCVC: | %^Red1CV1toCV2C: | # | %>: ];
 
 
-!! !CONSONANTS
+!! ### CONSONANTS
 "s:c after d:0"
-!! __@RULENAME@__
+!! **@RULENAME@**
 s:c <=> d: %> _ # ;
 
 !!€ ʔu√%{p3%}%{p2%}%{p1%}kʷədad%>s
 !!€ ʔu0000kʷəda0%>c
 
 "d:0 before s:c"
-!! __@RULENAME@__
+!! **@RULENAME@**
 d:0 <=>	_ %> [ s: #| c ]  ;
 !!€ ʔu√%{p3%}%{p2%}%{p1%}kʷədad%>s
 !!€ ʔu0000kʷəda0%>c
@@ -407,13 +407,13 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 
 
 "%{p1%}:Cx in reduplication"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p1%}:Cx <=> %{p3%}: %{p2%}: _ Cns Vow: Cx [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
            where Cx in (kʷ b̓ ǰ n̓ m̓ p p̓ b t t̕ d dᶻ c c̓ č č̓ s š  ɬ ƛ̕  k k̓ k̓ʷ gʷ h xʷ q q̓ qʷ  x̌ x̌ʷ ) ;
 !!2017-11-27where Cx in (p b t t̕ d dᶻ č š l l̕ ɬ ƛ̕ w w̓ y̓ k̓ʷ gʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
 
 "%{p3%}:Cx in reduplication"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p3%}:Cx <=> _ %{p2%}: %{p1%}: Cx Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
                _ %{p2%}: %{p1%}: Cx Vow: Cns [ Cns | Vow ]* [ %^Red1CV1toCV2C:|%^Red1CV1toCV2CPL:] ;
                _ %{p2%}: %{p1%}: Cx Vow Cns [ Cns | Vow ]* [ %^Red1CV2CiCV:] ;
@@ -421,7 +421,7 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 !2019-03-04           where Cx in (p p̓ b t t̕ d dᶻ c c̓ č č̓ s š l l̕ ɬ ƛ̕ y w y̓ w̓ k k̓ k̓ʷ gʷ h xʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
 
 "%{p5%}:Cx in reduplication"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p5%}:Cx <=>
                _ %{p4%}: %{p3%}: %{p2%}: %{p1%}: Cx Vow: Cns [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
            where Cx in (kʷ b̓ ǰ n̓ m̓ p p̓ b t t̕ d dᶻ c c̓ č č̓ s š l l̕ ɬ ƛ̕  y w y̓ w̓ k k̓ k̓ʷ gʷ h xʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
@@ -433,41 +433,41 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 !! liquids
 
 "%{p1%}:l̕ in reduplication"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p1%}:l̕ <=> %{p3%}: %{p2%}: _ [q|y] Vow: l [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
              %{p3%}: %{p2%}: _ Cns Vow: l̕ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
 
 "%{p1%}:y̓ in reduplication"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p1%}:y̓ <=> %{p3%}: %{p2%}: _ q Vow: y [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
              %{p3%}: %{p2%}: _ Cns Vow: y̓ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
 
 
 
 "%{p1%}:w̓ in reduplication"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p1%}:w̓ <=> %{p3%}: %{p2%}: _ q Vow: w [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
              %{p3%}: %{p2%}: _ Cns Vow: w̓ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
 
 "%{p1%}:ʔ in reduplication"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p1%}:ʔ <=> %{p3%}: %{p2%}: _ s Vow: q̓ʷ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
              %{p3%}: %{p2%}: _ Cns Vow: ʔ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
 
 "%{p1%}:Cx in reduplication"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p1%}:Cx <=> %{p3%}: %{p2%}: _ [Cns - [q|y]] Vow: Cx [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
            where Cx in (l) ;
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC
 !!€ 00bəlbəlups0
 	   
 "%{p1%}:Cx in reduplication"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p1%}:Cx <=> %{p3%}: %{p2%}: _ [Cns - q] Vow: Cx [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
            where Cx in (y w) ;
 
 "%{p1%}:Cx in reduplication"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{p1%}:Cx <=> %{p3%}: %{p2%}: _ [Cns - s] Vow: Cx [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
            where Cx in (q̓ʷ) ;
 

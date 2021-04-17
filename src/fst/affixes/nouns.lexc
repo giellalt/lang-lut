@@ -48,7 +48,7 @@ LEXICON SG-SUF
 LEXICON PL_RED1_qelb
 @D.PossPx@+Pl+Nom:@D.PossPx@%^Red1CV2CiCV   # ;
 +Pl+Nom:%^Red2CV2CiCV        POSS ;
-!! qəlb+N+Pl+Nom: __rain showers__
+!! qəlb+N+Pl+Nom: **rain showers**
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV
 !!€ 00qi0qəlb0
 LEXICON PL_RED2

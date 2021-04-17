@@ -13,13 +13,13 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ========================================================================== !
-!!            !!!Lushootseed morphological analyser                      !
+!! # Lushootseed morphological analyser                      !
 ! ========================================================================== !
 !! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF LUSHOOTSEED LANGUAGE.
 
-Multichar_Symbols  !!≈ !!!Definitions for @CODE@
+Multichar_Symbols  !!≈ # Definitions for @CODE@
 
-!! !!Letters
+!! ## Letters
 b̓   !!= @CODE@ 
 c̓   !!= @CODE@ 
 č    !!= @CODE@ 
@@ -57,7 +57,7 @@ y̓   !!= @CODE@
 
 
 
-!! !!Analysis symbols
+!! ## Analysis symbols
 ! ----------------
 !! The morphological analyses of wordforms for the Lushootseed
 !! language are presented in this system in terms of the following symbols.
@@ -124,7 +124,7 @@ y̓   !!= @CODE@
 !! Verb personal forms are:
  +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3 !!= * @CODE@ 
  
-!! !!Direct Object conjugation
+!! ## Direct Object conjugation
  +OcSg1 !!= * @CODE@ = object conjugation first person singular
  +OcSg2 !!= * @CODE@ = object conjugation second person singular
  +OcSP3 !!= * @CODE@ = object conjugation third person singular or plural
@@ -188,7 +188,7 @@ y̓   !!= @CODE@
 
 +Clt !!= * @CODE@ %>əxʷ
 
-!! !Tags distinguishing different versions of the same lemma (before POS)
+!! ### Tags distinguishing different versions of the same lemma (before POS)
 +v1   !!≈ * @CODE@
 +v2   !!≈ * @CODE@
 +v3   !!≈ * @CODE@
@@ -218,15 +218,15 @@ y̓   !!= @CODE@
 
 
 
-        !! !!Symbols that need to be escaped on the lower side (towards twolc):
- »7     !!≈ ; @CODE@ : Literal »
- «7     !!≈ ; @CODE@ : Literal «
-        !! {{{
+        !! ## Symbols that need to be escaped on the lower side (towards twolc):
+ »7     !!≈ * **@CODE@**:  Literal »
+ «7     !!≈ * **@CODE@**:  Literal «
+        !! ```
  %[%>%] !!= @CODE@ - Literal >
  %[%<%] !!= @CODE@ - Literal <
-        !! }}}
+        !! ```
 
-%- !!≈ ; @CODE@ : hyphen
+%- !!≈ * **@CODE@**:  hyphen
 
 
 
@@ -247,43 +247,43 @@ y̓   !!= @CODE@
 
 !! And following triggers to control variation
  {front} {back} !!= * @CODE@ 
-%^Red1CV2CiCV !!= * @CODE@ qəlb: qiqəlb ''rain showers''
+%^Red1CV2CiCV !!= * @CODE@ qəlb: qiqəlb *rain showers*
 %^Red1CV1toCV2C !!= * @CODE@ 2-segment to 3-segments with vowel change
 %^Red1CV1toCV2CPL !!= * @CODE@ 2-segment to 3-segments with vowel change Plural
 %^Red2CVC2CVCCVC !!= * @CODE@ 3-segment reduplication
 
-!! !!Flag diacritics
+!! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
 
- @P.NeedNoun.ON@    !!= | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @D.NeedNoun.ON@    !!= | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @C.NeedNoun@       !!= | @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @P.NeedNoun.ON@    !!= |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @D.NeedNoun.ON@    !!= |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @C.NeedNoun@       !!= |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
 
 !! For languages that allow compounding, the following flag diacritics are needed
 !! to control position-based compounding restrictions for nominals. Their use is
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
 
- @P.CmpFrst.FALSE@ !!= | @CODE@ | Require that words tagged as such only appear first
- @D.CmpPref.TRUE@  !!= | @CODE@ | Block such words from entering ENDLEX
- @P.CmpPref.FALSE@ !!= | @CODE@ | Block these words from making further compounds
- @D.CmpLast.TRUE@  !!= | @CODE@ | Block such words from entering R
- @D.CmpNone.TRUE@  !!= | @CODE@ | Combines with the next tag to prohibit compounding
- @U.CmpNone.FALSE@ !!= | @CODE@ | Combines with the prev tag to prohibit compounding
- @P.CmpOnly.TRUE@  !!= | @CODE@ | Sets a flag to indicate that the word has passed R
- @D.CmpOnly.FALSE@ !!= | @CODE@ | Disallow words coming directly from root.
+ @P.CmpFrst.FALSE@ !!= |  @CODE@ | Require that words tagged as such only appear first
+ @D.CmpPref.TRUE@  !!= |  @CODE@ | Block such words from entering ENDLEX
+ @P.CmpPref.FALSE@ !!= |  @CODE@ | Block these words from making further compounds
+ @D.CmpLast.TRUE@  !!= |  @CODE@ | Block such words from entering R
+ @D.CmpNone.TRUE@  !!= |  @CODE@ | Combines with the next tag to prohibit compounding
+ @U.CmpNone.FALSE@ !!= |  @CODE@ | Combines with the prev tag to prohibit compounding
+ @P.CmpOnly.TRUE@  !!= |  @CODE@ | Sets a flag to indicate that the word has passed R
+ @D.CmpOnly.FALSE@ !!= |  @CODE@ | Disallow words coming directly from root.
 
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
 
- @U.Cap.Obl@        !!= | @CODE@ | Allowing downcasing of derived names: deatnulasj.
- @U.Cap.Opt@        !!= | @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Obl@        !!= |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Opt@        !!= |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
-!! ! NOUNS
+!! ###  NOUNS
 
 @U.PossPx.SP3@ !!= * @CODE@ 
 @U.PossPx.Sg1@ !!= * @CODE@ 
@@ -298,7 +298,7 @@ y̓   !!= @CODE@
 @D.PossPx@	   !!= * @CODE@ 
 @C.PossPx@	   !!= * @CODE@ 
 
-!! !VERBS
+!! ### VERBS
 @U.TAM.PRF@	 !!= * @CODE@ 
 @R.TAM.PRF@	 !!= * @CODE@ 
 @U.TAM.FUT@	 !!= * @CODE@ 
@@ -324,7 +324,7 @@ y̓   !!= @CODE@
 @C.TAM@		 !!= * @CODE@ 
 
 
-LEXICON Root !!= * __@CODE@__ Root lexicon
+LEXICON Root !!= * **@CODE@** Root lexicon
 !! The word forms in LUSHOOTSEED language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
 
@@ -345,7 +345,7 @@ LEXICON Root !!= * __@CODE@__ Root lexicon
 LEXICON NUM_
  K ;
 
-LEXICON K !!= * __@CODE@__ Clitic lexicon
+LEXICON K !!= * **@CODE@** Clitic lexicon
 +Clt:%>əxʷ # "now" ;
 #; 
 
