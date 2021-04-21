@@ -1,7 +1,7 @@
 # Lushootseed documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/template-lang-lut)](https://raw.githubusercontent.com/giellalt/lang-lut/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-lut)](https://raw.githubusercontent.com/giellalt/lang-lut/develop/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-lut)](https://github.com/giellalt/lang-lut/issues)
 [![Build status](https://github.com/giellalt/lang-lut/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-lut/actions)
 
