@@ -1,0 +1,34 @@
+[What is this?|WhatIsThis.html]
+
+
+
+
+ 
+ 
+ 
+ 
+* Test files: [yaml|https://gtsvn.uit.no/langtech/trunk/langs/lut/test/src/gt-norm-yamls/]
+
+
+!!! Demo page
+
+At the end of [this page|http://giellatekno.uit.no/num.eng.html] there is
+an experimental numerals to number words generator for 
+Southern Puget Sound Salish.
+
+!!! Project pages
+
+(none)
+
+!!! Grammatical issues
+
+* [The tags that are in use|https://gtsvn.uit.no/langtech/trunk/langs/lut/src/fst/root.lexc]   
+* [A list of morphological tags|/lang/common/MorphologicalTags.html]
+
+
+
+!!!Using the analysers
+
+
+* In the terminal: analyse words by writing ''ulut'', generate with ''dlut'' (note: this does not work yet)
+* For more info, see [How to use the morphological parsers|/tools/docu-sme-manual.html]
