@@ -1,46 +1,5 @@
-Noun inflection
-The Lushootseed language nouns inflect in time person aspect.
-
-
-
-
-
-
-
-
-
-qəlb+N+Pl+Nom: **rain showers**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
-* *00qi0qəlb0*
-bəlups+N+Pl+Nom
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC*
-* *00bəlbəlups0*
-* ★*%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC* (is not standard language)
-* ★*00000bəlups0* (is not standard language)
-* *k̓ʷəčk̓ʷəčədiʔ:* `k̓ʷəčədiʔ+N+Pl+Nom`
-* ★*k̓ʷəčədiʔ:* `k̓ʷəčədiʔ+N+Pl+Nom` (is not standard language)
-
-
-
-
-
-
-
-
-Proper noun inflection
-The Lushootseed language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-
-
-Prefixes
-Prefixes in the Lushootseed language are bound to beginning of other words.
-
-
-
-Pronoun inflection
-The Lushootseed language pronouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
+Nouns
+Nouns in LUSHOOTSEED language are things.
 
 
 
@@ -53,14 +12,24 @@ nouns, but with a colon (':') as separator.
 
 
 
-# Symbol affixes
+This is where new words are added as lexc entries before they are
+added to the xml source files.
+ɬaləp̓+N:ɬaləp̓ N_with-PL_RED2 "tongue" ;
+
+
+ADD NOUNS BELOW
 
 
 
+questionables
+
+
+Numerals
+Numerals in the Lushootseed language are numbers.
 
 
 Adverbs
-The Lushootseed language adverbs
+Adverbs in the LUSHOOTSEED language 
 
 
 
@@ -72,24 +41,19 @@ The Lushootseed language adverbs
 
 
 
-Adjective inflection
-The Lushootseed language adjectives compare.
+Proper nouns
+Proper nouns in LUSHOOTSEED language 
+
+
+
+Interjections
+Interjections in the LUSHOOTSEED language 
 
 
 
 
-Verb inflection
-The Lushootseed language verbs inflect in object persons.
-
-
-
-
-bəčdub:bəčd
-
-kʷədad:kʷədad
-
-
-
+Verbs
+Verbs in the Lushootseed language are actions.
 
 
 
@@ -97,15 +61,24 @@ kʷədad:kʷədad
 
 
 
-
-
-
+Conjunctors
+Conjunctors in the LUSHOOTSEED language 
 
 
 
 
 Adpositions
-The Lushootseed language adpositions
+Adpositions in the LUSHOOTSEED language 
+
+
+
+Adjectives
+Adjectives in the Lushootseed language describe things.
+
+
+Pronouns
+Pronouns in the Lushootseed language are references to things.
+
 
 
 
@@ -298,6 +271,119 @@ liquids
 **%{p1%}:Cx in reduplication**
 
 **%{p1%}:Cx in reduplication**
+
+
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+Noun inflection
+The Lushootseed language nouns inflect in time person aspect.
+
+
+
+
+
+
+
+
+
+qəlb+N+Pl+Nom: **rain showers**
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
+* *00qi0qəlb0*
+bəlups+N+Pl+Nom
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC*
+* *00bəlbəlups0*
+* ★*%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC* (is not standard language)
+* ★*00000bəlups0* (is not standard language)
+* *k̓ʷəčk̓ʷəčədiʔ:* `k̓ʷəčədiʔ+N+Pl+Nom`
+* ★*k̓ʷəčədiʔ:* `k̓ʷəčədiʔ+N+Pl+Nom` (is not standard language)
+
+
+
+
+
+
+
+
+Adverbs
+The Lushootseed language adverbs
+
+
+
+
+
+
+
+
+
+
+
+Proper noun inflection
+The Lushootseed language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+Verb inflection
+The Lushootseed language verbs inflect in object persons.
+
+
+
+
+bəčdub:bəčd
+
+kʷədad:kʷədad
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Adpositions
+The Lushootseed language adpositions
+
+
+
+
+
+Prefixes
+Prefixes in the Lushootseed language are bound to beginning of other words.
+
+
+
+Adjective inflection
+The Lushootseed language adjectives compare.
+
+
+
+
+Pronoun inflection
+The Lushootseed language pronouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+
+
+
 
 
 
@@ -626,140 +712,6 @@ word classes, or optionally from prefixes:
 
  * **LEXICON K ** Clitic lexicon
 
-Nouns
-Nouns in LUSHOOTSEED language are things.
-
-
-
-
-
-
-
-
-
-
-
-
-Proper nouns
-Proper nouns in LUSHOOTSEED language 
-
-
-
-Pronouns
-Pronouns in the Lushootseed language are references to things.
-
-
-
-
-
-
-Conjunctors
-Conjunctors in the LUSHOOTSEED language 
-
-
-
-
-Interjections
-Interjections in the LUSHOOTSEED language 
-
-
-
-
-Adverbs
-Adverbs in the LUSHOOTSEED language 
-
-
-
-
-
-
-
-
-
-
-
-Adjectives
-Adjectives in the Lushootseed language describe things.
-
-
-Verbs
-Verbs in the Lushootseed language are actions.
-
-
-
-
-
-
-
-This is where new words are added as lexc entries before they are
-added to the xml source files.
-ɬaləp̓+N:ɬaləp̓ N_with-PL_RED2 "tongue" ;
-
-
-ADD NOUNS BELOW
-
-
-
-questionables
-
-
-Adpositions
-Adpositions in the LUSHOOTSEED language 
-
-
-
-Numerals
-Numerals in the Lushootseed language are numbers.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Check this
-
-
-Check this
-
-
-
-
-
-
-
-
-
-Check this
-
-
-Check this
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -774,5 +726,53 @@ For example:
  * v.:vuonna # ;  
  * esim.:esimerkki # ; 
  * esim.:esimerkiksi # ; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Check this
+
+
+Check this
+
+
+
+
+
+
+
+
+
+Check this
+
+
+Check this
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
