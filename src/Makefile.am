@@ -79,6 +79,19 @@ endif # CAN_FOMA
 #################################################
 #### Add language-specific build rules here: ####
 
+### Process æ-ä early, and separately for xfst, hfst and foma. ###
+###
+### Xerox: can't use twosided flag-diacritics, so we'll just allow both
+### everywhere:
+analyser-raw-gt-desc.%: analyser-raw-gt-desc.tmp.% \
+					orthography/split-composed-chars.compose.%
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex            \
+				@\"$<\"                               \
+			.o. @\"orthography/split-composed-chars.compose.%\" \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
+
 ##################################################################
 #### END: Add local processing instructions ABOVE this line ######
 ##################################################################
