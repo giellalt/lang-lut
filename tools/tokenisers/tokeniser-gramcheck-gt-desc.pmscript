@@ -111,6 +111,9 @@ Define alphabet "a-z"
                |{Š}|{Ž}|{Č}|{Đ}|{Í}|{Ŋ}|{Ň}|{Ŧ}|{Ň}
                | "0-9"
                |{_}|{§}|{°}
+               |{kʷ}|{k̓ʷ}|{gʷ}|{qʷ}|{q̓ʷ}|{xʷ}|{x̌ʷ}
+               |{dᶻ}|{ə́}|{b̓}|{c̓}|{č̓}|{k̓}|{l̕}|{ƛ̕}
+               |{n̓}|{p̓}|{q̓}|{t̕}|{y̓}|{m̓}|{w̓}|{x̌}
                ;
 Define alphamiddle {'}|{-} ; ! Treat foo-bar as one big unknown, but -foo (or bar-) as two tokens
 Define alphaword alphabet+ ( alphamiddle alphabet+ );
