@@ -1,5 +1,5 @@
 # Regex to expand multichar symbols (in the fst sense) to a string of individual letters.
-# Will make sure that various tools to not choke on parsing input strings.
+# Will make sure that various tools do not choke on parsing input strings.
 
 "kʷ" -> {kʷ},
 "k̓ʷ" -> {k̓ʷ},
