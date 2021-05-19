@@ -79,10 +79,9 @@ endif # CAN_FOMA
 #################################################
 #### Add language-specific build rules here: ####
 
-### Process æ-ä early, and separately for xfst, hfst and foma. ###
-###
-### Xerox: can't use twosided flag-diacritics, so we'll just allow both
-### everywhere:
+### Split multichar letters early, to avoid repetitive code. Multichar ###
+### letters must be split on both sides, and then the alphabet pruned, ###
+### for hfst-tokenise to work without issues.                          ###
 generator-raw-gt-desc.hfst: generator-raw-gt-desc.tmp.hfst \
 					orthography/split-composed-chars.compose.hfst
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex            \
