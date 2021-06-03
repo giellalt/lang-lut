@@ -1389,6 +1389,18 @@ ADD NOUNS BELOW
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 questionables
 
 
@@ -1420,13 +1432,6 @@ Adverbs in the LUSHOOTSEED language
 
 Nouns
 Nouns in LUSHOOTSEED language are things.
-
-
-
-
-
-
-
 
 
 
