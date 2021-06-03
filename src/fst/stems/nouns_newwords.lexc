@@ -4,67 +4,187 @@
 
 
 LEXICON N_NEWWORDS
-test+N:test N_with-PL_RED2 "(eng) /(slh) " ;
 !! ADD NOUNS BELOW
+!qəlb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb N_with-PL_RED1_qelb "rain shower" ;
+
+!bəlups+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups N_with-PL_RED2 "raccoon" ;
+!ǰəšəd+N:ǰə√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šəd N_with-PL_RED2 "foot" ;
+
+!ʔəpus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəpus N_with-PL_RED2 "aunt" ;
+!bədaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bədaʔ N_with-PL_RED2 "child" ;
+!bəqsəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəqsəd N_with-PL_RED2 "nose" ;
+!cqapsəb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cqapsəb N_with-PL_RED2 "neck" ;!word-init 2019-03-05
+!cubəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cubəd N_with-PL_RED2 "eyebrow" ;
+!čaləš+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čaləš N_with-PL_RED2 "hand" ;
+!ɬalap+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬalap N_with-PL_RED2 "tongue" ;
+!qəlub+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlub N_with-PL_RED2 "eye" ;
+!sʔubəd+N:s«%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔubəd N_with-PL_RED2 "hunter" ;
+!sbadil+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}badil N_with-PL_RED2 "mountain" ;
+!sdaʔ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}daʔ N_with-PL_RED2 "name" ;
+!yəlab+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəlab N_with-PL_RED2 "either parent's sibling of either sex when parent is deceased" ;
+!swəwaʔ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wəwaʔ N_with-PL_RED2 "cougar" ;
+!stiqiw+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tiqíw N_with-PL_RED2 "horse" ;
+!stiqayuʔ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tiqáyuʔ N_with-PL_RED2 "wolf" ;
+!sbiaw+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}biáw N_with-PL_RED2 "coyote" ;!plur 2019-03-05
+!kəšu+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kəšu N_with-PL_RED2 "pig" ;
+!bəščəb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəščəb N_with-PL_RED2 "mink" ;
+!pišpiš+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}píšpiš N_with-PL_RED2 "cat" ;
+!yubəč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yubəč N_with-PL_RED2 "king salmon" ;
+!təǰabac+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təǰabac N_with-PL_RED2 "sea cucumber" ;
+!puʔps+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}puʔps N_with-PL_RED2 "periwinkle" ;
+!sčətxʷəd+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd N_with-PL_RED2 "bear|black bear" ;
+!titčulbixʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}títčulbixʷ N_with-PL_RED2 "small animals (mammals), are those wolf size or smaller" ;
+!tatačulbixʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tátačulbixʷ N_with-PL_RED2 "large animals (mammals), are those bigger than a wolf|animals that are used as food" ;
+!labatu+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}labatú N_with-PL_RED2 "sheep" ;
+!sqigʷəc+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qigʷəc N_with-PL_RED2 "deer" ;
+!kʷagʷičəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷágʷičəd N_with-PL_RED2 "elk" ;
+!qʷist+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qʷist N_with-PL_RED2 "cow" ;
+!sqʷəbayʔ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qʷəbáyʔ N_with-PL_RED2 "dog" ;
+!sqədᶻuʔ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qədᶻuʔ N_with-PL_RED2 "squirrel" ;
+!sʔuladxʷ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔuladxʷ N_with-PL_RED2 "salmon" ;
+!čəxʷəluʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čəxʷəluʔ N_with-PL_RED2 "grey whale" ;
+!skʷəxʷic+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷəxʷic N_with-PL_RED2 "silver salmon" ;
+!scəqiʔ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cəqiʔ N_with-PL_RED2 "sockeye salmon" ;
+!ʔaləšək+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔaləšək N_with-PL_RED2 "turtle" ;
+!bəsqʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəsqʷ N_with-PL_RED2 "crab" ;
+!tulqʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tulqʷ N_with-PL_RED2 "mussel" ;
+!ʔukʷs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔukʷs N_with-PL_RED2 "chiton (large)" ;
+!stxʷub+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}txʷub N_with-PL_RED2 "butter clam" ;
+!hiʔhaʔəc+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}hiʔhaʔəc N_with-PL_RED2 "eastern clam" ;
+!haʔəc+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}haʔəc N_with-PL_RED2 "horse clam" ;
+!gʷidəq+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gʷidəq N_with-PL_RED2 "geoduck" ;
+!buʔqʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}buʔqʷ N_with-PL_RED2 "duck" ;
+!kiyuuqʷs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kiyuuqʷs N_with-PL_RED2 "seagull" ;
+!təkʷtəkʷəlus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təkʷtəkʷəlus N_with-PL_RED2 "great horned owl" ;
+!tətiʔəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tətiʔəd N_with-PL_RED2 "humming bird" ;
+!sgʷəlub+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gʷəlub N_with-PL_RED2 "chicken|pheasant" ;
+luƛ̕+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}luƛ̕ N_with-PL_RED2 "elder" ;
+tətupəl̕+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tətupəl̕ N_with-PL_RED2 "spider" ;
+t̕ilus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕ilus N_with-PL_RED2 "unidentified small clam" ;
+
+k̓ʷəčədiʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ N_with-PL_RED2 "rabbit" ;
+k̓ʷiyəx̌+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷiyəx̌ N_with-PL_RED2 "stomach" ;
+qədxʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qədxʷ N_with-PL_RED2 "mouth" ;
+q̓ʷəladiʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ʷəladiʔ N_with-PL_RED2 "ear" ; !
+sč̓adᶻəp+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓adᶻəp N_with-PL_RED2 "skirt" ;
+sq̓ədᶻuʔ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ədᶻuʔ N_with-PL_RED2 "hair" ;
+st̕ək̓ʷəb+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕ək̓ʷəb N_with-PL_RED2 "log|stick" ;
+sx̌ayus+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ayus N_with-PL_RED2 "head" ;
+sx̌ʷiʔab+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷiʔab N_with-PL_RED2 "story" ;
+t̕aləkʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕aləkʷ N_with-PL_RED2 "elbow|shoulder" ;
+x̌ald+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ald N_with-PL_RED2 "chiton" ;
+x̌qp̓ucid+N:x̌√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qp̓ucid N_with-PL_RED2 "knee" ;
+stəbtabəl̕+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təbtabəl̕ N_with-PL_RED2 "grizzly" ;
+stulc̓əʔ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}túlc̓əʔ N_with-PL_RED2 "moose" ;
+yəw̓yəɬdaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəw̓yəɬdaʔ N_with-PL_RED2 "fawn" ;
+sx̌ʷuʔx̌ʷuʔ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷuʔx̌ʷuʔ N_with-PL_RED2 "fox" ;
+x̌aʔx̌alus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌aʔx̌alus N_with-PL_RED2 "raccoon" ;
+qʷəq̓ʷal̕+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qʷəq̓ʷal̕ N_with-PL_RED2 "porcupine" ;
+sq̓əbyaʔ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓əbyaʔ N_with-PL_RED2 "skunk" ;
+k̓ʷəčəldiʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčəldiʔ N_with-PL_RED2 "rabbit" ;
+
+p̓əɬq̓ʷačiʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓əɬq̓ʷačiʔ N_with-PL_RED2 "mole" ;
+sk̓ʷətɬ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷətɬ N_with-PL_RED2 "chipmunk" ;
+k̓ʷat̕ad+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷat̕ad N_with-PL_RED2 "mouse" ;
+bəc̓ac+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəc̓ac N_with-PL_RED2 "snake" ;
+qal̕qaləx̌ič+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qal̕qaləx̌ič N_with-PL_RED2 "orca" ;
+sq̓aƛ̕+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓aƛ̕ N_with-PL_RED2 "otter" ;
+st̕əqxʷ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕əqxʷ N_with-PL_RED2 "beaver" ;
+
+
+sqibk̓ʷ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qibk̓ʷ N_with-PL_RED2 "octopus" ;
+waq̓waq̓+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}waq̓waq̓ N_with-PL_RED2 "frog" ;
+sk̓ʷic̓i+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷic̓i N_with-PL_RED2 "sea urchin" ;
+q̓ʷəlačiʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ʷəlačiʔ N_with-PL_RED2 "star fish" ;
+sup̓qs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sup̓qs N_with-PL_RED2 "harbor seal" ;
+
+ƛ̕xʷayʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕xʷayʔ N_with-PL_RED2 "dog salmon|chum salmon" ;
+p̓uay̓+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓uay̓ N_with-PL_RED2 "flounder" ;
+t̕aɬigʷs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕aɬigʷs N_with-PL_RED2 "rock cod" ;
+
+x̌ʷəlč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷəlč N_with-PL_RED2 "bay|ocean" ;
+kəlapx̌ʷəlč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kəlapx̌ʷəlč N_with-PL_RED2 "jelly fish" ;
+sʔax̌ʷuʔ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔax̌ʷuʔ N_with-PL_RED2 "clam" ;
+ƛ̕ux̌ʷƛ̕ux̌ʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕ux̌ʷƛ̕ux̌ʷ N_with-PL_RED2 "oyster" ;
+c̓ubc̓ub+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓ubc̓ub N_with-PL_RED2 "barnacle" ;
+č̓ič̓əlpyaqid+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓ič̓əlpyaqid N_with-PL_RED2 "periwinkle" ;
+
+sx̌aʔaʔ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌aʔaʔ N_with-PL_RED2 "little neck steamer clams" ;
+xʷč̓iɬqs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}xʷč̓iɬqs N_with-PL_RED2 "large native oyster" ;
+sx̌əp̓ab+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌əp̓ab N_with-PL_RED2 "cockle clam" ;
+x̌ald+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ald N_with-PL_RED2 "chiton (small)" ;
+sč̓awəyʔ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓awəyʔ N_with-PL_RED2 "any seashell" ;
+yəx̌ʷəlaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəx̌ʷəlaʔ N_with-PL_RED2 "eagle" ;
+qaw̓qs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qaw̓qs N_with-PL_RED2 "raven" ;
+kay̓kay̓+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kay̓kay̓ N_with-PL_RED2 "blue jay" ;
+k̓aʔk̓aʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓aʔk̓aʔ N_with-PL_RED2 "crow" ;
+c̓ix̌c̓ix̌+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓ix̌c̓ix̌ N_with-PL_RED2 "fish hawk" ;
+k̓ʷič̓k̓ʷič̓lax̌ədxʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷič̓k̓ʷič̓lax̌ədxʷ N_with-PL_RED2 "mudswallow" ;
+x̌ədx̌əd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ədx̌əd N_with-PL_RED2 "goose" ;
+
+
+!test+N:test N_with-PL_RED2 "(eng) /(slh) " ;
+!qəluʔb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəluʔb N_with-PL_RED2 "eye/qəluʔb" ;
+!cubəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cubəd N_with-PL_RED2 "eye brow" ;
+!bəqsəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəqsəd N_with-PL_RED2 "nose" ;
+!čaləs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čaləs N_with-PL_RED2 "hand" ;
+!qədxʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qədxʷ N_with-PL_RED2 "mouth/qədxʷ" ;
+!sgʷədayucid+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sgʷədayucid N_with-PL_RED2 "chin" ;
+!sʔilidgʷəs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sʔilidgʷəs N_with-PL_RED2 "chest" ;
+!bəlagʷəʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlagʷəʔ N_with-PL_RED2 "belly button" ;
+!sʔacus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sʔacus N_with-PL_RED2 "face" ;
+!sqwəlič+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sqwəlič N_with-PL_RED2 "back" ;
+!dᶻədis+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dᶻədis N_with-PL_RED2 "tooth" ;
+!bad+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bad N-MSC_with-PL_RED2 "father" ;
+!scapaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}scapaʔ N-MSC_with-PL_RED2 "grandfather" ;
+!kayə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kayə N-FEM_with-PL_RED2 "grandmother" ;
+!scəbdatil+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}scəbdatil N_with-PL_RED2 "Tuesday" ;
+!scəbdatil+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}scəbdati N_with-PL_RED2 "Tuesday" ;
+!sɬixʷəɬdatil+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sɬixʷəɬdatil N_with-PL_RED2 "Wednesday" ;
+!sɬixʷəɬdatil+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sɬixʷəɬdati N_with-PL_RED2 "Wednesday" ;
+!sbuusəɬdatil+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sbuusəɬdatil N_with-PL_RED2 "Thursday" ;
+!buusil+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}buusil N_with-PL_RED2 "Thursday" ;
+!buusil+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}buusi N_with-PL_RED2 "Thursday" ;
+!scəlacəɬdatil+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}scəlacəɬdatil N_with-PL_RED2 "Friday" ;
+!cəlacil+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cəlacil N_with-PL_RED2 "Friday" ;
+!cəlacil+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cəlaci N_with-PL_RED2 "Friday" ;
+!səxʷpupuhigʷəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}səxʷpupuhigʷəd N_with-PL_RED2 "February" ;
+!slihibus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}slihibus N_with-PL_RED2 "April" ;
+!pədstəgʷəd+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədstəgʷəd N_with-PL_RED2 "June" ;
+!pədstəgʷəd+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədstəgʷad N_with-PL_RED2 "June" ;
+!pədgʷədbixʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədgʷədbixʷ N_with-PL_RED2 "July" ;
+!pədkʷəxʷic+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədkʷəxʷic N_with-PL_RED2 "September" ;
+!syaʔ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yaʔ N_with-PL_RED2 "friend" ;
 
 suq̓ʷaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}suq̓ʷaʔ N_with-PL_RED2 "younger sibling" ;
 sc̓aliʔ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓aliʔ N_with-PL_RED2 "heart" ;
 ɬaləp̓+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬaləp̓   N_with-PL_RED2 "tongue/ ɬalap" ;
-qəluʔb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəluʔb N_with-PL_RED2 "eye/qəluʔb" ;
-cubəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cubəd N_with-PL_RED2 "eye brow" ;
-bəqsəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəqsəd N_with-PL_RED2 "nose" ;
-čaləs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čaləs N_with-PL_RED2 "hand" ;
 siʔab+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}siʔab N_with-PL_RED2 "nobleman" ;
 q̓ʷəladiʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ʷəladiʔ N_with-PL_RED2 "ear/q̓ʷəladiʔ" ;
-qədxʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qədxʷ N_with-PL_RED2 "mouth/qədxʷ" ;
-sgʷədayucid+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sgʷədayucid N_with-PL_RED2 "chin" ;
+
 sʔilalubid+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sʔilalubid N_with-PL_RED2 "shoulder" ;
-sʔilidgʷəs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sʔilidgʷəs N_with-PL_RED2 "chest" ;
-bəlagʷəʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlagʷəʔ N_with-PL_RED2 "belly button" ;
-sʔacus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sʔacus N_with-PL_RED2 "face" ;
 sq̓ədᶻuʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sq̓ədᶻuʔ N_with-PL_RED2 "hair" ;
-sqwəlič+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sqwəlič N_with-PL_RED2 "back" ;
 lax̌ad+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}lax̌ad N_with-PL_RED2 "arm" ;
 x̌qp̓ucid+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌qp̓ucid N_with-PL_RED2 "knee" ;
 c̓uk̓ʷəb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓uk̓ʷəb N_with-PL_RED2 "skin" ;
 !
-dᶻədis+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dᶻədis N_with-PL_RED2 "tooth" ;
-bad+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bad N-MSC_with-PL_RED2 "father" ;
-scapaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}scapaʔ N-MSC_with-PL_RED2 "grandfather" ;
-kayə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kayə N-FEM_with-PL_RED2 "grandmother" ;
 sk̓ʷuy+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sk̓ʷuy N-FEM_with-PL_RED2 "mother" ;
 ƛ̕iq̓s+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕iq̓s N_with-PL_RED2 "January" ;
 x̌aʔx̌aʔəɬdat+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌aʔx̌aʔəɬdat N_with-PL_RED2 "Sunday" ;
 pədx̌ax̌aʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədx̌ax̌aʔ N_with-PL_RED2 "Sunday" ;
 p̓əɬq̓ʷabac+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓əɬq̓ʷabac N_with-PL_RED2 "Monday" ;
 p̓əɬq̓ʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓əɬq̓ʷ N_with-PL_RED2 "Monday" ;
-scəbdatil+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}scəbdatil N_with-PL_RED2 "Tuesday" ;
-scəbdatil+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}scəbdati N_with-PL_RED2 "Tuesday" ;
-sɬixʷəɬdatil+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sɬixʷəɬdatil N_with-PL_RED2 "Wednesday" ;
-sɬixʷəɬdatil+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sɬixʷəɬdati N_with-PL_RED2 "Wednesday" ;
-sbuusəɬdatil+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sbuusəɬdatil N_with-PL_RED2 "Thursday" ;
-buusil+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}buusil N_with-PL_RED2 "Thursday" ;
-buusil+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}buusi N_with-PL_RED2 "Thursday" ;
-scəlacəɬdatil+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}scəlacəɬdatil N_with-PL_RED2 "Friday" ;
-cəlacil+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cəlacil N_with-PL_RED2 "Friday" ;
-cəlacil+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cəlaci N_with-PL_RED2 "Friday" ;
 č̓itabac+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓itabac N_with-PL_RED2 "Saturday" ;
 č̓itabac+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓itabəc N_with-PL_RED2 "Saturday" ;
-səxʷpupuhigʷəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}səxʷpupuhigʷəd N_with-PL_RED2 "February" ;
 waq̓waq̓us+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}waq̓waq̓us N_with-PL_RED2 "March" ;
-slihibus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}slihibus N_with-PL_RED2 "April" ;
 !sɬali # "January" ;
 !swaq̓waq̓ # "February" ;
 ! pupuhigʷəd # "March/april" ;
 ! pədx̌ʷiwaac# "april/may" ;
 pədč̓aʔab+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədč̓aʔab N_with-PL_RED2 "May" ;
 pədč̓aʔab+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədč̓aʔəb N_with-PL_RED2 "May" ;
-pədstəgʷəd+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədstəgʷəd N_with-PL_RED2 "June" ;
-pədstəgʷəd+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədstəgʷad N_with-PL_RED2 "June" ;
-pədgʷədbixʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədgʷədbixʷ N_with-PL_RED2 "July" ;
 pədt̕aqa+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədt̕aqa N_with-PL_RED2 "August" ;
 pədt̕aqa+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədt̕aqaʔ N_with-PL_RED2 "August" ;
-pədkʷəxʷic+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədkʷəxʷic N_with-PL_RED2 "September" ;
 pədxʷit̕xʷit̕il+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədxʷit̕xʷit̕il N_with-PL_RED2 "October" ;
 pədxʷič̕ib+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədxʷič̕ib N_with-PL_RED2 "October" ;
 pədƛ̕xʷayʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədƛ̕xʷayʔ N_with-PL_RED2 "November" ;
@@ -72,32 +192,31 @@ səxʷšic̓əlwaʔs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}səxʷšic̓əlwaʔs N_with
 pədt̕əs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədt̕əs N_with-PL_RED2 "winter" ;
 
 
-syaʔ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yaʔ N_with-PL_RED2 "friend" ;
 c̓ix̌c̓ix̌+N+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓ix̌c̓ix̌ N_with-PL_RED2 "fish-hawk" ;
 !! questionables
-sqa+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qa N_with-PL_RED2 "big brother" ;
+!sqa+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qa N_with-PL_RED2 "big brother" ;
+!ʔiišəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔiišəd N_with-PL_RED2 "family" ;
+!puʔtəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}puʔtəd N_with-PL_RED2 "shirt" ;
+!sɬagʷidali+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬagʷidali N_with-PL_RED2 "bedroom" ;
+!talə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}talə  N_with-PL_RED2 "money" ;
+!ʔalʔal+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔalʔal N_with-PL_RED2 "house" ;
+!spiqʷuc+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}piqʷuc N_with-PL_RED2 "potato" ;
+!staləɬ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}taləɬ N_with-PL_RED2 "niece; nephew" ;
+!pəpə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pəpə N_with-PL_RED2 "peper" ;
+!bətə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bətə N_with-PL_RED2 "butter" ;
+!šukʷə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šukʷə N_with-PL_RED2 "sugar" ;
+!spud+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pud N_with-PL_RED2 "spoon" ;!plural?
+!sduukʷ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}duukʷ N_with-PL_RED2 "knife" ;
+!skʷədulč+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷədulč N_with-PL_RED2 "bowl" ;
+!silulč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}silulč N_with-PL_RED2 "cup" ;
 
 sɬax̌il+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬax̌il N_with-PL_RED2 "evening; night" ;
-ʔiišəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔiišəd N_with-PL_RED2 "family" ;
-puʔtəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}puʔtəd N_with-PL_RED2 "shirt" ;
 gəlk̓ic̓aʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gəlk̓ic̓aʔ N_with-PL_RED2 "sweater" ;
-sɬagʷidali+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬagʷidali N_with-PL_RED2 "bedroom" ;
-talə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}talə  N_with-PL_RED2 "money" ;
 q̓il̕bid+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓il̕bid  N_with-PL_RED2 "car" ;
-ʔalʔal+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔalʔal N_with-PL_RED2 "house" ;
-spiqʷuc+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}piqʷuc N_with-PL_RED2 "potato" ;
-staləɬ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}taləɬ N_with-PL_RED2 "niece; nephew" ;
 ƛ̕aƛ̕ac̓apəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕aƛ̕ac̓apəd N_with-PL_RED2 "ant" ;
 
 x̌ax̌aʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ax̌aʔ N_with-PL_RED2 "week" ;
 ƛ̕aɬəb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕aɬəb N_with-PL_RED2 "salt" ;
-pəpə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pəpə N_with-PL_RED2 "peper" ;
-bətə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bətə N_with-PL_RED2 "butter" ;
-šukʷə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šukʷə N_with-PL_RED2 "sugar" ;
-spud+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pud N_with-PL_RED2 "spoon" ;!plural?
-sduukʷ+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}duukʷ N_with-PL_RED2 "knife" ;
-skʷədulč+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷədulč N_with-PL_RED2 "bowl" ;
 ɬaʔx̌+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬaʔx̌ N_with-PL_RED2 "plate" ;
 č̓awəyʔulč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓awəyʔulč N_with-PL_RED2 "glass" ;
-silulč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}silulč N_with-PL_RED2 "cup" ;
 ʔik̓ʷusəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔik̓ʷusəd N_with-PL_RED2 "napkin" ;
