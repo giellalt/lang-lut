@@ -3,30 +3,34 @@
 !! Prefixes in the Lushootseed language are bound to beginning of other words.
 
 LEXICON Prefixes
-@U.PossPx.Sg1@:@U.PossPx.Sg1@d%<     Nouns   ;
-@U.PossPx.Sg2@:@U.PossPx.Sg2@ad%<     Nouns   ;
+Prefixes_01 ;
+@U.PossPx.Sg1@:@U.PossPx.Sg1@d%<     Prefixes_01   ;
+@U.PossPx.Sg2@:@U.PossPx.Sg2@ad%<    Prefixes_01   ;
+ DVNouns_01 ;
+
+LEXICON Prefixes_01
  Nouns ;
 ! These are the first Northern Lushootseed
-@U.PossPx.Sg1@:@U.PossPx.Sg1@d%<     N_NEWWORDS   ;
-@U.PossPx.Sg2@:@U.PossPx.Sg2@ad%<     N_NEWWORDS   ;
  N_NEWWORDS ;
-verbprefix-     Verbs   ;
+ DVNouns   ;
+
+
+LEXICON DVNouns
+:s%< DVNouns_01 ;
+
+LEXICON DVNouns_01
+ Verbs ; 
+!verbprefix-     Verbs   ;
 @U.TAM.COND@:@U.TAM.COND@ləs%< Verbs ;
-@U.TAM.FUT@:@U.TAM.FUT@ɬu%< Verbs ; ! qəlb 'rain': ɬuqəlb 'rain in the future' is this a noun, too?
+@U.TAM.FUT@:@U.TAM.FUT@ɬu%< Verbs ; ! qəlb 'rain': ɬuqəlb 'rain in the future' is this a noun, too? _intention to_
 @U.TAM.PRF@:@U.TAM.PRF@ʔu%< Verbs ; ! qəlb 'rain': ʔuqəlb 'raining' doesn't sound perfect to me
-@U.TAM.REM@:@U.TAM.REM@tu%< Verbs ;
-@U.TAM.PROG@:@U.TAM.PROG@lə%< Verbs ;
-@U.TAM.STAT@:@U.TAM.STAT@ʔəs%< Verbs ;
+@U.TAM.REM@:@U.TAM.REM@tu%< Verbs ; ! remote past, any predicate
+@U.TAM.PROG@:@U.TAM.PROG@lə%< Verbs ;!non-circumscribed, progressive
+@U.TAM.STAT@:@U.TAM.STAT@ʔəs%< Verbs ; !ongoing state
 !ʔəsq̓iʔq̓aƛ̕əb _partly cloudy_ ɬasq̓iʔq̓aƛ̕əb __partly cloudy in the future__
 !ʔəsgiʔgəqəb __partly sunny__ ɬasgiʔgəqəb __partly sunny in the future__
 !ʔiɬgəqil __mostly sunny__ ɬasʔiɬgəqil __mostly sunny in the future__
 !ʔəsgəqəb __sunny__ ɬasgəqil __sunny in the future__
 !
-@U.PossPx.Sg1@:@U.PossPx.Sg1@d%<     DVNouns   ;
-@U.PossPx.Sg2@:@U.PossPx.Sg2@ad%<     DVNouns   ;
- DVNouns   ;
-
-LEXICON DVNouns
-:s%< Verbs ;
 
 ! vim: set ft=xfst-lexc:
