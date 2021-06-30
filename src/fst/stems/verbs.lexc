@@ -21,12 +21,20 @@ tuləkʷ+V:tuləkʷ TV_KʷƏDAD "" ;
 ʔəƛ̕+V:ʔəƛ̕ TV_KʷƏDAD "" ;
 huytxʷ+V:huytxʷ TV_KʷƏDAD "" ;
 
+t̕ilib+V:t̕ilib IV_HELHED "sing" ;
+təsadiʔ+v1+V:təsadiʔ IV_HELHED "drum" ;
+təsadiʔ+v2+V:tsadiʔ IV_HELHED "drum" ; ! check this vowel loss
+səx̌əb+V:səx̌əb IV_HELHED "dance" ;
+ʔiɬšxʷ+V:ʔiɬšxʷ IV_HELHED "paddle" ;
+ʔəɬəd+V:ʔəɬəd IV_HELHED "eat" ;
+həliʔil+V:həliʔil IV_HELHED "become well" ;
+yəcəb+V:yəcəb IV_HELHED "give news" ;
 
 tiʔəʔ:tiʔəʔ COP_ "is (copula quality)" ;
 
 !adsuʔəɫəd. ʔuʔəɫəd
 !adsux̌alšid. ʔux̌alšid
-xʔəɫəd+V:ʔəɫəd TV_KʷƏDAD ;!V_HELHED ;
+ʔəɬəd+V:ʔəɬəd IV_HELHED ;
 x̌alšid+V:x̌alšid TV_KʷƏDAD ;
 qʷuʔqʷaʔ+V:qʷuʔqʷaʔ TV_KʷƏDAD ;
 tagʷš+V:tagʷš TV_KʷƏDAD ;

@@ -8,7 +8,15 @@ LEXICON Comparisons
 +A+Sup:est      Cases   ;
 
 LEXICON A_
-+A: K ;
+: K ;
+
+LEXICON DET_
+: K ;
+
+LEXICON DET-NEUTRAL-MSC_
+K ;
+LEXICON DET-NEUTRAL-FEM_
+K ;
 
 ! vim: set ft=xfst-lexc:
 

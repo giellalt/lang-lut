@@ -16,10 +16,10 @@ LEXICON Prefixes_01
 
 
 LEXICON DVNouns
-:s%< DVNouns_01 ;
+:s%< DVNouns_01 ; !Need to mark this with flags 2021-06-30
 
 LEXICON DVNouns_01
- Verbs ; 
+@U.TAM.NO@:@U.TAM.NO@ Verbs ; 
 !verbprefix-     Verbs   ;
 @U.TAM.COND@:@U.TAM.COND@ləs%< Verbs ;
 @U.TAM.FUT@:@U.TAM.FUT@ɬu%< Verbs ; ! qəlb 'rain': ɬuqəlb 'rain in the future' is this a noun, too? _intention to_

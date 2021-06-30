@@ -58,7 +58,8 @@ LEXICON N_NEWWORDS
 !təkʷtəkʷəlus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təkʷtəkʷəlus N_with-PL_RED2 "great horned owl" ;
 !tətiʔəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tətiʔəd N_with-PL_RED2 "humming bird" ;
 !sgʷəlub+N:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gʷəlub N_with-PL_RED2 "chicken|pheasant" ;
-luƛ̕+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}luƛ̕ N_with-PL_RED2 "elder" ;
+
+!luƛ̕+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}luƛ̕ N_with-PL_RED2 "elder" ;
 tətupəl̕+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tətupəl̕ N_with-PL_RED2 "spider" ;
 t̕ilus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕ilus N_with-PL_RED2 "unidentified small clam" ;
 

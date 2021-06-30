@@ -66,6 +66,7 @@ y̓   !!= @CODE@
 !! The parts-of-speech are:
  +N +A +Adv +V                                 !!= * @CODE@
  +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!= * @CODE@
+ +Det
 
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef  !!= * @CODE@
@@ -311,7 +312,10 @@ y̓   !!= @CODE@
 @R.TAM.REM@	 !!= * @CODE@ 
 @U.TAM.STAT@ !!= * @CODE@ 
 @R.TAM.STAT@ !!= * @CODE@ 
+@U.TAM.NO@ !!= * @CODE@ 
+@R.TAM.NO@ !!= * @CODE@ 
 
+@U.TAM@		 !!= * @CODE@ 
 @R.TAM@		 !!= * @CODE@ 
 
 @U.OBJ.1@	 !!= * @CODE@ 
