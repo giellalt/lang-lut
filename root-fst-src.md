@@ -290,7 +290,10 @@ given the proper use of these flags.
  * @R.TAM.REM@	  
  * @U.TAM.STAT@  
  * @R.TAM.STAT@  
+ * @U.TAM.NO@  
+ * @R.TAM.NO@  
 
+ * @U.TAM@		  
  * @R.TAM@		  
 
  * @U.OBJ.1@	  

@@ -8,6 +8,10 @@ bəčdub:bəčd
 
 kʷədad:kʷədad
 
+kʷədad:kʷədad
+
+
+
 
 
 
