@@ -1453,6 +1453,7 @@ The Lushootseed language adjectives compare.
 
 
 
+
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/adjectives.lexc)</small>Adpositions
 The Lushootseed language adpositions
@@ -1532,9 +1533,6 @@ Conjunctors in the LUSHOOTSEED language
 Nouns in LUSHOOTSEED language are things.
 
 
-
-
-
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/nouns.lexc)</small>Interjections
 Interjections in the LUSHOOTSEED language 
@@ -1593,21 +1591,10 @@ added to the xml source files.
 ADD NOUNS BELOW
 
 
+pupuhigʷəd # "March/april" ;
+pədx̌ʷiwaac# "april/may" ;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-questionables
 
 
 * * *

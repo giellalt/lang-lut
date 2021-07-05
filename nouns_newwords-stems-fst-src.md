@@ -6,21 +6,10 @@ added to the xml source files.
 ADD NOUNS BELOW
 
 
+pupuhigʷəd # "March/april" ;
+pədx̌ʷiwaac# "april/may" ;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-questionables
 
 
 * * *
