@@ -16,7 +16,7 @@ LEXICON Prefixes_01
 
 
 LEXICON DVNouns
-:s%< DVNouns_01 ; !Need to mark this with flags 2021-06-30
+:s%^√ DVNouns_01 ; !Need to mark this with flags 2021-06-30
 
 LEXICON DVNouns_01
 @U.TAM.NO@:@U.TAM.NO@ Verbs ; 
