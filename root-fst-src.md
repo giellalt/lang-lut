@@ -30,7 +30,6 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF LUSHOOTSEED LANGUAGE.
  q̓ʷ   
 
  t̕    
-       
  w̓    
  y̓    
 
@@ -207,8 +206,8 @@ Note: These high +v... number are in use for one word only:
 ```
 
  * **%-**:  hyphen
-
-
+ * **%^√**:  commence root
+ * **%<**: prefix
 
 Morphophonology
 To represent phonologic variations in word forms we use the following

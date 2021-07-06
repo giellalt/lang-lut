@@ -1081,7 +1081,6 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF LUSHOOTSEED LANGUAGE.
  q̓ʷ   
 
  t̕    
-       
  w̓    
  y̓    
 
@@ -1258,8 +1257,8 @@ Note: These high +v... number are in use for one word only:
 ```
 
  * **%-**:  hyphen
-
-
+ * **%^√**:  commence root
+ * **%<**: prefix
 
 Morphophonology
 To represent phonologic variations in word forms we use the following
@@ -1654,6 +1653,7 @@ place holders
   %[%>%]  - Literal >
   %[%<%]  - Literal <
 ```
+ * **%^√:0**: at commence of root
 
 
  * **%-**:  hyphen
@@ -1671,13 +1671,13 @@ Reduplications are worked with on the basis of the Lushootseed Dictionary by Daw
 
 Red1
 C V1 => C V1 C V1 
-* *s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tubš*
+* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tubš*
 * *s000tu0tubš*
-* *ʔiɬ√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕isu*
+* *ʔiɬ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕isu*
 * *ʔiɬ000t̕i0t̕isu*
 
 C V1 => C V1 C ə  
-* *s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tuləkʷ*
+* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tuləkʷ*
 * *s000tu0tələkʷ*
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yubil*
 * *00yu0yəbil*
@@ -1689,7 +1689,7 @@ C V1 => C V1 C ə
 C V1 => C V1 C   
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pastəd*
 * *00pa0p0stəd*
-* *s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷiƛ̕əyʔ*
+* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷiƛ̕əyʔ*
 * *s000x̌ʷi0x̌ʷ0ƛ̕əyʔ*
 
 C ə => C i C   %^Red1CV1toCV2C:
@@ -1704,8 +1704,8 @@ Red 1 qəlb: qiqəlb %^Red1CV2CiCV
 * *x̌əd»əd%>sid*
 * *x̌əd000%>cid*
 sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
-* *s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
-* *s√čiči0č0txʷəd0*
+* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
+* *s%^√čiči0č0txʷəd0*
 
 **ʔ:0 in preceding s**
 ʔəɫəd+V+Prf+Der+Der/N+N+Sg+Nom+PxSg2: __eat/syödä__
@@ -1751,13 +1751,13 @@ pišpiš+N+Pl+Nom: **cat/kissa**
 ### CONSONANTS
 **s:c after d:0**
 
-* *ʔu√%{p3%}%{p2%}%{p1%}kʷədad%>s*
+* *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>s*
 * *ʔu0000kʷəda0%>c*
 
 **d:0 before s:c**
-* *ʔu√%{p3%}%{p2%}%{p1%}kʷədad%>s*
+* *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>s*
 * *ʔu0000kʷəda0%>c*
-* *ʔu√%{p3%}%{p2%}%{p1%}kʷədad%>cid*
+* *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>cid*
 * *ʔu0000kʷəda0%>cid*
 
 
@@ -1767,8 +1767,8 @@ pišpiš+N+Pl+Nom: **cat/kissa**
 
 **%{p5%}:Cx in reduplication**
 sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
-* *s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
-* *s√čičič0txʷəd0*
+* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
+* *s%^√čičič0txʷəd0*
 
 liquids
 
