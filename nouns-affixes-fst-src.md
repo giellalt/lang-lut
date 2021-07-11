@@ -17,8 +17,16 @@ bəlups+N+Pl+Nom
 * *00bəlbəlups0*
 * ★*%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC* (is not standard language)
 * ★*00000bəlups0* (is not standard language)
-* *k̓ʷəčk̓ʷəčədiʔ:* `k̓ʷəčədiʔ+N+Pl+Nom`
+k̓ʷəčədiʔ+N+Pl+Nom: __rabbit/jänis__
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^Red2CVC2CVCCVC*
+* *00k̓ʷəčk̓ʷəčədiʔ0*
 * ★*k̓ʷəčədiʔ:* `k̓ʷəčədiʔ+N+Pl+Nom` (is not standard language)
+
+
+
+
+
+
 
 
 

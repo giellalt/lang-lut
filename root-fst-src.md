@@ -90,11 +90,12 @@ Verb moods are:
 
 Verb tenses and aspect are:
  *  +Fut  * future 
- *  +Prs +Prt  
+ *  +Prs +Prt 
  *  +RemPst  * remote past tu%<
- * +Asp/Prf  * perfective aspect ʔu%< , (Beck) punctual
+ * +Asp/Pfv  * perfective aspect ʔu%< , (Beck) punctual
  * +Asp/Prog  * progressive aspect lə%<
  * +Asp/Stat  * stative aspect ʔəs%< , (beck: as%<)
+ * +Asp/ProgStat  * progressive stative aspect lə%<ʔəs%<
 
  *  +LOC  * lack of control %>dxʷ
  *  +Imprt  = %>ɬi
@@ -115,7 +116,7 @@ Verb personal forms are:
 
 Other verb forms are
 
- *   +PrsPrc +PrfPrc +Sup +VGen +VAbess  
+ *   +PrsPrc +PrfPrc +Sup +VGen +VAbess 
 
  *  +ABBR +ACR  
  * +Symbol = independent symbols in the text stream, like £, €, ©
@@ -164,6 +165,7 @@ source and target part-of-speech.
  *  +Der/xxx  
  *  +Der/Dimin  * diminutive
  *  +Der/s  * Noun derivation
+ *  +Vnoun  * Deverbal Noun etc.
 
  * +Clt  %>əxʷ
 
@@ -277,18 +279,41 @@ given the proper use of these flags.
  * @C.PossPx@	    
 
 ### VERBS
- * @U.TAM.PRF@	  
- * @R.TAM.PRF@	  
- * @U.TAM.FUT@	  
- * @R.TAM.FUT@	  
- * @U.TAM.COND@  
- * @R.TAM.COND@  
- * @U.TAM.PROG@	  progressive
- * @R.TAM.PROG@	  progressive
- * @U.TAM.REM@	  
- * @R.TAM.REM@	  
- * @U.TAM.STAT@  
- * @R.TAM.STAT@  
+ * @U.TAM-SUBJ.SUBJ@  gʷə%<
+ * @R.TAM-SUBJ.SUBJ@  gʷə%<
+ * @D.TAM-SUBJ@  gʷə%<
+
+ * @U.TAM-HAB.IRR@	  ɬu%< also FUT
+ * @R.TAM-HAB.IRR@	  ɬu%< also FUT
+ * @U.TAM-HAB.HAB@	  ƛ̕u%<
+ * @R.TAM-HAB.HAB@	  ƛ̕u%<
+ * @D.TAM-HAB@	  ƛ̕u%<
+
+ * @U.TAM-RE.RE@   bə
+ * @R.TAM-RE.RE@   bə Anew, re-
+ * @D.TAM-RE.RE@   bə
+
+ * @U.NMZ.V2N@   s%^√
+ * @R.NMZ.V2N@   s%^√
+ * @U.NMZ.V2A@   dəxʷ
+ * @R.NMZ.V2A@   dəxʷ
+ * @D.NMZ@       s%^√ dəxʷ
+
+ * @U.TAM-T.REM@	  tu%<
+ * @R.TAM-T.REM@	  tu%<
+ * @D.TAM-T@	  tu%<
+
+ * @D.TAM-A@	  ʔu%<
+ * @U.TAM-A.PFV@	  ʔu%<
+ * @R.TAM-A.PFV@	  ʔu%<
+ * @U.TAM-A.CONT@	  ləcu%<
+ * @R.TAM-A.CONT@	  ləcu%<
+ * @U.TAM-A.PROGSTAT@  ləs%<
+ * @R.TAM-A.PROGSTAT@  ləs%<
+ * @U.TAM-A.PROG@	  progressive lə%<
+ * @R.TAM-A.PROG@	  progressive lə%<
+ * @U.TAM-A.STAT@  ʔəs%<
+ * @R.TAM-A.STAT@  ʔəs%<
  * @U.TAM.NO@  
  * @R.TAM.NO@  
 

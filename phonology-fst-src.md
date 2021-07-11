@@ -97,7 +97,10 @@ C ə => C i C   %^Red1CV1toCV2C:
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəpus%^Red1CV1toCV2C*
 * *00ʔi0ʔ0pus0*
 
+C ə => C i C ə
 Red 1 qəlb: qiqəlb %^Red1CV2CiCV
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
+* *00qi0qəlb0*
 
 
 
@@ -109,9 +112,11 @@ sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
 * *s%^√čiči0č0txʷəd0*
 
 **ʔ:0 in preceding s**
-ʔəɫəd+V+Prf+Der+Der/N+N+Sg+Nom+PxSg2: __eat/syödä__
-* *ad<s<ʔu<ʔəɫəd*
-* *ad<s<0u<ʔəɫəd*
+ʔəɬəd+V+Prf+Der+Der/N+N+Sg+Nom+PxSg2: __eat/syödä__
+* *ad<s<ʔu<ʔəɬəd*
+* *ad<s<0u<ʔəɬəd*
+
+**u:0 in preceding ƛ̕**
 
 
 

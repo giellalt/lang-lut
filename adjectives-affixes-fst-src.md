@@ -1,6 +1,5 @@
 Adjective inflection
-The Lushootseed language adjectives compare.
-
+The Lushootseed language adjectives are inflected in much the same way as nouns and verbs.
 
 
 

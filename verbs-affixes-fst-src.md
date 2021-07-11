@@ -6,9 +6,32 @@ The Lushootseed language verbs inflect in object persons.
 
 bəčdub:bəčd
 
-kʷədad:kʷədad
+
+
+
+
+
+
 
 kʷədad:kʷədad
+
+
+
+
+
+
+
+ʔəɬəd+V:ʔəɬəd
+ʔəɬəd+V:ʔəɬəd
+
+
+
+
+
+
+
+
+
 
 
 

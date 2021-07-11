@@ -1141,11 +1141,12 @@ Verb moods are:
 
 Verb tenses and aspect are:
  *  +Fut  * future 
- *  +Prs +Prt  
+ *  +Prs +Prt 
  *  +RemPst  * remote past tu%<
- * +Asp/Prf  * perfective aspect ʔu%< , (Beck) punctual
+ * +Asp/Pfv  * perfective aspect ʔu%< , (Beck) punctual
  * +Asp/Prog  * progressive aspect lə%<
  * +Asp/Stat  * stative aspect ʔəs%< , (beck: as%<)
+ * +Asp/ProgStat  * progressive stative aspect lə%<ʔəs%<
 
  *  +LOC  * lack of control %>dxʷ
  *  +Imprt  = %>ɬi
@@ -1166,7 +1167,7 @@ Verb personal forms are:
 
 Other verb forms are
 
- *   +PrsPrc +PrfPrc +Sup +VGen +VAbess  
+ *   +PrsPrc +PrfPrc +Sup +VGen +VAbess 
 
  *  +ABBR +ACR  
  * +Symbol = independent symbols in the text stream, like £, €, ©
@@ -1215,6 +1216,7 @@ source and target part-of-speech.
  *  +Der/xxx  
  *  +Der/Dimin  * diminutive
  *  +Der/s  * Noun derivation
+ *  +Vnoun  * Deverbal Noun etc.
 
  * +Clt  %>əxʷ
 
@@ -1328,18 +1330,41 @@ given the proper use of these flags.
  * @C.PossPx@	    
 
 ### VERBS
- * @U.TAM.PRF@	  
- * @R.TAM.PRF@	  
- * @U.TAM.FUT@	  
- * @R.TAM.FUT@	  
- * @U.TAM.COND@  
- * @R.TAM.COND@  
- * @U.TAM.PROG@	  progressive
- * @R.TAM.PROG@	  progressive
- * @U.TAM.REM@	  
- * @R.TAM.REM@	  
- * @U.TAM.STAT@  
- * @R.TAM.STAT@  
+ * @U.TAM-SUBJ.SUBJ@  gʷə%<
+ * @R.TAM-SUBJ.SUBJ@  gʷə%<
+ * @D.TAM-SUBJ@  gʷə%<
+
+ * @U.TAM-HAB.IRR@	  ɬu%< also FUT
+ * @R.TAM-HAB.IRR@	  ɬu%< also FUT
+ * @U.TAM-HAB.HAB@	  ƛ̕u%<
+ * @R.TAM-HAB.HAB@	  ƛ̕u%<
+ * @D.TAM-HAB@	  ƛ̕u%<
+
+ * @U.TAM-RE.RE@   bə
+ * @R.TAM-RE.RE@   bə Anew, re-
+ * @D.TAM-RE.RE@   bə
+
+ * @U.NMZ.V2N@   s%^√
+ * @R.NMZ.V2N@   s%^√
+ * @U.NMZ.V2A@   dəxʷ
+ * @R.NMZ.V2A@   dəxʷ
+ * @D.NMZ@       s%^√ dəxʷ
+
+ * @U.TAM-T.REM@	  tu%<
+ * @R.TAM-T.REM@	  tu%<
+ * @D.TAM-T@	  tu%<
+
+ * @D.TAM-A@	  ʔu%<
+ * @U.TAM-A.PFV@	  ʔu%<
+ * @R.TAM-A.PFV@	  ʔu%<
+ * @U.TAM-A.CONT@	  ləcu%<
+ * @R.TAM-A.CONT@	  ləcu%<
+ * @U.TAM-A.PROGSTAT@  ləs%<
+ * @R.TAM-A.PROGSTAT@  ləs%<
+ * @U.TAM-A.PROG@	  progressive lə%<
+ * @R.TAM-A.PROG@	  progressive lə%<
+ * @U.TAM-A.STAT@  ʔəs%<
+ * @R.TAM-A.STAT@  ʔəs%<
  * @U.TAM.NO@  
  * @R.TAM.NO@  
 
@@ -1405,6 +1430,15 @@ Prefixes in the Lushootseed language are bound to beginning of other words.
 
 
 
+
+
+
+
+
+
+
+
+
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/prefixes.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/prefixes.lexc)</small>Noun inflection
 The Lushootseed language nouns inflect in time person aspect.
@@ -1425,8 +1459,16 @@ bəlups+N+Pl+Nom
 * *00bəlbəlups0*
 * ★*%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC* (is not standard language)
 * ★*00000bəlups0* (is not standard language)
-* *k̓ʷəčk̓ʷəčədiʔ:* `k̓ʷəčədiʔ+N+Pl+Nom`
+k̓ʷəčədiʔ+N+Pl+Nom: __rabbit/jänis__
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^Red2CVC2CVCCVC*
+* *00k̓ʷəčk̓ʷəčədiʔ0*
 * ★*k̓ʷəčədiʔ:* `k̓ʷəčədiʔ+N+Pl+Nom` (is not standard language)
+
+
+
+
+
+
 
 
 
@@ -1445,8 +1487,7 @@ bəlups+N+Pl+Nom
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/symbols.lexc)</small>Adjective inflection
-The Lushootseed language adjectives compare.
-
+The Lushootseed language adjectives are inflected in much the same way as nouns and verbs.
 
 
 
@@ -1470,9 +1511,32 @@ The Lushootseed language verbs inflect in object persons.
 
 bəčdub:bəčd
 
-kʷədad:kʷədad
+
+
+
+
+
+
 
 kʷədad:kʷədad
+
+
+
+
+
+
+
+ʔəɬəd+V:ʔəɬəd
+ʔəɬəd+V:ʔəɬəd
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1545,6 +1609,8 @@ Adjectives in the Lushootseed language describe things.
 
 
 
+
+
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/adjectives.lexc)</small>Adpositions
 Adpositions in the LUSHOOTSEED language 
@@ -1576,6 +1642,8 @@ Adverbs in the LUSHOOTSEED language
 
 
 
+
+
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/adverbs.lexc)</small>Numerals
 Numerals in the Lushootseed language are numbers.
@@ -1592,6 +1660,8 @@ ADD NOUNS BELOW
 
 pupuhigʷəd # "March/april" ;
 pədx̌ʷiwaac# "april/may" ;
+
+
 
 
 
@@ -1696,7 +1766,10 @@ C ə => C i C   %^Red1CV1toCV2C:
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəpus%^Red1CV1toCV2C*
 * *00ʔi0ʔ0pus0*
 
+C ə => C i C ə
 Red 1 qəlb: qiqəlb %^Red1CV2CiCV
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
+* *00qi0qəlb0*
 
 
 
@@ -1708,9 +1781,11 @@ sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
 * *s%^√čiči0č0txʷəd0*
 
 **ʔ:0 in preceding s**
-ʔəɫəd+V+Prf+Der+Der/N+N+Sg+Nom+PxSg2: __eat/syödä__
-* *ad<s<ʔu<ʔəɫəd*
-* *ad<s<0u<ʔəɫəd*
+ʔəɬəd+V+Prf+Der+Der/N+N+Sg+Nom+PxSg2: __eat/syödä__
+* *ad<s<ʔu<ʔəɬəd*
+* *ad<s<0u<ʔəɬəd*
+
+**u:0 in preceding ƛ̕**
 
 
 
