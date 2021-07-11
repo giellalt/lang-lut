@@ -70,7 +70,8 @@ y̓   !!= @CODE@
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef  !!= * @CODE@
  +Aux +Cop  !!= * @CODE@
- 
+ +Prox +Dist +Rem
+
 !! Types of adverbs also include
  +Deg        !!= * @CODE@ this is degree
  +Manner     !!= * @CODE@ with reference to type of adverb
@@ -104,14 +105,19 @@ y̓   !!= @CODE@
  
 !! Verb moods are:
  +Ind +Pot +Cond +Imprt !!= * @CODE@ 
- 
++Mod/Subj +Des
++Anew
+
 !! Verb tenses and aspect are:
  +Fut !!= * @CODE@ * future 
- +Prs +Prt !!= * @CODE@ 
+ +Prs +Prt !!= * @CODE@
+ +Hab
+ +Irr
  +RemPst !!= * @CODE@ * remote past tu%<
-+Asp/Prf !!= * @CODE@ * perfective aspect ʔu%< , (Beck) punctual
++Asp/Pfv !!= * @CODE@ * perfective aspect ʔu%< , (Beck) punctual
 +Asp/Prog !!= * @CODE@ * progressive aspect lə%<
 +Asp/Stat !!= * @CODE@ * stative aspect ʔəs%< , (beck: as%<)
++Asp/ProgStat !!= * @CODE@ * progressive stative aspect lə%<ʔəs%<
 
 !dəxʷ%< VNoun
  +LOC !!= * @CODE@ * lack of control %>dxʷ
@@ -134,8 +140,8 @@ y̓   !!= @CODE@
 !! Other verb forms are
 
  +Inf +Ger +ConNeg +ConNegII +Neg 
-  +PrsPrc +PrfPrc +Sup +VGen +VAbess !!= * @CODE@ 
-
+  +PrsPrc +PrfPrc +Sup +VGen +VAbess !!= * @CODE@
+ 
 ! Abbreviated words are classified with:
  +ABBR +ACR !!= * @CODE@ 
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
@@ -185,6 +191,7 @@ y̓   !!= @CODE@
  +Der/xxx !!= * @CODE@ 
  +Der/Dimin !!= * @CODE@ * diminutive
  +Der/s !!= * @CODE@ * Noun derivation
+ +Vnoun !!= * @CODE@ * Deverbal Noun etc.
 
 +Clt !!= * @CODE@ %>əxʷ
 
@@ -299,18 +306,41 @@ y̓   !!= @CODE@
 @C.PossPx@	   !!= * @CODE@ 
 
 !! ### VERBS
-@U.TAM.PRF@	 !!= * @CODE@ 
-@R.TAM.PRF@	 !!= * @CODE@ 
-@U.TAM.FUT@	 !!= * @CODE@ 
-@R.TAM.FUT@	 !!= * @CODE@ 
-@U.TAM.COND@ !!= * @CODE@ 
-@R.TAM.COND@ !!= * @CODE@ 
-@U.TAM.PROG@	 !!= * @CODE@ progressive
-@R.TAM.PROG@	 !!= * @CODE@ progressive
-@U.TAM.REM@	 !!= * @CODE@ 
-@R.TAM.REM@	 !!= * @CODE@ 
-@U.TAM.STAT@ !!= * @CODE@ 
-@R.TAM.STAT@ !!= * @CODE@ 
+@U.TAM-SUBJ.SUBJ@ !!= * @CODE@ gʷə%<
+@R.TAM-SUBJ.SUBJ@ !!= * @CODE@ gʷə%<
+@D.TAM-SUBJ@ !!= * @CODE@ gʷə%<
+
+@U.TAM-HAB.IRR@	 !!= * @CODE@ ɬu%< also FUT
+@R.TAM-HAB.IRR@	 !!= * @CODE@ ɬu%< also FUT
+@U.TAM-HAB.HAB@	 !!= * @CODE@ ƛ̕u%<
+@R.TAM-HAB.HAB@	 !!= * @CODE@ ƛ̕u%<
+@D.TAM-HAB@	 !!= * @CODE@ ƛ̕u%<
+
+@U.TAM-RE.RE@  !!= * @CODE@ bə
+@R.TAM-RE.RE@  !!= * @CODE@ bə Anew, re-
+@D.TAM-RE.RE@  !!= * @CODE@ bə
+
+@U.NMZ.V2N@  !!= * @CODE@ s%^√
+@R.NMZ.V2N@  !!= * @CODE@ s%^√
+@U.NMZ.V2A@  !!= * @CODE@ dəxʷ
+@R.NMZ.V2A@  !!= * @CODE@ dəxʷ
+@D.NMZ@      !!= * @CODE@ s%^√ dəxʷ
+
+@U.TAM-T.REM@	 !!= * @CODE@ tu%<
+@R.TAM-T.REM@	 !!= * @CODE@ tu%<
+@D.TAM-T@	 !!= * @CODE@ tu%<
+
+@D.TAM-A@	 !!= * @CODE@ ʔu%<
+@U.TAM-A.PFV@	 !!= * @CODE@ ʔu%<
+@R.TAM-A.PFV@	 !!= * @CODE@ ʔu%<
+@U.TAM-A.CONT@	 !!= * @CODE@ ləcu%<
+@R.TAM-A.CONT@	 !!= * @CODE@ ləcu%<
+@U.TAM-A.PROGSTAT@ !!= * @CODE@ ləs%<
+@R.TAM-A.PROGSTAT@ !!= * @CODE@ ləs%<
+@U.TAM-A.PROG@	 !!= * @CODE@ progressive lə%<
+@R.TAM-A.PROG@	 !!= * @CODE@ progressive lə%<
+@U.TAM-A.STAT@ !!= * @CODE@ ʔəs%<
+@R.TAM-A.STAT@ !!= * @CODE@ ʔəs%<
 @U.TAM.NO@ !!= * @CODE@ 
 @R.TAM.NO@ !!= * @CODE@ 
 
@@ -345,6 +375,8 @@ LEXICON Root !!= * **@CODE@** Root lexicon
     Symbols     ;
 
 
+LEXICON PCLE_
+ K ;
 LEXICON NUM_
  K ;
 

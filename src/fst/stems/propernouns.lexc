@@ -6,7 +6,7 @@ LEXICON Propernouns
 kʷagʷičəd:kʷágʷičəd PROP_with-PL_RED2 "Big Dipper" ;
 
 ! CHECKME
-sɬəp̓qs:s√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬəp̓qs PROP_with-PL_RED2 "Marysville" ;
+sɬəp̓qs:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬəp̓qs PROP_with-PL_RED2 "Marysville" ;
 x̌ʷuyšəd:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷuyšəd PROP_with-PL_RED2 "Camano Head" ;
 
 ! vim: set ft=xfst-lexc:

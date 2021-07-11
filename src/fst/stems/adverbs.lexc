@@ -4,7 +4,7 @@
 
 LEXICON Adverbs
 čad+Adv:čad    ADV-INTERR_  "where" ;
-tul̕čad+Adv:tul̕√čád    ADV-INTERR_  "where, whence" ; ! some type of spellrelax á+Adv:a probably dict
+tul̕čad+Adv:tul̕%^√čád    ADV-INTERR_  "where, whence" ; ! some type of spellrelax á+Adv:a probably dict
 ʔəsčal+Adv:ʔəsčal  ADV-INTERR_  "how" ;
 
 cay+Adv:cay ADV-DEGREE_ "very" ;
@@ -23,6 +23,8 @@ put+Adv:put ADV_ "very much so, in a great way" ;
 x̌ʷəɬ% ti+Adv:x̌ʷəɬ% ti ADV_ "as though, like" ;
 x̌ʷul̕+Adv:x̌ʷul̕ ADV_ "just (that and nothing else)" ;
 
+siʔ+Adv:siʔ ADV-SPAT_ "here" ;
+diʔəʔ+Adv:diʔəʔ ADV-SPAT_ "here" ;
 tudiʔ+Adv:tudiʔ ADV-SPAT_ "yonder" ;
 tiləb+v1+Adv:tiləb ADV-SPAT_ "right there, suddenly" ;
 tiləb+v2+Adv:tiiləb ADV-SPAT_ "right there, suddenly" ;
@@ -54,5 +56,10 @@ tux̌ʷ+Adv:tux̌ʷ ADV-PARENTHETIC_ "in contrast to the usual or expected" ;
 xʷiʔ+v1+Aux+Neg:xʷiʔ # "no; not" ;
 xʷiʔ+v2+Aux+Neg:xʷiiʔ # "no; not" ;
 gʷəl+Aux+Top:gʷəl # "topic" ;
+
+əw̓ə+Pcle:əw̓ə PCLE_ ;
+dᶻəɬ+Pcle:dᶻəɬ PCLE_ ;
+uʔxʷ+Pcle:uʔxʷ PCLE_ ;
+
 
 ! vim: set ft=xfst-lexc:

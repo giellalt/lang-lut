@@ -4,33 +4,76 @@
 
 LEXICON Prefixes
 Prefixes_01 ;
-@U.PossPx.Sg1@:@U.PossPx.Sg1@d%<     Prefixes_01   ;
-@U.PossPx.Sg2@:@U.PossPx.Sg2@ad%<    Prefixes_01   ;
- DVNouns_01 ;
+@U.TAM-SUBJ.SUBJ@:@U.TAM-SUBJ.SUBJ@gʷə%< Prefixes_01 ; !sbj = subjunctive
+@U.TAM-HAB.IRR@:@U.TAM-HAB.IRR@ɬu%< Prefixes_01 ; ! qəlb 'rain': ɬuqəlb 'rain in the future' is this a noun, too? _intention to_
 
 LEXICON Prefixes_01
+Prefixes_01a ;
+@U.TAM-RE.RE@:@U.TAM-RE.RE@bə%< Prefixes_01a ;
+
+LEXICON Prefixes_01a
+Prefixes_01b ;
+@U.TAM-HAB.HAB@:@U.TAM-HAB.HAB@ƛ̕u%< Prefixes_01b ;
+
+LEXICON Prefixes_01b
+Prefixes_01c ;
+@U.PossPx.Sg1@:@U.PossPx.Sg1@d%<     Prefixes_01c   ;
+@U.PossPx.Sg2@:@U.PossPx.Sg2@ad%<    Prefixes_01c   ;
+ DVNouns_01 ;
+
+LEXICON Prefixes_01c
  Nouns ;
 ! These are the first Northern Lushootseed
  N_NEWWORDS ;
  DVNouns   ;
 
+!Lonsdale 2001:211-212
+!ɬubələskʷaxʷyildutəxʷčəɬ
+!ɬu<bə<ləs<kʷaxʷ>y>il>d>ut>əxʷ>čəɬ
+!Fut+ANEW+PgrSttv+help+YI+il+Trx+Rfx+Inc+our
+
 
 LEXICON DVNouns
-:s%^√ DVNouns_01 ; !Need to mark this with flags 2021-06-30
+@U.NMZ.V2N@:@U.NMZ.V2N@s%< DVNouns_01 ; !Need to mark this with flags 2021-06-30
+@U.NMZ.V2A@:@U.NMZ.V2A@dəxʷ%< DVNouns_01 ; !
+ DVNouns_01 ; !
+ 
+!ƛ̕u=bə= Hab+Add
+!bə%<ƛ̕u%< Add+Hab
+!ƛ̕u=s=ʔəs Hab+Nmz+Stat
+
+!gʷə%<ƛ̕u%<ʔas– Sbj+Hab+Stat
+!ƛ̕u%<ʔas– Hab+Stat
+!ƛ̕u%<ʔu%< Hab+Pfv
+!gʷə%<tu%< Sbj+Rem
+!ƛ̕u%<tu%<lə%< Hab+Rem+Prog
+!ƛ̕u%<0%<lə%< Hab+Prog
+!ɬu=d=s=ʔaʔ Irr+PxSg1+Nmlz+be.there
 
 LEXICON DVNouns_01
-@U.TAM.NO@:@U.TAM.NO@ Verbs ; 
+@U.TAM-T.REM@:@U.TAM-T.REM@tu%< DVNouns_02 ; !remote past, any predicate
+DVNouns_02 ;
+
+LEXICON DVNouns_02
+!@U.TAM.NO@:@U.TAM.NO@ Verbs ; 
 !verbprefix-     Verbs   ;
-@U.TAM.COND@:@U.TAM.COND@ləs%< Verbs ;
-@U.TAM.FUT@:@U.TAM.FUT@ɬu%< Verbs ; ! qəlb 'rain': ɬuqəlb 'rain in the future' is this a noun, too? _intention to_
-@U.TAM.PRF@:@U.TAM.PRF@ʔu%< Verbs ; ! qəlb 'rain': ʔuqəlb 'raining' doesn't sound perfect to me
-@U.TAM.REM@:@U.TAM.REM@tu%< Verbs ; ! remote past, any predicate
-@U.TAM.PROG@:@U.TAM.PROG@lə%< Verbs ;!non-circumscribed, progressive
-@U.TAM.STAT@:@U.TAM.STAT@ʔəs%< Verbs ; !ongoing state
+ VERBS_OR_NOUNS ;
+@U.TAM-A.PROG@:@U.TAM-A.PROG@lə%< VERBS_OR_NOUNS ;!non-circumscribed, progressive
+@U.TAM-A.STAT@:@U.TAM-A.STAT@ʔəs%< VERBS_OR_NOUNS ; !ongoing state
+@U.TAM-A.STAT@:@U.TAM-A.STAT@ʔas%< VERBS_OR_NOUNS ; !ongoing state
+@U.TAM-A.PROGSTAT@:@U.TAM-A.PROGSTAT@ləs%< VERBS_OR_NOUNS ;
+@U.TAM-A.PFV@:@U.TAM-A.PFV@ʔu%< VERBS_OR_NOUNS ; ! qəlb 'rain': ʔuqəlb 'raining' doesn't sound perfect to me
+
 !ʔəsq̓iʔq̓aƛ̕əb _partly cloudy_ ɬasq̓iʔq̓aƛ̕əb __partly cloudy in the future__
 !ʔəsgiʔgəqəb __partly sunny__ ɬasgiʔgəqəb __partly sunny in the future__
 !ʔiɬgəqil __mostly sunny__ ɬasʔiɬgəqil __mostly sunny in the future__
 !ʔəsgəqəb __sunny__ ɬasgəqil __sunny in the future__
 !
 
+LEXICON VERBS_OR_NOUNS
+Verbs ;
+ N_NEWWORDS ;
+ Nouns ;
+ Adjectives ;
+ 
 ! vim: set ft=xfst-lexc:

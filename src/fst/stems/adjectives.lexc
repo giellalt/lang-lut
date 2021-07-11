@@ -3,11 +3,10 @@
 !! Adjectives in the Lushootseed language describe things.
 
 LEXICON Adjectives
-adjective    Comparisons   ;
 x̌ičəc:x̌ičəc A_ "red" ;
 kay̓kay̓alus:kay̓kay̓alus A_ "sky blue" ;
-č́uɫəyʔalus:č́uɫəyʔalus A_ "green" ;
-x̌ibəč́:x̌ibəč́ A_ "black" ;
+č̓uɬəyʔalus:č̓uɬəyʔalus A_ "green" ;
+x̌ibəč̓:x̌ibəč̓ A_ "black" ;
 x̌ʷiqʷəq̓ʷ:x̌ʷiqʷəq̓ʷ A_ "white" ;
 x̌ʷiqʷac:x̌ʷiqʷac A_ "yellow" ;
 hikʷ:hikʷ A_ "big" ;
@@ -18,7 +17,11 @@ q̓ič:q̓ič A_ "expensive" ;
 təɬ+A:təɬ A_ "true|real" ;
 wiʔx̌ʷ+v1+A:wiʔx̌ʷ A_ "lost" ;
 wiʔx̌ʷ+v2+A:wix̌ʷ A_ "lost" ;
+bəsad+A:bəsad A_ "dark" ;
+xʷəxʷaʔxʷəʔ+A:xʷəxʷaʔxʷəʔ A_ "swift" ;
+
 tə+Det:tə DET-NEUTRAL-MSC_ "the|a|neutral demonstrative" ;
 tə+Det:tsə DET-NEUTRAL-FEM_ "the|a|neutral demonstrative" ;
+
 
 ! vim: set ft=xfst-lexc:

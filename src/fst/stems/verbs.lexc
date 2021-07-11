@@ -4,40 +4,45 @@
 
 LEXICON Verbs
 verb    Persons   ;
-ʔəɬtub+V:ʔəɬt TV_BƏČDUB "feed sm" ;
-bəčdub+V:bəčd TV_BƏČDUB "knock sm down" ;
-labdub+V:labd TV_BƏČDUB "see sm" ;
+ʔəɬtub+V:ʔəɬt V_BECHDUB "feed sm" ;
+bəčdub+V:bəčd V_BECHDUB "knock sm down" ;
+labdub+V:labd V_BECHDUB "see sm" ;
 
 
-kʷədad+V:kʷəda»d TV_KʷƏDAD "grab sm" ;
-x̌ədəd+V:x̌əd»əd TV_KʷƏDAD "push sm" ;
-šulud+V:šulud TV_KʷƏDAD "" ;
+kʷədad+V:kʷəda»d V_KWEDAD "grab sm" ;
+x̌ədəd+V:x̌əd»əd V_KWEDAD "push sm" ;
+šulud+V:šulud V_KWEDAD "" ;
 
-tagʷš+V:tàgʷ»š TV_KʷƏDAD "buy sm" ;
-cuyayus+V:cuyayus TV_KʷƏDAD  "busy oneself" ;
-cut+V:cut TV_KʷƏDAD "say" ;
-ʔux̌ʷ+V:ʔux̌ʷ TV_KʷƏDAD "" ;
-tuləkʷ+V:tuləkʷ TV_KʷƏDAD "" ;
-ʔəƛ̕+V:ʔəƛ̕ TV_KʷƏDAD "" ;
-huytxʷ+V:huytxʷ TV_KʷƏDAD "" ;
+tagʷš+V:tàgʷ»š V_KWEDAD "buy sm" ;
+cuyayus+V:cuyayus V_KWEDAD  "busy oneself" ;
+cut+V:cut V_HELHED "say" ;
+ʔux̌ʷ+V:ʔux̌ʷ V_KWEDAD "" ;
+tuləkʷ+V:tuləkʷ V_KWEDAD "" ;
+ʔəƛ̕+V:ʔəƛ̕ V_KWEDAD "" ;
+huytxʷ+V:huytxʷ V_KWEDAD "" ;
+huyutsut+V:huyutsut V_KWEDAD "prepare oneself (-t-sut)" ;
+c̓agʷatsut+V:c̓agʷatsut V_KWEDAD "wash oneself (-t-sut)" ;
 
-t̕ilib+V:t̕ilib IV_HELHED "sing" ;
-təsadiʔ+v1+V:təsadiʔ IV_HELHED "drum" ;
-təsadiʔ+v2+V:tsadiʔ IV_HELHED "drum" ; ! check this vowel loss
-səx̌əb+V:səx̌əb IV_HELHED "dance" ;
-ʔiɬšxʷ+V:ʔiɬšxʷ IV_HELHED "paddle" ;
-ʔəɬəd+V:ʔəɬəd IV_HELHED "eat" ;
-həliʔil+V:həliʔil IV_HELHED "become well" ;
-yəcəb+V:yəcəb IV_HELHED "give news" ;
+t̕ilib+V:t̕ilib V_HELHED "sing" ;
+təsadiʔ+v1+V:təsadiʔ V_HELHED "drum" ;
+təsadiʔ+v2+V:tsadiʔ V_HELHED "drum" ; ! check this vowel loss
+səx̌əb+V:səx̌əb V_HELHED "dance" ;
+təlawil+V:təlawil V_HELHED "run" ;
+ʔiɬšxʷ+V:ʔiɬšxʷ V_HELHED "paddle" ;
+ʔəɬəd+V:ʔəɬəd V_HELHED "eat" ;
+həliʔil+V:həliʔil V_HELHED "become well" ;
+yəcəb+V:yəcəb V_HELHED "give news" ;
+ʔuluɬ+V:ʔuluɬ V_HELHED "travel by water" ;
+ləx̌ilič+V:ləx̌ilič V_HELHED "become enveloped in light" ;
 
-tiʔəʔ:tiʔəʔ COP_ "is (copula quality)" ;
+ʔaʔ+V:ʔaʔ V_HELHED "be there" ;
+!tiʔəʔ:tiʔəʔ COP_ "is (copula quality)" ; CHECKME 2021-07-10
 
-!adsuʔəɫəd. ʔuʔəɫəd
+!adsuʔəɬəd. ʔuʔəɬəd
 !adsux̌alšid. ʔux̌alšid
-ʔəɬəd+V:ʔəɬəd IV_HELHED ;
-x̌alšid+V:x̌alšid TV_KʷƏDAD ;
-qʷuʔqʷaʔ+V:qʷuʔqʷaʔ TV_KʷƏDAD ;
-tagʷš+V:tagʷš TV_KʷƏDAD ;
-x̌udx̌udbid+V:x̌udx̌udbid TV_KʷƏDAD ;
+x̌alšid+V:x̌alšid V_KWEDAD ;
+qʷuʔqʷaʔ+V:qʷuʔqʷaʔ V_KWEDAD ;
+tagʷš+V:tagʷš V_KWEDAD ;
+x̌udx̌udbid+V:x̌udx̌udbid V_KWEDAD ;
 
 ! vim: set ft=xfst-lexc:

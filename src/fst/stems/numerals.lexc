@@ -3,7 +3,6 @@
 !! Numerals in the Lushootseed language are numbers.
 
 LEXICON Numerals
-numeral    Cases   ;
 saliʔ+Num:saliʔ NUM_ "two" ;
 
 ! vim: set ft=xfst-lexc:

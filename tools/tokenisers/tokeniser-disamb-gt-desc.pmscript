@@ -114,7 +114,7 @@ Define alphabet "a-z"
                |{w̓}|{y̓}|{x̌}|{xʷ}|{x̌ʷ}|{y̓}|{ʔ}|{ʷ}
                | "0-9"
                |{_}|{§}|{°}
-               |{ʷ}|{ᶻ}|{ə}|{ƛ}|{ł}|{’}
+               |{ʷ}|{ᶻ}|{ə}|{ƛ}|{ł}|{ɫ}|{’}
                ! Combining diacritics as individual symbols,
                ! to be able to analyse unknown words with
                ! decomposed diacritics. All combining diacritics

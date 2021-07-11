@@ -204,4 +204,11 @@ k̓ʷəčəldiʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčəldiʔ N_with-PL_RED2
 !čəxʷəluʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čəxʷəluʔ N_with-PL_RED2 "grey whale" ;
 !ǰəšəd+N:ǰə√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šəd N_with-PL_RED2 "foot" ;
 
+
+haʔkʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}haʔkʷ N_with-PL_RED2 "long time" ;
+sləx̌il+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ləx̌il N_with-PL_RED2 "daylight" ;
+swatixʷtəd+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}watixʷtəd N_with-PL_RED2 "land" ;
+qawq̓s+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qawq̓s N_with-PL_RED2 "raven" ;
+ƛ̕əlayʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕əlayʔ N_with-PL_RED2 "canoe" ;
+
 ! vim: set ft=xfst-lexc:

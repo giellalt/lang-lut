@@ -295,7 +295,10 @@ Lts = Cns Vow ;
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəpus%^Red1CV1toCV2C
 !!€ 00ʔi0ʔ0pus0
 
+!! C ə => C i C ə
 !! Red 1 qəlb: qiqəlb %^Red1CV2CiCV
+!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV
+!!€ 00qi0qəlb0
 
 Rules
 
@@ -314,10 +317,16 @@ Rules
 ! Vowels
 "ʔ:0 in preceding s"
 !! **@RULENAME@**
- ʔ:0 <=> s %< _ u %< ;
-!! ʔəɫəd+V+Prf+Der+Der/N+N+Sg+Nom+PxSg2: __eat/syödä__
-!!€ ad<s<ʔu<ʔəɫəd
-!!€ ad<s<0u<ʔəɫəd
+ ʔ:0 <=> s [%< | %^√: ] _ u %< ;
+!! ʔəɬəd+V+Prf+Der+Der/N+N+Sg+Nom+PxSg2: __eat/syödä__
+!!€ ad<s<ʔu<ʔəɬəd
+!!€ ad<s<0u<ʔəɬəd
+      [ ƛ̕ | t ] u: %< _ a s %< ;
+!!
+
+"u:0 in preceding ƛ̕"
+!! **@RULENAME@**
+ u:0 <=> [ ƛ̕ | t ] _ %< ʔ: a s ;
 
 
 !"ə:i in reduplication"
