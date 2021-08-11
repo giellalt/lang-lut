@@ -1049,7 +1049,103 @@ Adv modifying a pronoun or noun
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-lut/blob/main/../src/cg3/disambiguator.cg3)</small>
+<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-lut/blob/main/../src/cg3/disambiguator.cg3)</small>Adverbs
+Adverbs in the LUSHOOTSEED language 
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/adverbs.lexc)</small>Verbs
+Verbs in the Lushootseed language are actions.
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
+Numerals in the Lushootseed language are numbers.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/numerals.lexc)</small>Conjunctors
+Conjunctors in the LUSHOOTSEED language 
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/conjunctors.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/conjunctors.lexc)</small>Pronouns
+Pronouns in the Lushootseed language are references to things.
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/pronouns.lexc)</small>Proper nouns
+Proper nouns in LUSHOOTSEED language 
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/propernouns.lexc)</small>This is where new words are added as lexc entries before they are
+added to the xml source files.
+ɬaləp̓+N:ɬaləp̓ N_with-PL_RED2 "tongue" ;
+
+
+ADD NOUNS BELOW
+
+
+pupuhigʷəd # "March/april" ;
+pədx̌ʷiwaac# "april/may" ;
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns_newwords.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/nouns_newwords.lexc)</small>Adjectives
+Adjectives in the Lushootseed language describe things.
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/adjectives.lexc)</small>Nouns
+Nouns in LUSHOOTSEED language are things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/nouns.lexc)</small>Interjections
+Interjections in the LUSHOOTSEED language 
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/interjections.lexc)</small>Adpositions
+Adpositions in the LUSHOOTSEED language 
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adpositions.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/adpositions.lexc)</small>
 # Lushootseed morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF LUSHOOTSEED LANGUAGE.
 
@@ -1400,274 +1496,7 @@ word classes, or optionally from prefixes:
  * **LEXICON K ** Clitic lexicon
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/root.lexc)</small>Proper noun inflection
-The Lushootseed language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/propernouns.lexc)</small>Pronoun inflection
-The Lushootseed language pronouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/pronouns.lexc)</small>Prefixes
-Prefixes in the Lushootseed language are bound to beginning of other words.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/prefixes.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/prefixes.lexc)</small>Noun inflection
-The Lushootseed language nouns inflect in time person aspect.
-
-
-
-
-
-
-
-
-
-qəlb+N+Pl+Nom: **rain showers**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
-* *00qi0qəlb0*
-bəlups+N+Pl+Nom
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC*
-* *00bəlbəlups0*
-* ★*%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC* (is not standard language)
-* ★*00000bəlups0* (is not standard language)
-k̓ʷəčədiʔ+N+Pl+Nom: __rabbit/jänis__
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^Red2CVC2CVCCVC*
-* *00k̓ʷəčk̓ʷəčədiʔ0*
-* ★*k̓ʷəčədiʔ:* `k̓ʷəčədiʔ+N+Pl+Nom` (is not standard language)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/nouns.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/symbols.lexc)</small>Adjective inflection
-The Lushootseed language adjectives are inflected in much the same way as nouns and verbs.
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/adjectives.lexc)</small>Adpositions
-The Lushootseed language adpositions
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/adpositions.lexc)</small>Verb inflection
-The Lushootseed language verbs inflect in object persons.
-
-
-
-
-bəčdub:bəčd
-
-
-
-
-
-
-
-
-kʷədad:kʷədad
-
-
-
-
-
-
-
-ʔəɬəd+V:ʔəɬəd
-ʔəɬəd+V:ʔəɬəd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/verbs.lexc)</small>Adverbs
-The Lushootseed language adverbs
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/adverbs.lexc)</small>Proper nouns
-Proper nouns in LUSHOOTSEED language 
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/propernouns.lexc)</small>Pronouns
-Pronouns in the Lushootseed language are references to things.
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/pronouns.lexc)</small>Conjunctors
-Conjunctors in the LUSHOOTSEED language 
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctors.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/conjunctors.lexc)</small>Nouns
-Nouns in LUSHOOTSEED language are things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/nouns.lexc)</small>Interjections
-Interjections in the LUSHOOTSEED language 
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/interjections.lexc)</small>Adjectives
-Adjectives in the Lushootseed language describe things.
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/adjectives.lexc)</small>Adpositions
-Adpositions in the LUSHOOTSEED language 
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adpositions.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/adpositions.lexc)</small>Verbs
-Verbs in the Lushootseed language are actions.
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/verbs.lexc)</small>Adverbs
-Adverbs in the LUSHOOTSEED language 
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/adverbs.lexc)</small>Numerals
-Numerals in the Lushootseed language are numbers.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/numerals.lexc)</small>This is where new words are added as lexc entries before they are
-added to the xml source files.
-ɬaləp̓+N:ɬaləp̓ N_with-PL_RED2 "tongue" ;
-
-
-ADD NOUNS BELOW
-
-
-pupuhigʷəd # "March/april" ;
-pədx̌ʷiwaac# "april/may" ;
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns_newwords.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/nouns_newwords.lexc)</small>=================================== !
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/root.lexc)</small>=================================== !
 The Lushootseed morphophonological/twolc rules file !
 =================================== !
 
@@ -1870,7 +1699,178 @@ liquids
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/phonology.twolc)</small>Adverbs
+The Lushootseed language adverbs
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/adverbs.lexc)</small>Verb inflection
+The Lushootseed language verbs inflect in object persons.
+
+
+
+
+bəčdub:bəčd
+
+
+
+
+
+
+
+
+kʷədad:kʷədad
+
+
+
+
+
+
+
+ʔəɬəd+V:ʔəɬəd
+ʔəɬəd+V:ʔəɬəd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/verbs.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/symbols.lexc)</small>Pronoun inflection
+The Lushootseed language pronouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/pronouns.lexc)</small>Proper noun inflection
+The Lushootseed language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/propernouns.lexc)</small>Prefixes
+Prefixes in the Lushootseed language are bound to beginning of other words.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/prefixes.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/prefixes.lexc)</small>Adjective inflection
+The Lushootseed language adjectives are inflected in much the same way as nouns and verbs.
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/adjectives.lexc)</small>Noun inflection
+The Lushootseed language nouns inflect in time person aspect.
+
+
+
+
+
+
+
+
+
+qəlb+N+Pl+Nom: **rain showers**
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
+* *00qi0qəlb0*
+bəlups+N+Pl+Nom
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC*
+* *00bəlbəlups0*
+* ★*%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC* (is not standard language)
+* ★*00000bəlups0* (is not standard language)
+k̓ʷəčədiʔ+N+Pl+Nom: __rabbit/jänis__
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^Red2CVC2CVCCVC*
+* *00k̓ʷəčk̓ʷəčədiʔ0*
+* ★*k̓ʷəčədiʔ:* `k̓ʷəčədiʔ+N+Pl+Nom` (is not standard language)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/nouns.lexc)</small>Adpositions
+The Lushootseed language adpositions
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/adpositions.lexc)</small>
 
 
 
