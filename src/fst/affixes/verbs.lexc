@@ -13,8 +13,8 @@
 ! +Mid:%>əb
 !
 
-LEXICON COP_
-+Cop:	# ;
+!LEXICON COP_
+!+Cop:	# ;
 
 LEXICON Persons
 +1sg:en   #   ;
@@ -26,8 +26,8 @@ LEXICON Persons
 +inf:0    #   ;
 !#:0   Nouns   ;
 
-LEXICON TV_BECHDUB
-+TV: 0V_BECHDUB ;
+!LEXICON TV_BECHDUB
+!+TV: 0V_BECHDUB ;
 LEXICON V_BECHDUB
  0V_BECHDUB ;
 LEXICON 0V_BECHDUB
@@ -61,8 +61,8 @@ LEXICON 0V_BECHDUB_06
 @D.NMZ@ OC1/2_š_OR_OCSP3_OR_DVN-POSS ;
 
 
-LEXICON TV_KWEDAD
-+TV: 0V_KWEDAD ;
+!LEXICON TV_KWEDAD
+!+TV: 0V_KWEDAD ;
 LEXICON V_KWEDAD
 : 0V_KWEDAD ;
 
@@ -98,10 +98,10 @@ LEXICON 0V_KWEDAD_06
 @D.NMZ@ OC1/2_s_OR_OCSP3_OR_DVN-POSS ;
 
 
-LEXICON IV_HELHED
-!! ʔəɬəd+V:ʔəɬəd
-! @U.TAM-A.PRF@
-+IV: 0V_HELHED ;
+!LEXICON IV_HELHED
+!!! ʔəɬəd+V:ʔəɬəd
+!! @U.TAM-A.PRF@
+!+IV: 0V_HELHED ;
 LEXICON V_HELHED
 !! ʔəɬəd+V:ʔəɬəd
 ! @U.TAM-A.PRF@
@@ -186,6 +186,11 @@ LEXICON OCPL1
 
 LEXICON OCPL2
 @U.OBJ.2@+OcPl2:@U.OBJ.2@%>uɬəd DVN-POSS ;
+
+!+ScSg1:%>əd
+!+ScSg2:%>əxʷ
+!+ScSP3:%>əs
+!+ScPl1:%>aɬi
 
 LEXICON DVN-POSS
 !@R.TAM@ K ;

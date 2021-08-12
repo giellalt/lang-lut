@@ -16,7 +16,8 @@
 ## along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Add language-specific flags for hfst-lexc compilation here:
-HFST_LEXC_LOCAL_FLAGS=
+HFST_LEXC_LOCAL_FLAGS=--Werror
+#HFST_LEXC_LOCAL_FLAGS=
 
 ####### Morphology source file defs: ########
 
@@ -43,6 +44,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/nouns_newwords.lexc \
 			 stems/numerals.lexc \
 			 stems/pronouns.lexc \
+			 stems/propernouns.lexc \
 			 stems/verbs.lexc
 
 # If you are building an error-detecting L2 analyser, specify the lexc files

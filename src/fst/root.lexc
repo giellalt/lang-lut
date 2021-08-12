@@ -344,8 +344,6 @@ y̓   !!= @CODE@
 @U.TAM.NO@ !!= * @CODE@ 
 @R.TAM.NO@ !!= * @CODE@ 
 
-@U.TAM@		 !!= * @CODE@ 
-@R.TAM@		 !!= * @CODE@ 
 
 @U.OBJ.1@	 !!= * @CODE@ 
 @U.OBJ.2@	 !!= * @CODE@ 
@@ -353,6 +351,7 @@ y̓   !!= @CODE@
 @D.OBJ.1@	 !!= * @CODE@ 
 @D.OBJ.2@	 !!= * @CODE@ 
 
+@R.TAM@		 !!= * @CODE@ 
 @D.TAM@		 !!= * @CODE@ 
 @C.TAM@		 !!= * @CODE@ 
 
@@ -369,6 +368,7 @@ LEXICON Root !!= * **@CODE@** Root lexicon
 0   Conjunctors  ;	    !!= * @CODE@
 0   Interjections  ;	    !!= * @CODE@
 0   Pronouns    ;   !!= * @CODE@
+0   Propernouns    ;   !!= * @CODE@
 0   Numerals    ;   !!= * @CODE@
 0   Prefixes    ;   !!= * @CODE@
     Punctuation ;

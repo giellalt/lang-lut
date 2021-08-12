@@ -8,11 +8,6 @@
 ! %>əb ~ %>b
 
 
-LEXICON Cases
-+Sg+Nom:     #   ;
-+Pl+Nom:i     #   ;
-!#:   Nouns   ;
-
 LEXICON N_with-PL_RED1_qelb
 !: DIM_CV1toCV2C ; What should this be?
 : SG-SUF ;

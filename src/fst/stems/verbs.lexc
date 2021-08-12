@@ -27,12 +27,24 @@ t̕ilib+V:t̕ilib V_HELHED "sing" ;
 təsadiʔ+v1+V:təsadiʔ V_HELHED "drum" ;
 təsadiʔ+v2+V:tsadiʔ V_HELHED "drum" ; ! check this vowel loss
 səx̌əb+V:səx̌əb V_HELHED "dance" ;
-təlawil+V:təlawil V_HELHED "run" ;
+yəcəb+V:yəcəb V_HELHED "give news" ;
 ʔiɬšxʷ+V:ʔiɬšxʷ V_HELHED "paddle" ;
 ʔəɬəd+V:ʔəɬəd V_HELHED "eat" ;
-həliʔil+V:həliʔil V_HELHED "become well" ;
-yəcəb+V:yəcəb V_HELHED "give news" ;
 ʔuluɬ+V:ʔuluɬ V_HELHED "travel by water" ;
+
+č̓itil+V:č̓itil V_HELHED "draw near" ;
+diʔiʔil+V:diʔiʔil V_HELHED "move to other side" ;
+gʷədil+V:gʷədil V_HELHED "sit down" ;
+gəqil+V:gəqil V_HELHED "shine brightly (comment:gʷ vs g)" ;
+həliʔil+V:həliʔil V_HELHED "become well" ;
+ləliʔil+V:ləliʔil V_HELHED "change" ;
+ləx̌il+V:ləx̌il V_HELHED "become light" ;
+luƛ̕il+V:luƛ̕il V_HELHED "grow up" ;
+ɬax̌il+V:ɬax̌il V_HELHED "become dark" ;
+təlawil+V:təlawil V_HELHED "run" ;
+xʷəʔaʔxʷəʔil+V:xʷəʔaʔxʷəʔil V_HELHED "become swift" ;
+
+gʷəqilič+V:gʷəqilič V_HELHED "become enveloped in brightness" ;
 ləx̌ilič+V:ləx̌ilič V_HELHED "become enveloped in light" ;
 
 ʔaʔ+V:ʔaʔ V_HELHED "be there" ;
