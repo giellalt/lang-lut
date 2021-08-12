@@ -21,8 +21,9 @@ kʷədad:kʷədad
 
 
 
+@U.TAM-A.PRF@
 ʔəɬəd+V:ʔəɬəd
-ʔəɬəd+V:ʔəɬəd
+
 
 
 

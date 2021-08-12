@@ -317,7 +317,6 @@ given the proper use of these flags.
  * @U.TAM.NO@  
  * @R.TAM.NO@  
 
- * @R.TAM@       
 
  * @U.OBJ.1@	  
  * @U.OBJ.2@	  
@@ -325,6 +324,7 @@ given the proper use of these flags.
  * @D.OBJ.1@	  
  * @D.OBJ.2@	  
 
+ * @R.TAM@		  
  * @D.TAM@		  
  * @C.TAM@		  
 
@@ -340,6 +340,7 @@ word classes, or optionally from prefixes:
  * 0   Conjunctors  ;	    
  * 0   Interjections  ;	    
  * 0   Pronouns    ;   
+ * 0   Propernouns    ;   
  * 0   Numerals    ;   
  * 0   Prefixes    ;   
 

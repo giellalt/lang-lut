@@ -1075,6 +1075,8 @@ Verbs in the Lushootseed language are actions.
 
 
 
+
+
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
 Numerals in the Lushootseed language are numbers.
@@ -1464,7 +1466,6 @@ given the proper use of these flags.
  * @U.TAM.NO@  
  * @R.TAM.NO@  
 
- * @R.TAM@       
 
  * @U.OBJ.1@	  
  * @U.OBJ.2@	  
@@ -1472,6 +1473,7 @@ given the proper use of these flags.
  * @D.OBJ.1@	  
  * @D.OBJ.2@	  
 
+ * @R.TAM@		  
  * @D.TAM@		  
  * @C.TAM@		  
 
@@ -1487,6 +1489,7 @@ word classes, or optionally from prefixes:
  * 0   Conjunctors  ;	    
  * 0   Interjections  ;	    
  * 0   Pronouns    ;   
+ * 0   Propernouns    ;   
  * 0   Numerals    ;   
  * 0   Prefixes    ;   
 
@@ -1735,8 +1738,9 @@ kʷədad:kʷədad
 
 
 
+@U.TAM-A.PRF@
 ʔəɬəd+V:ʔəɬəd
-ʔəɬəd+V:ʔəɬəd
+
 
 
 
@@ -1795,6 +1799,8 @@ nouns, but with a colon (':') as separator.
 
 
 
+
+
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/propernouns.lexc)</small>Prefixes
 Prefixes in the Lushootseed language are bound to beginning of other words.
@@ -1825,7 +1831,6 @@ The Lushootseed language adjectives are inflected in much the same way as nouns 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/adjectives.lexc)</small>Noun inflection
 The Lushootseed language nouns inflect in time person aspect.
-
 
 
 
