@@ -1464,8 +1464,7 @@ given the proper use of these flags.
  * @U.TAM.NO@  
  * @R.TAM.NO@  
 
- * @U.TAM@		  
- * @R.TAM@		  
+ * @R.TAM@       
 
  * @U.OBJ.1@	  
  * @U.OBJ.2@	  
