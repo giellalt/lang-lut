@@ -344,8 +344,7 @@ y̓   !!= @CODE@
 @U.TAM.NO@ !!= * @CODE@ 
 @R.TAM.NO@ !!= * @CODE@ 
 
-@U.TAM@		 !!= * @CODE@ 
-@R.TAM@		 !!= * @CODE@ 
+@R.TAM@      !!= * @CODE@ 
 
 @U.OBJ.1@	 !!= * @CODE@ 
 @U.OBJ.2@	 !!= * @CODE@ 
