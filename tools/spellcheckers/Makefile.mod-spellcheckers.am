@@ -7,8 +7,24 @@
 #
 # Target template:
 #
-# analyser-speller-gt-norm.%: analyser-speller-gt-norm.tmp.%
+# generator-speller-gt-norm.%: generator-speller-gt-norm.tmp.%
 #	build rules
+
+# To be able to stay sane while working with spellers, error models, etc
+# we convert back combining diacritic sequences to multichars, so that the
+# mental letters are single fst symbols and not several. For consistensy's
+# sake we do the same on the lemma side.
+generator-speller-gt-norm.%: generator-speller-gt-norm.tmp.% \
+				filters/join-composed-chars.hfst
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex            \
+				@\"filters/join-composed-chars.hfst\".i \
+			.o. @\"$<\"                                 \
+			.o. @\"filters/join-composed-chars.hfst\"   \
+			;\n\
+		 save stack $@.tmp\n\
+		 quit\n" | $(XFST_TOOL)
+		 $(AM_V_HPRUNE)$(HFST_PRUNE_ALPHABET) -i $@.tmp -o $@
+		 $(AM_V_at)rm -f $@.tmp
 
 
 # END: Local processing
