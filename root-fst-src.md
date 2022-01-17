@@ -2,7 +2,7 @@
 # Lushootseed morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF LUSHOOTSEED LANGUAGE.
 
- # Definitions for Multichar_Symbols
+# Definitions for Multichar_Symbols@CODE@
 
 ## Letters
  b̓    
@@ -119,7 +119,7 @@ Other verb forms are
  *   +PrsPrc +PrfPrc +Sup +VGen +VAbess 
 
  *  +ABBR +ACR  
- * +Symbol = independent symbols in the text stream, like £, €, ©
+* +Symbol© = independent symbols in the text stream, like £, €, ©
 
 Special symbols are classified with:
  * +CLB +PUNCT +LEFT +RIGHT  
@@ -170,46 +170,46 @@ source and target part-of-speech.
  * +Clt  %>əxʷ
 
 ### Tags distinguishing different versions of the same lemma (before POS)
- * +v1
- * +v2
- * +v3
- * +v4
- * +v5
- * +v6
- * +v7
- * +v8
- * +v9
- * +v10
- * +v11
- * +v12
- * +v13
- * +v14
- * +v15
- * +v16
- * +v17
- * +v18
- * +v19
- * +v20
- * +v21
- * +v22
- * +v23
- * +v24
+* +v1@CODE@
+* +v2@CODE@
+* +v3@CODE@
+* +v4@CODE@
+* +v5@CODE@
+* +v6@CODE@
+* +v7@CODE@
+* +v8@CODE@
+* +v9@CODE@
+* +v10@CODE@
+* +v11@CODE@
+* +v12@CODE@
+* +v13@CODE@
+* +v14@CODE@
+* +v15@CODE@
+* +v16@CODE@
+* +v17@CODE@
+* +v18@CODE@
+* +v19@CODE@
+* +v20@CODE@
+* +v21@CODE@
+* +v22@CODE@
+* +v23@CODE@
+* +v24@CODE@
 
 Note: These high +v... number are in use for one word only:
 
 
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
- * **»7**:  Literal »
- * **«7**:  Literal «
+* **»7»**:  Literal »
+* **«7«**:  Literal «
 ```
   %[%>%]  - Literal >
   %[%<%]  - Literal <
 ```
 
- * **%-**:  hyphen
- * **%^√**:  commence root
- * **%<**: prefix
+* **%-hyphen**:  hyphen
+* **%^√root**:  commence root
+* **%<prefix**: prefix
 
 Morphophonology
 To represent phonologic variations in word forms we use the following

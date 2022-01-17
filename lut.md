@@ -1049,312 +1049,11 @@ Adv modifying a pronoun or noun
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-lut/blob/main/../src/cg3/disambiguator.cg3)</small>=================================== !
-The Lushootseed morphophonological/twolc rules file !
-=================================== !
-
-
-
-The Lushootseed language is written in lower case only
-
-This transformation, accent loss, will be moved to post dict.
-
-
-
-c U+0313
-
-
-
-
-
-
-
-
-
-
-Lushootseed is written in IPA, there are no upper-case letters
-
-
-
-
-
-
-
-
-
-
-
-
-place holders
-
- * %^Red1CV2CiCV:0  qəlb: qiqəlb **rain showers**
- * %^Red1CV1toCV2C:0  2-segment to 3-segments with vowel change 
- * %^Red1CV1toCV2CPL:0  2-segment to 3-segments with vowel change Plural
-
- * %^Red2CVC2CVCCVC:0  3-segment reduplication 
-
-
-
-
-
-
-## Symbols that need to be escaped on the lower side (towards twolc):
- * **»7**:  Literal »
- * **«7**:  Literal «
-```
-  %[%>%]  - Literal >
-  %[%<%]  - Literal <
-```
- * **%^√:0**: at commence of root
-
-
- * **%-**:  hyphen
-
-
-
-
-
-
-
-
-
-
-Reduplications are worked with on the basis of the Lushootseed Dictionary by Dawn Bates, Thom Hess and Vi Hilbert. Seattle & London. 1994:xvii
-
-Red1
-C V1 => C V1 C V1 
-* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tubš*
-* *s000tu0tubš*
-* *ʔiɬ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕isu*
-* *ʔiɬ000t̕i0t̕isu*
-
-C V1 => C V1 C ə  
-* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tuləkʷ*
-* *s000tu0tələkʷ*
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yubil*
-* *00yu0yəbil*
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬaɬil*
-* *00ɬa0ɬəlil*
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷid*
-* *00k̓ʷi0k̓ʷəd*
-
-C V1 => C V1 C   
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pastəd*
-* *00pa0p0stəd*
-* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷiƛ̕əyʔ*
-* *s000x̌ʷi0x̌ʷ0ƛ̕əyʔ*
-
-C ə => C i C   %^Red1CV1toCV2C:
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəpus%^Red1CV1toCV2C*
-* *00ʔi0ʔ0pus0*
-
-C ə => C i C ə
-Red 1 qəlb: qiqəlb %^Red1CV2CiCV
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
-* *00qi0qəlb0*
-
-
-
-**ə:0 in inflection**
-* *x̌əd»əd%>sid*
-* *x̌əd000%>cid*
-sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
-* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
-* *s%^√čiči0č0txʷəd0*
-
-**ʔ:0 in preceding s**
-ʔəɬəd+V+Prf+Der+Der/N+N+Sg+Nom+PxSg2: __eat/syödä__
-* *ad<s<ʔu<ʔəɬəd*
-* *ad<s<0u<ʔəɬəd*
-
-**u:0 in preceding ƛ̕**
-
-
-
-
-**%{p2%}:ə in reduplication**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC*
-* *00bəlbəlups0*
-
-
-**%{p2%}:u in reduplication**
-
-
-**%{p2%}:i in reduplication**
-qəlb+N+Pl+Nom: **rain showers**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
-* *00qi0qəlb0*
-pišpiš+N+Pl+Nom: **cat/kissa**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^Red2CVC2CVCCVC*
-* *00pišpišpiš0*
-
-**%{p4%}:i in reduplication**
-
-
-**%{p2%}:a in reduplication**
-
-**%{p1%}:0**
-
-**%{p2%}:0**
-
-
-**%{p3%}:0**
-
-**%{p4%}:0**
-
-**%{p5%}:0**
-
-
-### CONSONANTS
-**s:c after d:0**
-
-* *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>s*
-* *ʔu0000kʷəda0%>c*
-
-**d:0 before s:c**
-* *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>s*
-* *ʔu0000kʷəda0%>c*
-* *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>cid*
-* *ʔu0000kʷəda0%>cid*
-
-
-**%{p1%}:Cx in reduplication**
-
-**%{p3%}:Cx in reduplication**
-
-**%{p5%}:Cx in reduplication**
-sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
-* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
-* *s%^√čičič0txʷəd0*
-
-liquids
-
-**%{p1%}:l̕ in reduplication**
-
-**%{p1%}:y̓ in reduplication**
-
-
-
-**%{p1%}:w̓ in reduplication**
-
-**%{p1%}:ʔ in reduplication**
-
-**%{p1%}:Cx in reduplication**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC*
-* *00bəlbəlups0*
-
-**%{p1%}:Cx in reduplication**
-
-**%{p1%}:Cx in reduplication**
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/phonology.twolc)</small>Nouns
-Nouns in LUSHOOTSEED language are things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/nouns.lexc)</small>Adverbs
-Adverbs in the LUSHOOTSEED language 
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/adverbs.lexc)</small>Conjunctors
-Conjunctors in the LUSHOOTSEED language 
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctors.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/conjunctors.lexc)</small>Numerals
-Numerals in the Lushootseed language are numbers.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/numerals.lexc)</small>Adpositions
-Adpositions in the LUSHOOTSEED language 
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adpositions.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/adpositions.lexc)</small>Adjectives
-Adjectives in the Lushootseed language describe things.
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/adjectives.lexc)</small>Pronouns
-Pronouns in the Lushootseed language are references to things.
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/pronouns.lexc)</small>Verbs
-Verbs in the Lushootseed language are actions.
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/verbs.lexc)</small>Interjections
-Interjections in the LUSHOOTSEED language 
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/interjections.lexc)</small>Proper nouns
-Proper nouns in LUSHOOTSEED language 
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/propernouns.lexc)</small>This is where new words are added as lexc entries before they are
-added to the xml source files.
-ɬaləp̓+N:ɬaləp̓ N_with-PL_RED2 "tongue" ;
-
-
-ADD NOUNS BELOW
-
-
-pupuhigʷəd # "March/april" ;
-pədx̌ʷiwaac# "april/may" ;
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns_newwords.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/nouns_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-lut/blob/main/../src/cg3/disambiguator.cg3)</small>
 # Lushootseed morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF LUSHOOTSEED LANGUAGE.
 
- # Definitions for Multichar_Symbols
+# Definitions for Multichar_Symbols@CODE@
 
 ## Letters
  b̓    
@@ -1471,7 +1170,7 @@ Other verb forms are
  *   +PrsPrc +PrfPrc +Sup +VGen +VAbess 
 
  *  +ABBR +ACR  
- * +Symbol = independent symbols in the text stream, like £, €, ©
+* +Symbol© = independent symbols in the text stream, like £, €, ©
 
 Special symbols are classified with:
  * +CLB +PUNCT +LEFT +RIGHT  
@@ -1522,46 +1221,46 @@ source and target part-of-speech.
  * +Clt  %>əxʷ
 
 ### Tags distinguishing different versions of the same lemma (before POS)
- * +v1
- * +v2
- * +v3
- * +v4
- * +v5
- * +v6
- * +v7
- * +v8
- * +v9
- * +v10
- * +v11
- * +v12
- * +v13
- * +v14
- * +v15
- * +v16
- * +v17
- * +v18
- * +v19
- * +v20
- * +v21
- * +v22
- * +v23
- * +v24
+* +v1@CODE@
+* +v2@CODE@
+* +v3@CODE@
+* +v4@CODE@
+* +v5@CODE@
+* +v6@CODE@
+* +v7@CODE@
+* +v8@CODE@
+* +v9@CODE@
+* +v10@CODE@
+* +v11@CODE@
+* +v12@CODE@
+* +v13@CODE@
+* +v14@CODE@
+* +v15@CODE@
+* +v16@CODE@
+* +v17@CODE@
+* +v18@CODE@
+* +v19@CODE@
+* +v20@CODE@
+* +v21@CODE@
+* +v22@CODE@
+* +v23@CODE@
+* +v24@CODE@
 
 Note: These high +v... number are in use for one word only:
 
 
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
- * **»7**:  Literal »
- * **«7**:  Literal «
+* **»7»**:  Literal »
+* **«7«**:  Literal «
 ```
   %[%>%]  - Literal >
   %[%<%]  - Literal <
 ```
 
- * **%-**:  hyphen
- * **%^√**:  commence root
- * **%<**: prefix
+* **%-hyphen**:  hyphen
+* **%^√root**:  commence root
+* **%<prefix**: prefix
 
 Morphophonology
 To represent phonologic variations in word forms we use the following
@@ -1709,7 +1408,25 @@ word classes, or optionally from prefixes:
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/symbols.lexc)</small>Noun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/symbols.lexc)</small>Prefixes
+Prefixes in the Lushootseed language are bound to beginning of other words.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/prefixes.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/prefixes.lexc)</small>Noun inflection
 The Lushootseed language nouns inflect in time person aspect.
 
 
@@ -1746,29 +1463,7 @@ k̓ʷəčədiʔ+N+Pl+Nom: __rabbit/jänis__
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/nouns.lexc)</small>Adverbs
-The Lushootseed language adverbs
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/adverbs.lexc)</small>Adpositions
-The Lushootseed language adpositions
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/adpositions.lexc)</small>Adjective inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/nouns.lexc)</small>Adjective inflection
 The Lushootseed language adjectives are inflected in much the same way as nouns and verbs.
 
 
@@ -1777,25 +1472,7 @@ The Lushootseed language adjectives are inflected in much the same way as nouns 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/adjectives.lexc)</small>Prefixes
-Prefixes in the Lushootseed language are bound to beginning of other words.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/prefixes.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/prefixes.lexc)</small>Pronoun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/adjectives.lexc)</small>Pronoun inflection
 The Lushootseed language pronouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
 
@@ -1865,7 +1542,29 @@ kʷədad:kʷədad
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/verbs.lexc)</small>Proper noun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/verbs.lexc)</small>Adverbs
+The Lushootseed language adverbs
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/adverbs.lexc)</small>Adpositions
+The Lushootseed language adpositions
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/adpositions.lexc)</small>Proper noun inflection
 The Lushootseed language proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
 
@@ -1874,7 +1573,308 @@ nouns, but with a colon (':') as separator.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/propernouns.lexc)</small>=================================== !
+The Lushootseed morphophonological/twolc rules file !
+=================================== !
+
+
+
+The Lushootseed language is written in lower case only
+
+This transformation, accent loss, will be moved to post dict.
+
+
+
+c U+0313
+
+
+
+
+
+
+
+
+
+
+Lushootseed is written in IPA, there are no upper-case letters
+
+
+
+
+
+
+
+
+
+
+
+
+place holders
+
+ * %^Red1CV2CiCV:0  qəlb: qiqəlb **rain showers**
+ * %^Red1CV1toCV2C:0  2-segment to 3-segments with vowel change 
+ * %^Red1CV1toCV2CPL:0  2-segment to 3-segments with vowel change Plural
+
+ * %^Red2CVC2CVCCVC:0  3-segment reduplication 
+
+
+
+
+
+
+## Symbols that need to be escaped on the lower side (towards twolc):
+* **»7»**:  Literal »
+* **«7«**:  Literal «
+```
+  %[%>%]  - Literal >
+  %[%<%]  - Literal <
+```
+* **%^√:0root**: at commence of root
+
+
+* **%-hyphen**:  hyphen
+
+
+
+
+
+
+
+
+
+
+Reduplications are worked with on the basis of the Lushootseed Dictionary by Dawn Bates, Thom Hess and Vi Hilbert. Seattle & London. 1994:xvii
+
+Red1
+C V1 => C V1 C V1 
+* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tubš*
+* *s000tu0tubš*
+* *ʔiɬ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕isu*
+* *ʔiɬ000t̕i0t̕isu*
+
+C V1 => C V1 C ə  
+* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tuləkʷ*
+* *s000tu0tələkʷ*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yubil*
+* *00yu0yəbil*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬaɬil*
+* *00ɬa0ɬəlil*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷid*
+* *00k̓ʷi0k̓ʷəd*
+
+C V1 => C V1 C   
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pastəd*
+* *00pa0p0stəd*
+* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷiƛ̕əyʔ*
+* *s000x̌ʷi0x̌ʷ0ƛ̕əyʔ*
+
+C ə => C i C   %^Red1CV1toCV2C:
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəpus%^Red1CV1toCV2C*
+* *00ʔi0ʔ0pus0*
+
+C ə => C i C ə
+Red 1 qəlb: qiqəlb %^Red1CV2CiCV
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
+* *00qi0qəlb0*
+
+
+
+**ə:0 in inflection**
+* *x̌əd»əd%>sid*
+* *x̌əd000%>cid*
+sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
+* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
+* *s%^√čiči0č0txʷəd0*
+
+**ʔ:0 in preceding s**
+ʔəɬəd+V+Prf+Der+Der/N+N+Sg+Nom+PxSg2: __eat/syödä__
+* *ad<s<ʔu<ʔəɬəd*
+* *ad<s<0u<ʔəɬəd*
+
+**u:0 in preceding ƛ̕**
+
+
+
+
+**%{p2%}:ə in reduplication**
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC*
+* *00bəlbəlups0*
+
+
+**%{p2%}:u in reduplication**
+
+
+**%{p2%}:i in reduplication**
+qəlb+N+Pl+Nom: **rain showers**
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
+* *00qi0qəlb0*
+pišpiš+N+Pl+Nom: **cat/kissa**
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^Red2CVC2CVCCVC*
+* *00pišpišpiš0*
+
+**%{p4%}:i in reduplication**
+
+
+**%{p2%}:a in reduplication**
+
+**%{p1%}:0**
+
+**%{p2%}:0**
+
+
+**%{p3%}:0**
+
+**%{p4%}:0**
+
+**%{p5%}:0**
+
+
+### CONSONANTS
+**s:c after d:0**
+
+* *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>s*
+* *ʔu0000kʷəda0%>c*
+
+**d:0 before s:c**
+* *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>s*
+* *ʔu0000kʷəda0%>c*
+* *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>cid*
+* *ʔu0000kʷəda0%>cid*
+
+
+**%{p1%}:Cx in reduplication**
+
+**%{p3%}:Cx in reduplication**
+
+**%{p5%}:Cx in reduplication**
+sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
+* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
+* *s%^√čičič0txʷəd0*
+
+liquids
+
+**%{p1%}:l̕ in reduplication**
+
+**%{p1%}:y̓ in reduplication**
+
+
+
+**%{p1%}:w̓ in reduplication**
+
+**%{p1%}:ʔ in reduplication**
+
+**%{p1%}:Cx in reduplication**
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC*
+* *00bəlbəlups0*
+
+**%{p1%}:Cx in reduplication**
+
+**%{p1%}:Cx in reduplication**
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/phonology.twolc)</small>Interjections
+Interjections in the LUSHOOTSEED language 
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/interjections.lexc)</small>Conjunctors
+Conjunctors in the LUSHOOTSEED language 
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/conjunctors.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/conjunctors.lexc)</small>This is where new words are added as lexc entries before they are
+added to the xml source files.
+ɬaləp̓+N:ɬaləp̓ N_with-PL_RED2 "tongue" ;
+
+
+ADD NOUNS BELOW
+
+
+pupuhigʷəd # "March/april" ;
+pədx̌ʷiwaac# "april/may" ;
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns_newwords.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/nouns_newwords.lexc)</small>Nouns
+Nouns in LUSHOOTSEED language are things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/nouns.lexc)</small>Adjectives
+Adjectives in the Lushootseed language describe things.
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/adjectives.lexc)</small>Pronouns
+Pronouns in the Lushootseed language are references to things.
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/pronouns.lexc)</small>Verbs
+Verbs in the Lushootseed language are actions.
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
+Numerals in the Lushootseed language are numbers.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/numerals.lexc)</small>Adverbs
+Adverbs in the LUSHOOTSEED language 
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/adverbs.lexc)</small>Adpositions
+Adpositions in the LUSHOOTSEED language 
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adpositions.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/adpositions.lexc)</small>Proper nouns
+Proper nouns in LUSHOOTSEED language 
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/stems/propernouns.lexc)</small>
 
 
 We describe here how abbreviations are in Lushootseed are read out, e.g.

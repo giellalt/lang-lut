@@ -48,16 +48,16 @@ place holders
 
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
- * **»7**:  Literal »
- * **«7**:  Literal «
+* **»7»**:  Literal »
+* **«7«**:  Literal «
 ```
   %[%>%]  - Literal >
   %[%<%]  - Literal <
 ```
- * **%^√:0**: at commence of root
+* **%^√:0root**: at commence of root
 
 
- * **%-**:  hyphen
+* **%-hyphen**:  hyphen
 
 
 
