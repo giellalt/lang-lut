@@ -5,7 +5,17 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-lut)](https://github.com/giellalt/lang-lut/issues)
 [![Build status](https://github.com/giellalt/lang-lut/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-lut/actions)
 
-This page documents the work on the **Lushootseed language model**. 
+This page documents the work on the **Lushootseed language model** (Southern Puget Sound Salish).
+
+It contains a numerals to number word converter. In addition, there is an
+experimental morphological analyser, containing some 300 stems and some
+verbal morphology.
+
+# Demo page
+
+At the end of [this page](http://giellatekno.uit.no/num.eng.html) there is
+an experimental numerals to number words generator for 
+Southern Puget Sound Salish.
 
 # Project documentation
 

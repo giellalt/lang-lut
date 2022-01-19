@@ -36,11 +36,11 @@ Lushootseed is written in IPA, there are no upper-case letters
 
 place holders
 
- * %^Red1CV2CiCV:0  qəlb: qiqəlb **rain showers**
- * %^Red1CV1toCV2C:0  2-segment to 3-segments with vowel change 
- * %^Red1CV1toCV2CPL:0  2-segment to 3-segments with vowel change Plural
+* %^Red1CV2CiCV:0  qəlb: qiqəlb **rain showers**
+* %^Red1CV1toCV2C:0  2-segment to 3-segments with vowel change 
+* %^Red1CV1toCV2CPL:0  2-segment to 3-segments with vowel change Plural
 
- * %^Red2CVC2CVCCVC:0  3-segment reduplication 
+* %^Red2CVC2CVCCVC:0  3-segment reduplication 
 
 
 
@@ -48,16 +48,16 @@ place holders
 
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
-* **»7»**:  Literal »
-* **«7«**:  Literal «
+* **»7**:  Literal »
+* **«7**:  Literal «
 ```
-  %[%>%]  - Literal >
-  %[%<%]  - Literal <
+ %[%>%]  - Literal >
+ %[%<%]  - Literal <
 ```
-* **%^√:0root**: at commence of root
+* **%^√:0**: at commence of root
 
 
-* **%-hyphen**:  hyphen
+* **%-**:  hyphen
 
 
 
