@@ -1,13 +1,6 @@
 Noun inflection
 The Lushootseed language nouns inflect in time person aspect.
 
-
-
-
-
-
-
-
 qəlb+N+Pl+Nom: **rain showers**
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
 * *00qi0qəlb0*
@@ -21,18 +14,9 @@ k̓ʷəčədiʔ+N+Pl+Nom: __rabbit/jänis__
 * *00k̓ʷəčk̓ʷəčədiʔ0*
 * ★*k̓ʷəčədiʔ:* `k̓ʷəčədiʔ+N+Pl+Nom` (is not standard language)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/affixes/nouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/nouns.lexc)</small>
+
+---
+

@@ -2,37 +2,13 @@
 The Lushootseed morphophonological/twolc rules file !
 =================================== !
 
-
-
 The Lushootseed language is written in lower case only
 
 This transformation, accent loss, will be moved to post dict.
 
-
-
 c U+0313
 
-
-
-
-
-
-
-
-
-
 Lushootseed is written in IPA, there are no upper-case letters
-
-
-
-
-
-
-
-
-
-
-
 
 place holders
 
@@ -41,11 +17,6 @@ place holders
 * %^Red1CV1toCV2CPL:0  2-segment to 3-segments with vowel change Plural
 
 * %^Red2CVC2CVCCVC:0  3-segment reduplication 
-
-
-
-
-
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
@@ -56,17 +27,7 @@ place holders
 ```
 * **%^√:0**: at commence of root
 
-
 * **%-**:  hyphen
-
-
-
-
-
-
-
-
-
 
 Reduplications are worked with on the basis of the Lushootseed Dictionary by Dawn Bates, Thom Hess and Vi Hilbert. Seattle & London. 1994:xvii
 
@@ -102,8 +63,6 @@ Red 1 qəlb: qiqəlb %^Red1CV2CiCV
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
 * *00qi0qəlb0*
 
-
-
 **ə:0 in inflection**
 * *x̌əd»əd%>sid*
 * *x̌əd000%>cid*
@@ -118,16 +77,11 @@ sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
 
 **u:0 in preceding ƛ̕**
 
-
-
-
 **%{p2%}:ə in reduplication**
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC*
 * *00bəlbəlups0*
 
-
 **%{p2%}:u in reduplication**
-
 
 **%{p2%}:i in reduplication**
 qəlb+N+Pl+Nom: **rain showers**
@@ -139,20 +93,17 @@ pišpiš+N+Pl+Nom: **cat/kissa**
 
 **%{p4%}:i in reduplication**
 
-
 **%{p2%}:a in reduplication**
 
 **%{p1%}:0**
 
 **%{p2%}:0**
 
-
 **%{p3%}:0**
 
 **%{p4%}:0**
 
 **%{p5%}:0**
-
 
 ### CONSONANTS
 **s:c after d:0**
@@ -165,7 +116,6 @@ pišpiš+N+Pl+Nom: **cat/kissa**
 * *ʔu0000kʷəda0%>c*
 * *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>cid*
 * *ʔu0000kʷəda0%>cid*
-
 
 **%{p1%}:Cx in reduplication**
 
@@ -182,8 +132,6 @@ liquids
 
 **%{p1%}:y̓ in reduplication**
 
-
-
 **%{p1%}:w̓ in reduplication**
 
 **%{p1%}:ʔ in reduplication**
@@ -196,9 +144,9 @@ liquids
 
 **%{p1%}:Cx in reduplication**
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-lut/blob/main/src/fst/phonology.twolc)</small>
+
+---
+

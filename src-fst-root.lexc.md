@@ -39,8 +39,6 @@ x̌ʷ
 
 y̓    
 
-
-
 ## Analysis symbols
 The morphological analyses of wordforms for the Lushootseed
 language are presented in this system in terms of the following symbols.
@@ -158,7 +156,6 @@ Semantics are classified with
 *  +Sem/Veh    
 *  +Sem/Clth   
 
-
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 *  +V→N +V→V +V→A  
@@ -196,8 +193,6 @@ source and target part-of-speech.
 * +v24
 
 Note: These high +v... number are in use for one word only:
-
-
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
@@ -317,7 +312,6 @@ given the proper use of these flags.
 * @U.TAM.NO@  
 * @R.TAM.NO@  
 
-
 * @U.OBJ.1@	  
 * @U.OBJ.2@	  
 
@@ -327,7 +321,6 @@ given the proper use of these flags.
 * @R.TAM@		  
 * @D.TAM@		  
 * @C.TAM@		  
-
 
 * **LEXICON Root ** Root lexicon
 The word forms in LUSHOOTSEED language start from the lexeme roots of basic
@@ -344,9 +337,11 @@ word classes, or optionally from prefixes:
 * 0   Numerals    ;   
 * 0   Prefixes    ;   
 
-
-
 * **LEXICON K ** Clitic lexicon
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-lut/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/root.lexc)</small>
+
+---
+
