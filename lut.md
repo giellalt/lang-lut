@@ -146,16 +146,8 @@ Rule set taken from sme
 
 Substituting Prop tags 
 
-adverbs modifying another adverb
-Adv modifying a pronoun or noun
-
 * * *
-
 <small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-lut/blob/main/src/cg3/disambiguator.cg3)</small>
-
----
-
-
 
 * Sets for POS sub-categories
 
@@ -323,8 +315,106 @@ These were the set types.
 ## HNOUN MAPPING
 
 * * *
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-lut/blob/main/src/cg3/functions.cg3)</small>Adjective inflection
+The Lushootseed language adjectives are inflected in much the same way as nouns and verbs.
 
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-lut/blob/main/src/cg3/functions.cg3)</small>
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/adjectives.lexc)</small>
+
+---
+
+Adpositions
+The Lushootseed language adpositions
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/adpositions.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/adpositions.lexc)</small>
+
+---
+
+Adverbs
+The Lushootseed language adverbs
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/adverbs.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/adverbs.lexc)</small>
+
+---
+
+Noun inflection
+The Lushootseed language nouns inflect in time person aspect.
+
+qəlb+N+Pl+Nom: **rain showers**
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
+* *00qi0qəlb0*
+bəlups+N+Pl+Nom
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC*
+* *00bəlbəlups0*
+* ★*%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC* (is not standard language)
+* ★*00000bəlups0* (is not standard language)
+k̓ʷəčədiʔ+N+Pl+Nom: __rabbit/jänis__
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^Red2CVC2CVCCVC*
+* *00k̓ʷəčk̓ʷəčədiʔ0*
+* ★*k̓ʷəčədiʔ:* `k̓ʷəčədiʔ+N+Pl+Nom` (is not standard language)
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/nouns.lexc)</small>
+
+---
+
+Prefixes
+Prefixes in the Lushootseed language are bound to beginning of other words.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/prefixes.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/prefixes.lexc)</small>
+
+---
+
+Pronoun inflection
+The Lushootseed language pronouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/pronouns.lexc)</small>
+
+---
+
+Proper noun inflection
+The Lushootseed language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/propernouns.lexc)</small>
+
+---
+
+
+# Symbol affixes
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/symbols.lexc)</small>
+
+---
+
+Verb inflection
+The Lushootseed language verbs inflect in object persons.
+
+bəčdub:bəčd
+
+kʷədad:kʷədad
+
+@U.TAM-A.PRF@
+ʔəɬəd+V:ʔəɬəd
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/verbs.lexc)</small>
 
 ---
 
@@ -477,214 +567,6 @@ liquids
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-lut/blob/main/src/fst/phonology.twolc)</small>
-
----
-
-Nouns
-Nouns in LUSHOOTSEED language are things.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/nouns.lexc)</small>
-
----
-
-Adpositions
-Adpositions in the LUSHOOTSEED language 
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/adpositions.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/adpositions.lexc)</small>
-
----
-
-Adverbs
-Adverbs in the LUSHOOTSEED language 
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/adverbs.lexc)</small>
-
----
-
-Interjections
-Interjections in the LUSHOOTSEED language 
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/interjections.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/interjections.lexc)</small>
-
----
-
-Pronouns
-Pronouns in the Lushootseed language are references to things.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/pronouns.lexc)</small>
-
----
-
-Conjunctors
-Conjunctors in the LUSHOOTSEED language 
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/conjunctors.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/conjunctors.lexc)</small>
-
----
-
-Numerals
-Numerals in the Lushootseed language are numbers.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/numerals.lexc)</small>
-
----
-
-Proper nouns
-Proper nouns in LUSHOOTSEED language 
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/propernouns.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/propernouns.lexc)</small>
-
----
-
-Adjectives
-Adjectives in the Lushootseed language describe things.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/adjectives.lexc)</small>
-
----
-
-Verbs
-Verbs in the Lushootseed language are actions.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/verbs.lexc)</small>
-
----
-
-This is where new words are added as lexc entries before they are
-added to the xml source files.
-ɬaləp̓+N:ɬaləp̓ N_with-PL_RED2 "tongue" ;
-
-ADD NOUNS BELOW
-
-pupuhigʷəd # "March/april" ;
-pədx̌ʷiwaac# "april/may" ;
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/nouns_newwords.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/nouns_newwords.lexc)</small>
-
----
-
-Noun inflection
-The Lushootseed language nouns inflect in time person aspect.
-
-qəlb+N+Pl+Nom: **rain showers**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
-* *00qi0qəlb0*
-bəlups+N+Pl+Nom
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC*
-* *00bəlbəlups0*
-* ★*%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC* (is not standard language)
-* ★*00000bəlups0* (is not standard language)
-k̓ʷəčədiʔ+N+Pl+Nom: __rabbit/jänis__
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^Red2CVC2CVCCVC*
-* *00k̓ʷəčk̓ʷəčədiʔ0*
-* ★*k̓ʷəčədiʔ:* `k̓ʷəčədiʔ+N+Pl+Nom` (is not standard language)
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/nouns.lexc)</small>
-
----
-
-Adpositions
-The Lushootseed language adpositions
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/adpositions.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/adpositions.lexc)</small>
-
----
-
-Adverbs
-The Lushootseed language adverbs
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/adverbs.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/adverbs.lexc)</small>
-
----
-
-Pronoun inflection
-The Lushootseed language pronouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/pronouns.lexc)</small>
-
----
-
-Proper noun inflection
-The Lushootseed language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/propernouns.lexc)</small>
-
----
-
-Adjective inflection
-The Lushootseed language adjectives are inflected in much the same way as nouns and verbs.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/adjectives.lexc)</small>
-
----
-
-Prefixes
-Prefixes in the Lushootseed language are bound to beginning of other words.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/prefixes.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/prefixes.lexc)</small>
-
----
-
-Verb inflection
-The Lushootseed language verbs inflect in object persons.
-
-bəčdub:bəčd
-
-kʷədad:kʷədad
-
-@U.TAM-A.PRF@
-ʔəɬəd+V:ʔəɬəd
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/verbs.lexc)</small>
-
----
-
-
-# Symbol affixes
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/affixes/symbols.lexc)</small>
 
 ---
 
@@ -1035,6 +917,111 @@ word classes, or optionally from prefixes:
 
 ---
 
+Adjectives
+Adjectives in the Lushootseed language describe things.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/adjectives.lexc)</small>
+
+---
+
+Adpositions
+Adpositions in the LUSHOOTSEED language 
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/adpositions.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/adpositions.lexc)</small>
+
+---
+
+Adverbs
+Adverbs in the LUSHOOTSEED language 
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/adverbs.lexc)</small>
+
+---
+
+Conjunctors
+Conjunctors in the LUSHOOTSEED language 
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/conjunctors.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/conjunctors.lexc)</small>
+
+---
+
+Interjections
+Interjections in the LUSHOOTSEED language 
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/interjections.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/interjections.lexc)</small>
+
+---
+
+Nouns
+Nouns in LUSHOOTSEED language are things.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/nouns.lexc)</small>
+
+---
+
+This is where new words are added as lexc entries before they are
+added to the xml source files.
+ɬaləp̓+N:ɬaləp̓ N_with-PL_RED2 "tongue" ;
+
+ADD NOUNS BELOW
+
+pupuhigʷəd # "March/april" ;
+pədx̌ʷiwaac# "april/may" ;
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/nouns_newwords.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/nouns_newwords.lexc)</small>
+
+---
+
+Numerals
+Numerals in the Lushootseed language are numbers.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/numerals.lexc)</small>
+
+---
+
+Pronouns
+Pronouns in the Lushootseed language are references to things.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/pronouns.lexc)</small>
+
+---
+
+Proper nouns
+Proper nouns in LUSHOOTSEED language 
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/propernouns.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/propernouns.lexc)</small>
+
+---
+
+Verbs
+Verbs in the Lushootseed language are actions.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-lut/blob/main/src/fst/stems/verbs.lexc)</small>
+
+---
+
 
 
 retroflex plosive, voiceless			t`  ʈ	    0288, 648 (` = ASCII 096)
@@ -1204,22 +1191,6 @@ retracted tongue root			_q
 
 
 
-Check this
-
-Check this
-
-Check this
-
-Check this
-
-* * *
-
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-lut/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
-
----
-
-
-
 We describe here how abbreviations are in Lushootseed are read out, e.g.
 for text-to-speech systems.
 
@@ -1235,6 +1206,22 @@ For example:
 * * *
 
 <small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-lut/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+---
+
+
+
+Check this
+
+Check this
+
+Check this
+
+Check this
+
+* * *
+
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-lut/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 
@@ -1276,7 +1263,6 @@ CLB
 LEFT
 RIGHT
 WEB
-QMARK
 PPUNCT
 PUNCT
 
@@ -1390,9 +1376,6 @@ Sem/Txt
 
 HUMAN
 
-HAB-ACTOR
-HAB-ACTOR-NOT-HUMAN
-
 PROP-ATTR
 PROP-SUR
 
@@ -1481,8 +1464,6 @@ INITIAL
 ### Sets for word or not
 
 WORD
-REAL-WORD
-REAL-WORD-NOT-ABBR
 NOT-COMMA
 
 ### Case sets
@@ -1541,75 +1522,7 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-lut/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
-
----
-
-# Grammar checker tokenisation for lut
-
-Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
-Then just:
-```
-$ make
-$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-```
-
-More usage examples:
-```
-$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-```
-
-Pmatch documentation:
-<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
-
-Characters which have analyses in the lexicon, but can appear without spaces
-before/after, that is, with no context conditions, and adjacent to words:
-* Punct contains ASCII punctuation marks
-* The symbol after m-dash is soft-hyphen `U+00AD`
-* The symbol following {•} is byte-order-mark / zero-width no-break space
-`U+FEFF`.
-
-Whitespace contains ASCII white space and
-the List contains some unicode white space characters
-* En Quad U+2000 to Zero-Width Joiner U+200d'
-* Narrow No-Break Space U+202F
-* Medium Mathematical Space U+205F
-* Word joiner U+2060
-
-Apart from what's in our morphology, there are
-1) unknown word-like forms, and
-2) unmatched strings
-We want to give 1) a match, but let 2) be treated specially by hfst-tokenise -a
-* select extended latin symbols
-* select symbols
-* various symbols from Private area (probably Microsoft),
-so far:
-* U+F0B7 for "x in box"
-
-TODO: Could use something like this, but built-in's don't include šžđčŋ:
-
-Simply give an empty reading when something is unknown:
-hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
-remove empty analyses from other readings. Empty readings are also
-legal in CG, they get a default baseform equal to the wordform, but
-no tag to check, so it's safer to let hfst-tokenise handle them.
-
-Finally we mark as a token any sequence making up a:
-* known word in context
-* unknown (OOV) token in context
-* sequence of word and punctuation
-* URL in context
-
-* * *
-
-<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-lut/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
-
----
-
-# Tokeniser for lut
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-lut/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for lut
 
 Usage:
 ```
@@ -1621,7 +1534,7 @@ $ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-des
 ```
 
 Pmatch documentation:
-<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
+<https://github.com/hfst/hfst/wiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -1670,6 +1583,69 @@ Finally we mark as a token any sequence making up a:
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-lut/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+
+---
+
+# Grammar checker tokenisation for lut
+
+Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
+Then just:
+```
+$ make
+$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
+
+More usage examples:
+```
+$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
+
+Pmatch documentation:
+<https://github.com/hfst/hfst/wiki/HfstPmatch>
+
+Characters which have analyses in the lexicon, but can appear without spaces
+before/after, that is, with no context conditions, and adjacent to words:
+* Punct contains ASCII punctuation marks
+* The symbol after m-dash is soft-hyphen `U+00AD`
+* The symbol following {•} is byte-order-mark / zero-width no-break space
+`U+FEFF`.
+
+Whitespace contains ASCII white space and
+the List contains some unicode white space characters
+* En Quad U+2000 to Zero-Width Joiner U+200d'
+* Narrow No-Break Space U+202F
+* Medium Mathematical Space U+205F
+* Word joiner U+2060
+
+Apart from what's in our morphology, there are
+1) unknown word-like forms, and
+2) unmatched strings
+We want to give 1) a match, but let 2) be treated specially by hfst-tokenise -a
+* select extended latin symbols
+* select symbols
+* various symbols from Private area (probably Microsoft),
+so far:
+* U+F0B7 for "x in box"
+
+TODO: Could use something like this, but built-in's don't include šžđčŋ:
+
+Simply give an empty reading when something is unknown:
+hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
+remove empty analyses from other readings. Empty readings are also
+legal in CG, they get a default baseform equal to the wordform, but
+no tag to check, so it's safer to let hfst-tokenise handle them.
+
+Finally we mark as a token any sequence making up a:
+* known word in context
+* unknown (OOV) token in context
+* sequence of word and punctuation
+* URL in context
+
+* * *
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-lut/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
 
 ---
 
