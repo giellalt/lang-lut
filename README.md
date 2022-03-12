@@ -2,7 +2,7 @@ The Lushootseed (Southern Puget Sound Salish) morphology and tools
 ==========================================
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-lut)](https://github.com/giellalt/lang-lut/issues)
-[![Build Status](https://github.com/giellalt/lang-lut/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-lut/actions)
+[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-lut/main/badge.svg)](https://github.com/giellalt/lang-lut/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-lut)](https://github.com/giellalt/lang-lut/blob/main/LICENSE)
 
 This repository contains finite state source files for the Lushootseed language,
