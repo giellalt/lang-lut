@@ -190,11 +190,12 @@ sexʷƛ̕uqʷilali+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕uqʷilali N_with-PL
 səxʷc̓ix̌alikʷ+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓ix̌alikʷ N_with-PL_RED2 "frying pan" ;
 hihudali+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}hihudali N_with-PL_RED2 "microwave oven" ;
 səxʷc̓əgʷulč+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓əgʷulč N_with-PL_RED2 "dish washer" ;
-hudali+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}hudali N_with-PL_RED2 "range" ;
+hudali+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}hudali N_with-PL_RED2 "stove" ;
 xʷƛ̕alap+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}xʷƛ̕alap N_with-PL_RED2 "pot" ;
 səxʷq̓ʷuʔgʷəsəd+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ʷuʔgʷəsəd N_with-PL_RED2 "blender" ;
 səxʷc̓aʔkʷ+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓aʔkʷ N_with-PL_RED2 "sink" ;
 kʷukʷcutali+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷukʷcutali N_with-PL_RED2 "kitchen" ;
 sp̓aƛ̕aƛ̕+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓aƛ̕aƛ̕ N_with-PL_RED2 "trash" ;
+səxʷšəɬkupi+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šəɬkupi N_with-PL_RED2 "coffee maker" ;
 
 ! vim: set ft=xfst-lexc:
