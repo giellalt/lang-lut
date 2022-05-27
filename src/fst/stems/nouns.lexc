@@ -185,5 +185,15 @@ yəx̌ʷəlaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəx̌ʷəlaʔ N_with-PL_RED2 "" 
 ʔik̓ʷusəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔik̓ʷusəd N_with-PL_RED2 "" ;
 ʔukʷs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔukʷs N_with-PL_RED2 "" ;
 ʔəpus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəpus N_with-PL_RED2 "" ;
+huhudali+N:huhudali N_with-PL_RED2 "toaster" ;
+sexʷƛ̕uqʷilali+N:sexʷƛ̕uqʷilali N_with-PL_RED2 "refrigerator" ;
+səxʷc̓ix̌alikʷ+N:səxʷc̓ix̌alikʷ N_with-PL_RED2 "frying pan" ;
+hihudali+N:hihudali N_with-PL_RED2 "microwave oven" ;
+səxʷc̓əgʷulč+N:səxʷc̓əgʷulč N_with-PL_RED2 "dish washer" ;
+hudali+N:hudali N_with-PL_RED2 "range" ;
+xʷƛ̕alap+N:xʷƛ̕alap N_with-PL_RED2 "pot" ;
+səxʷq̓ʷuʔgʷəsəd+N:səxʷq̓ʷuʔgʷəsəd N_with-PL_RED2 "blender" ;
+səxʷc̓aʔkʷ+N:səxʷc̓aʔkʷ N_with-PL_RED2 "sink" ;
+kʷukʷcutali+N:kʷukʷcutali N_with-PL_RED2 "kitchen" ;
 
 ! vim: set ft=xfst-lexc:
