@@ -197,5 +197,23 @@ səxʷc̓aʔkʷ+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓aʔkʷ N_with-PL_RED2 "
 kʷukʷcutali+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷukʷcutali N_with-PL_RED2 "kitchen" ;
 sp̓aƛ̕aƛ̕+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓aƛ̕aƛ̕ N_with-PL_RED2 "trash" ;
 səxʷšəɬkupi+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šəɬkupi N_with-PL_RED2 "coffee maker" ;
+ləx̌šad+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ləx̌šad N_with-PL_RED2 "lamp" ;
+sgʷigʷədilali+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gʷigʷədilali N_with-PL_RED2 "bathroom" ;
+ʔik̓ʷpipə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔik̓ʷpipə N_with-PL_RED2 "toilet paper" ;
+səxʷgʷigʷədil+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gʷigʷədil N_with-PL_RED2 "toilet" ;
+sgʷigʷədiltəd+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gʷigʷədiltəd N_with-PL_RED2 "toilet seat" ;
+ʔik̓ʷusəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔik̓ʷusəd N_with-PL_RED2 "towel" ;
+səxʷc̓agʷabacəd+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓agʷabacəd N_with-PL_RED2 "bathtub" ;
+spədalikʷ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pədalikʷ N_with-PL_RED2 "plant" ;
+xʷt̕agʷtəd+N:xʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕agʷtəd N_with-PL_RED2 "shelf" ;
+dəxʷtulalikʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dəxʷtulalikʷ N_with-PL_RED2 "book" ;
+dxʷšiʔšɬbəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dxʷšiʔšɬbəd N_with-PL_RED2 "mirror" ;
+c̓akʷdisbəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓akʷdisbəd N_with-PL_RED2 "toothbrush" ;
+sup+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sup N_with-PL_RED2 "soap" ;
+səxʷc̓aʔkʷ+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓aʔkʷ N_with-PL_RED2 "sink" ;
+kaw̓x̌ʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kaw̓x̌ʷ N_with-PL_RED2 "garbage can" ;
+səxʷʔuq̓ʷud+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔuq̓ʷud N_with-PL_RED2 "plunger" ;
+sxʷalacut+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}xʷalacut N_with-PL_RED2 "picture" ;
+
 
 ! vim: set ft=xfst-lexc:
