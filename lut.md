@@ -349,12 +349,12 @@ qəlb+N+Pl+Nom: **rain showers**
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
 * *00qi0qəlb0*
 bəlups+N+Pl+Nom
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC*
 * *00bəlbəlups0*
-* ★*%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC* (is not standard language)
+* ★*%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC* (is not standard language)
 * ★*00000bəlups0* (is not standard language)
 k̓ʷəčədiʔ+N+Pl+Nom: __rabbit/jänis__
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^Red2CVC2CVCCVC*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^Red2CVC*
 * *00k̓ʷəčk̓ʷəčədiʔ0*
 * ★*k̓ʷəčədiʔ:* `k̓ʷəčədiʔ+N+Pl+Nom` (is not standard language)
 
@@ -436,7 +436,7 @@ place holders
 * %^Red1CV1toCV2C:0  2-segment to 3-segments with vowel change 
 * %^Red1CV1toCV2CPL:0  2-segment to 3-segments with vowel change Plural
 
-* %^Red2CVC2CVCCVC:0  3-segment reduplication 
+* %^Red2CVC:0  3-segment reduplication 
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
@@ -498,7 +498,7 @@ sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
 **u:0 in preceding ƛ̕**
 
 **%{p2%}:ə in reduplication**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC*
 * *00bəlbəlups0*
 
 **%{p2%}:u in reduplication**
@@ -508,7 +508,7 @@ qəlb+N+Pl+Nom: **rain showers**
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
 * *00qi0qəlb0*
 pišpiš+N+Pl+Nom: **cat/kissa**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^Red2CVC2CVCCVC*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^Red2CVC*
 * *00pišpišpiš0*
 
 **%{p4%}:i in reduplication**
@@ -557,7 +557,7 @@ liquids
 **%{p1%}:ʔ in reduplication**
 
 **%{p1%}:Cx in reduplication**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC*
 * *00bəlbəlups0*
 
 **%{p1%}:Cx in reduplication**
@@ -797,7 +797,7 @@ And following triggers to control variation
 * %^Red1CV2CiCV  qəlb: qiqəlb *rain showers*
 * %^Red1CV1toCV2C  2-segment to 3-segments with vowel change
 * %^Red1CV1toCV2CPL  2-segment to 3-segments with vowel change Plural
-* %^Red2CVC2CVCCVC  3-segment reduplication
+* %^Red2CVC  3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following

@@ -16,7 +16,7 @@ place holders
 * %^Red1CV1toCV2C:0  2-segment to 3-segments with vowel change 
 * %^Red1CV1toCV2CPL:0  2-segment to 3-segments with vowel change Plural
 
-* %^Red2CVC2CVCCVC:0  3-segment reduplication 
+* %^Red2CVC:0  3-segment reduplication 
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
@@ -78,7 +78,7 @@ sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
 **u:0 in preceding ƛ̕**
 
 **%{p2%}:ə in reduplication**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC*
 * *00bəlbəlups0*
 
 **%{p2%}:u in reduplication**
@@ -88,7 +88,7 @@ qəlb+N+Pl+Nom: **rain showers**
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
 * *00qi0qəlb0*
 pišpiš+N+Pl+Nom: **cat/kissa**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^Red2CVC2CVCCVC*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^Red2CVC*
 * *00pišpišpiš0*
 
 **%{p4%}:i in reduplication**
@@ -137,7 +137,7 @@ liquids
 **%{p1%}:ʔ in reduplication**
 
 **%{p1%}:Cx in reduplication**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC*
 * *00bəlbəlups0*
 
 **%{p1%}:Cx in reduplication**

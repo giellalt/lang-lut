@@ -225,7 +225,7 @@ And following triggers to control variation
 * %^Red1CV2CiCV  qəlb: qiqəlb *rain showers*
 * %^Red1CV1toCV2C  2-segment to 3-segments with vowel change
 * %^Red1CV1toCV2CPL  2-segment to 3-segments with vowel change Plural
-* %^Red2CVC2CVCCVC  3-segment reduplication
+* %^Red2CVC  3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
