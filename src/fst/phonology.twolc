@@ -194,7 +194,7 @@ E3:ə
 %^Red1CV1toCV2C:0 !!= * @CODE@ 2-segment to 3-segments with vowel change 
 %^Red1CV1toCV2CPL:0 !!= * @CODE@ 2-segment to 3-segments with vowel change Plural
 
-%^Red2CVC2CVCCVC:0 !!= * @CODE@ 3-segment reduplication 
+%^Red2CVC:0 !!= * @CODE@ 3-segment reduplication 
 
 
 
@@ -337,37 +337,37 @@ Rules
 
 !"0:ə in reduplication"
 !!! __@RULENAME@__
-! 0:ə <=> [ # | %^√:0 | %< ] 0: _ 0: Cns: ə Cns: Lts:* %^Red2CVC2CVCCVC: ;
+! 0:ə <=> [ # | %^√:0 | %< ] 0: _ 0: Cns: ə Cns: Lts:* %^Red2CVC: ;
 
 "%{p2%}:ə in reduplication"
 !! **@RULENAME@**
- %{p2%}:ə <=> %{p3%}: _ %{p1%}: Cns: ə Cns: Lts:* %^Red2CVC2CVCCVC: ;
-!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC
+ %{p2%}:ə <=> %{p3%}: _ %{p1%}: Cns: ə Cns: Lts:* %^Red2CVC: ;
+!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC
 !!€ 00bəlbəlups0
 
 !"0:u in reduplication"
 !!! __@RULENAME@__
-! 0:u <=> [ # | %^√:0 | %< ] 0: _ 0: Cns: u Cns: Lts:* %^Red2CVC2CVCCVC: ;
+! 0:u <=> [ # | %^√:0 | %< ] 0: _ 0: Cns: u Cns: Lts:* %^Red2CVC: ;
 
 "%{p2%}:u in reduplication"
 !! **@RULENAME@**
- %{p2%}:u <=> %{p3%}: _ %{p1%}: Cns: u Cns: Lts:* %^Red2CVC2CVCCVC: ;
+ %{p2%}:u <=> %{p3%}: _ %{p1%}: Cns: u Cns: Lts:* %^Red2CVC: ;
 
 !"0:i in reduplication"
 !!! __@RULENAME@__
-! 0:i <=> [ # | %^√:0 | %< ] 0: _ 0: Cns: i Cns: Lts:* %^Red2CVC2CVCCVC: ;
+! 0:i <=> [ # | %^√:0 | %< ] 0: _ 0: Cns: i Cns: Lts:* %^Red2CVC: ;
 !         [ # | %^√:0 | %< ] 0: _ Cns ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
 
 "%{p2%}:i in reduplication"
 !! **@RULENAME@**
- %{p2%}:i <=>  _ %{p1%}: Cns: [i|í:] Cns: Lts:* %^Red2CVC2CVCCVC: ;
+ %{p2%}:i <=>  _ %{p1%}: Cns: [i|í:] Cns: Lts:* %^Red2CVC: ;
                _ %{p1%}: Cns: ə:0 Cns: Lts:* [%^Red1CV1toCV2CPL:|%^Red1CV1toCV2C:] ;
                _ %{p1%}: Cns: ə Cns: Lts:* [%^Red1CV2CiCV:] ; 
 !! qəlb+N+Pl+Nom: **rain showers**
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV
 !!€ 00qi0qəlb0
 !! pišpiš+N+Pl+Nom: **cat/kissa**
-!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^Red2CVC2CVCCVC
+!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^Red2CVC
 !!€ 00pišpišpiš0
 
 "%{p4%}:i in reduplication"
@@ -376,11 +376,11 @@ Rules
 
 !"0:a in reduplication"
 !!! __@RULENAME@__
-! 0:a <=> [ # | %^√:0 | %< ] 0: _ 0: Cns: a Cns: Lts:* %^Red2CVC2CVCCVC: ;
+! 0:a <=> [ # | %^√:0 | %< ] 0: _ 0: Cns: a Cns: Lts:* %^Red2CVC: ;
 
 "%{p2%}:a in reduplication"
 !! **@RULENAME@**
- %{p2%}:a <=> %{p3%}: _ %{p1%}: Cns: [ a | á: ] Cns: Lts:* %^Red2CVC2CVCCVC: ;
+ %{p2%}:a <=> %{p3%}: _ %{p1%}: Cns: [ a | á: ] Cns: Lts:* %^Red2CVC: ;
 
 "%{p1%}:0"
 !! **@RULENAME@**
@@ -388,20 +388,20 @@ Rules
 
 "%{p2%}:0"
 !! **@RULENAME@**
- %{p2%}:0 <=> _ %{p1%}: Lts:* \[ %^Red1CV1toCV2CPL: | %^Red1CV1toCV2C: | %^Red2CVC2CVCCVC: | %^Red1CV2CiCV: ] [ # | %>: ] ;
+ %{p2%}:0 <=> _ %{p1%}: Lts:* \[ %^Red1CV1toCV2CPL: | %^Red1CV1toCV2C: | %^Red2CVC: | %^Red1CV2CiCV: ] [ # | %>: ] ;
               
 
 "%{p3%}:0"
 !! **@RULENAME@**
- %{p3%}:0 <=> _ %{p2%}:  %{p1%}: Lts:* \[ %^Red1CV1toCV2CPL: | %^Red1CV1toCV2C: | %^Red2CVC2CVCCVC: | %^Red1CV2CiCV: ] [ # | %>: ] ;
+ %{p3%}:0 <=> _ %{p2%}:  %{p1%}: Lts:* \[ %^Red1CV1toCV2CPL: | %^Red1CV1toCV2C: | %^Red2CVC: | %^Red1CV2CiCV: ] [ # | %>: ] ;
 
 "%{p4%}:0"
 !! **@RULENAME@**
- %{p4%}:0 <=> _ %{p3%}:  %{p2%}:  %{p1%}: Lts:*  [ %^Red2CVC2CVCCVC: | %^Red1CV1toCV2C: | # | %>: ] ;
+ %{p4%}:0 <=> _ %{p3%}:  %{p2%}:  %{p1%}: Lts:*  [ %^Red2CVC: | %^Red1CV1toCV2C: | # | %>: ] ;
 
 "%{p5%}:0"
 !! **@RULENAME@**
- %{p5%}:0 <=> _ %{p4%}: %{p3%}:  %{p2%}:  %{p1%}: Lts:* [ %^Red2CVC2CVCCVC: | %^Red1CV1toCV2C: | # | %>: ];
+ %{p5%}:0 <=> _ %{p4%}: %{p3%}:  %{p2%}:  %{p1%}: Lts:* [ %^Red2CVC: | %^Red1CV1toCV2C: | # | %>: ];
 
 
 !! ### CONSONANTS
@@ -423,13 +423,13 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 
 "%{p1%}:Cx in reduplication"
 !! **@RULENAME@**
- %{p1%}:Cx <=> %{p3%}: %{p2%}: _ Cns Vow: Cx [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+ %{p1%}:Cx <=> %{p3%}: %{p2%}: _ Cns Vow: Cx [ Cns | Vow ]* %^Red2CVC: ;
            where Cx in (kʷ b̓ ǰ n̓ m̓ p p̓ b t t̕ d dᶻ c c̓ č č̓ s š  ɬ ƛ̕  k k̓ k̓ʷ gʷ h xʷ q q̓ qʷ  x̌ x̌ʷ ) ;
 !!2017-11-27where Cx in (p b t t̕ d dᶻ č š l l̕ ɬ ƛ̕ w w̓ y̓ k̓ʷ gʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
 
 "%{p3%}:Cx in reduplication"
 !! **@RULENAME@**
- %{p3%}:Cx <=> _ %{p2%}: %{p1%}: Cx Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+ %{p3%}:Cx <=> _ %{p2%}: %{p1%}: Cx Vow: Cns [ Cns | Vow ]* %^Red2CVC: ;
                _ %{p2%}: %{p1%}: Cx Vow: Cns [ Cns | Vow ]* [ %^Red1CV1toCV2C:|%^Red1CV1toCV2CPL:] ;
                _ %{p2%}: %{p1%}: Cx Vow Cns [ Cns | Vow ]* [ %^Red1CV2CiCV:] ;
            where Cx in (kʷ b̓ ǰ n̓ m̓ p p̓ b t t̕ d dᶻ c c̓ č č̓ s š l l̕ ɬ ƛ̕  y w y̓ w̓ k k̓ k̓ʷ gʷ h xʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
@@ -449,41 +449,41 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 
 "%{p1%}:l̕ in reduplication"
 !! **@RULENAME@**
- %{p1%}:l̕ <=> %{p3%}: %{p2%}: _ [q|y] Vow: l [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-             %{p3%}: %{p2%}: _ Cns Vow: l̕ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+ %{p1%}:l̕ <=> %{p3%}: %{p2%}: _ [q|y] Vow: l [ Cns | Vow ]* %^Red2CVC: ;
+             %{p3%}: %{p2%}: _ Cns Vow: l̕ [ Cns | Vow ]* %^Red2CVC: ;
 
 "%{p1%}:y̓ in reduplication"
 !! **@RULENAME@**
- %{p1%}:y̓ <=> %{p3%}: %{p2%}: _ q Vow: y [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-             %{p3%}: %{p2%}: _ Cns Vow: y̓ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+ %{p1%}:y̓ <=> %{p3%}: %{p2%}: _ q Vow: y [ Cns | Vow ]* %^Red2CVC: ;
+             %{p3%}: %{p2%}: _ Cns Vow: y̓ [ Cns | Vow ]* %^Red2CVC: ;
 
 
 
 "%{p1%}:w̓ in reduplication"
 !! **@RULENAME@**
- %{p1%}:w̓ <=> %{p3%}: %{p2%}: _ q Vow: w [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-             %{p3%}: %{p2%}: _ Cns Vow: w̓ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+ %{p1%}:w̓ <=> %{p3%}: %{p2%}: _ q Vow: w [ Cns | Vow ]* %^Red2CVC: ;
+             %{p3%}: %{p2%}: _ Cns Vow: w̓ [ Cns | Vow ]* %^Red2CVC: ;
 
 "%{p1%}:ʔ in reduplication"
 !! **@RULENAME@**
- %{p1%}:ʔ <=> %{p3%}: %{p2%}: _ s Vow: q̓ʷ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-             %{p3%}: %{p2%}: _ Cns Vow: ʔ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+ %{p1%}:ʔ <=> %{p3%}: %{p2%}: _ s Vow: q̓ʷ [ Cns | Vow ]* %^Red2CVC: ;
+             %{p3%}: %{p2%}: _ Cns Vow: ʔ [ Cns | Vow ]* %^Red2CVC: ;
 
 "%{p1%}:Cx in reduplication"
 !! **@RULENAME@**
- %{p1%}:Cx <=> %{p3%}: %{p2%}: _ [Cns - [q|y]] Vow: Cx [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+ %{p1%}:Cx <=> %{p3%}: %{p2%}: _ [Cns - [q|y]] Vow: Cx [ Cns | Vow ]* %^Red2CVC: ;
            where Cx in (l) ;
-!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC
+!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC
 !!€ 00bəlbəlups0
 	   
 "%{p1%}:Cx in reduplication"
 !! **@RULENAME@**
- %{p1%}:Cx <=> %{p3%}: %{p2%}: _ [Cns - q] Vow: Cx [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+ %{p1%}:Cx <=> %{p3%}: %{p2%}: _ [Cns - q] Vow: Cx [ Cns | Vow ]* %^Red2CVC: ;
            where Cx in (y w) ;
 
 "%{p1%}:Cx in reduplication"
 !! **@RULENAME@**
- %{p1%}:Cx <=> %{p3%}: %{p2%}: _ [Cns - s] Vow: Cx [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+ %{p1%}:Cx <=> %{p3%}: %{p2%}: _ [Cns - s] Vow: Cx [ Cns | Vow ]* %^Red2CVC: ;
            where Cx in (q̓ʷ) ;
 
 
@@ -491,32 +491,32 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 
 !2016-12-20!"0:p in reduplication"
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20! 0:p <=> [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: p [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!         [ # | %^√:0 | %< ] _ 0: 0: p Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20! 0:p <=> [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: p [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20!         [ # | %^√:0 | %< ] _ 0: 0: p Vow: Cns [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!        [ # | %^√:0 | %< ] p  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: p  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: p ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
 !2016-12-20!
 !2016-12-20!"0:b in reduplication"
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20! 0:b <=> [ # | %^√:0 | %< ] _ 0: 0: b Vow: Cns: [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!     	  [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: b [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20! 0:b <=> [ # | %^√:0 | %< ] _ 0: 0: b Vow: Cns: [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20!     	  [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: b [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!        [ # | %^√:0 | %< ] b  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: b  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: b ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
 !2016-12-20!
 !2016-12-20!"0:t in reduplication"
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20! 0:t <=> [ # | %^√:0 | %< ] _ 0: 0: t Vow: Cns: [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!     	  [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: t [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20! 0:t <=> [ # | %^√:0 | %< ] _ 0: 0: t Vow: Cns: [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20!     	  [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: t [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!        [ # | %^√:0 | %< ] t  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: t  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: t ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
 !2016-12-20!
 !2016-12-20!"0:t̕ in reduplication"
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20! 0:t̕ <=> [ # | %^√:0 | %< ] _ 0: 0: t̕ Vow: Cns: [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20! 	  [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: t̕ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20! 0:t̕ <=> [ # | %^√:0 | %< ] _ 0: 0: t̕ Vow: Cns: [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20! 	  [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: t̕ [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!         [ # | %^√:0 | %< ] t̕  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: t̕  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: t̕ ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
@@ -524,32 +524,32 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 !2016-12-20!
 !2016-12-20!"0:d in reduplication"
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20! 0:d <=> [ # | %^√:0 | %< ] _ 0: 0: d Vow: Cns: [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!     	  [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: d [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20! 0:d <=> [ # | %^√:0 | %< ] _ 0: 0: d Vow: Cns: [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20!     	  [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: d [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!        [ # | %^√:0 | %< ] d  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: d  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: d ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
 !2016-12-20!
 !2016-12-20!"0:č in reduplication"
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20! 0:č <=> [ # | %^√:0 | %< ] _ 0: 0: č Vow: Cns: [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!	 [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: č [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20! 0:č <=> [ # | %^√:0 | %< ] _ 0: 0: č Vow: Cns: [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20!	 [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: č [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!        [ # | %^√:0 | %< ] č  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: č  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: č ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
 !2016-12-20!
 !2016-12-20!"0:š in reduplication"
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20! 0:š <=> [ # | %^√:0 | %< ] _ 0: 0: š Vow: Cns: [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!	 [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: š [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20! 0:š <=> [ # | %^√:0 | %< ] _ 0: 0: š Vow: Cns: [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20!	 [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: š [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!        [ # | %^√:0 | %< ] š  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: š  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: š ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
 !2016-12-20!
 !2016-12-20!"0:l in reduplication"
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20! 0:l <=> [ # | %^√:0 | %< ] 0: 0: _ [ Cns - q ] Vow: l [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!	 [ # | %^√:0 | %< ] _ 0: 0: l Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20! 0:l <=> [ # | %^√:0 | %< ] 0: 0: _ [ Cns - q ] Vow: l [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20!	 [ # | %^√:0 | %< ] _ 0: 0: l Vow: Cns [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!        [ # | %^√:0 | %< ] l  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: l  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: l ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
@@ -557,32 +557,32 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 !2016-12-20!"0:l̕ in reduplication"
 !2016-12-20!!! __@RULENAME@__
 !2016-12-20! 0:l̕ <=>
-!2016-12-20!      [ # | %^√:0 | %< ] 0: 0: _ [ q ] Vow: l [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!	 [ # | %^√:0 | %< ] _ 0: 0: l̕ Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20!      [ # | %^√:0 | %< ] 0: 0: _ [ q ] Vow: l [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20!	 [ # | %^√:0 | %< ] _ 0: 0: l̕ Vow: Cns [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!        [ # | %^√:0 | %< ] l̕  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: l̕  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: l̕ ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
 !2016-12-20!
 !2016-12-20!"0:ƛ̕ in reduplication"
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20! 0:ƛ̕ <=> [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: ƛ̕ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!         [ # | %^√:0 | %< ] _ 0: 0: ƛ̕ Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20! 0:ƛ̕ <=> [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: ƛ̕ [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20!         [ # | %^√:0 | %< ] _ 0: 0: ƛ̕ Vow: Cns [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!        [ # | %^√:0 | %< ] ƛ̕  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: ƛ̕  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: ƛ̕ ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
 !2016-12-20!
 !2016-12-20!"0:y in reduplication"
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20! 0:y <=> [ # | %^√:0 | %< ] _ 0: 0: y Vow: Cns: [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!     	  [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: y [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20! 0:y <=> [ # | %^√:0 | %< ] _ 0: 0: y Vow: Cns: [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20!     	  [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: y [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!        [ # | %^√:0 | %< ] y  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: y  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: y ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
 !2016-12-20!
 !2016-12-20!"0:k̓ʷ in reduplication"
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20! 0:k̓ʷ <=> [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: k̓ʷ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!         [ # | %^√:0 | %< ] _ 0: 0: k̓ʷ Vow: Cns: [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20! 0:k̓ʷ <=> [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: k̓ʷ [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20!         [ # | %^√:0 | %< ] _ 0: 0: k̓ʷ Vow: Cns: [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!        [ # | %^√:0 | %< ] k̓ʷ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: k̓ʷ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: k̓ʷ ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
@@ -590,16 +590,16 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 !2016-12-20!
 !2016-12-20!"0:q in reduplication"
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20! 0:q <=> [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: q [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!         [ # | %^√:0 | %< ] _ 0: 0: q Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20! 0:q <=> [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: q [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20!         [ # | %^√:0 | %< ] _ 0: 0: q Vow: Cns [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!        [ # | %^√:0 | %< ] q  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: q  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: q ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
 !2016-12-20!
 !2016-12-20!"0:qʷ in reduplication"
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20! 0:qʷ <=> [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: qʷ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!         [ # | %^√:0 | %< ] _ 0: 0: qʷ Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20! 0:qʷ <=> [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: qʷ [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20!         [ # | %^√:0 | %< ] _ 0: 0: qʷ Vow: Cns [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!        [ # | %^√:0 | %< ] qʷ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: qʷ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: qʷ ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
@@ -608,8 +608,8 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 !2016-12-20!
 !2016-12-20!"0:x̌ in reduplication"
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20! 0:x̌ <=> [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: x̌ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!         [ # | %^√:0 | %< ] _ 0: 0: x̌ Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20! 0:x̌ <=> [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: x̌ [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20!         [ # | %^√:0 | %< ] _ 0: 0: x̌ Vow: Cns [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!        [ # | %^√:0 | %< ] x̌  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: x̌  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: x̌ ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
@@ -617,16 +617,16 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 !2016-12-20!
 !2016-12-20!"0:x̌ʷ in reduplication"
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20! 0:x̌ʷ <=> [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: x̌ʷ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!         [ # | %^√:0 | %< ] _ 0: 0: x̌ʷ Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20! 0:x̌ʷ <=> [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: x̌ʷ [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20!         [ # | %^√:0 | %< ] _ 0: 0: x̌ʷ Vow: Cns [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!        [ # | %^√:0 | %< ] x̌ʷ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: x̌ʷ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: x̌ʷ ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
 !2016-12-20!
 !2016-12-20!"0:ʔ in reduplication"
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20! 0:ʔ <=> [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: ʔ [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!         [ # | %^√:0 | %< ] _ 0: 0: ʔ Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20! 0:ʔ <=> [ # | %^√:0 | %< ] 0: 0: _ Cns Vow: ʔ [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20!         [ # | %^√:0 | %< ] _ 0: 0: ʔ Vow: Cns [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!        [ # | %^√:0 | %< ] ʔ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: ʔ  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: ʔ ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
@@ -635,8 +635,8 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 !2016-12-20!"0:w̓ in reduplication"
 !2016-12-20!!! __@RULENAME@__
 !2016-12-20! 0:w̓ <=>
-!2016-12-20!      [ # | %^√:0 | %< ] 0: 0: _ [ q ] Vow: w [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!	 [ # | %^√:0 | %< ] _ 0: 0: w̓ Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20!      [ # | %^√:0 | %< ] 0: 0: _ [ q ] Vow: w [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20!	 [ # | %^√:0 | %< ] _ 0: 0: w̓ Vow: Cns [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!        [ # | %^√:0 | %< ] w̓  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: w̓  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: w̓ ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
@@ -644,16 +644,16 @@ d:0 <=>	_ %> [ s: #| c ]  ;
 !2016-12-20!"0:y̓ in reduplication"
 !2016-12-20!!! __@RULENAME@__
 !2016-12-20! 0:y̓ <=>
-!2016-12-20!      [ # | %^√:0 | %< ] 0: 0: _ [ q ] Vow: y [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
-!2016-12-20!	 [ # | %^√:0 | %< ] _ 0: 0: y̓ Vow: Cns [ Cns | Vow ]* %^Red2CVC2CVCCVC: ;
+!2016-12-20!      [ # | %^√:0 | %< ] 0: 0: _ [ q ] Vow: y [ Cns | Vow ]* %^Red2CVC: ;
+!2016-12-20!	 [ # | %^√:0 | %< ] _ 0: 0: y̓ Vow: Cns [ Cns | Vow ]* %^Red2CVC: ;
 !2016-12-20!        [ # | %^√:0 | %< ] y̓  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2C: ;
 !2016-12-20!        [ # | %^√:0 | %< ] 0: 0: y̓  ə: _ [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
 !2016-12-20!         [ # | %^√:0 | %< ] _ 0: y̓ ə: 0: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
 !2016-12-20!
 !
-!2016-12-20!"Require 0: before Red2CVC2CVCCVC:0 "
+!2016-12-20!"Require 0: before Red2CVC:0 "
 !2016-12-20!!! __@RULENAME@__
-!2016-12-20!%^Red2CVC2CVCCVC:0 => 0: Lts:* _ ;
+!2016-12-20!%^Red2CVC:0 => 0: Lts:* _ ;
 !2016-12-20!
 !2016-12-20!"Require 0: before Red1CV1toCV2C:0 "
 !2016-12-20!!! __@RULENAME@__

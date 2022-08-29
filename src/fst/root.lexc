@@ -257,7 +257,7 @@ y̓   !!= @CODE@
 %^Red1CV2CiCV !!= * @CODE@ qəlb: qiqəlb *rain showers*
 %^Red1CV1toCV2C !!= * @CODE@ 2-segment to 3-segments with vowel change
 %^Red1CV1toCV2CPL !!= * @CODE@ 2-segment to 3-segments with vowel change Plural
-%^Red2CVC2CVCCVC !!= * @CODE@ 3-segment reduplication
+%^Red2CVC !!= * @CODE@ 3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
 
 !! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
