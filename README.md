@@ -4,6 +4,8 @@ The Lushootseed (Southern Puget Sound Salish) morphology and tools
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-lut)](https://github.com/giellalt/lang-lut/issues)
 [![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-lut/main/badge.svg)](https://github.com/giellalt/lang-lut/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-lut)](https://github.com/giellalt/lang-lut/blob/main/LICENSE)
+[![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-lut?platform=desktop&channel=nightly)
+[![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-lut?platform=mbile&channel=nightly)
 
 This repository contains finite state source files for the Lushootseed language,
 for building morphological analysers, proofing tools
