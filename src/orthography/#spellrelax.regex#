@@ -1,0 +1,44 @@
+#ʔ (->) ˀ, # LATIN LETTER GLOTAL STOP U+0294 allows MODIFIER LETTER GLOTAL STOP U+02C0
+t̕ (->) t̓, # t WITH U+0315 COMBINING COMMA ABOVE RIGHT allows t WITH U+0313 COMBINING COMMA ABOVE
+# No keyboards for lut in use
+ɬ (->) ł, # LATIN SMALL LETTER L WITH BELT U+026C allows LATIN SMALL LETTER L WITH STROKE U+0142
+b̓ (->) b’, # WITH U+0315 COMBINING COMMA ABOVE RIGHT allows b with U+2019
+č̓ (->) č’, # WITH U+0315 COMBINING COMMA ABOVE RIGHT allows č with U+2019
+k̓ (->) k’, # WITH U+0315 COMBINING COMMA ABOVE RIGHT allows k with U+2019
+k̓ʷ (->) k’ʷ, # WITH U+0315 COMBINING COMMA ABOVE RIGHT allows kʷ with U+2019
+l̕  (->) l’, # WITH U+0315 COMBINING COMMA ABOVE RIGHT allows l  with U+2019
+ɬ (->) ł, # LATIN SMALL LETTER L WITH BELT U+026C allows LATIN SMALL LETTER L WITH STROKE U+0142
+ɬ (->) ɫ, # LATIN SMALL LETTER L WITH BELT U+026C allows LATIN SMALL LETTER L WITH MIDDLE TILDE U+026B
+ƛ̕ (->) ƛ’,  #  allows ƛ with U+2019
+m̓ (->) m’, # WITH U+0313 COMBINING COMMA ABOVE RIGHT allows m  with U+2019
+n̓ (->) n’, # WITH U+0315 COMBINING COMMA ABOVE RIGHT allows n  with U+2019
+p̓ (->) p’, # WITH U+0315 COMBINING COMMA ABOVE RIGHT allows p  with U+2019
+q̓ (->) q’, # WITH U+0315 COMBINING COMMA ABOVE RIGHT allows q  with U+2019
+q̓ʷ (->) q’ʷ, # WITH U+0315 COMBINING COMMA ABOVE RIGHT allows qʷ with U+2019
+t̕ (->) t’, # WITH U+0315 COMBINING COMMA ABOVE RIGHT allows t  with U+2019
+w̓ (->) w’, # WITH U+0313 COMBINING COMMA ABOVE RIGHT allows w  with U+2019
+y̓ (->) y’, # WITH U+0315 COMBINING COMMA ABOVE RIGHT allows y  with U+2019
+č (->) č, # decomposed
+š (->) š # decomposed
+;
+
+# Explanation:
+# lexical side (->) input 
+
+# Future thought:
+# A posible change is to split this file into lg-specific files.
+# As the number of language grow, this might be more relevant.
+# Especially conflicting rules a -> b, b -> a in different lgs
+# might force a split of this file.
+
+# Note:
+# Some of the lines above seem to contain identical letters, 
+# and in some cases the same right-hand letter seems to occure twice.
+# In each case, the __second__ of these is a non-precomposed letter.
+# In order to check which one is which one, open this file in emacs
+# and read through the line with the arrow key. The letters who span over
+# two characters (press arrow twice) are the precomposed ones.
+
+# Note that the ï/Ï letters are there for sma.
+# They are probably substandard, and should be relegated to sma.fst
+# but removed from a sma.norm.fst.

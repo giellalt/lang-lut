@@ -17,8 +17,8 @@ Prefixes_01b ;
 
 LEXICON Prefixes_01b
 Prefixes_01c ;
-@U.PossPx.Sg1@:@U.PossPx.Sg1@d%<     Prefixes_01c   ;
-@U.PossPx.Sg2@:@U.PossPx.Sg2@ad%<    Prefixes_01c   ;
+!@U.PossPx.Sg1@:@U.PossPx.Sg1@d%<     Prefixes_01c   ;
+!@U.PossPx.Sg2@:@U.PossPx.Sg2@ad%<    Prefixes_01c   ;
  DVNouns_01 ;
 
 LEXICON Prefixes_01c
@@ -51,7 +51,15 @@ LEXICON DVNouns
 !ɬu=d=s=ʔaʔ Irr+PxSg1+Nmlz+be.there
 
 LEXICON DVNouns_01
-@U.TAM-T.REM@:@U.TAM-T.REM@tu%< DVNouns_02 ; !remote past, any predicate
+! followed by PX
+@U.TAM-T.REM@:@U.TAM-T.REM@tu%< DVNouns_02-1 ; !remote past, any predicate
+DVNouns_02-1 ;
+
+LEXICON DVNouns_02-1
+!@U.PossPx.Sg1@:@U.PossPx.Sg1@d%<     Prefixes_01c   ;!CHECKME2022
+!@U.PossPx.Sg2@:@U.PossPx.Sg2@ad%<    Prefixes_01c   ;
+@U.PossPx.Sg1@:@U.PossPx.Sg1@d%<     DVNouns_02   ;!CHECKME2022
+@U.PossPx.Sg2@:@U.PossPx.Sg2@ad%<    DVNouns_02   ;
 DVNouns_02 ;
 
 LEXICON DVNouns_02

@@ -50,6 +50,7 @@ yəcəb+V:yəcəb V_HELHED "give news" ;
 ʔiɬšxʷ+V:ʔiɬšxʷ V_HELHED "paddle" ;
 ʔəɬəd+V:ʔəɬəd V_HELHED "eat" ;
 ʔuluɬ+V:ʔuluɬ V_HELHED "travel by water" ;
+ƛ̕ax̌ʷ+V:ƛ̕ax̌ʷ V_HELHED "grow" ;
 
 č̓itil+V:č̓itil V_HELHED "draw near" ;
 diʔiʔil+V:diʔiʔil V_HELHED "move to other side" ;
@@ -61,6 +62,8 @@ ləx̌il+V:ləx̌il V_HELHED "become light" ;
 luƛ̕il+V:luƛ̕il V_HELHED "grow up" ;
 ɬax̌il+V:ɬax̌il V_HELHED "become dark" ;
 təlawil+V:təlawil V_HELHED "run" ;
+wəliʔil+v1+V:wəliʔil V_HELHED "showing, appearing" ;
+wəliʔil+v2+V:wəliʔi V_HELHED "showing, appearing" ;
 xʷəʔaʔxʷəʔil+V:xʷəʔaʔxʷəʔil V_HELHED "become swift" ;
 
 gʷəqilič+V:gʷəqilič V_HELHED "become enveloped in brightness" ;

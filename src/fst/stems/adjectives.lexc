@@ -3,22 +3,22 @@
 !! Adjectives in the Lushootseed language describe things.
 
 LEXICON Adjectives
-x̌ičəc:x̌ičəc A_ "red" ;
-kay̓kay̓alus:kay̓kay̓alus A_ "sky blue" ;
-č̓uɬəyʔalus:č̓uɬəyʔalus A_ "green" ;
-x̌ibəč̓:x̌ibəč̓ A_ "black" ;
-x̌ʷiqʷəq̓ʷ:x̌ʷiqʷəq̓ʷ A_ "white" ;
-x̌ʷiqʷac:x̌ʷiqʷac A_ "yellow" ;
-hikʷ:hikʷ A_ "big" ;
-haʔɬ:haʔɬ A_ "good" ;
-miʔman̓:miʔman̓ A_ "small" ;
-q̓ič:q̓ič A_ "expensive" ;
+x̌ičəc+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ičəc A_with-PL_RED2 "red" ;
+kay̓kay̓alus+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kay̓kay̓alus A_with-PL_RED2 "sky blue" ;
+č̓uɬəyʔalus+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓uɬəyʔalus A_with-PL_RED2 "green" ;
+x̌ibəč̓+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ibəč̓ A_with-PL_RED2 "black" ;
+x̌ʷiqʷəq̓ʷ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷiqʷəq̓ʷ A_with-PL_RED2 "white" ;
+x̌ʷiqʷac+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷiqʷac A_with-PL_RED2 "yellow" ;
+hikʷ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}hikʷ A_with-PL_RED2 "big" ;
+haʔɬ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}haʔɬ A_with-PL_RED2 "good" ;
+miʔman̓+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}miʔman̓ A_with-PL_RED2 "small" ;
+q̓ič+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ič A_with-PL_RED2 "expensive" ;
 
-təɬ+A:təɬ A_ "true|real" ;
-wiʔx̌ʷ+v1+A:wiʔx̌ʷ A_ "lost" ;
-wiʔx̌ʷ+v2+A:wix̌ʷ A_ "lost" ;
-bəsad+A:bəsad A_ "dark" ;
-xʷəxʷaʔxʷəʔ+A:xʷəxʷaʔxʷəʔ A_ "swift" ;
+təɬ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təɬ A_with-PL_RED2 "true|real" ;
+wiʔx̌ʷ+v1+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wiʔx̌ʷ A_with-PL_RED2 "lost" ;
+wiʔx̌ʷ+v2+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wix̌ʷ A_with-PL_RED2 "lost" ;
+bəsad+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəsad A_with-PL_RED2 "dark" ;
+xʷəxʷaʔxʷəʔ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}xʷəxʷaʔxʷəʔ A_with-PL_RED2 "swift" ;
 
 tə+Det:tə DET-NEUTRAL-MSC_ "the|a|neutral demonstrative" ;
 tə+Det:tsə DET-NEUTRAL-FEM_ "the|a|neutral demonstrative" ;
