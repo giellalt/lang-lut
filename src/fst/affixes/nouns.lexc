@@ -92,9 +92,9 @@ LEXICON POSS
 @D.PossPx@:@D.PossPx@ K ;
 @R.PossPx.Sg1@ PXSG1 ;
 @R.PossPx.Sg2@ PXSG2 ;
-@U.PossPx.SP3@ PXSP3 ;
-@U.PossPx.Pl1@ PXPL1 ;
-@U.PossPx.Pl2@ PXPL2 ;
+@D.PossPx@ PXSP3 ;
+@D.PossPx@ PXPL1 ;
+@D.PossPx@ PXPL2 ;
 
 LEXICON PXSG1
 +PxSg1: K ;
