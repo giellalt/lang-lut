@@ -2,10 +2,72 @@
 !  --------
 !! Prefixes in the Lushootseed language are bound to beginning of other words.
 
+!! Beck, David 2018: Aspectual Affixation in Lushootseed: A minor reanalysis
+!! ordering
+!! Tense/mood | Poss.subj | nominalizers | Aspect | Stem | Object/voice | others
+!! gʷə%<, ƛ̕u%<, tu%<, ɬu%<, bə%< | d%<, ad%< |s%<, dəxʷ%< | ʔu, ʔəs, lə, ləs, ləcu| X |%>s/%>bš, %>sut/%>ut, %>agʷəl, %>b |%>ləp, %>s, %>əxʷ
+
+!! -1/-4?(lə=bə=ʔas-q̓ʷəl-il) proclitic Asp/Prog+:lə%<
+!!-4  @U.TAM-SUBJ.SUBJ@:@U.TAM-SUBJ.SUBJ@gʷə%< (+Sbj)
+!!    @U.TAM-HAB.HAB@:@U.TAM-HAB.HAB@ƛ̕u%<  (+Hab)
+!!    @U.TAM-T.REM@:@U.TAM-T.REM@tu%<   (TM/Past+)
+!!    @U.TAM-HAB.IRR@:@U.TAM-HAB.IRR@ɬu%<  (+Fut)
+!!    @U.TAM-RE.RE@:@U.TAM-RE.RE@bə%<  (+Add)
+!!-3  d%<, PxSg2+:ad%< ?| Add+:bə%< 
+!!-2  NM+:s%<, dəxʷ%<
+!! -1 aspect
+!!   @U.TAM-A.PROG@:@U.TAM-A.PROG@lə%<  (non-circumscribed, progressive)
+!! @U.TAM-A.STAT@:@U.TAM-A.STAT@ʔəs%<  (ongoing state: Asp/Stat)
+!! @U.TAM-A.STAT@:@U.TAM-A.STAT@ʔas%<  (ongoing state: Asp/Stat)variant
+!!   @U.TAM-A.PROGSTAT@:@U.TAM-A.PROGSTAT@ləs%< (Asp/ProgStat)
+!! @U.TAM-A.PFV@:@U.TAM-A.PFV@ʔu%<  (Asp/Pfv)
+!! -1 Asp/Cont+:ləcu%< (?Asp/Prog+:lə%< + Asp/Pfv+:ʔu%<) Skagit
+!! -1 Asp/Stat:ʔə{sØ}{dØ}xʷ%< (Asp/Stat+:ʔəs%< + dxʷ%<)
+!! 
+!! X
+!! 1 %>s/%>bš, %>sut/%>ut, %>agʷəl, %>b, +Inch:%>il
+!! 2 %>ləp, +Px3:%>s, %>əxʷ
+!! lə<bə<ləcu<gʷaadgʷad
+
 LEXICON Prefixes
 Prefixes_01 ;
 @U.TAM-SUBJ.SUBJ@:@U.TAM-SUBJ.SUBJ@gʷə%< Prefixes_01 ; !sbj = subjunctive
 @U.TAM-HAB.IRR@:@U.TAM-HAB.IRR@ɬu%< Prefixes_01 ; ! qəlb 'rain': ɬuqəlb 'rain in the future' is this a noun, too? _intention to_
+
+!Lonsdale 2001:211-212
+!ɬubələskʷaxʷyildutəxʷčəɬ
+!ɬu<bə<ləs<kʷaxʷ>y>il>d>ut>əxʷ>čəɬ
+!Fut+ANEW+PgrSttv+help+YI+il+Trx+Rfx+Inc+our
+@U.TAM-HAB.IRR@@U.TAM-RE.RE@@U.TAM-A.PROGSTAT@:@U.TAM-HAB.IRR@@U.TAM-RE.RE@@U.TAM-A.PROGSTAT@ɬu%<bə%<ləs%< VERBS_OR_NOUNS ;
+@U.TAM-HAB.IRR@@U.TAM-RE.RE@@U.TAM-A.PROGSTAT@:@U.TAM-HAB.IRR@@U.TAM-RE.RE@@U.TAM-A.PROGSTAT@ɬu%<bə%<las%< VERBS_OR_NOUNS ;
+@U.TAM-HAB.IRR@@U.TAM-RE.RE@:@U.TAM-HAB.IRR@@U.TAM-RE.RE@ɬu%<bə%< DVNouns   ; ! direct to PxSg1
+!gʷə%<ƛ̕u%<ʔas– Sbj+Hab+Stat
+@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.HAB@@U.TAM-A.STAT@:@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.HAB@@U.TAM-A.STAT@gʷə%<ƛ̕u%<ʔəs%< VERBS_OR_NOUNS ;
+@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.HAB@@U.TAM-A.STAT@:@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.HAB@@U.TAM-A.STAT@gʷə%<ƛ̕u%<ʔas%< VERBS_OR_NOUNS ;
+@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.HAB@:@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.HAB@gʷə%<ƛ̕u%< DVNouns   ; ! direct to PxSg1
+!ƛ̕u%<ʔas– Hab+Stat
+@U.TAM-HAB.HAB@@U.TAM-A.STAT@:@U.TAM-HAB.HAB@@U.TAM-A.STAT@ƛ̕u%<ʔəs%< VERBS_OR_NOUNS ;
+@U.TAM-HAB.HAB@@U.TAM-A.STAT@:@U.TAM-HAB.HAB@@U.TAM-A.STAT@ƛ̕u%<ʔas%< VERBS_OR_NOUNS ;
+!ʔəsq̓iʔq̓aƛ̕əb _partly cloudy_ ɬasq̓iʔq̓aƛ̕əb __partly cloudy in the future__
+!ʔəsgiʔgəqəb __partly sunny__ ɬasgiʔgəqəb __partly sunny in the future__
+!ʔiɬgəqil __mostly sunny__ ɬasʔiɬgəqil __mostly sunny in the future__
+!ʔəsgəqəb __sunny__ ɬasgəqil __sunny in the future__
+@U.TAM-HAB.IRR@@U.TAM-A.STAT@:@U.TAM-HAB.IRR@@U.TAM-A.STAT@ɬəs%<  VERBS_OR_NOUNS ;
+@U.TAM-HAB.IRR@@U.TAM-A.STAT@:@U.TAM-HAB.IRR@@U.TAM-A.STAT@ɬas%<  VERBS_OR_NOUNS ;
+!ƛ̕u=bə= Hab+Add (check ordering)
+@U.TAM-HAB.HAB@@U.TAM-RE.RE@:@U.TAM-HAB.HAB@@U.TAM-RE.RE@ƛ̕u%<bə%< DVNouns   ; ! direct to PxSg1
+!bə%<ƛ̕u%< Add+Hab (check ordering)
+@U.TAM-RE.RE@@U.TAM-HAB.HAB@:@U.TAM-RE.RE@@U.TAM-HAB.HAB@%<bəƛ̕u%< DVNouns   ; ! direct to PxSg1
+!gʷə%<tu%< Sbj+Rem
+@U.TAM-SUBJ.SUBJ@@U.TAM-T.REM@:@U.TAM-SUBJ.SUBJ@@U.TAM-T.REM@gʷə%<tu%< DVNouns   ; ! direct to PxSg1
+!ƛ̕u%<ʔu%< Hab+Pfv
+@U.TAM-HAB.HAB@@U.TAM-A.PFV@:@U.TAM-HAB.HAB@@U.TAM-A.PFV@ƛ̕u%<ʔu%< VERBS_OR_NOUNS ;
+!ƛ̕u%<tu%<lə%< Hab+Rem+Prog
+@U.TAM-HAB.HAB@@U.TAM-T.REM@@U.TAM-A.PROG@:@U.TAM-HAB.HAB@@U.TAM-T.REM@@U.TAM-A.PROG@ƛ̕u%<tu%<lə%< VERBS_OR_NOUNS ;
+!ƛ̕u%<0%<lə%< Hab+Prog
+@U.TAM-HAB.HAB@@U.TAM-A.PROG@:@U.TAM-HAB.HAB@@U.TAM-A.PROG@ƛ̕u%<lə%< VERBS_OR_NOUNS ;
+
+
 
 LEXICON Prefixes_01
 Prefixes_01a ;
@@ -27,27 +89,14 @@ LEXICON Prefixes_01c
  N_NEWWORDS ;
  DVNouns   ;
 
-!Lonsdale 2001:211-212
-!ɬubələskʷaxʷyildutəxʷčəɬ
-!ɬu<bə<ləs<kʷaxʷ>y>il>d>ut>əxʷ>čəɬ
-!Fut+ANEW+PgrSttv+help+YI+il+Trx+Rfx+Inc+our
-
 
 LEXICON DVNouns
 @U.NMZ.V2N@:@U.NMZ.V2N@s%< DVNouns_01 ; !Need to mark this with flags 2021-06-30
 @U.NMZ.V2A@:@U.NMZ.V2A@dəxʷ%< DVNouns_01 ; !
  DVNouns_01 ; !
  
-!ƛ̕u=bə= Hab+Add
-!bə%<ƛ̕u%< Add+Hab
 !ƛ̕u=s=ʔəs Hab+Nmz+Stat
 
-!gʷə%<ƛ̕u%<ʔas– Sbj+Hab+Stat
-!ƛ̕u%<ʔas– Hab+Stat
-!ƛ̕u%<ʔu%< Hab+Pfv
-!gʷə%<tu%< Sbj+Rem
-!ƛ̕u%<tu%<lə%< Hab+Rem+Prog
-!ƛ̕u%<0%<lə%< Hab+Prog
 !ɬu=d=s=ʔaʔ Irr+PxSg1+Nmlz+be.there
 
 LEXICON DVNouns_01
@@ -71,12 +120,10 @@ LEXICON DVNouns_02
 @U.TAM-A.STAT@:@U.TAM-A.STAT@ʔas%< VERBS_OR_NOUNS ; !ongoing state
 @U.TAM-A.PROGSTAT@:@U.TAM-A.PROGSTAT@ləs%< VERBS_OR_NOUNS ;
 @U.TAM-A.PFV@:@U.TAM-A.PFV@ʔu%< VERBS_OR_NOUNS ; ! qəlb 'rain': ʔuqəlb 'raining' doesn't sound perfect to me
+@U.TAM-A.CONT@:@U.TAM-A.CONT@ləcu%< VERBS_OR_NOUNS ;
 
-!ʔəsq̓iʔq̓aƛ̕əb _partly cloudy_ ɬasq̓iʔq̓aƛ̕əb __partly cloudy in the future__
-!ʔəsgiʔgəqəb __partly sunny__ ɬasgiʔgəqəb __partly sunny in the future__
-!ʔiɬgəqil __mostly sunny__ ɬasʔiɬgəqil __mostly sunny in the future__
-!ʔəsgəqəb __sunny__ ɬasgəqil __sunny in the future__
-!
+
+
 
 LEXICON VERBS_OR_NOUNS
 Verbs ;

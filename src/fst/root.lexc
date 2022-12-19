@@ -107,6 +107,7 @@ y̓   !!= @CODE@
  +Ind +Pot +Cond +Imprt !!= * @CODE@ 
 +Mod/Subj +Des
 +Anew
++Ptc
 
 !! Verb tenses and aspect are:
  +Fut !!= * @CODE@ * future 
@@ -118,6 +119,7 @@ y̓   !!= @CODE@
 +Asp/Prog !!= * @CODE@ * progressive aspect lə%<
 +Asp/Stat !!= * @CODE@ * stative aspect ʔəs%< , (beck: as%<)
 +Asp/ProgStat !!= * @CODE@ * progressive stative aspect lə%<ʔəs%<
++Asp/Cont !!= * @CODE@ * ləcu 
 
 !dəxʷ%< VNoun
  +LOC !!= * @CODE@ * lack of control %>dxʷ

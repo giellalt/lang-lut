@@ -17,9 +17,9 @@ LEXICON PRON-PERS
 əlgʷəʔ+v2+Pron:həlgʷəʔ PRON-PERS-PL3 ;
 
 LEXICON PRON-DEM
-tiʔiɬ+v1+Pron:tiʔiɬ PRON-DEM-MSC_ ;
-tiʔiɬ+v2+Pron:tiiɬ PRON-DEM-MSC_ ;
-tiʔiɬ+Pron:tsiʔiɬ PRON-DEM-FEM_ ;
+tiʔiɬ+v1+Pron:tiʔiɬ PRON-DEM-MSC-DIST_ ;
+tiʔiɬ+v2+Pron:tiiɬ PRON-DEM-MSC-DIST_ ;
+tiʔiɬ+Pron:tsiʔiɬ PRON-DEM-FEM-DIST_ ;
 kʷi+Pron:kʷi PRON-DEM-MSC-REM_ ;
 kʷi+Pron:kʷsi PRON-DEM-FEM-REM_ ;
 ti+Pron:ti PRON-DEM-MSC_ ;
