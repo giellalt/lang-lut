@@ -68,6 +68,11 @@ The Usage extents are marked using following tags:
 *  +Err/Orth  
 *  +Use/-Spell  
 
+Dialect tags:
+
+* **+Dial/-NL** not north Lushootseed
+* **+Dial/-SL** not south Lushootseed
+
 The nominals are inflected in the following Case and Number
 *  +Sg +Du +Pl  
 *  +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh  
