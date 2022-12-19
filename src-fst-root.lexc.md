@@ -39,6 +39,9 @@ x̌ʷ
 
 y̓    
 
+ə́    used in coding of dictionary
+ə̀   used in coding of dictionary
+
 ## Analysis symbols
 The morphological analyses of wordforms for the Lushootseed
 language are presented in this system in terms of the following symbols.

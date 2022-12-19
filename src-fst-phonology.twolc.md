@@ -105,15 +105,10 @@ pišpiš+N+Pl+Nom: **cat/kissa**
 
 **%{p5%}:0**
 
-### CONSONANTS
-**s:c after d:0**
-
 * *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>s*
 * *ʔu0000kʷəda0%>c*
 
 **d:0 before s:c**
-* *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>s*
-* *ʔu0000kʷəda0%>c*
 * *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>cid*
 * *ʔu0000kʷəda0%>cid*
 
