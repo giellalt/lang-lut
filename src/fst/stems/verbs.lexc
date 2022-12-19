@@ -12,7 +12,11 @@ labdub+V:labd V_BECHDUB "see sm" ;
 kʷədad+V:kʷəda»d V_KWEDAD "grab sm; pick up" ;
 qʷibid+V:qʷibi»d V_KWEDAD "prepare" ;
 q̓ʷəld+V:q̓ʷəl»d V_KWEDAD "bake" ;
+q̓ʷəl+V:q̓ʷəl V_KWEDAD "bake; ripe" ;
 k̓ʷasəb+V:k̓ʷasəb V_KWEDAD "roast" ;
+ʔiʔɬəd+V:ʔiʔɬəd V_KWEDAD "eat a little, nibblə" ;
+ʔiʔɬadəb+V:ʔiʔɬadəb V_KWEDAD "eat berries as you pick them" ;
+!ʔiʔɬadəb+V:ʔìʔɬádəb V_KWEDAD "eat berries as you pick them" ;
 qʷalctxʷ+V:qʷalctxʷ V_KWEDAD "boil" ;
 c̓ix̌id+V:c̓ix̌i»d V_KWEDAD "fry sm" ;
 paq̓ad+V:paq̓a»d V_KWEDAD "spread sm" ;
@@ -66,9 +70,12 @@ təlawil+V:təlawil V_HELHED "run" ;
 wəliʔil+v1+V:wəliʔil V_HELHED "showing, appearing" ;
 wəliʔil+v2+V:wəliʔi V_HELHED "showing, appearing" ;
 xʷəʔaʔxʷəʔil+V:xʷəʔaʔxʷəʔil V_HELHED "become swift" ;
+x̌aƛ̕il+V:x̌áƛ̕il V_HELHED "argue" ;
 
 gʷəqilič+V:gʷəqilič V_HELHED "become enveloped in brightness" ;
 ləx̌ilič+V:ləx̌ilič V_HELHED "become enveloped in light" ;
+ʔibəš+V:ʔíbəš V_KWEDAD "walk" ;
+ʔibibəš+V:ʔibibəš V_KWEDAD "walk around" ;
 
 ʔaʔ+V:ʔaʔ V_HELHED "be there" ;
 !tiʔəʔ:tiʔəʔ COP_ "is (copula quality)" ; CHECKME 2021-07-10

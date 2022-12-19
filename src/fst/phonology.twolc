@@ -4,7 +4,7 @@
 
 Alphabet
  a b c d g h i k l m n o p q r s t u v w x y z
- á é ó ú í à è ò ù ì â ê ô û î ã ý
+ á é ó ú í à è ò ù ì â ê ô û î ã ý ə́ ə̀
 
 
 !! The Lushootseed language is written in lower case only
@@ -12,10 +12,10 @@ Alphabet
  Á É Ó Ú Í À È Ò Ù Ì Â Ê Ô Û Î Ã Ý
 
 !! This transformation, accent loss, will be moved to post dict.
-á:a
-ú:u
-í:i
-ə́:ə
+!á:a
+!ú:u
+!í:i
+!ə́:ə
 
 
 b̓
@@ -404,19 +404,20 @@ Rules
  %{p5%}:0 <=> _ %{p4%}: %{p3%}:  %{p2%}:  %{p1%}: Lts:* [ %^Red2CVC: | %^Red1CV1toCV2C: | # | %>: ];
 
 
-!! ### CONSONANTS
-"s:c after d:0"
-!! **@RULENAME@**
-s:c <=> d: %> _ # ;
+!!! ### CONSONANTS
+!"s:c after d:0"
+!!! **@RULENAME@**
+!s:c <=> d: %> _ # ;
 
 !!€ ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>s
 !!€ ʔu0000kʷəda0%>c
 
 "d:0 before s:c"
 !! **@RULENAME@**
-d:0 <=>	_ %> [ s: #| c ]  ;
-!!€ ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>s
-!!€ ʔu0000kʷəda0%>c
+d:0 <=>	_ %> [ c ]  ;
+!d:0 <=>	_ %> [ s: #| c ]  ;
+!!!€ ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>s
+!!!€ ʔu0000kʷəda0%>c
 !!€ ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>cid
 !!€ ʔu0000kʷəda0%>cid
 
