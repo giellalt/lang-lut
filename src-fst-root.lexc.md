@@ -94,6 +94,7 @@ Verb tenses and aspect are:
 * +Asp/Prog  * progressive aspect lə%<
 * +Asp/Stat  * stative aspect ʔəs%< , (beck: as%<)
 * +Asp/ProgStat  * progressive stative aspect lə%<ʔəs%<
+* +Asp/Cont  * ləcu 
 
 *  +LOC  * lack of control %>dxʷ
 *  +Imprt  = %>ɬi
