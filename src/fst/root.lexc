@@ -86,6 +86,11 @@ y̓   !!= @CODE@
 !! The Usage extents are marked using following tags:
  +Err/Orth  !!= * @CODE@
  +Use/-Spell  !!= * @CODE@
+ 
+!! Dialect tags:
+
+ +Dial/-NL  !!≈ * **@CODE@** not north Lushootseed
+ +Dial/-SL  !!≈ * **@CODE@** not south Lushootseed
 
 !! The nominals are inflected in the following Case and Number
  +Sg +Du +Pl  !!= * @CODE@
@@ -385,7 +390,8 @@ LEXICON NUM_
  K ;
 
 LEXICON K !!= * **@CODE@** Clitic lexicon
-+Clt:%>əxʷ # "now" ;
++Clt+Dial/-NL:%>əxʷ # "now" ;
++Clt+Dial/-SL:%>áxʷ # "now" ;
 #; 
 
 ! vim: set ft=xfst-lexc:
