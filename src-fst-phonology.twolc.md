@@ -4,7 +4,7 @@ The Lushootseed morphophonological/twolc rules file !
 
 The Lushootseed language is written in lower case only
 
-This transformation, accent loss, will be moved to post dict.
+This transformation, accent loss, will be moved to post dict. 2022-12-25
 
 c U+0313
 

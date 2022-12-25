@@ -66,6 +66,7 @@ Types of adverbs also include
 
 The Usage extents are marked using following tags:
 *  +Err/Orth  
+*  +Err/Spellrelax 
 *  +Use/-Spell  
 
 Dialect tags:
@@ -173,6 +174,7 @@ source and target part-of-speech.
 *  +Der/Dimin  * diminutive
 *  +Der/s  * Noun derivation
 *  +Vnoun  * Deverbal Noun etc.
+*  +Der/Red3L  * This is a reduplication where the first three letters are reduplicated as is
 
 * +Clt  %>əxʷ
 
@@ -268,6 +270,8 @@ given the proper use of these flags.
 |   @U.Cap.Obl@         | Allowing downcasing of derived names: deatnulasj.
 |   @U.Cap.Opt@         | Allowing downcasing of derived names: deatnulasj.
 
+### SPELLRELAX
+
 ###  NOUNS
 
 * @U.PossPx.SP3@  
@@ -336,7 +340,6 @@ given the proper use of these flags.
 The word forms in LUSHOOTSEED language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
-* 0   Verbs   ;	    
 * 0   Adjectives  ;   
 * 0   Adpositions  ;  
 * 0   Adverbs  ;	    
