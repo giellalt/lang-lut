@@ -37,12 +37,14 @@ x̌ədəd+V:x̌əd»əd V_KWEDAD "push sm" ;
 šulud+V:šulud V_KWEDAD "" ;
 
 tagʷš+V:tàgʷ»š V_KWEDAD "buy sm" ;
-cuyayus+V:cuyayus V_KWEDAD  "busy oneself" ;
+!cuyayus+V:cuyayus V_KWEDAD  "busy oneself" ;
+yayus+V:yayus V_KWEDAD  "busy oneself" ;!2022-12-20
 cut+V:cut V_HELHED "say" ;
 ʔux̌ʷ+V:ʔux̌ʷ V_KWEDAD "" ;
 tuləkʷ+V:tuləkʷ V_KWEDAD "" ;
 ʔəƛ̕+V:ʔəƛ̕ V_KWEDAD "" ;
 huytxʷ+V:huytxʷ V_KWEDAD "" ;
+x̌aƛ̕t̕xʷ+V:x̌aƛ̕t̕xʷ V_KWEDAD "like" ;
 huyutsut+V:huyutsut V_KWEDAD "prepare oneself (-t-sut)" ;
 c̓agʷatsut+V:c̓agʷatsut V_KWEDAD "wash oneself (-t-sut)" ;
 
@@ -77,7 +79,9 @@ ləx̌ilič+V:ləx̌ilič V_HELHED "become enveloped in light" ;
 ʔibəš+V:ʔíbəš V_KWEDAD "walk" ;
 ʔibibəš+V:ʔibibəš V_KWEDAD "walk around" ;
 
-ʔaʔ+V:ʔaʔ V_HELHED "be there" ;
+ʔa+v1+V:ʔa V_HELHED "be there" ;
+ʔa+v2+V:ʔaʔ V_HELHED "be there" ;
+ʔa+v3+V:ʔah V_HELHED "be there" ;
 !tiʔəʔ:tiʔəʔ COP_ "is (copula quality)" ; CHECKME 2021-07-10
 
 !adsuʔəɬəd. ʔuʔəɬəd
