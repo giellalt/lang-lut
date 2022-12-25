@@ -57,6 +57,7 @@ xʷiʔ+v1+Aux+Neg:xʷiʔ # "no; not" ;
 xʷiʔ+v2+Aux+Neg:xʷiiʔ # "no; not" ;
 gʷəl+Aux+Top:gʷəl # "topic?" ;
 
+ʔu+Pcle+Qst:ʔu PCLE_ "question";
 əw̓ə+Pcle:əw̓ə PCLE_ ;
 dᶻəɬ+Pcle:dᶻəɬ PCLE_ ;
 uʔxʷ+Pcle:uʔxʷ PCLE_ ;
