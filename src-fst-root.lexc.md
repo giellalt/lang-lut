@@ -110,6 +110,7 @@ Verb tenses and aspect are:
 * +Surprise  * surprise %>əw̓ə
 *  +Top  * topic marker 
 *  +Now  * focus? %>əxʷ
+* +Qst          *   Question Particle: ʔu
 
 Verb personal forms are:
 *  +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3  
