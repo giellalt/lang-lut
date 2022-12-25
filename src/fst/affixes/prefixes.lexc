@@ -131,7 +131,7 @@ LEXICON DVNouns_02-3
 
 
 LEXICON VERBS_OR_NOUNS
-Verbs ;
+:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} Verbs ;
  N_NEWWORDS ;
  Nouns ;
  Adjectives ;

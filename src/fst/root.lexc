@@ -85,6 +85,7 @@ y̓   !!= @CODE@
 
 !! The Usage extents are marked using following tags:
  +Err/Orth  !!= * @CODE@
+ +Err/Spellrelax !!= * @CODE@
  +Use/-Spell  !!= * @CODE@
  
 !! Dialect tags:
@@ -202,6 +203,7 @@ y̓   !!= @CODE@
  +Der/Dimin !!= * @CODE@ * diminutive
  +Der/s !!= * @CODE@ * Noun derivation
  +Vnoun !!= * @CODE@ * Deverbal Noun etc.
+ +Der/Red3L !!= * @CODE@ * This is a reduplication where the first three letters are reduplicated as is
 
 +Clt !!= * @CODE@ %>əxʷ
 
@@ -300,6 +302,11 @@ y̓   !!= @CODE@
  @U.Cap.Obl@        !!= |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!= |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
+!! ### SPELLRELAX
+@R.SpellRlx.ON@
+@D.SpellRlx.ON@
+@C.SpellRlx@
+
 !! ###  NOUNS
 
 @U.PossPx.SP3@ !!= * @CODE@ 
@@ -371,7 +378,7 @@ LEXICON Root !!= * **@CODE@** Root lexicon
 !! word classes, or optionally from prefixes:
 
 !   Nouns   ; This is fed entirely by Prefixes
-0   Verbs   ;	    !!= * @CODE@
+!0   Verbs   ;	    !!= * @CODE@
 0   Adjectives  ;   !!= * @CODE@
 0   Adpositions  ;  !!= * @CODE@
 0   Adverbs  ;	    !!= * @CODE@
@@ -394,5 +401,6 @@ LEXICON K !!= * **@CODE@** Clitic lexicon
 +Clt+Dial/-NL:%>əxʷ # "now" ;
 +Clt+Dial/-SL:%>áxʷ # "now" ;
 #; 
+
 
 ! vim: set ft=xfst-lexc:
