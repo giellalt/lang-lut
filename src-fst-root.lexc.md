@@ -174,7 +174,24 @@ source and target part-of-speech.
 *  +Der/Dimin  * diminutive
 *  +Der/s  * Noun derivation
 *  +Vnoun  * Deverbal Noun etc.
-*  +Der/Red3L  * This is a reduplication where the first three letters are reduplicated as is
+*  +Der/Red1_12123  * This is Red1, associated with Dimin
+*  +Der/Red1_1i123  * This is Red1, associated with Dimin
+*  +Der/Red1_12ʔ123  * This is Red1, associated with Dimin
+*  +Der/Red1_1iʔ123  * This is Red1, associated with Dimin
+*  +Der/Red1_1213  * This is Red1, associated with Dimin
+*  +Der/Red1_1i13  * This is Red1, associated with Dimin
+*  +Der/Red1_12ʔ13  * This is Red1, associated with Dimin
+*  +Der/Red1_1iʔ13  * This is Red1, associated with Dimin
+*  +Der/Red1_121ə3  * This is Red1, associated with Dimin
+*  +Der/Red1_1i1ə3  * This is Red1, associated with Dimin
+*  +Der/Red1_12ʔ1ə3  * This is Red1, associated with Dimin
+*  +Der/Red1_1iʔ1ə3  * This is Red1, associated with Dimin
+
+* +Der/Red2_3L  * This is Red2 (Red2CVC=R2-123123), usually distributive, it is a reduplication where the first three letters are reduplicated as is
+*  +Der/Red3_12323  * This is Red3 this is random verbal
+*  +Der/Red5_12323  * This is Red5 This is isolating, individuating
+*  +Der/Red6_122123  * This is Red6 
+*  +Der/Red6_1aa1ə3  * This is Red6 sɬaaɬədəyʔ < sɬadəyʔ
 
 * +Clt  %>əxʷ
 

@@ -345,18 +345,18 @@ The Lushootseed language adverbs
 Noun inflection
 The Lushootseed language nouns inflect in time person aspect.
 
-qəlb+N+Pl+Nom: **rain showers**
+qəlb+N+Distr+Nom: **rain showers**
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
 * *00qi0qəlb0*
-bəlups+N+Pl+Nom
+bəlups+N+Distr+Nom
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC*
 * *00bəlbəlups0*
 * ★*%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC* (is not standard language)
 * ★*00000bəlups0* (is not standard language)
-k̓ʷəčədiʔ+N+Pl+Nom: __rabbit/jänis__
+k̓ʷəčədiʔ+N+Distr+Nom: __rabbit/jänis__
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^Red2CVC*
 * *00k̓ʷəčk̓ʷəčədiʔ0*
-* ★*k̓ʷəčədiʔ:* `k̓ʷəčədiʔ+N+Pl+Nom` (is not standard language)
+* ★*k̓ʷəčədiʔ:* `k̓ʷəčədiʔ+N+Distr+Nom` (is not standard language)
 
 * * *
 
@@ -512,7 +512,7 @@ Red 1 qəlb: qiqəlb %^Red1CV2CiCV
 **ə:0 in inflection**
 * *x̌əd»əd%>sid*
 * *x̌əd000%>cid*
-sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
+sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
 * *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
 * *s%^√čiči0č0txʷəd0*
 
@@ -530,10 +530,10 @@ sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
 **%{p2%}:u in reduplication**
 
 **%{p2%}:i in reduplication**
-qəlb+N+Pl+Nom: **rain showers**
+qəlb+N+Distr+Nom: **rain showers**
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
 * *00qi0qəlb0*
-pišpiš+N+Pl+Nom: **cat/kissa**
+pišpiš+N+Distr+Nom: **cat/kissa**
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^Red2CVC*
 * *00pišpišpiš0*
 
@@ -563,7 +563,7 @@ pišpiš+N+Pl+Nom: **cat/kissa**
 **%{p3%}:Cx in reduplication**
 
 **%{p5%}:Cx in reduplication**
-sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
+sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
 * *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
 * *s%^√čičič0txʷəd0*
 
@@ -767,7 +767,24 @@ source and target part-of-speech.
 *  +Der/Dimin  * diminutive
 *  +Der/s  * Noun derivation
 *  +Vnoun  * Deverbal Noun etc.
-*  +Der/Red3L  * This is a reduplication where the first three letters are reduplicated as is
+*  +Der/Red1_12123  * This is Red1, associated with Dimin
+*  +Der/Red1_1i123  * This is Red1, associated with Dimin
+*  +Der/Red1_12ʔ123  * This is Red1, associated with Dimin
+*  +Der/Red1_1iʔ123  * This is Red1, associated with Dimin
+*  +Der/Red1_1213  * This is Red1, associated with Dimin
+*  +Der/Red1_1i13  * This is Red1, associated with Dimin
+*  +Der/Red1_12ʔ13  * This is Red1, associated with Dimin
+*  +Der/Red1_1iʔ13  * This is Red1, associated with Dimin
+*  +Der/Red1_121ə3  * This is Red1, associated with Dimin
+*  +Der/Red1_1i1ə3  * This is Red1, associated with Dimin
+*  +Der/Red1_12ʔ1ə3  * This is Red1, associated with Dimin
+*  +Der/Red1_1iʔ1ə3  * This is Red1, associated with Dimin
+
+* +Der/Red2_3L  * This is Red2 (Red2CVC=R2-123123), usually distributive, it is a reduplication where the first three letters are reduplicated as is
+*  +Der/Red3_12323  * This is Red3 this is random verbal
+*  +Der/Red5_12323  * This is Red5 This is isolating, individuating
+*  +Der/Red6_122123  * This is Red6 
+*  +Der/Red6_1aa1ə3  * This is Red6 sɬaaɬədəyʔ < sɬadəyʔ
 
 * +Clt  %>əxʷ
 

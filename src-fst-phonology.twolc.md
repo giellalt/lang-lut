@@ -66,7 +66,7 @@ Red 1 qəlb: qiqəlb %^Red1CV2CiCV
 **ə:0 in inflection**
 * *x̌əd»əd%>sid*
 * *x̌əd000%>cid*
-sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
+sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
 * *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
 * *s%^√čiči0č0txʷəd0*
 
@@ -84,10 +84,10 @@ sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
 **%{p2%}:u in reduplication**
 
 **%{p2%}:i in reduplication**
-qəlb+N+Pl+Nom: **rain showers**
+qəlb+N+Distr+Nom: **rain showers**
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
 * *00qi0qəlb0*
-pišpiš+N+Pl+Nom: **cat/kissa**
+pišpiš+N+Distr+Nom: **cat/kissa**
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^Red2CVC*
 * *00pišpišpiš0*
 
@@ -117,7 +117,7 @@ pišpiš+N+Pl+Nom: **cat/kissa**
 **%{p3%}:Cx in reduplication**
 
 **%{p5%}:Cx in reduplication**
-sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
+sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
 * *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
 * *s%^√čičič0txʷəd0*
 
