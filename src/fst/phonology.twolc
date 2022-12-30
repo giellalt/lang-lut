@@ -313,7 +313,7 @@ Rules
 !!€ x̌əd»əd%>sid
 !!€ x̌əd000%>cid
     %{p1%}: Cns _ [ Cns | Vow ] Lts:* [%^Red1CV1toCV2C:|%^Red1CV1toCV2CPL:] ;
-!! sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
+!! sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
 !!€ s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL
 !!€ s%^√čiči0č0txʷəd0
 
@@ -366,10 +366,10 @@ Rules
  %{p2%}:i <=>  _ %{p1%}: Cns: [i|í:] Cns: Lts:* %^Red2CVC: ;
                _ %{p1%}: Cns: ə:0 Cns: Lts:* [%^Red1CV1toCV2CPL:|%^Red1CV1toCV2C:] ;
                _ %{p1%}: Cns: ə Cns: Lts:* [%^Red1CV2CiCV:] ; 
-!! qəlb+N+Pl+Nom: **rain showers**
+!! qəlb+N+Distr+Nom: **rain showers**
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV
 !!€ 00qi0qəlb0
-!! pišpiš+N+Pl+Nom: **cat/kissa**
+!! pišpiš+N+Distr+Nom: **cat/kissa**
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^Red2CVC
 !!€ 00pišpišpiš0
 
@@ -445,7 +445,7 @@ d:0 <=>	_ %> [ c ]  ;
                _ %{p4%}: %{p3%}: %{p2%}: %{p1%}: Cx Vow: Cns [ Cns | Vow ]* %^Red1CV1toCV2CPL: ;
            where Cx in (kʷ b̓ ǰ n̓ m̓ p p̓ b t t̕ d dᶻ c c̓ č č̓ s š l l̕ ɬ ƛ̕  y w y̓ w̓ k k̓ k̓ʷ gʷ h xʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
 !2019-03-04           where Cx in (p p̓ b t t̕ d dᶻ c c̓ č č̓ s š l l̕ ɬ ƛ̕ y w y̓ w̓ k k̓ k̓ʷ gʷ h xʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
-!! sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
+!! sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
 !!€ s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL
 !!€ s%^√čičič0txʷəd0
 
@@ -668,3 +668,7 @@ d:0 <=>	_ %> [ c ]  ;
 !2016-12-20!%^Red1CV1toCV2CPL:0 => 0: Lts:* _ ;
 !2016-12-20!
 
+
+!!TESTS
+!echo 's ^√:0 {p5}:č {p4}:i {p3}:č {p2}:i {p1}:0 č ə:0 t xʷ ə d ^Red1CV1toCV2CPL:0' | hfst-pair-test src/fst/phonology.compose.hfst
+!echo 'sčətxʷəd+N+Der/Dimin+N+Distr+Nom' | hfst-lookup src/morphology/lexicon.hfst

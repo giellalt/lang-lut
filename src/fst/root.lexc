@@ -72,7 +72,7 @@ y̓   !!= @CODE@
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef  !!= * @CODE@
  +Aux +Cop  !!= * @CODE@
- +Prox +Dist +Rem
+ +Prox +Dist +Rem +Distr +Random
 
 !! Types of adverbs also include
  +Deg        !!= * @CODE@ this is degree
@@ -203,8 +203,25 @@ y̓   !!= @CODE@
  +Der/Dimin !!= * @CODE@ * diminutive
  +Der/s !!= * @CODE@ * Noun derivation
  +Vnoun !!= * @CODE@ * Deverbal Noun etc.
- +Der/Red3L !!= * @CODE@ * This is a reduplication where the first three letters are reduplicated as is
+ +Der/Red1_12123 !!= * @CODE@ * This is Red1, associated with Dimin
+ +Der/Red1_1i123 !!= * @CODE@ * This is Red1, associated with Dimin
+ +Der/Red1_12ʔ123 !!= * @CODE@ * This is Red1, associated with Dimin
+ +Der/Red1_1iʔ123 !!= * @CODE@ * This is Red1, associated with Dimin
+ +Der/Red1_1213 !!= * @CODE@ * This is Red1, associated with Dimin
+ +Der/Red1_1i13 !!= * @CODE@ * This is Red1, associated with Dimin
+ +Der/Red1_12ʔ13 !!= * @CODE@ * This is Red1, associated with Dimin
+ +Der/Red1_1iʔ13 !!= * @CODE@ * This is Red1, associated with Dimin
+ +Der/Red1_121ə3 !!= * @CODE@ * This is Red1, associated with Dimin
+ +Der/Red1_1i1ə3 !!= * @CODE@ * This is Red1, associated with Dimin
+ +Der/Red1_12ʔ1ə3 !!= * @CODE@ * This is Red1, associated with Dimin
+ +Der/Red1_1iʔ1ə3 !!= * @CODE@ * This is Red1, associated with Dimin
 
++Der/Red2_3L !!= * @CODE@ * This is Red2 (Red2CVC=R2-123123), usually distributive, it is a reduplication where the first three letters are reduplicated as is
+ +Der/Red3_12323 !!= * @CODE@ * This is Red3 this is random verbal
+ +Der/Red5_12323 !!= * @CODE@ * This is Red5 This is isolating, individuating
+ +Der/Red6_122123 !!= * @CODE@ * This is Red6 
+ +Der/Red6_1aa1ə3 !!= * @CODE@ * This is Red6 sɬaaɬədəyʔ < sɬadəyʔ
+ 
 +Clt !!= * @CODE@ %>əxʷ
 
 !! ### Tags distinguishing different versions of the same lemma (before POS)

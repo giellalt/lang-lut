@@ -32,8 +32,8 @@ LEXICON N-MSC_with-PL_RED2
 LEXICON DIM_CV1toCV2C
 @D.PossPx@+Der+Der/Dimin+N+Sg+Nom:@D.PossPx@%^Red1CV1toCV2C # ;
 +Der+Der/Dimin+N+Sg+Nom:%^Red1CV1toCV2C PRE-POSS_01 ;
-@D.PossPx@+Der+Der/Dimin+N+Pl+Nom:@D.PossPx@%^Red1CV1toCV2CPL # ;
-+Der+Der/Dimin+N+Pl+Nom:%^Red1CV1toCV2CPL PRE-POSS_01 ;
+@D.PossPx@+Der+Der/Dimin+N+Distr+Nom:@D.PossPx@%^Red1CV1toCV2CPL # ;
++Der+Der/Dimin+N+Distr+Nom:%^Red1CV1toCV2CPL PRE-POSS_01 ;
 
 ! Declension
 LEXICON SG-SUF
@@ -41,23 +41,23 @@ LEXICON SG-SUF
 +Sg+Nom: PRE-POSS_01 ;
 
 LEXICON PL_RED1_qelb
-@D.PossPx@+Pl+Nom:@D.PossPx@%^Red1CV2CiCV   # ;
-+Pl+Nom:%^Red2CV2CiCV        PRE-POSS_01 ;
-!! qəlb+N+Pl+Nom: **rain showers**
+@D.PossPx@+Distr+Nom:@D.PossPx@%^Red1CV2CiCV   # ;
++Distr+Nom:%^Red2CV2CiCV        PRE-POSS_01 ;
+!! qəlb+N+Distr+Nom: **rain showers**
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV
 !!€ 00qi0qəlb0
 LEXICON PL_RED2
-@D.PossPx@+Pl+Nom:@D.PossPx@%^Red2CVC # ;
-+Pl+Nom:%^Red2CVC	PRE-POSS_01 ;
-!! bəlups+N+Pl+Nom
+@D.PossPx@+Distr+Nom:@D.PossPx@%^Red2CVC # ;
++Distr+Nom:%^Red2CVC	PRE-POSS_01 ;
+!! bəlups+N+Distr+Nom
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC
 !!€ 00bəlbəlups0
 !!$ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC
 !!$ 00000bəlups0
-!! k̓ʷəčədiʔ+N+Pl+Nom: __rabbit/jänis__
+!! k̓ʷəčədiʔ+N+Distr+Nom: __rabbit/jänis__
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^Red2CVC
 !!€ 00k̓ʷəčk̓ʷəčədiʔ0
-!!$ k̓ʷəčədiʔ: k̓ʷəčədiʔ+N+Pl+Nom
+!!$ k̓ʷəčədiʔ: k̓ʷəčədiʔ+N+Distr+Nom
 
 LEXICON PRE-POSS_01
 @R.TAM-SUBJ.SUBJ@+Mod/Subj:@R.TAM-SUBJ.SUBJ@ PRE-POSS_02 ;
