@@ -6,6 +6,7 @@ LEXICON Conjunctors
 
 ʔi+CC:ʔi # "and" ;
 gʷəl+CC:gʷəl # "and" ;
+gʷələ+CC:gʷələ # "and" ;
 yəxʷ+CC:yəxʷ # "and" ;
 
 ! vim: set ft=xfst-lexc:

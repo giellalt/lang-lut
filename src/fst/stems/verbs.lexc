@@ -55,6 +55,7 @@ təsadiʔ+v1+V:təsadiʔ V_HELHED "drum" ;
 təsadiʔ+v2+V:tsadiʔ V_HELHED "drum" ; ! check this vowel loss
 səx̌əb+V:səx̌əb V_HELHED "dance" ;
 yəcəb+V:yəcəb V_HELHED "give news" ;
+huyutəb+V:huyutəb V_HELHED "make, prepare" ;
 ʔiɬšxʷ+V:ʔiɬšxʷ V_HELHED "paddle" ;
 ʔəɬəd+V:ʔəɬəd V_HELHED "eat" ;
 ʔuluɬ+V:ʔuluɬ V_HELHED "travel by water" ;
@@ -94,5 +95,6 @@ x̌alšid+V:x̌alšid V_KWEDAD ;
 qʷuʔqʷaʔ+V:qʷuʔqʷaʔ V_KWEDAD ;
 tagʷš+V:tagʷš V_KWEDAD ;
 x̌udx̌udbid+V:x̌udx̌udbid V_KWEDAD ;
+huyud+V:huyud V_KWEDAD "make something";
 
 ! vim: set ft=xfst-lexc:

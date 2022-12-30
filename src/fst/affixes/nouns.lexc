@@ -13,10 +13,16 @@ LEXICON N_with-PL_RED1_qelb
 : SG-SUF ;
 : PL_RED1_qelb ;
 
-LEXICON N_with-PL_RED2
+LEXICON N_with_PL_RED2
 : DIM_CV1toCV2C ;
 : SG-SUF ;
 : PL_RED2 ;
+
+LEXICON N_with_Distr_12323_RED5 !Der/Red5_12323
+!%^Red12323
+!: DIM_CV1toCV2C ;
+: SG-SUF ;
+: PL_RED5 ;
 
 LEXICON N-FEM_with-PL_RED2
 +Fem: DIM_CV1toCV2C ;
@@ -30,10 +36,12 @@ LEXICON N-MSC_with-PL_RED2
 
 ! Derivation
 LEXICON DIM_CV1toCV2C
-@D.PossPx@+Der+Der/Dimin+N+Sg+Nom:@D.PossPx@%^Red1CV1toCV2C # ;
-+Der+Der/Dimin+N+Sg+Nom:%^Red1CV1toCV2C PRE-POSS_01 ;
-@D.PossPx@+Der+Der/Dimin+N+Distr+Nom:@D.PossPx@%^Red1CV1toCV2CPL # ;
-+Der+Der/Dimin+N+Distr+Nom:%^Red1CV1toCV2CPL PRE-POSS_01 ;
+@D.PossPx@+Der+Der/Dimin+N:@D.PossPx@%^Red1CV1toCV2C SG-SUF ; !+Der/Red1_1i13
+!@D.PossPx@+Der+Der/Dimin+N+Sg+Nom:@D.PossPx@%^Red1CV1toCV2C # ;
+@R.PossPx@+Der+Der/Dimin+N:@R.PossPx@%^Red1CV1toCV2C SG-SUF ; !+Der/Red1_1i13
+@D.PossPx@+Der+Der/Dimin+N+Distr+Nom:@D.PossPx@%^Red1CV1toCV2CPL PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
+!@D.PossPx@+Der+Der/Dimin+N+Distr+Nom:@D.PossPx@%^Red1CV1toCV2CPL # ;
+@R.PossPx@+Der+Der/Dimin+N+Distr+Nom:@R.PossPx@%^Red1CV1toCV2CPL PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
 
 ! Declension
 LEXICON SG-SUF
@@ -46,8 +54,10 @@ LEXICON PL_RED1_qelb
 !! qəlb+N+Distr+Nom: **rain showers**
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV
 !!€ 00qi0qəlb0
+
 LEXICON PL_RED2
-@D.PossPx@+Distr+Nom:@D.PossPx@%^Red2CVC # ;
+@D.PossPx@+Distr+Nom:@D.PossPx@%^Red2CVC PRE-POSS_01 ;
+!@D.PossPx@+Distr+Nom:@D.PossPx@%^Red2CVC # ;
 +Distr+Nom:%^Red2CVC	PRE-POSS_01 ;
 !! bəlups+N+Distr+Nom
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC
@@ -58,6 +68,11 @@ LEXICON PL_RED2
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^Red2CVC
 !!€ 00k̓ʷəčk̓ʷəčədiʔ0
 !!$ k̓ʷəčədiʔ: k̓ʷəčədiʔ+N+Distr+Nom
+
+LEXICON PL_RED5
+!ʔaciɬtalbixʷ:ʔacaciɬtalbixʷ
+@D.PossPx@+Distr+Nom:@D.PossPx@%^Red12323 PRE-POSS_01 ;
+@R.PossPx@+Distr+Nom:@R.PossPx@%^Red12323	PRE-POSS_01 ;
 
 LEXICON PRE-POSS_01
 @R.TAM-SUBJ.SUBJ@+Mod/Subj:@R.TAM-SUBJ.SUBJ@ PRE-POSS_02 ;

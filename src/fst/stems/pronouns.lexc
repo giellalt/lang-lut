@@ -26,6 +26,7 @@ ti+Pron:ti PRON-DEM-MSC_ ;
 ti+Pron:tsi PRON-DEM-FEM_ ;
 tiʔəʔ+Pron:tiʔəʔ PRON-DEM-MSC-PROX_ ;
 tiʔəʔ+Pron:tsiʔəʔ PRON-DEM-FEM-PROX_ ;
+diɬ+Pron:diɬ K "the one who" ;
 
 LEXICON PRON-INTERR
 stab+Pron:stab PRON-INTERR_ ;

@@ -208,13 +208,15 @@ y̓   !!= @CODE@
  +Der/Red1_12ʔ123 !!= * @CODE@ * This is Red1, associated with Dimin
  +Der/Red1_1iʔ123 !!= * @CODE@ * This is Red1, associated with Dimin
  +Der/Red1_1213 !!= * @CODE@ * This is Red1, associated with Dimin
- +Der/Red1_1i13 !!= * @CODE@ * This is Red1, associated with Dimin
+ +Der/Red1_1i13 !!= * @CODE@ * This is Red1, associated with Dimin ^Red1CV1toCV2C
  +Der/Red1_12ʔ13 !!= * @CODE@ * This is Red1, associated with Dimin
  +Der/Red1_1iʔ13 !!= * @CODE@ * This is Red1, associated with Dimin
  +Der/Red1_121ə3 !!= * @CODE@ * This is Red1, associated with Dimin
  +Der/Red1_1i1ə3 !!= * @CODE@ * This is Red1, associated with Dimin
  +Der/Red1_12ʔ1ə3 !!= * @CODE@ * This is Red1, associated with Dimin
  +Der/Red1_1iʔ1ə3 !!= * @CODE@ * This is Red1, associated with Dimin
+
+ +Der/Red1_1i13_Distr_1212 !!= * @CODE@ * This is Red1, associated with Dimin ^Red1CV1toCV2CPL
 
 +Der/Red2_3L !!= * @CODE@ * This is Red2 (Red2CVC=R2-123123), usually distributive, it is a reduplication where the first three letters are reduplicated as is
  +Der/Red3_12323 !!= * @CODE@ * This is Red3 this is random verbal
@@ -284,9 +286,10 @@ y̓   !!= @CODE@
 !! And following triggers to control variation
  {front} {back} !!= * @CODE@ 
 %^Red1CV2CiCV !!= * @CODE@ qəlb: qiqəlb *rain showers*
-%^Red1CV1toCV2C !!= * @CODE@ 2-segment to 3-segments with vowel change
-%^Red1CV1toCV2CPL !!= * @CODE@ 2-segment to 3-segments with vowel change Plural
+%^Red1CV1toCV2C !!= * @CODE@ 2-segment to 3-segments with vowel change sčətxʷəd:sčičtxʷəd Der/Red1_1i13
+%^Red1CV1toCV2CPL !!= * @CODE@ 2-segment to 3-segments with vowel change Distr sčətxʷəd:sčičičtxʷəd Der/Red1_1i13_Distr_1212 
 %^Red2CVC !!= * @CODE@ 3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
+%^Red12323 !!= * @CODE@ should work for Red3 and Red5
 
 !! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
@@ -336,6 +339,7 @@ y̓   !!= @CODE@
 
 @R.PossPx.Sg1@ !!= * @CODE@ 
 @R.PossPx.Sg2@ !!= * @CODE@ 
+@R.PossPx@	   !!= * @CODE@ 
 @D.PossPx@	   !!= * @CODE@ 
 @C.PossPx@	   !!= * @CODE@ 
 
