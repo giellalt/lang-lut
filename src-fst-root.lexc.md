@@ -179,13 +179,15 @@ source and target part-of-speech.
 *  +Der/Red1_12ʔ123  * This is Red1, associated with Dimin
 *  +Der/Red1_1iʔ123  * This is Red1, associated with Dimin
 *  +Der/Red1_1213  * This is Red1, associated with Dimin
-*  +Der/Red1_1i13  * This is Red1, associated with Dimin
+*  +Der/Red1_1i13  * This is Red1, associated with Dimin ^Red1CV1toCV2C
 *  +Der/Red1_12ʔ13  * This is Red1, associated with Dimin
 *  +Der/Red1_1iʔ13  * This is Red1, associated with Dimin
 *  +Der/Red1_121ə3  * This is Red1, associated with Dimin
 *  +Der/Red1_1i1ə3  * This is Red1, associated with Dimin
 *  +Der/Red1_12ʔ1ə3  * This is Red1, associated with Dimin
 *  +Der/Red1_1iʔ1ə3  * This is Red1, associated with Dimin
+
+*  +Der/Red1_1i13_Distr_1212  * This is Red1, associated with Dimin ^Red1CV1toCV2CPL
 
 * +Der/Red2_3L  * This is Red2 (Red2CVC=R2-123123), usually distributive, it is a reduplication where the first three letters are reduplicated as is
 *  +Der/Red3_12323  * This is Red3 this is random verbal
@@ -252,9 +254,10 @@ place holders
 And following triggers to control variation
 *  {front} {back}  
 * %^Red1CV2CiCV  qəlb: qiqəlb *rain showers*
-* %^Red1CV1toCV2C  2-segment to 3-segments with vowel change
-* %^Red1CV1toCV2CPL  2-segment to 3-segments with vowel change Plural
+* %^Red1CV1toCV2C  2-segment to 3-segments with vowel change sčətxʷəd:sčičtxʷəd Der/Red1_1i13
+* %^Red1CV1toCV2CPL  2-segment to 3-segments with vowel change Distr sčətxʷəd:sčičičtxʷəd Der/Red1_1i13_Distr_1212 
 * %^Red2CVC  3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
+* %^Red12323  should work for Red3 and Red5
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
@@ -301,6 +304,7 @@ given the proper use of these flags.
 
 * @R.PossPx.Sg1@  
 * @R.PossPx.Sg2@  
+* @R.PossPx@	    
 * @D.PossPx@	    
 * @C.PossPx@	    
 

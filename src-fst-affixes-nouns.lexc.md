@@ -4,6 +4,7 @@ The Lushootseed language nouns inflect in time person aspect.
 qəlb+N+Distr+Nom: **rain showers**
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
 * *00qi0qəlb0*
+
 bəlups+N+Distr+Nom
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC*
 * *00bəlbəlups0*
