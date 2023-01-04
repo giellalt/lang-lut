@@ -71,6 +71,10 @@ sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
 * *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
 * *s%^√čiči0č0txʷəd0*
 
+**i:0 in inflection**
+
+**í:0 in inflection**
+
 **ʔ:0 in preceding s**
 ʔəɬəd+V+Prf+Der+Der/N+N+Sg+Nom+PxSg2: __eat/syödä__
 * *ad<s<ʔu<ʔəɬəd*
