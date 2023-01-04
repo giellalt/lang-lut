@@ -318,6 +318,14 @@ Rules
 !!€ s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL
 !!€ s%^√čiči0č0txʷəd0
 
+"i:0 in inflection"
+!! **@RULENAME@**
+ i:0 <=>  %{p1%}: Cns _ [ Cns | Vow ] Lts:* [%^Red1CV1toCV2C:|%^Red1CV1toCV2CPL:] ;
+
+"í:0 in inflection"
+!! **@RULENAME@**
+ í:0 <=>  %{p1%}: Cns _ [ Cns | Vow ] Lts:* [%^Red1CV1toCV2C:|%^Red1CV1toCV2CPL:] ;
+
 ! Vowels
 "ʔ:0 in preceding s"
 !! **@RULENAME@**
@@ -364,7 +372,7 @@ Rules
 
 "%{p2%}:i in reduplication"
 !! **@RULENAME@**
- %{p2%}:i <=>  _ %{p1%}: Cns: [i|í:] Cns: Lts:* [%^Red2CVC:|%^Red12323:] ;
+ %{p2%}:i <=>  _ %{p1%}: Cns: [i:|í:] Cns: Lts:* [%^Red2CVC:|%^Red12323:|%^Red1CV1toCV2CPL:|%^Red1CV1toCV2C:] ;
                _ %{p1%}: Cns: ə:0 Cns: Lts:* [%^Red1CV1toCV2CPL:|%^Red1CV1toCV2C:] ;
                _ %{p1%}: Cns: ə Cns: Lts:* [%^Red1CV2CiCV:] ; 
 !! qəlb+N+Distr+Nom: **rain showers**
@@ -377,6 +385,7 @@ Rules
 "%{p4%}:i in reduplication"
 !! **@RULENAME@**
  %{p4%}:i <=> _ %{p3%}:  %{p2%}:  %{p1%}: Cns: ə: Cns: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
+              _ %{p3%}:  %{p2%}:  %{p1%}: Cns: [i:|í:] Cns: [ Cns | Vow ] Lts:* %^Red1CV1toCV2CPL: ;
 
 !"0:a in reduplication"
 !!! __@RULENAME@__
