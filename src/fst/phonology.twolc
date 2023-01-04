@@ -200,6 +200,9 @@ E3:ə
 
 %^Red2CVC:0 !!= * @CODE@ 3-segment reduplication 
 
+%^Pen:0 !!= * @CODE@ this combines with subsequent RmVow or perhaps RmCns
+%^RmVOW:0 !!= * @CODE@ this removes previous vowel or with Pen the penultimate vowel
+%^d2t:0 !!= * @CODE@ this devoices d to t specifically
 
 
 
@@ -313,6 +316,11 @@ Rules
  ə:0 <=> »: _ d: %> s: Vow ;
 !!€ x̌əd»əd%>sid
 !!€ x̌əd000%>cid
+        _ d: %^Pen: %^RmVOW: %^d2t: %>  ; !-t-əb Passive
+!echo 'b ə q̓ ə:0 d:t ^Pen:0 ^RmVOW:0 ^d2t:0 > ə b' | hfst-pair-test src/fst/phonology.compose.hfst
+!!€ bəq̓əd^Pen^RmVOW^d2t>əb
+!!€ bəq̓0t000>əb
+
     %{p1%}: Cns _ [ Cns | Vow ] Lts:* [%^Red1CV1toCV2C:|%^Red1CV1toCV2CPL:] ;
 !! sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
 !!€ s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL
@@ -433,6 +441,14 @@ d:0 <=>	_ %> [ c ]  ;
 !!!€ ʔu0000kʷəda0%>c
 !!€ ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>cid
 !!€ ʔu0000kʷəda0%>cid
+
+"d:t before ə b"
+!! **@RULENAME@**
+d:t <=>	[ə:|»|i|a|u] _ %^Pen: %^RmVOW: %^d2t: %> ə b  ;
+!echo 'b ə q̓ ə:0 d:t ^Pen:0 ^RmVOW:0 ^d2t:0 > ə b' | hfst-pair-test src/fst/phonology.compose.hfst
+!echo 'bəq̓əd+V+Pass' | hfst-lookup src/fst/lexicon.hfst
+!!€ bəq̓əd^Pen^RmVOW^d2t>əb
+!!€ bəq̓0t000>əb
 
 
 "%{p1%}:Cx in reduplication"
