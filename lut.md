@@ -434,6 +434,7 @@ bəčdub:bəčd
 bəčdub:bəčd
 
 kʷədad:kʷədad
+
 kʷədad:kʷədad
 
 @U.TAM-A.PRF@
@@ -465,6 +466,10 @@ place holders
 * %^Red12323:0  works with Red3 and Red5
 
 * %^Red2CVC:0  3-segment reduplication 
+
+* %^Pen:0  this combines with subsequent RmVow or perhaps RmCns
+* %^RmVOW:0  this removes previous vowel or with Pen the penultimate vowel
+* %^d2t:0  this devoices d to t specifically
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
@@ -514,6 +519,9 @@ Red 1 qəlb: qiqəlb %^Red1CV2CiCV
 **ə:0 in inflection**
 * *x̌əd»əd%>sid*
 * *x̌əd000%>cid*
+* *bəq̓əd^Pen^RmVOW^d2t>əb*
+* *bəq̓0t000>əb*
+
 sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
 * *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
 * *s%^√čiči0č0txʷəd0*
@@ -563,6 +571,10 @@ pišpiš+N+Distr+Nom: **cat/kissa**
 **d:0 before s:c**
 * *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>cid*
 * *ʔu0000kʷəda0%>cid*
+
+**d:t before ə b**
+* *bəq̓əd^Pen^RmVOW^d2t>əb*
+* *bəq̓0t000>əb*
 
 **%{p1%}:Cx in reduplication**
 
@@ -655,6 +667,7 @@ The parts-of-speech are:
 The parts of speech are further split up into:
 *  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef  
 *  +Aux +Cop  
+*  +Pass   -t-əb
 
 Types of adverbs also include
 *  +Deg         this is degree
@@ -859,6 +872,10 @@ And following triggers to control variation
 * %^Red1CV1toCV2CPL  2-segment to 3-segments with vowel change Distr sčətxʷəd:sčičičtxʷəd Der/Red1_1i13_Distr_1212 
 * %^Red2CVC  3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
 * %^Red12323  should work for Red3 and Red5
+
+* %^Pen  this combines with subsequent RmVow or perhaps RmCns
+* %^RmVOW  this removes previous vowel or with Pen the penultimate vowel
+* %^d2t  this devoices d to t specifically
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following

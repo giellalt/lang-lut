@@ -19,6 +19,10 @@ place holders
 
 * %^Red2CVC:0  3-segment reduplication 
 
+* %^Pen:0  this combines with subsequent RmVow or perhaps RmCns
+* %^RmVOW:0  this removes previous vowel or with Pen the penultimate vowel
+* %^d2t:0  this devoices d to t specifically
+
 ## Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
 * **«7**:  Literal «
@@ -67,6 +71,9 @@ Red 1 qəlb: qiqəlb %^Red1CV2CiCV
 **ə:0 in inflection**
 * *x̌əd»əd%>sid*
 * *x̌əd000%>cid*
+* *bəq̓əd^Pen^RmVOW^d2t>əb*
+* *bəq̓0t000>əb*
+
 sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
 * *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
 * *s%^√čiči0č0txʷəd0*
@@ -116,6 +123,10 @@ pišpiš+N+Distr+Nom: **cat/kissa**
 **d:0 before s:c**
 * *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>cid*
 * *ʔu0000kʷəda0%>cid*
+
+**d:t before ə b**
+* *bəq̓əd^Pen^RmVOW^d2t>əb*
+* *bəq̓0t000>əb*
 
 **%{p1%}:Cx in reduplication**
 

@@ -54,6 +54,7 @@ The parts-of-speech are:
 The parts of speech are further split up into:
 *  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef  
 *  +Aux +Cop  
+*  +Pass   -t-əb
 
 Types of adverbs also include
 *  +Deg         this is degree
@@ -258,6 +259,10 @@ And following triggers to control variation
 * %^Red1CV1toCV2CPL  2-segment to 3-segments with vowel change Distr sčətxʷəd:sčičičtxʷəd Der/Red1_1i13_Distr_1212 
 * %^Red2CVC  3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
 * %^Red12323  should work for Red3 and Red5
+
+* %^Pen  this combines with subsequent RmVow or perhaps RmCns
+* %^RmVOW  this removes previous vowel or with Pen the penultimate vowel
+* %^d2t  this devoices d to t specifically
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
