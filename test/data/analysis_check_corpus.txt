@@ -2,24 +2,122 @@
 # number of paragraphs and sentences suitable for testing regressions in the
 # morphological and syntactic analyses. The whole file is used as input to
 # preprocessing/segmentation, morphological analysis, disambiguation, etc.
+# Random sentences:
 
-Son namuha ahte sii leat gal ávžžuhan olbmuid geat dihtet ahte dárbbašit jođánit beassat buohccevissui, nugo ovdamearkka dihte áhpehis nissonolbmuid geain lahkona riegádahttináigi, árvvoštallat galget go ovdal go buohccájit juo vuolgit buohccevissui.
-Sávan didjiide lihku, vástidii Evo Morales.
-Rievtti mielde lea duodjeluohkás gulahallanoahpaheaddji, muhto son ii leat doppe nu dávjá go oahppit sávvet.
-Ávvir ii ožžon rektor Mats Steinfjella jearahallamii.
-Miehtá čájáhuslanja lea lebbejuvvon plastihkkagovččas ja gávcci máná njuni ovddas lea čáhcemála.
-Lea meara láhkai go das oidnojit bárut.
-Gaskavahku eahkeda lei Kárášjoga kulturvisttis álbmotčoahkkin gosa ledje sullii 50 olbmo boahtán.
-Juohke gielddas ožžot olbmot skoviid maid sii galget deavdit ja sii jearahallet maiddái olbmuid, muhto Isaksen imašta kommišuvnna bargovugiid.
-Loahpas jearai Johttisámelisttu Anders Somby jr. sudnos njuolga háliida go čearru gulahallat, juo dahje ii.
-Stáhta lea dadjan don galggat duosa.
-Son ii bivdde gal akto.
-Báhpárruskkat eai váilon, ja eanaš bisánanbáikkit ledje erenoamáš ruivasat.
-Son muittaša movt ovdal lávii ja jietna šaddá litnáseabbon.
-Doppe vástida Farmen-Mikkel, dahje Mikkel Isak Eira.
-Dattetge lea Internašunála Sámi Filbmaguovddáža jođiheaddji mielas áibbas dárbbašlaš ahte gávdno sámegiel fálaldat mánáide.
-Juoba ge dán áigodagas.
-Ii fal runiidan jalges gittiide, muhto meahccái, gosa návddit dávjá ja lunddolaččat fievrredit ráppiid.
-Dál lea rábbeohcanbeana, dan lea čájehan go nealgečovjjiin borragođii ráppis.
-Dan dihte leage riekta ja dehálaš go skuvla čielga vugiin dovddasta dat lea maiddái sámi ohppiid skuvla.
-Dán filmma leat Kárášjoga nuorat oaidnán, eaige šat vuolgge sirkusii.
+haʔɬ sləx̌il,
+swawaʔ ti dsdaʔ.
+dxʷsƛ̕alb čəd.
+qayuqʷatx̌ čəd.
+sq̓ixʷəbš čəd.
+bəsq̓ayxʷayxʷ čəd.
+ssqʷaliqabš čəd.
+sqʷax̌səd čəd.
+sqʷədabš čəd.
+q̓ʷuʔəlƛ̕əl čəd.
+spuyaləpabš čəd.
+dxʷʔaha čəd.
+sbalqʷuʔabš čəd.
+bəshikʷigʷilc čəd.
+bəsq̓ixʷixʷ čəd.
+c̓awqʷ čəd.
+čubəabš čəd.
+č̓t̕ilqʷəbš čəd.
+dxʷduʔabš čəd.
+sdukʷalbixʷ čəd.
+duqʷəčabš čəd.
+shiʔwəbš čəd.
+kikiyalus čəd.
+dxʷləbiʔ čəd.
+sxʷq̓ʷupabš čəd.
+saʔkʷbixʷ čəd.
+spuyaləpabš tsi dkayəʔ.
+huyəxʷ čəd.
+dxʷsƛ̕alb tsi dkayəʔ.
+qayuqʷatx̌ tsi dkayəʔ.
+sq̓ixʷəbš tsi dkayəʔ.
+bəsq̓ayxʷayxʷ tsi dkayəʔ.
+ssqʷaliqabš tsi dkayəʔ.
+sqʷax̌səd tsi dkayəʔ.
+sqʷədabš tsi dkayəʔ.
+q̓ʷuʔəlƛ̕əl tsi dkayəʔ.
+spuyaləpabš tsi dkayəʔ.
+dxʷʔaha tsi dkayəʔ.
+sbalqʷuʔabš tsi dkayəʔ.
+bəshikʷigʷilc tsi dkayəʔ.
+bəsq̓ixʷixʷ tsi dkayəʔ.
+c̓awqʷ tsi dkayəʔ.
+čubəabš tsi dkayəʔ.
+č̓t̕ilqʷəbš tsi dkayəʔ.
+dxʷduʔabš tsi dkayəʔ.
+sdukʷalbixʷ tsi dkayəʔ.
+duqʷəčabš tsi dkayəʔ.
+shiʔwəbš tsi dkayəʔ.
+kikiyalus tsi dkayəʔ.
+dxʷləbiʔ tsi dkayəʔ.
+sxʷq̓ʷupabš tsi dkayəʔ.
+saʔkʷbixʷ tsi dkayəʔ.
+dxʷgʷalčšid čəd txʷəl ti puyaləpabš.
+spuyaləpabš tsiʔiɬ.
+xʷsəq̓ʷəb čəd.
+tubšədad čəxʷ.
+yələxacu ti sdaʔ ʔə tiiɬ luƛ̕.
+huyəxʷ čəd.
+bəqəlšuɬ čəd.
+stuləgʷabš čəd.
+st̕əč̓asəbš čəd.
+suyaƛ̕ čəd.
+tul̕ʔal čəd caləɬali.
+xʷyatacut ti sdaʔ ʔə tiiɬ t̕isu.
+ʔəsɬaɬlil čəɬ ʔal ti swatxʷixʷtxʷəd ʔə tə ʔitakʷbixʷ.
+tul̕ʔal čəd dᶻəɬigʷəd.
+scacəlqid ti dsdaʔ ʔə ti dbad.
+spuyalpabš ti dbad.
+ʔuwəliʔil ti dbad gʷəl ʔuƛ̓ax̌wʔal tə swatxʷixʷtxʷəd ʔə tə spuyaləpabš.
+dᶻətasəbqiʔ tsi sdaʔ ʔə tudsk ̓wuy.
+ʔal ti dbadaligʷəd.
+spuyaləpabš yəxʷ sqaǰət tsi tudkayəʔ.
+tul̕ʔal spuyaləpabš tsi tudkayaʔ.
+scacəlqid ti dsdaʔ ʔə tudscapaʔ.
+tul̕ʔal ʔəw̓alus ti dtudscapaʔ.
+tul̕ʔal xʷaacʔalʔal tudscapaʔ.
+ʔal ti sk̓ʷuyaligʷəd.
+č̓adəsqidəb ti sdaʔ ʔə ti dbad.
+ʔəsǰuʔil čəd gʷəti ʔabšid ti txʷəlšucid txʷəl ti dʔiišəd.
+haʔɬ sləx̌il txʷəl gʷəlapu, dayəsqidəb ti dsdaʔ
+spuyaləpabš čəd.
+tul̕ʔal čəd təqʷuʔməʔ.
+dayəsqidəb ti sdaʔ ʔə tudbad.
+spuyaləpabš tudbad.
+sʔiduʔ tsi sdaʔ ʔə tsi tudkayəʔ.
+spuyaləpabš tudkayəʔ.
+sdəbqid ti sdaʔ ʔə ti tudscapaʔ.
+ciʔəgʷas tsi sdaʔ ʔə tsi dsk̓ʷuy.
+tsibudᶻaɬ tsi sdaʔ ʔə tsi tudkayəʔ.
+sʔəgʷc̓iʔ ti sdaʔ ʔə tudscapaʔ.
+huyəxʷ čəd, huyəxʷ čəd.
+ʔiyaɬ tsi dsdaʔ.
+spuyaləpabš čəd yəxʷ ti seliš.
+dᶻəgʷax̌əd ti sdaʔ ʔə ti dbad.
+spuyaləpabš ti dbad.
+ʔuwəliʔi gʷəl ʔuƛ̕axʷ̌ ʔal ti swatxʷixʷtxʷəd ʔə tə spuyaləpabš.
+ʔiʔaabʔaɬ tusdaʔ ʔə tudkayəʔ.
+tul̕ʔal tiiɬ Smith syayayəʔ.
+sʔixʷəd tsi sdaʔ ʔə tsi dsk̓ʷuy.
+seliš tsi dsk̓ʷuy.
+ʔuwəliʔi gʷəl ʔuƛ̕axʷ̌ ʔal ti swatxʷixʷtxʷəd ʔə tə spuyaləpabš.
+dᶻəlulic̓aʔ tsi sdaʔ ʔə tsi dkayəʔ.
+seliš tsi dkayəʔ.
+ʔuwəliʔi ʔal ti swatxʷixʷtxʷəd ʔə tə seliš.
+ʔuƛ̕axʷ̌ ʔal ti swatxʷixʷtxʷəd ʔə tə seliš yəxʷ ti c̓awqʷ yəxʷ ti spuyaləpabš.
+ʔəca gʷəl sduhubš.
+tul̕ʔal tiiɬ Young yəxʷ ti Pablo syayayəʔ.
+xʷyatacut tusdaʔ ʔə tudscapaʔ.
+sq̓ixʷ̌ tiiɬ tudscapaʔ.
+tul̕ʔal tiiɬ dᶻidᶻəlal̕ič.
+ʔa ti səsaʔliʔ dbədbədəʔ.
+tsibudᶻaɬ tsi sdaʔ ʔə tudkayaʔ.
+tul̕ʔal bəc̓adᶻali tsi tudkayaʔ.
+sbaqʷəbaɬ ti dsdaʔ.
+sqaǰət čəd.
+haʔyəkʷ tsi sdaʔ ʔə tsi dsk̓ʷuy.
+spuyaləpabš həlgʷə.
