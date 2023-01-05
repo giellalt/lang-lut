@@ -11,7 +11,9 @@ labdub+V:labd V_BECHDUB "see sm" ;
 bəq̓əd+V:bəq̓əd V_KWEDAD "swallow" ;
 huyud+V:huyud V_KWEDAD "make" ;
 kʷədad+V:kʷəda»d V_KWEDAD "grab sm; pick up" ;
-ɬič̓id+V:ɬič̓id V_KWEDAD "cut" ;
+q̓ʷuʔəd+V:q̓ʷuʔəd V_KWEDAD "gather sm" ;
+wiliq̓ʷid+V:wíliq̓ʷid V_KWEDAD "ask" ;
+
 qʷibid+V:qʷibi»d V_KWEDAD "prepare" ;
 q̓ʷəld+V:q̓ʷəl»d V_KWEDAD "bake" ;
 q̓ʷəl+V:q̓ʷəl V_KWEDAD "bake; ripe" ;
@@ -55,9 +57,22 @@ c̓agʷatsut+V:c̓agʷatsut V_KWEDAD "wash oneself (-t-sut)" ;
 t̕ilib+V:t̕ilib V_HELHED "sing" ;
 təsadiʔ+v1+V:təsadiʔ V_HELHED "drum" ;
 təsadiʔ+v2+V:tsadiʔ V_HELHED "drum" ; ! check this vowel loss
+q̓ʷuʔ+V:q̓ʷuʔ IV_HELHED "gather" ;
 səx̌əb+V:səx̌əb V_HELHED "dance" ;
 yəcəb+V:yəcəb V_HELHED "give news" ;
-huyutəb+V:huyutəb V_HELHED "make, prepare" ;
+huyutəb+V:huyutəb V_HELHED "make, prepare (passive)" ;
+ɬič̓itəb+V:ɬič̓itəb V_HELHED "cut (passive)" ;
+wiliq̓ʷitəb+V:wíliq̓ʷitəb V_HELHED "ask (passive)" ;
+t̕uk̓ʷtub+V:t̕uk̓ʷtub V_HELHED "take home (passive? t̕uk̓ʷtxʷ)" ;
+q̓ʷuʔtəb+V:q̓ʷuʔtəb V_HELHED "get gathered" ;
+bəq̓təb+V:bəq̓təb V_HELHED "get swallowed" ;
+xʷak̓ʷisəb+V:xʷak̓ʷisəb V_HELHED "to tire sm" ;
+
+p̓ayəq+V:p̓áyəq V_HELHED "hew" ;
+k̓ʷil+V:k̓ʷil V_HELHED "peek" ;
+ʔitut+V:ʔítut V_HELHED "sleep" ;
+gʷəč̓əb+V:gʷəč̓əb V_HELHED "search for (agOr)" ;
+
 ʔiɬšxʷ+V:ʔiɬšxʷ V_HELHED "paddle" ;
 ʔəɬəd+V:ʔəɬəd V_HELHED "eat" ;
 ʔuluɬ+V:ʔuluɬ V_HELHED "travel by water" ;

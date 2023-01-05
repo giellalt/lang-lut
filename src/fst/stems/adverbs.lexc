@@ -23,14 +23,16 @@ put+Adv:put ADV_ "very much so, in a great way" ;
 x̌ʷəɬ% ti+Adv:x̌ʷəɬ% ti ADV_ "as though, like" ;
 x̌ʷul̕+Adv:x̌ʷul̕ ADV_ "just (that and nothing else)" ;
 
+tul̕ʔal+Adv:tul̕ʔal ADV-SPAT_ "from" ;! is this a preposition?
 siʔ+Adv:siʔ ADV-SPAT_ "here" ;
 diʔəʔ+Adv:diʔəʔ ADV-SPAT_ "here" ;
 tudiʔ+Adv:tudiʔ ADV-SPAT_ "yonder" ;
 tiləb+v1+Adv:tiləb ADV-SPAT_ "right there, suddenly" ;
 tiləb+v2+Adv:tiiləb ADV-SPAT_ "right there, suddenly" ;
-dxʷt̓aqt+Adv:dxʷt̓aqt ADV-SPAT_ "on shore" ;
+dxʷt̕aq̓t+Adv:dxʷt̕aq̓t ADV-SPAT_ "on shore" ;
 
-t̓aq̓t+Adv:t̓aq̓t ADV-SPAT_ "on shore" ;
+
+t̕aq̓t+Adv:t̕aq̓t ADV-SPAT_ "on shore" ;
 
 bək̓ʷ+Adv:bək̓ʷ ADV-TOT_ "all" ;
 qa+Adv:qa ADV-QNT_ "many" ;
