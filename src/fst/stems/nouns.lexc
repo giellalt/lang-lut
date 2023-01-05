@@ -4,8 +4,11 @@
 
 LEXICON Nouns
 
+tubšədad+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}túbšədàd SG-SUF "(tribe members, what is plural?)" ;
+bəqəlšuɬ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəqəlšuɬ SG-SUF "(tribe members, what is plural?)" ;
 dxʷsƛ̕alb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dxʷsƛ̕alb  SG-SUF "(tribe members, what is plural?)" ;
 qayuqʷatx̌+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qayuqʷatx̌ SG-SUF "(tribe members, what is plural?)" ;
+sqaǰət+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qaǰət SG-SUF "(tribe members, what is plural?)" ;
 sq̓ixʷəbš+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ixʷəbš SG-SUF "(tribe members, what is plural?)" ;
 bəsq̓ayxʷayxʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəsq̓ayxʷayxʷ SG-SUF "(tribe members, what is plural?)" ;
 ssqʷaliqabš+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sqʷaliqabš SG-SUF "(tribe members, what is plural?)" ;
@@ -28,7 +31,20 @@ kikiyalus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kikiyalus SG-SUF "(tribe members, what
 dxʷləbiʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dxʷləbiʔ SG-SUF "(tribe members, what is plural?)" ;
 sxʷq̓ʷupabš+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}xʷq̓ʷupabš SG-SUF "(tribe members, what is plural?)" ;
 saʔkʷbixʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}saʔkʷbixʷ SG-SUF "(tribe members, what is plural?)" ;
+st̕əč̓asəbš+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕əč̓asəbš SG-SUF "(tribe members, what is plural?)" ;
 
+dᶻəɬigʷəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dᶻəɬigʷəd SG-SUF "Everett (place name)" ;
+ʔəw̓alus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəw̓alus SG-SUF "(place name)" ;
+
+xʷyatacut+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}xʷyátacut SG-SUF "man's name" ;
+č̓adəsqidəb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓adəsqidəb SG-SUF "man's name" ;
+scacəlqid+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cacəlqid SG-SUF "man's name" ;
+dayəsqidəb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dayəsqidəb SG-SUF "man's name" ;
+
+tsibudᶻaɬ+N:tsi%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}budᶻaɬ SG-SUF "woman's name" ;
+
+dxʷləšucid+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dxʷləšucid SG-SUF "Lushootseed (language)" ;
+txʷəlšucid+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}txʷəlšucid SG-SUF "Lushootseed (language)" ;
 wiw̓suʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wiw̓suʔ SG-SUF "Children (only plural)" ;
 ʔaciɬtalbixʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔaciɬtalbixʷ N_with_Distr_12323_RED5 "" ;
 bad+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bad N-MSC_with-PL_RED2 "" ;
@@ -36,7 +52,8 @@ buusil+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}buusil N_with_PL_RED2 "" ;
 buusil+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}buusi N_with_PL_RED2 "" ;
 buʔqʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}buʔqʷ N_with_PL_RED2 "" ;
 bəc̓ac+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəc̓ac N_with_PL_RED2 "" ;
-bədaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bədaʔ N_with_PL_RED2 "" ;
+bədaʔ+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bədaʔ N_with_PL_RED2 "" ;
+bədaʔ+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bədəʔ N_with_PL_RED2 "" ;
 bəlagʷəʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlagʷəʔ N_with_PL_RED2 "" ;
 bəlups+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups N_with_PL_RED2 "" ;
 bəqsəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəqsəd N_with_PL_RED2 "" ;
@@ -58,7 +75,9 @@ gəlk̓ic̓aʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gəlk̓ic̓aʔ N_with_PL_RED2 "" 
 gʷidəq+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gʷidəq N_with_PL_RED2 "" ;
 haʔəc+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}haʔəc N_with_PL_RED2 "" ;
 hiʔhaʔəc+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}hiʔhaʔəc N_with_PL_RED2 "" ;
-kayə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kayə N-FEM_with-PL_RED2 "" ;
+kayə+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kayə N-FEM_with-PL_RED2 "" ;
+kayə+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kayəʔ N-FEM_with-PL_RED2 "" ;
+kayə+v3+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kayaʔ N-FEM_with-PL_RED2 "" ;
 kay̓kay̓+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kay̓kay̓ N_with_PL_RED2 "" ;
 kiyuuqʷs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kiyuuqʷs N_with_PL_RED2 "" ;
 kəlapx̌ʷəlč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kəlapx̌ʷəlč N_with_PL_RED2 "" ;
@@ -165,6 +184,8 @@ sx̌ʷiʔab+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷiʔab N_with_PL_RED2 "" ;
 sx̌ʷiƛ̕ayʔ+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷiƛ̕ayʔ N_with_PL_RED2 "" ;
 sx̌ʷuʔx̌ʷuʔ+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷuʔx̌ʷuʔ N_with_PL_RED2 "" ;
 syaʔ+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yaʔ N_with_PL_RED2 "" ;
+syaʔyaʔ+v1+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yáʔyaʔ N_with_PL_RED2 "friend, relative" ;
+syaʔyaʔ+v2+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yáyaʔ N_with_PL_RED2 "friend, relative" ;
 syəyəhub+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəyəhub N_with_PL_RED2 "legend" ;
 sčətxʷəd+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd N-MSC_with-PL_RED2 "" ;
 sčatqɬəb+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čatqɬəb N-MSC_with-PL_RED2 "" ;

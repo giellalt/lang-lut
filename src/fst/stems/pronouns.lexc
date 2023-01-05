@@ -16,7 +16,14 @@ LEXICON PRON-PERS
 čələp+Pron:čələp PRON-PERS-PL2 ;
 əlgʷəʔ+v1+Pron:əlgʷəʔ PRON-PERS-PL3 ;
 əlgʷəʔ+v2+Pron:həlgʷəʔ PRON-PERS-PL3 ;
+əlgʷəʔ+v3+Pron:həlgʷə PRON-PERS-PL3 ;
 ɬi+Pron+Pers+Pl2:ɬi K ;
+ʔəca+Pron:ʔəca PRON-PERS-SG1 "(independent and emphatic)" ;
+dəgʷi+Pron:dəgʷi PRON-PERS-SG2 "(independent and emphatic)" ;
+dibəɬ+Pron:dibəɬ PRON-PERS-PL1 "(independent and emphatic)" ;
+gʷəlapu+Pron:gʷəlapu  PRON-PERS-PL2 "(independent and emphatic)" ;
+cədiɬ+Pron:cədiɬ PRON-PERS-SG3 "(independent and emphatic)" ;
+caadiɬ+Pron:caadiɬ PRON-PERS-PL3 "(independent and emphatic)" ;
 
 LEXICON PRON-DEM
 tiʔiɬ+v1+Pron:tiʔiɬ PRON-DEM-MSC-DIST_ ;

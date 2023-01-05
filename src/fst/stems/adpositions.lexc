@@ -3,9 +3,10 @@
 !! Adpositions in the LUSHOOTSEED language 
 
 LEXICON Adpositions
-ʔə:ʔə PR_ "of" ;
-dxʷʔal:dxʷʔal PR_ "for, to" ;
-ʔal:ʔal PR_ "to" ;
+ʔə+Pr:ʔə PR_ "of" ;
+dxʷʔal+Pr:dxʷʔal PR_ "for, to, toward" ;
+txʷəl+Pr:txʷəl PR_ "for, to, toward" ;
+ʔal+Pr:ʔal PR_ "to" ;
 
 
 ! vim: set ft=xfst-lexc:

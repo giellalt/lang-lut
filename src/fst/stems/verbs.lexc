@@ -48,6 +48,7 @@ cut+V:cut V_HELHED "say" ;
 ʔux̌ʷ+V:ʔux̌ʷ V_KWEDAD "" ;
 tuləkʷ+V:tuləkʷ V_KWEDAD "" ;
 ʔəƛ̕+V:ʔəƛ̕ V_KWEDAD "" ;
+ƛ̕ax̌ʷ+V:ƛ̕ax̌ʷ V_KWEDAD "grow" ;
 huytxʷ+V:huytxʷ V_KWEDAD "" ;
 ʔux̌ʷtxʷ+V:ʔux̌ʷtxʷ V_KWEDAD "take" ;
 x̌aƛ̕txʷ+V:x̌aƛ̕txʷ V_KWEDAD "like, want" ;
@@ -79,6 +80,7 @@ gʷəč̓əb+V:gʷəč̓əb V_HELHED "search for (agOr)" ;
 ƛ̕ax̌ʷ+V:ƛ̕ax̌ʷ V_HELHED "grow" ;
 
 č̓itil+V:č̓itil V_HELHED "draw near" ;
+ǰuʔil+V:ǰuʔil V_HELHED "enjoy oneself" ;
 diʔiʔil+V:diʔiʔil V_HELHED "move to other side" ;
 gʷədil+V:gʷədil V_HELHED "sit down" ;
 gəqil+V:gəqil V_HELHED "shine brightly (comment:gʷ vs g)" ;

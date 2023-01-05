@@ -9,6 +9,9 @@ LEXICON PRON-PERS-SG1
 LEXICON PRON-PERS-SG2
 +Pers+Sg2+Nom:   #  ;
 
+LEXICON PRON-PERS-SG3
++Pers+Sg3+Nom:   #  ;
+
 LEXICON	PRON-PERS-PL1
 +Pers+Pl1+Nom:   #  ;
 
