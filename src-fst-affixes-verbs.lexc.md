@@ -8,7 +8,9 @@ kʷədad:kʷədad
 
 kʷədad:kʷədad
 
+q̓ʷuʔ "gather"
 @U.TAM-A.PRF@
+
 ʔəɬəd+V:ʔəɬəd
 
 * * *
