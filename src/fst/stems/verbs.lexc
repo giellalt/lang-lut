@@ -68,6 +68,15 @@ t̕uk̓ʷtub+V:t̕uk̓ʷtub V_HELHED "take home (passive? t̕uk̓ʷtxʷ)" ;
 q̓ʷuʔtəb+V:q̓ʷuʔtəb V_HELHED "get gathered" ;
 bəq̓təb+V:bəq̓təb V_HELHED "get swallowed" ;
 xʷak̓ʷisəb+V:xʷak̓ʷisəb V_HELHED "to tire sm" ;
+kʷədayitəb+V:kʷədayitəb V_HELHED "" ;
+ʔabyitəb+V:ʔabyitəb V_HELHED "" ;
+ʔux̌ʷtxʷyitəb+V:ʔux̌ʷtxʷyitəb V_HELHED "" ;
+ʔəy̓dxʷyitəb+V:ʔəy̓dxʷyitəb V_HELHED "" ;
+lək̓ʷyitəb+V:lək̓ʷyitəb V_HELHED "" ;
+
+lək̓ʷyid+V:lək̓ʷyid V_KWEDAD "" ;
+
+
 
 p̓ayəq+V:p̓áyəq V_HELHED "hew" ;
 k̓ʷil+V:k̓ʷil V_HELHED "peek" ;
@@ -110,6 +119,14 @@ ləx̌ilič+V:ləx̌ilič V_HELHED "become enveloped in light" ;
 
 !adsuʔəɬəd. ʔuʔəɬəd
 !adsux̌alšid. ʔux̌alšid
+ʔux̌ʷyid+V:ʔux̌ʷyid V_KWEDAD ;
+kʷədyid+v1+V:kʷədyíd V_KWEDAD ;
+kʷədyid+v2+V:kʷədayíd V_KWEDAD ;
+ʔux̌ʷtxʷyid+V:ʔux̌ʷtxʷyid V_KWEDAD ;
+ʔabyid+V:ʔabyid V_KWEDAD ;
+ʔəy̓dxʷyid+V:ʔəy̓dxʷyid V_KWEDAD ;
+
+
 x̌alšid+V:x̌alšid V_KWEDAD ;
 qʷuʔqʷaʔ+V:qʷuʔqʷaʔ V_KWEDAD ;
 tagʷš+V:tagʷš V_KWEDAD ;
