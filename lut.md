@@ -346,16 +346,16 @@ Noun inflection
 The Lushootseed language nouns inflect in time person aspect.
 
 qəlb+N+Distr+Nom: **rain showers**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1i123*
 * *00qi0qəlb0*
 
 bəlups+N+Distr+Nom
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^RedPL123123*
 * *00bəlbəlups0*
-* ★*%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC* (is not standard language)
+* ★*%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^RedPL123123* (is not standard language)
 * ★*00000bəlups0* (is not standard language)
 k̓ʷəčədiʔ+N+Distr+Nom: __rabbit/jänis__
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^Red2CVC*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^RedPL123123*
 * *00k̓ʷəčk̓ʷəčədiʔ0*
 * ★*k̓ʷəčədiʔ:* `k̓ʷəčədiʔ+N+Distr+Nom` (is not standard language)
 
@@ -462,12 +462,14 @@ Lushootseed is written in IPA, there are no upper-case letters
 
 place holders
 
-* %^Red1CV2CiCV:0  qəlb: qiqəlb **rain showers**
-* %^Red1CV1toCV2C:0  2-segment to 3-segments with vowel change 
-* %^Red1CV1toCV2CPL:0  2-segment to 3-segments with vowel change Plural
+* %^Red1i123:0  qəlb: qiqəlb **rain showers**
+* %^Red1i13:0  2-segment to 3-segments with vowel change 
+* %^Red1iq13:0  iʔ
+* %^Red12123:0  papastəd
+* %^RedPL1i1i13:0  2-segment to 3-segments with vowel change Plural
 * %^Red12323:0  works with Red3 and Red5
 
-* %^Red2CVC:0  3-segment reduplication 
+* %^RedPL123123:0  3-segment reduplication 
 
 * %^Pen:0  this combines with subsequent RmVow or perhaps RmCns
 * %^RmVOW:0  this removes previous vowel or with Pen the penultimate vowel
@@ -509,14 +511,16 @@ C V1 => C V1 C
 * *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷiƛ̕əyʔ*
 * *s000x̌ʷi0x̌ʷ0ƛ̕əyʔ*
 
-C ə => C i C   %^Red1CV1toCV2C:
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəpus%^Red1CV1toCV2C*
+C ə => C i C   %^Red1i13:
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəpus%^Red1i13*
 * *00ʔi0ʔ0pus0*
 
 C ə => C i C ə
-Red 1 qəlb: qiqəlb %^Red1CV2CiCV
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
+Red 1 qəlb: qiqəlb %^Red1i123
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1i123*
 * *00qi0qəlb0*
+
+**a:0 in inflection**
 
 **ə:0 in inflection**
 * *x̌əd»əd%>sid*
@@ -525,7 +529,7 @@ Red 1 qəlb: qiqəlb %^Red1CV2CiCV
 * *bəq̓0t000>əb*
 
 sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
-* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
+* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^RedPL1i1i13*
 * *s%^√čiči0č0txʷəd0*
 
 **i:0 in inflection**
@@ -540,22 +544,26 @@ sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
 **u:0 in preceding ƛ̕**
 
 **%{p2%}:ə in reduplication**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^RedPL123123*
 * *00bəlbəlups0*
 
 **%{p2%}:u in reduplication**
 
+**%{p2%}:í in reduplication**
+
 **%{p2%}:i in reduplication**
 qəlb+N+Distr+Nom: **rain showers**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1i123*
 * *00qi0qəlb0*
 pišpiš+N+Distr+Nom: **cat/kissa**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^Red2CVC*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^RedPL123123*
 * *00pišpišpiš0*
 
 **%{p4%}:i in reduplication**
 
 **%{p2%}:a in reduplication**
+
+**%{p2%}:á in reduplication**
 
 **%{p1%}:0**
 
@@ -567,12 +575,12 @@ pišpiš+N+Distr+Nom: **cat/kissa**
 
 **%{p5%}:0**
 
-* *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>s*
-* *ʔu0000kʷəda0%>c*
+* *ʔu%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷədad%>s*
+* *ʔu000000kʷəda0%>c*
 
 **d:0 before s:c**
-* *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>cid*
-* *ʔu0000kʷəda0%>cid*
+* *ʔu%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷədad%>cid*
+* *ʔu000000kʷəda0%>cid*
 
 **d:t before ə b**
 * *bəq̓əd^Pen^RmVOW^d2t>əb*
@@ -584,7 +592,7 @@ pišpiš+N+Distr+Nom: **cat/kissa**
 
 **%{p5%}:Cx in reduplication**
 sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
-* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
+* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^RedPL1i1i13*
 * *s%^√čičič0txʷəd0*
 
 liquids
@@ -598,7 +606,7 @@ liquids
 **%{p1%}:ʔ in reduplication**
 
 **%{p1%}:Cx in reduplication**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^RedPL123123*
 * *00bəlbəlups0*
 
 **%{p1%}:Cx in reduplication**
@@ -788,14 +796,36 @@ source and target part-of-speech.
 *  +V→N +V→V +V→A  
 *  +Der/xxx  
 *  +Der/Dimin  * diminutive
+*  +Der/Dimin_12123  * diminutive pa-pasted ^Red12123
+*  +Der/Dimin_1i123  * diminutive bi-bəlups; qi-qəlb 
+*  +Der/Dimin_12q123  * diminutive 
+*  +Der/Dimin_1iq123  * diminutive 
+*  +Der/Dimin_1213  * diminutive pišpiš > pi-pšpiš;  sbádil:sbábdil
+*  +Der/Dimin_1i13  * diminutive %^Red1i13 
+*  +Der/Dimin_12q13  * diminutive
+*  +Der/Dimin_1iq13  * diminutive
+*  +Der/Dimin_121e3  * diminutive sbádil:sbábədil
+*  +Der/Dimin_1i1e3  * diminutive
+*  +Der/Dimin_12q1e3  * diminutive
+*  +Der/Dimin_1iq1e3  * diminutive
+
+*  +Der/Dimin_1i1i13  * diminutive with plural ^RedPL1i1i13
+
+*  +Der/Distr	    * distributive
+*  +Der/Distr_123123  * distributive
+
 *  +Der/s  * Noun derivation
 *  +Vnoun  * Deverbal Noun etc.
-*  +Der/Red1_12123  * This is Red1, associated with Dimin
+
+Reduplication in Lushootseed is associated with a three-letter reduplication segment.
+
+reduplication type 1 envolves the first two letters of the three-letter reduplication segment
+*  +Der/Red1_12123  * This is Red1, associated with Dimin pa-pasted
 *  +Der/Red1_1i123  * This is Red1, associated with Dimin
 *  +Der/Red1_12ʔ123  * This is Red1, associated with Dimin
 *  +Der/Red1_1iʔ123  * This is Red1, associated with Dimin
-*  +Der/Red1_1213  * This is Red1, associated with Dimin
-*  +Der/Red1_1i13  * This is Red1, associated with Dimin ^Red1CV1toCV2C
+*  +Der/Red1_1213  * This is Red1, associated with Dimin pišpiš > pi-pšpiš; pa-pstəd
+*  +Der/Red1_1i13  * This is Red1, associated with Dimin
 *  +Der/Red1_12ʔ13  * This is Red1, associated with Dimin
 *  +Der/Red1_1iʔ13  * This is Red1, associated with Dimin
 *  +Der/Red1_121ə3  * This is Red1, associated with Dimin
@@ -803,12 +833,19 @@ source and target part-of-speech.
 *  +Der/Red1_12ʔ1ə3  * This is Red1, associated with Dimin
 *  +Der/Red1_1iʔ1ə3  * This is Red1, associated with Dimin
 
-*  +Der/Red1_1i13_Distr_1212  * This is Red1, associated with Dimin ^Red1CV1toCV2CPL
+*  +Der/Red1_1i13_Distr_1212  * This is Red1, associated with Dimin ^RedPL1i1i13
+reduplication type 2 involves the all three letters of the three-letter reduplication segment
 
-* +Der/Red2_3L  * This is Red2 (Red2CVC=R2-123123), usually distributive, it is a reduplication where the first three letters are reduplicated as is
-*  +Der/Red3_12323  * This is Red3 this is random verbal
-*  +Der/Red5_12323  * This is Red5 This is isolating, individuating
-*  +Der/Red6_122123  * This is Red6 
+* +Der/Red2_3L  * This is Red2 (Red2CVC=R2-123123), usually distributive, it is a reduplication where the first three letters are reduplicated as is pastəd > pas-pastəd
+
+reduplication type 3 involves the last two letters of the three-letter reduplication segment
+
+* +Der/Red3_12323  * This is Red3 this is random verbal
+*  +Der/Red5_12323  * This is Red5 This is isolating, individuating cəliɬ:cədədiɬ 'he alone'
+
+reduplication type 6 involves the all three letters of the three-letter reduplication segment with a double vowel
+
+* +Der/Red6_122123  * This is Red6 
 *  +Der/Red6_1aa1ə3  * This is Red6 sɬaaɬədəyʔ < sɬadəyʔ
 
 * +Clt  %>əxʷ
@@ -869,10 +906,12 @@ place holders
 
 And following triggers to control variation
 *  {front} {back}  
-* %^Red1CV2CiCV  qəlb: qiqəlb *rain showers*
-* %^Red1CV1toCV2C  2-segment to 3-segments with vowel change sčətxʷəd:sčičtxʷəd Der/Red1_1i13
-* %^Red1CV1toCV2CPL  2-segment to 3-segments with vowel change Distr sčətxʷəd:sčičičtxʷəd Der/Red1_1i13_Distr_1212 
-* %^Red2CVC  3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
+* %^Red1i123  qəlb: qiqəlb *rain showers*
+* %^Red1i13  2-segment to 3-segments with vowel change sčətxʷəd:sčičtxʷəd Der/Red1_1i13
+* %^Red1iq13  iʔ
+* %^Red12123  papastəd
+* %^RedPL1i1i13  2-segment to 3-segments with vowel change Distr sčətxʷəd:sčičičtxʷəd Der/Red1_1i13_Distr_1212 
+* %^RedPL123123  3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
 * %^Red12323  should work for Red3 and Red5
 
 * %^Pen  this combines with subsequent RmVow or perhaps RmCns

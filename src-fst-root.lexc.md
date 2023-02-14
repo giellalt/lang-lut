@@ -173,14 +173,36 @@ source and target part-of-speech.
 *  +V→N +V→V +V→A  
 *  +Der/xxx  
 *  +Der/Dimin  * diminutive
+*  +Der/Dimin_12123  * diminutive pa-pasted ^Red12123
+*  +Der/Dimin_1i123  * diminutive bi-bəlups; qi-qəlb 
+*  +Der/Dimin_12q123  * diminutive 
+*  +Der/Dimin_1iq123  * diminutive 
+*  +Der/Dimin_1213  * diminutive pišpiš > pi-pšpiš;  sbádil:sbábdil
+*  +Der/Dimin_1i13  * diminutive %^Red1i13 
+*  +Der/Dimin_12q13  * diminutive
+*  +Der/Dimin_1iq13  * diminutive
+*  +Der/Dimin_121e3  * diminutive sbádil:sbábədil
+*  +Der/Dimin_1i1e3  * diminutive
+*  +Der/Dimin_12q1e3  * diminutive
+*  +Der/Dimin_1iq1e3  * diminutive
+
+*  +Der/Dimin_1i1i13  * diminutive with plural ^RedPL1i1i13
+
+*  +Der/Distr	    * distributive
+*  +Der/Distr_123123  * distributive
+
 *  +Der/s  * Noun derivation
 *  +Vnoun  * Deverbal Noun etc.
-*  +Der/Red1_12123  * This is Red1, associated with Dimin
+
+Reduplication in Lushootseed is associated with a three-letter reduplication segment.
+
+reduplication type 1 envolves the first two letters of the three-letter reduplication segment
+*  +Der/Red1_12123  * This is Red1, associated with Dimin pa-pasted
 *  +Der/Red1_1i123  * This is Red1, associated with Dimin
 *  +Der/Red1_12ʔ123  * This is Red1, associated with Dimin
 *  +Der/Red1_1iʔ123  * This is Red1, associated with Dimin
-*  +Der/Red1_1213  * This is Red1, associated with Dimin
-*  +Der/Red1_1i13  * This is Red1, associated with Dimin ^Red1CV1toCV2C
+*  +Der/Red1_1213  * This is Red1, associated with Dimin pišpiš > pi-pšpiš; pa-pstəd
+*  +Der/Red1_1i13  * This is Red1, associated with Dimin
 *  +Der/Red1_12ʔ13  * This is Red1, associated with Dimin
 *  +Der/Red1_1iʔ13  * This is Red1, associated with Dimin
 *  +Der/Red1_121ə3  * This is Red1, associated with Dimin
@@ -188,12 +210,19 @@ source and target part-of-speech.
 *  +Der/Red1_12ʔ1ə3  * This is Red1, associated with Dimin
 *  +Der/Red1_1iʔ1ə3  * This is Red1, associated with Dimin
 
-*  +Der/Red1_1i13_Distr_1212  * This is Red1, associated with Dimin ^Red1CV1toCV2CPL
+*  +Der/Red1_1i13_Distr_1212  * This is Red1, associated with Dimin ^RedPL1i1i13
+reduplication type 2 involves the all three letters of the three-letter reduplication segment
 
-* +Der/Red2_3L  * This is Red2 (Red2CVC=R2-123123), usually distributive, it is a reduplication where the first three letters are reduplicated as is
-*  +Der/Red3_12323  * This is Red3 this is random verbal
-*  +Der/Red5_12323  * This is Red5 This is isolating, individuating
-*  +Der/Red6_122123  * This is Red6 
+* +Der/Red2_3L  * This is Red2 (Red2CVC=R2-123123), usually distributive, it is a reduplication where the first three letters are reduplicated as is pastəd > pas-pastəd
+
+reduplication type 3 involves the last two letters of the three-letter reduplication segment
+
+* +Der/Red3_12323  * This is Red3 this is random verbal
+*  +Der/Red5_12323  * This is Red5 This is isolating, individuating cəliɬ:cədədiɬ 'he alone'
+
+reduplication type 6 involves the all three letters of the three-letter reduplication segment with a double vowel
+
+* +Der/Red6_122123  * This is Red6 
 *  +Der/Red6_1aa1ə3  * This is Red6 sɬaaɬədəyʔ < sɬadəyʔ
 
 * +Clt  %>əxʷ
@@ -254,10 +283,12 @@ place holders
 
 And following triggers to control variation
 *  {front} {back}  
-* %^Red1CV2CiCV  qəlb: qiqəlb *rain showers*
-* %^Red1CV1toCV2C  2-segment to 3-segments with vowel change sčətxʷəd:sčičtxʷəd Der/Red1_1i13
-* %^Red1CV1toCV2CPL  2-segment to 3-segments with vowel change Distr sčətxʷəd:sčičičtxʷəd Der/Red1_1i13_Distr_1212 
-* %^Red2CVC  3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
+* %^Red1i123  qəlb: qiqəlb *rain showers*
+* %^Red1i13  2-segment to 3-segments with vowel change sčətxʷəd:sčičtxʷəd Der/Red1_1i13
+* %^Red1iq13  iʔ
+* %^Red12123  papastəd
+* %^RedPL1i1i13  2-segment to 3-segments with vowel change Distr sčətxʷəd:sčičičtxʷəd Der/Red1_1i13_Distr_1212 
+* %^RedPL123123  3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
 * %^Red12323  should work for Red3 and Red5
 
 * %^Pen  this combines with subsequent RmVow or perhaps RmCns

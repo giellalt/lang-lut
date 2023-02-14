@@ -12,12 +12,14 @@ Lushootseed is written in IPA, there are no upper-case letters
 
 place holders
 
-* %^Red1CV2CiCV:0  qəlb: qiqəlb **rain showers**
-* %^Red1CV1toCV2C:0  2-segment to 3-segments with vowel change 
-* %^Red1CV1toCV2CPL:0  2-segment to 3-segments with vowel change Plural
+* %^Red1i123:0  qəlb: qiqəlb **rain showers**
+* %^Red1i13:0  2-segment to 3-segments with vowel change 
+* %^Red1iq13:0  iʔ
+* %^Red12123:0  papastəd
+* %^RedPL1i1i13:0  2-segment to 3-segments with vowel change Plural
 * %^Red12323:0  works with Red3 and Red5
 
-* %^Red2CVC:0  3-segment reduplication 
+* %^RedPL123123:0  3-segment reduplication 
 
 * %^Pen:0  this combines with subsequent RmVow or perhaps RmCns
 * %^RmVOW:0  this removes previous vowel or with Pen the penultimate vowel
@@ -59,14 +61,16 @@ C V1 => C V1 C
 * *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷiƛ̕əyʔ*
 * *s000x̌ʷi0x̌ʷ0ƛ̕əyʔ*
 
-C ə => C i C   %^Red1CV1toCV2C:
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəpus%^Red1CV1toCV2C*
+C ə => C i C   %^Red1i13:
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəpus%^Red1i13*
 * *00ʔi0ʔ0pus0*
 
 C ə => C i C ə
-Red 1 qəlb: qiqəlb %^Red1CV2CiCV
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
+Red 1 qəlb: qiqəlb %^Red1i123
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1i123*
 * *00qi0qəlb0*
+
+**a:0 in inflection**
 
 **ə:0 in inflection**
 * *x̌əd»əd%>sid*
@@ -75,7 +79,7 @@ Red 1 qəlb: qiqəlb %^Red1CV2CiCV
 * *bəq̓0t000>əb*
 
 sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
-* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
+* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^RedPL1i1i13*
 * *s%^√čiči0č0txʷəd0*
 
 **i:0 in inflection**
@@ -90,22 +94,26 @@ sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
 **u:0 in preceding ƛ̕**
 
 **%{p2%}:ə in reduplication**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^RedPL123123*
 * *00bəlbəlups0*
 
 **%{p2%}:u in reduplication**
 
+**%{p2%}:í in reduplication**
+
 **%{p2%}:i in reduplication**
 qəlb+N+Distr+Nom: **rain showers**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1i123*
 * *00qi0qəlb0*
 pišpiš+N+Distr+Nom: **cat/kissa**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^Red2CVC*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^RedPL123123*
 * *00pišpišpiš0*
 
 **%{p4%}:i in reduplication**
 
 **%{p2%}:a in reduplication**
+
+**%{p2%}:á in reduplication**
 
 **%{p1%}:0**
 
@@ -117,12 +125,12 @@ pišpiš+N+Distr+Nom: **cat/kissa**
 
 **%{p5%}:0**
 
-* *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>s*
-* *ʔu0000kʷəda0%>c*
+* *ʔu%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷədad%>s*
+* *ʔu000000kʷəda0%>c*
 
 **d:0 before s:c**
-* *ʔu%^√%{p3%}%{p2%}%{p1%}kʷədad%>cid*
-* *ʔu0000kʷəda0%>cid*
+* *ʔu%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷədad%>cid*
+* *ʔu000000kʷəda0%>cid*
 
 **d:t before ə b**
 * *bəq̓əd^Pen^RmVOW^d2t>əb*
@@ -134,7 +142,7 @@ pišpiš+N+Distr+Nom: **cat/kissa**
 
 **%{p5%}:Cx in reduplication**
 sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
-* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^Red1CV1toCV2CPL*
+* *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^RedPL1i1i13*
 * *s%^√čičič0txʷəd0*
 
 liquids
@@ -148,7 +156,7 @@ liquids
 **%{p1%}:ʔ in reduplication**
 
 **%{p1%}:Cx in reduplication**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC*
+* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^RedPL123123*
 * *00bəlbəlups0*
 
 **%{p1%}:Cx in reduplication**
