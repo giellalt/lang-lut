@@ -202,14 +202,37 @@ y̓   !!= @CODE@
  +Der
  +Der/xxx !!= * @CODE@ 
  +Der/Dimin !!= * @CODE@ * diminutive
+ +Der/Dimin_12123 !!= * @CODE@ * diminutive pa-pasted ^Red12123
+ +Der/Dimin_1i123 !!= * @CODE@ * diminutive bi-bəlups; qi-qəlb 
+ +Der/Dimin_12q123 !!= * @CODE@ * diminutive 
+ +Der/Dimin_1iq123 !!= * @CODE@ * diminutive 
+ +Der/Dimin_1213 !!= * @CODE@ * diminutive pišpiš > pi-pšpiš;  sbádil:sbábdil
+ +Der/Dimin_1i13 !!= * @CODE@ * diminutive %^Red1i13 
+ +Der/Dimin_12q13 !!= * @CODE@ * diminutive
+ +Der/Dimin_1iq13 !!= * @CODE@ * diminutive
+ +Der/Dimin_121e3 !!= * @CODE@ * diminutive sbádil:sbábədil
+ +Der/Dimin_1i1e3 !!= * @CODE@ * diminutive
+ +Der/Dimin_12q1e3 !!= * @CODE@ * diminutive
+ +Der/Dimin_1iq1e3 !!= * @CODE@ * diminutive
+ 
+ +Der/Dimin_1i1i13 !!= * @CODE@ * diminutive with plural ^RedPL1i1i13
+
+ +Der/Distr	   !!= * @CODE@ * distributive
+ +Der/Distr_123123 !!= * @CODE@ * distributive
+
+ 
  +Der/s !!= * @CODE@ * Noun derivation
  +Vnoun !!= * @CODE@ * Deverbal Noun etc.
- +Der/Red1_12123 !!= * @CODE@ * This is Red1, associated with Dimin
+
+!! Reduplication in Lushootseed is associated with a three-letter reduplication segment.
+!! 
+!! reduplication type 1 envolves the first two letters of the three-letter reduplication segment
+ +Der/Red1_12123 !!= * @CODE@ * This is Red1, associated with Dimin pa-pasted
  +Der/Red1_1i123 !!= * @CODE@ * This is Red1, associated with Dimin
  +Der/Red1_12ʔ123 !!= * @CODE@ * This is Red1, associated with Dimin
  +Der/Red1_1iʔ123 !!= * @CODE@ * This is Red1, associated with Dimin
- +Der/Red1_1213 !!= * @CODE@ * This is Red1, associated with Dimin
- +Der/Red1_1i13 !!= * @CODE@ * This is Red1, associated with Dimin ^Red1CV1toCV2C
+ +Der/Red1_1213 !!= * @CODE@ * This is Red1, associated with Dimin pišpiš > pi-pšpiš; pa-pstəd
+ +Der/Red1_1i13 !!= * @CODE@ * This is Red1, associated with Dimin
  +Der/Red1_12ʔ13 !!= * @CODE@ * This is Red1, associated with Dimin
  +Der/Red1_1iʔ13 !!= * @CODE@ * This is Red1, associated with Dimin
  +Der/Red1_121ə3 !!= * @CODE@ * This is Red1, associated with Dimin
@@ -217,12 +240,19 @@ y̓   !!= @CODE@
  +Der/Red1_12ʔ1ə3 !!= * @CODE@ * This is Red1, associated with Dimin
  +Der/Red1_1iʔ1ə3 !!= * @CODE@ * This is Red1, associated with Dimin
 
- +Der/Red1_1i13_Distr_1212 !!= * @CODE@ * This is Red1, associated with Dimin ^Red1CV1toCV2CPL
+ +Der/Red1_1i13_Distr_1212 !!= * @CODE@ * This is Red1, associated with Dimin ^RedPL1i1i13
+!! reduplication type 2 involves the all three letters of the three-letter reduplication segment
 
-+Der/Red2_3L !!= * @CODE@ * This is Red2 (Red2CVC=R2-123123), usually distributive, it is a reduplication where the first three letters are reduplicated as is
- +Der/Red3_12323 !!= * @CODE@ * This is Red3 this is random verbal
- +Der/Red5_12323 !!= * @CODE@ * This is Red5 This is isolating, individuating
- +Der/Red6_122123 !!= * @CODE@ * This is Red6 
++Der/Red2_3L !!= * @CODE@ * This is Red2 (Red2CVC=R2-123123), usually distributive, it is a reduplication where the first three letters are reduplicated as is pastəd > pas-pastəd
+
+!! reduplication type 3 involves the last two letters of the three-letter reduplication segment
+
++Der/Red3_12323 !!= * @CODE@ * This is Red3 this is random verbal
+ +Der/Red5_12323 !!= * @CODE@ * This is Red5 This is isolating, individuating cəliɬ:cədədiɬ 'he alone'
+
+!! reduplication type 6 involves the all three letters of the three-letter reduplication segment with a double vowel
+
++Der/Red6_122123 !!= * @CODE@ * This is Red6 
  +Der/Red6_1aa1ə3 !!= * @CODE@ * This is Red6 sɬaaɬədəyʔ < sɬadəyʔ
  
 +Clt !!= * @CODE@ %>əxʷ
@@ -286,10 +316,12 @@ y̓   !!= @CODE@
 
 !! And following triggers to control variation
  {front} {back} !!= * @CODE@ 
-%^Red1CV2CiCV !!= * @CODE@ qəlb: qiqəlb *rain showers*
-%^Red1CV1toCV2C !!= * @CODE@ 2-segment to 3-segments with vowel change sčətxʷəd:sčičtxʷəd Der/Red1_1i13
-%^Red1CV1toCV2CPL !!= * @CODE@ 2-segment to 3-segments with vowel change Distr sčətxʷəd:sčičičtxʷəd Der/Red1_1i13_Distr_1212 
-%^Red2CVC !!= * @CODE@ 3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
+%^Red1i123 !!= * @CODE@ qəlb: qiqəlb *rain showers*
+%^Red1i13 !!= * @CODE@ 2-segment to 3-segments with vowel change sčətxʷəd:sčičtxʷəd Der/Red1_1i13
+%^Red1iq13 !!= * @CODE@ iʔ
+%^Red12123 !!= * @CODE@ papastəd
+%^RedPL1i1i13 !!= * @CODE@ 2-segment to 3-segments with vowel change Distr sčətxʷəd:sčičičtxʷəd Der/Red1_1i13_Distr_1212 
+%^RedPL123123 !!= * @CODE@ 3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
 %^Red12323 !!= * @CODE@ should work for Red3 and Red5
 
 %^Pen !!= * @CODE@ this combines with subsequent RmVow or perhaps RmCns

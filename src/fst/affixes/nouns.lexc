@@ -36,36 +36,42 @@ LEXICON N-MSC_with-PL_RED2
 
 ! Derivation
 LEXICON DIM_CV1toCV2C
-@D.PossPx@+Der+Der/Dimin+N:@D.PossPx@%^Red1CV1toCV2C SG-SUF ; !+Der/Red1_1i13
-!@D.PossPx@+Der+Der/Dimin+N+Sg+Nom:@D.PossPx@%^Red1CV1toCV2C # ;
-@R.PossPx@+Der+Der/Dimin+N:@R.PossPx@%^Red1CV1toCV2C SG-SUF ; !+Der/Red1_1i13
-@D.PossPx@+Der+Der/Dimin+N+Distr+Nom:@D.PossPx@%^Red1CV1toCV2CPL PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
-!@D.PossPx@+Der+Der/Dimin+N+Distr+Nom:@D.PossPx@%^Red1CV1toCV2CPL # ;
-@R.PossPx@+Der+Der/Dimin+N+Distr+Nom:@R.PossPx@%^Red1CV1toCV2CPL PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
+@D.PossPx@+Der+Der/Dimin_1i13+N:@D.PossPx@%^Red1i13 SG-SUF ; !+Der/Red1_1i13
+@R.PossPx@+Der+Der/Dimin_1i13+N:@R.PossPx@%^Red1i13 SG-SUF ; !+Der/Red1_1i13
+@D.PossPx@+Err/Orth+Der+Der/Dimin_1iq13+N:@D.PossPx@%^Red1iq13 SG-SUF ; !+Der/Red1_1iq13
+@R.PossPx@+Err/Orth+Der+Der/Dimin_1iq13+N:@R.PossPx@%^Red1iq13 SG-SUF ; !+Der/Red1_1iq13
+@D.PossPx@+Err/Orth+Der+Der/Dimin_1i123+N:@D.PossPx@%^Red1i123 SG-SUF ; !+Der/Red1_1i123
+@R.PossPx@+Err/Orth+Der+Der/Dimin_1i123+N:@R.PossPx@%^Red1i123 SG-SUF ; !+Der/Red1_1i123
+@D.PossPx@+Err/Orth+Der+Der/Dimin_12123+N:@D.PossPx@%^Red12123 SG-SUF ; !+Der/Red1_12123
+@R.PossPx@+Err/Orth+Der+Der/Dimin_12123+N:@R.PossPx@%^Red12123 SG-SUF ; !+Der/Red1_12123
+
+@D.PossPx@+Der+Der/Dimin_1i1i13+N+Distr+Nom:@D.PossPx@%^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
+@R.PossPx@+Der+Der/Dimin_1i1i13+N+Distr+Nom:@R.PossPx@%^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
 
 ! Declension
 LEXICON SG-SUF
 !@D.PossPx@+Sg+Nom:@D.PossPx@ # ; !CHECKME 2021-07
 +Sg+Nom: PRE-POSS_01 ;
 
+
 LEXICON PL_RED1_qelb
-@D.PossPx@+Distr+Nom:@D.PossPx@%^Red1CV2CiCV   # ;
+@D.PossPx@+Distr+Nom:@D.PossPx@%^Red1i123   # ;
 +Distr+Nom:%^Red2CV2CiCV        PRE-POSS_01 ;
 !! qəlb+N+Distr+Nom: **rain showers**
-!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV
+!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1i123
 !!€ 00qi0qəlb0
 
 LEXICON PL_RED2
-@D.PossPx@+Distr+Nom:@D.PossPx@%^Red2CVC PRE-POSS_01 ;
-!@D.PossPx@+Distr+Nom:@D.PossPx@%^Red2CVC # ;
-+Distr+Nom:%^Red2CVC	PRE-POSS_01 ;
+@D.PossPx@+Distr+Nom:@D.PossPx@%^RedPL123123 PRE-POSS_01 ;
+!@D.PossPx@+Distr+Nom:@D.PossPx@%^RedPL123123 # ;
++Distr+Nom:%^RedPL123123	PRE-POSS_01 ;
 !! bəlups+N+Distr+Nom
-!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC
+!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^RedPL123123
 !!€ 00bəlbəlups0
-!!$ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC
+!!$ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^RedPL123123
 !!$ 00000bəlups0
 !! k̓ʷəčədiʔ+N+Distr+Nom: __rabbit/jänis__
-!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^Red2CVC
+!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^RedPL123123
 !!€ 00k̓ʷəčk̓ʷəčədiʔ0
 !!$ k̓ʷəčədiʔ: k̓ʷəčədiʔ+N+Distr+Nom
 

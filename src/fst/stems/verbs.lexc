@@ -9,39 +9,39 @@ bəčdub+V:bəčd V_BECHDUB "knock sm down" ;
 labdub+V:labd V_BECHDUB "see sm" ;
 
 bəq̓əd+V:bəq̓əd V_KWEDAD "swallow" ;
-huyud+V:huyud V_KWEDAD "make" ;
-kʷədad+V:kʷəda»d V_KWEDAD "grab sm; pick up" ;
+huyud+V:huyud V_KWEDAD "make something; make";
+kʷədad+V:kʷədad V_KWEDAD "grab sm; pick up" ;
 q̓ʷuʔəd+V:q̓ʷuʔəd V_KWEDAD "gather sm" ;
 wiliq̓ʷid+V:wíliq̓ʷid V_KWEDAD "ask" ;
 
-qʷibid+V:qʷibi»d V_KWEDAD "prepare" ;
-q̓ʷəld+V:q̓ʷəl»d V_KWEDAD "bake" ;
+qʷibid+V:qʷibid V_KWEDAD "prepare" ;
+q̓ʷəld+V:q̓ʷəld V_KWEDAD "bake" ;
 q̓ʷəl+V:q̓ʷəl V_KWEDAD "bake; ripe" ;
 k̓ʷasəb+V:k̓ʷasəb V_KWEDAD "roast" ;
 ʔiʔɬəd+V:ʔiʔɬəd V_KWEDAD "eat a little, nibblə" ;
 ʔiʔɬadəb+V:ʔìʔɬádəb V_KWEDAD "eat berries as you pick them" ;
 qʷalctxʷ+V:qʷalctxʷ V_KWEDAD "boil" ;
-c̓ix̌id+V:c̓ix̌i»d V_KWEDAD "fry sm" ;
-paq̓ad+V:paq̓a»d V_KWEDAD "spread sm" ;
-q̓ʷuʔgʷəsəd+V:q̓ʷuʔgʷəsə»d V_KWEDAD "mix sm" ;
-k̓ʷəɬəd+V:k̓ʷəɬə»d V_KWEDAD "pour sm" ;
+c̓ix̌id+V:c̓ix̌id V_KWEDAD "fry sm" ;
+paq̓ad+V:paq̓ad V_KWEDAD "spread sm" ;
+q̓ʷuʔgʷəsəd+V:q̓ʷuʔgʷəsəd V_KWEDAD "mix sm" ;
+k̓ʷəɬəd+V:k̓ʷəɬəd V_KWEDAD "pour sm" ;
 q̓ʷuʔəd+V:q̓ʷuʔəd V_KWEDAD "gather sm" ;
-lič̓id+V:lič̓i»d V_KWEDAD "slice sm" ;
-ɬuq̓ʷud+V:ɬuq̓ʷu»d V_KWEDAD "peel sm" ;
-dᶻax̌ʷad+V:dᶻax̌ʷa»d V_KWEDAD "thaw" ;
+lič̓id+V:lič̓id V_KWEDAD "slice sm" ;
+ɬuq̓ʷud+V:ɬuq̓ʷud V_KWEDAD "peel sm" ;
+dᶻax̌ʷad+V:dᶻax̌ʷad V_KWEDAD "thaw" ;
 caq̓ad+V:caq̓ad V_KWEDAD "jab" ;
-bəčad+V:bəča»d V_KWEDAD "put down" ;
-dəgʷad+V:dəgʷa»d V_KWEDAD "put in" ;
-x̌ək̓ʷud+V:x̌ək̓ʷu»d V_KWEDAD "flib sm" ;
-c̓ibid+V:c̓ibi»d V_KWEDAD "dip sm" ;
-q̓ilid+V:q̓ili»d V_KWEDAD "load" ;
-q̓ʷibid+V:q̓ʷibi»d V_KWEDAD "empty" ;
-ƛ̕iqid+V:ƛ̕iqi»d V_KWEDAD "take out" ;
-c̓agʷad+V:c̓agʷa»d V_KWEDAD "wash sm" ;
-x̌ədəd+V:x̌əd»əd V_KWEDAD "push sm" ;
+bəčad+V:bəčad V_KWEDAD "put down" ;
+dəgʷad+V:dəgʷad V_KWEDAD "put in" ;
+x̌ək̓ʷud+V:x̌ək̓ʷud V_KWEDAD "flib sm" ;
+c̓ibid+V:c̓ibid V_KWEDAD "dip sm" ;
+q̓ilid+V:q̓ilid V_KWEDAD "load" ;
+q̓ʷibid+V:q̓ʷibid V_KWEDAD "empty" ;
+ƛ̕iqid+V:ƛ̕iqid V_KWEDAD "take out" ;
+c̓agʷad+V:c̓agʷad V_KWEDAD "wash sm" ;
+x̌ədəd+V:x̌ədəd V_KWEDAD "push sm" ;
 šulud+V:šulud V_KWEDAD "" ;
 
-tagʷš+V:tàgʷ»š V_KWEDAD "buy sm" ;
+tagʷš+V:tàgʷš V_KWEDAD "buy sm" ;
 !cuyayus+V:cuyayus V_KWEDAD  "busy oneself" ;
 yayus+V:yayus V_KWEDAD  "busy oneself" ;!2022-12-20
 cut+V:cut V_HELHED "say" ;
@@ -131,6 +131,5 @@ x̌alšid+V:x̌alšid V_KWEDAD ;
 qʷuʔqʷaʔ+V:qʷuʔqʷaʔ V_KWEDAD ;
 tagʷš+V:tagʷš V_KWEDAD ;
 x̌udx̌udbid+V:x̌udx̌udbid V_KWEDAD ;
-huyud+V:huyud V_KWEDAD "make something";
 
 ! vim: set ft=xfst-lexc:
