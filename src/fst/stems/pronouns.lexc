@@ -28,13 +28,16 @@ caadiɬ+Pron:caadiɬ PRON-PERS-PL3 "(independent and emphatic)" ;
 LEXICON PRON-DEM
 tiʔiɬ+v1+Pron:tiʔiɬ PRON-DEM-MSC-DIST_ ;
 tiʔiɬ+v2+Pron:tiiɬ PRON-DEM-MSC-DIST_ ;
-tiʔiɬ+Pron:tsiʔiɬ PRON-DEM-FEM-DIST_ ;
+tiʔiɬ+v1+Pron:tsiʔiɬ PRON-DEM-FEM-DIST_ ;
+tiʔiɬ+v2+Pron:tsiiɬ PRON-DEM-FEM-DIST_ ;
 kʷi+Pron:kʷi PRON-DEM-MSC-REM_ ;
 kʷi+Pron:kʷsi PRON-DEM-FEM-REM_ ;
 ti+Pron:ti PRON-DEM-MSC_ ;
 ti+Pron:tsi PRON-DEM-FEM_ ;
-tiʔəʔ+Pron:tiʔəʔ PRON-DEM-MSC-PROX_ ;
-tiʔəʔ+Pron:tsiʔəʔ PRON-DEM-FEM-PROX_ ;
+tiʔəʔ+v1+Pron:tiʔəʔ PRON-DEM-MSC-PROX_ ;
+tiʔəʔ+v2+Pron:tiəʔ PRON-DEM-MSC-PROX_ ;
+tiʔəʔ+v1+Pron:tsiʔəʔ PRON-DEM-FEM-PROX_ ;
+tiʔəʔ+v2+Pron:tsiəʔ PRON-DEM-FEM-PROX_ ;
 diɬ+Pron:diɬ K "the one who" ;
 
 LEXICON PRON-INTERR

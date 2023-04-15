@@ -40,6 +40,10 @@ LEXICON DIM_CV1toCV2C
 @R.PossPx@+Der+Der/Dimin_1i13+N:@R.PossPx@%^Red1i13 SG-SUF ; !+Der/Red1_1i13
 @D.PossPx@+Err/Orth+Der+Der/Dimin_1iq13+N:@D.PossPx@%^Red1iq13 SG-SUF ; !+Der/Red1_1iq13
 @R.PossPx@+Err/Orth+Der+Der/Dimin_1iq13+N:@R.PossPx@%^Red1iq13 SG-SUF ; !+Der/Red1_1iq13
+
+@D.PossPx@+Err/Orth+Der+Der/Dimin_1iq123+N:@D.PossPx@%^Red1iq123 SG-SUF ; !+Der/Red1_1iq123
+@R.PossPx@+Err/Orth+Der+Der/Dimin_1iq123+N:@R.PossPx@%^Red1iq123 SG-SUF ; !+Der/Red1_1iq123
+
 @D.PossPx@+Err/Orth+Der+Der/Dimin_1i123+N:@D.PossPx@%^Red1i123 SG-SUF ; !+Der/Red1_1i123
 @R.PossPx@+Err/Orth+Der+Der/Dimin_1i123+N:@R.PossPx@%^Red1i123 SG-SUF ; !+Der/Red1_1i123
 @D.PossPx@+Err/Orth+Der+Der/Dimin_12123+N:@D.PossPx@%^Red12123 SG-SUF ; !+Der/Red1_12123

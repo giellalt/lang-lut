@@ -5,6 +5,7 @@
 LEXICON Verbs
 verb    Persons   ;
 ʔəɬtub+V:ʔəɬt V_BECHDUB "feed sm" ;
+x̌aƛ̕tub+V:x̌aƛ̕t V_BECHDUB "" ;
 bəčdub+V:bəčd V_BECHDUB "knock sm down" ;
 labdub+V:labd V_BECHDUB "see sm" ;
 
@@ -22,6 +23,15 @@ k̓ʷasəb+V:k̓ʷasəb V_KWEDAD "roast" ;
 ʔiʔɬadəb+V:ʔìʔɬádəb V_KWEDAD "eat berries as you pick them" ;
 qʷalctxʷ+V:qʷalctxʷ V_KWEDAD "boil" ;
 c̓ix̌id+V:c̓ix̌id V_KWEDAD "fry sm" ;
+x̌ayəb+V:x̌ayəb V_KWEDAD "" ;
+t̓ək̓ʷəb+V:t̓ək̓ʷəb V_KWEDAD "" ;
+qələb+V:qələb V_KWEDAD "" ;
+x̌ahab+V:x̌ahab V_KWEDAD "" ;
+ʔistəb+V:ʔistəb V_KWEDAD "" ;
+cutəb+v1+V:cutəb V_KWEDAD "" ;
+cutəb+v2+V:cutab V_KWEDAD "" ;
+saxʷəb+v1+V:saxʷəb V_KWEDAD "" ;
+saxʷəb+v2+V:saxʷab V_KWEDAD "" ;
 paq̓ad+V:paq̓ad V_KWEDAD "spread sm" ;
 q̓ʷuʔgʷəsəd+V:q̓ʷuʔgʷəsəd V_KWEDAD "mix sm" ;
 k̓ʷəɬəd+V:k̓ʷəɬəd V_KWEDAD "pour sm" ;
@@ -91,6 +101,12 @@ gʷəč̓əb+V:gʷəč̓əb V_HELHED "search for (agOr)" ;
 č̓itil+V:č̓itil V_HELHED "draw near" ;
 ǰuʔil+V:ǰuʔil V_HELHED "enjoy oneself" ;
 diʔiʔil+V:diʔiʔil V_HELHED "move to other side" ;
+ƛ̕uʔil+V:ƛ̕uʔil V_HELHED "" ;
+dᶻəqil+V:dᶻəqil V_HELHED "" ;
+q̓ʷəlil+V:q̓ʷəlil V_HELHED "" ;
+tədᶻil+V:tədᶻil V_HELHED "" ;
+čil+V:čil V_HELHED "bring home" ;
+t̓iq̓ʷil+V:t̓iq̓ʷil V_HELHED "" ;
 gʷədil+V:gʷədil V_HELHED "sit down" ;
 gəqil+V:gəqil V_HELHED "shine brightly (comment:gʷ vs g)" ;
 həliʔil+V:həliʔil V_HELHED "become well" ;
