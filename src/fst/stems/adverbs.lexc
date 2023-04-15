@@ -3,19 +3,21 @@
 !! Adverbs in the LUSHOOTSEED language 
 
 LEXICON Adverbs
-čad+Adv:čad    ADV-INTERR_  "where" ;
-tul̕čad+Adv:tul̕%^√čád    ADV-INTERR_  "where, whence" ; ! some type of spellrelax á+Adv:a probably dict
-ʔəsčal+Adv:ʔəsčal  ADV-INTERR_  "how" ;
+čad+Adv:čad    ADV_INTERR  "where" ;
+tul̕čad+Adv:tul̕%^√čád    ADV_INTERR  "where, whence" ; ! some type of spellrelax á+Adv:a probably dict
+ʔəsčal+Adv:ʔəsčal  ADV_INTERR  "how" ;
 
-cay+Adv:cay ADV-DEGREE_ "very" ;
-cick̓ʷ+Adv:cick̓ʷ ADV-DEGREE_ "very" ;
-cukʷ+v1+Adv:cukʷ ADV-DEGREE_ "only, uniquely" ;
-cukʷ+v2+Adv:cugʷ ADV-DEGREE_ "only, uniquely" ;
-day̓+Adv:day̓ ADV-DEGREE_ "only, uniquely, separate; foremost, especially; completely, all" ;
-hiqab+Adv:hiqab ADV-DEGREE_ "excessively, too (much)" ; 
+cay+Adv:cay ADV_DEGREE "very" ;
+cick̓ʷ+Adv:cick̓ʷ ADV_DEGREE "very" ;
+cukʷ+v1+Adv:cukʷ ADV_DEGREE "only, uniquely" ;
+cukʷ+v2+Adv:cugʷ ADV_DEGREE "only, uniquely" ;
+day̓+Adv:day̓ ADV_DEGREE "only, uniquely, separate; foremost, especially; completely, all" ;
+hiqab+Adv:hiqab ADV_DEGREE "excessively, too (much)" ; 
+
+q̓ixʷ+Adv:q̓íxʷ ADV_ "upstream" ;
 
 
-hikʷ+Adv:hikʷ ADV-DEGREE_ "big, very, really" ;
+hikʷ+Adv:hikʷ ADV_DEGREE "big, very, really" ;
 laʔab+v1+Adv:laʔab ADV_ "really, a lot" ;
 laʔab+v2+Adv:həlaʔab ADV_ "really, a lot" ;
 ƛ̕al̕+Adv:ƛ̕al̕ ADV_ "also, too" ;
@@ -23,36 +25,39 @@ put+Adv:put ADV_ "very much so, in a great way" ;
 x̌ʷəɬ% ti+Adv:x̌ʷəɬ% ti ADV_ "as though, like" ;
 x̌ʷul̕+Adv:x̌ʷul̕ ADV_ "just (that and nothing else)" ;
 
-tul̕ʔal+Adv:tul̕ʔal ADV-SPAT_ "from" ;! is this a preposition?
-siʔ+Adv:siʔ ADV-SPAT_ "here" ;
-diʔəʔ+Adv:diʔəʔ ADV-SPAT_ "here" ;
-tudiʔ+Adv:tudiʔ ADV-SPAT_ "yonder" ;
-tiləb+v1+Adv:tiləb ADV-SPAT_ "right there, suddenly" ;
-tiləb+v2+Adv:tiiləb ADV-SPAT_ "right there, suddenly" ;
-dxʷt̕aq̓t+Adv:dxʷt̕aq̓t ADV-SPAT_ "on shore" ;
+tul̕ʔal+Adv:tul̕ʔal ADV_SPAT "from" ;! is this a preposition?
+siʔ+Adv:siʔ ADV_SPAT "here" ;
+diʔəʔ+Adv:diʔəʔ ADV_SPAT "here" ;
+tudiʔ+Adv:tudiʔ ADV_SPAT "yonder" ;
+tiləb+v1+Adv:tiləb ADV_SPAT "right there, suddenly" ;
+tiləb+v2+Adv:tiiləb ADV_SPAT "right there, suddenly" ;
+dxʷt̕aq̓t+Adv:dxʷt̕aq̓t ADV_SPAT "on shore" ;
+
+ʔaɬ+Adv:ʔáɬ ADV_ "fast; quickly" ;
+ʔaɬaɬ+Adv:ʔáɬaɬ ADV_ "hurry up! (OC_12323)" ;
 
 
-t̕aq̓t+Adv:t̕aq̓t ADV-SPAT_ "on shore" ;
+t̕aq̓t+Adv:t̕aq̓t ADV_SPAT "on shore" ;
 
-bək̓ʷ+Adv:bək̓ʷ ADV-TOT_ "all" ;
-qa+Adv:qa ADV-QNT_ "many" ;
+bək̓ʷ+Adv:bək̓ʷ ADV_TOT "all" ;
+qa+Adv:qa ADV_QNT "many" ;
 
-ck̓ʷaqid+Adv:ck̓ʷaqid ADV-TEMP_ "always" ;
-cəɬul̕+Adv:cəɬul̕ ADV-TEMP_ "previously, in advance" ;
-daʔxʷ+Adv:daʔxʷ ADV-TEMP_ "just now" ;
-daw̓+Adv:daw̓ ADV-TEMP_ "just now" ;
-gʷaʔxʷ+Adv:gʷaʔxʷ ADV-TEMP_ "eventually, soon" ;
-huy+Adv:huy ADV-TEMP_ "then" ;
-tiləb+Adv:tiləb ADV-TEMP_ "immediately, bluntly" ;
-yaw̓+Adv:yaw̓ ADV-TEMP_ "only if, not until" ;
-hagʷ+Adv:hagʷ ADV-TEMP_ "long time ago" ;
-haʔkʷ+Adv:haʔkʷ ADV-TEMP_ "long time ago" ;
-ɬixʷdat+Adv:ɬixʷdat ADV-TEMP_ "for three days" ;
+ck̓ʷaqid+Adv:ck̓ʷaqid ADV_TEMP "always" ;
+cəɬul̕+Adv:cəɬul̕ ADV_TEMP "previously, in advance" ;
+daʔxʷ+Adv:daʔxʷ ADV_TEMP "just now" ;
+daw̓+Adv:daw̓ ADV_TEMP "just now" ;
+gʷaʔxʷ+Adv:gʷaʔxʷ ADV_TEMP "eventually, soon" ;
+huy+Adv:huy ADV_TEMP "then" ;
+tiləb+Adv:tiləb ADV_TEMP "immediately, bluntly" ;
+yaw̓+Adv:yaw̓ ADV_TEMP "only if, not until" ;
+hagʷ+Adv:hagʷ ADV_TEMP "long time ago" ;
+haʔkʷ+Adv:haʔkʷ ADV_TEMP "long time ago" ;
+ɬixʷdat+Adv:ɬixʷdat ADV_TEMP "for three days" ;
 
-gʷəhaw̓ə+Adv:gʷəhaw̓ə ADV-PARENTHETIC_ "it seems" ;
-xʷɬub+Adv:xʷɬub ADV-PARENTHETIC_ "ultimately, in fact" ;
-xʷuʔələʔ+Adv:xʷuʔələʔ ADV-PARENTHETIC_ "maybe, perhaps" ;
-tux̌ʷ+Adv:tux̌ʷ ADV-PARENTHETIC_ "in contrast to the usual or expected" ;
+gʷəhaw̓ə+Adv:gʷəhaw̓ə ADV_PARENTHETIC "it seems" ;
+xʷɬub+Adv:xʷɬub ADV_PARENTHETIC "ultimately, in fact" ;
+xʷuʔələʔ+Adv:xʷuʔələʔ ADV_PARENTHETIC "maybe, perhaps" ;
+tux̌ʷ+Adv:tux̌ʷ ADV_PARENTHETIC "in contrast to the usual or expected" ;
 
 ƛ̕ub+Aux:ƛ̕ub # "well; ought, should" ;
 xʷiʔ+v1+Aux+Neg:xʷiʔ # "no; not" ;

@@ -5,26 +5,27 @@
 LEXICON ADV_
 :        K   ;
 
-LEXICON ADV-DEGREE_
+LEXICON ADV_DEGREE
 +Deg:        K   ;
 
-LEXICON ADV-INTERR_
+LEXICON ADV_INTERR
 +Interr:        K   ;
 
-LEXICON ADV-PARENTHETIC_
+
+LEXICON ADV_PARENTHETIC
 +Parenthetic:        K   ;
 
-LEXICON ADV-QNT_
+LEXICON ADV_QNT
 +Qnt: K ;
 
-LEXICON ADV-TOT_
-+Tot: K ;
-
-LEXICON ADV-SPAT_
+LEXICON ADV_SPAT
 +Spat:        K   ;
 
-LEXICON ADV-TEMP_
+LEXICON ADV_TEMP
 +Temp:        K   ;
+
+LEXICON ADV_TOT
++Tot: K ;
 
 
 ! vim: set ft=xfst-lexc:
