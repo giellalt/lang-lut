@@ -1,8 +1,35 @@
 !! Numerals
 !  --------
 !! Numerals in the Lushootseed language are numbers.
+! David Beck. 2021. Lushootseed Numerals. University of Alberta.
 
 LEXICON Numerals
+dəč̓uʔ+Num:dəč̓uʔ NUM_ "one" ;
 saliʔ+Num:saliʔ NUM_ "two" ;
+ɬixʷ+Num:ɬixʷ NUM_ "three" ;
+buus+Num:buus NUM_ "four" ;
+cəlac+Num:cəlac NUM_ "five" ;
+yəlaʔc+Num+Dial/-SL:yəlaʔc NUM_ "six" ;
+dᶻəlačiʔ+Num+Dial/-NL:dᶻəlačiʔ NUM_ "six" ;
+c̓ukʷs+Num:c̓ukʷs NUM_ "seven" ;
+təqačiʔ+Num:təqačiʔ NUM_ "eight" ;
+x̌ʷəl+Num:x̌ʷəl NUM_ "nine" ;
+ʔulub+Num+Dial/-SL:ʔulub NUM_ "ten" ;
+padac+Num+Dial/-NL:padac NUM_ "ten" ;
+ʔulub% ʔi% kʷi% dč̓uʔ+Num+Dial/-SL:ʔulub% ʔi% kʷi% dč̓uʔ NUM_ "eleven" ;
+padac% yəxʷ% kʷi% dəč̓uʔ+Num+Dial/-NL:padac% yəxʷ% kʷi% dəč̓uʔ NUM_ "eleven" ;
+saliʔačiʔ+Num:saliʔačiʔ NUM_ "twenty" ;
+
+sɬixʷačiʔ+Num:sɬixʷačiʔ NUM_ "30" ;
+sbuusačiʔ+Num:sbuusačiʔ NUM_ "40" ;
+scəlacačiʔ+Num:scəlacačiʔ NUM_ "50" ;
+yəlaʔcʔčiʔ+Num+Dial/-SL:yəlaʔcʔčiʔ NUM_ "60" ;
+dᶻəlačiʔačiʔ+Num+Dial/-NL:dᶻəlačiʔačiʔ NUM_ "60" ;
+c̓ukʷsačiʔ+Num:c̓ukʷsačiʔ NUM_ "70" ;
+təqačiʔačiʔ+Num:təqačiʔačiʔ NUM_ "80" ;
+x̌ʷəlačiʔ+Num:x̌ʷəlačiʔ NUM_ "90" ;
+dəč̓uʔ% sbək̓ʷačiʔ+Num:dəč̓uʔ% sbək̓ʷačiʔ NUM_ "100" ;
+dəč̓uʔ% sbək̓ʷačiʔ% ʔi% kʷi% dč̓uʔ+Num+Dial/-SL:dəč̓uʔ% sbək̓ʷačiʔ% ʔi% kʷi% dč̓uʔ NUM_ "101" ;
+
 
 ! vim: set ft=xfst-lexc:
