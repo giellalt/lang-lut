@@ -15,6 +15,7 @@ place holders
 * %^Red1i123:0  qəlb: qiqəlb **rain showers**
 * %^Red1i13:0  2-segment to 3-segments with vowel change 
 * %^Red1iq13:0  iʔ
+* %^Red1iq123:0  iʔ biʔbədəʔs
 * %^Red12123:0  papastəd
 * %^RedPL1i1i13:0  2-segment to 3-segments with vowel change Plural
 * %^Red12323:0  works with Red3 and Red5

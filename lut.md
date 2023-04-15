@@ -465,6 +465,7 @@ place holders
 * %^Red1i123:0  qəlb: qiqəlb **rain showers**
 * %^Red1i13:0  2-segment to 3-segments with vowel change 
 * %^Red1iq13:0  iʔ
+* %^Red1iq123:0  iʔ biʔbədəʔs
 * %^Red12123:0  papastəd
 * %^RedPL1i1i13:0  2-segment to 3-segments with vowel change Plural
 * %^Red12323:0  works with Red3 and Red5
@@ -804,6 +805,7 @@ source and target part-of-speech.
 *  +Der/Dimin_1i13  * diminutive %^Red1i13 
 *  +Der/Dimin_12q13  * diminutive
 *  +Der/Dimin_1iq13  * diminutive
+*  +Der/Dimin_1iq123  * diminutive
 *  +Der/Dimin_121e3  * diminutive sbádil:sbábədil
 *  +Der/Dimin_1i1e3  * diminutive
 *  +Der/Dimin_12q1e3  * diminutive
@@ -909,6 +911,7 @@ And following triggers to control variation
 * %^Red1i123  qəlb: qiqəlb *rain showers*
 * %^Red1i13  2-segment to 3-segments with vowel change sčətxʷəd:sčičtxʷəd Der/Red1_1i13
 * %^Red1iq13  iʔ
+* %^Red1iq123  iʔ   biʔbədəʔs
 * %^Red12123  papastəd
 * %^RedPL1i1i13  2-segment to 3-segments with vowel change Distr sčətxʷəd:sčičičtxʷəd Der/Red1_1i13_Distr_1212 
 * %^RedPL123123  3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
