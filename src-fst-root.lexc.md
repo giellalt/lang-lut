@@ -181,7 +181,7 @@ source and target part-of-speech.
 *  +Der/Dimin_1i13  * diminutive %^Red1i13 
 *  +Der/Dimin_12q13  * diminutive
 *  +Der/Dimin_1iq13  * diminutive
-*  +Der/Dimin_1iq123  * diminutive
+
 *  +Der/Dimin_121e3  * diminutive sbádil:sbábədil
 *  +Der/Dimin_1i1e3  * diminutive
 *  +Der/Dimin_12q1e3  * diminutive
@@ -286,6 +286,8 @@ And following triggers to control variation
 *  {front} {back}  
 * %^Red1i123  qəlb: qiqəlb *rain showers*
 * %^Red1i13  2-segment to 3-segments with vowel change sčətxʷəd:sčičtxʷəd Der/Red1_1i13
+* %^Red12q13  
+* %^Red1213 
 * %^Red1iq13  iʔ
 * %^Red1iq123  iʔ   biʔbədəʔs
 * %^Red12123  papastəd
