@@ -73,8 +73,16 @@ LEXICON V_KWEDAD
 
 LEXICON 0V_KWEDAD
 !! kʷədad:kʷədad
-+Der/Red2_3L:%^Red123123 0V_KWEDAD_01a ;
- 0V_KWEDAD_01a ;
++Der/Red2_3L:%^RedPL123123 0V_KWEDAD_01a ;
++Der/Dimin_12123:%^Red12123 0V_KWEDAD_01a ;
++Der/Dimin_1i123:%^Red1i123 0V_KWEDAD_01a ;
++Der/Dimin_12q123:%^Red12q123 0V_KWEDAD_01a ;
++Der/Dimin_1iq123:%^Red1iq123 0V_KWEDAD_01a ;
++Der/Dimin_1213:%^Red1213 0V_KWEDAD_01a ;
++Der/Dimin_1i13:%^Red1i13 0V_KWEDAD_01a ;
++Der/Dimin_12q13:%^Red12q13 0V_KWEDAD_01a ;
++Der/Dimin_1iq13:%^Red1iq13 0V_KWEDAD_01a ;
+0V_KWEDAD_01a ;
 LEXICON 0V_KWEDAD_01a
  0V_KWEDAD_01b ;
 +Pass:%^Pen%^RmVOW%^d2t%>əb 0V_HELHED_01b ;
