@@ -210,7 +210,7 @@ y̓   !!= @CODE@
  +Der/Dimin_1i13 !!= * @CODE@ * diminutive %^Red1i13 
  +Der/Dimin_12q13 !!= * @CODE@ * diminutive
  +Der/Dimin_1iq13 !!= * @CODE@ * diminutive
- +Der/Dimin_1iq123 !!= * @CODE@ * diminutive
+ 
  +Der/Dimin_121e3 !!= * @CODE@ * diminutive sbádil:sbábədil
  +Der/Dimin_1i1e3 !!= * @CODE@ * diminutive
  +Der/Dimin_12q1e3 !!= * @CODE@ * diminutive
@@ -319,6 +319,8 @@ y̓   !!= @CODE@
  {front} {back} !!= * @CODE@ 
 %^Red1i123 !!= * @CODE@ qəlb: qiqəlb *rain showers*
 %^Red1i13 !!= * @CODE@ 2-segment to 3-segments with vowel change sčətxʷəd:sčičtxʷəd Der/Red1_1i13
+%^Red12q13 !!= * @CODE@ 
+%^Red1213 !!= * @CODE@
 %^Red1iq13 !!= * @CODE@ iʔ
 %^Red1iq123 !!= * @CODE@ iʔ   biʔbədəʔs
 %^Red12123 !!= * @CODE@ papastəd
