@@ -55,6 +55,7 @@ tagʷš+V:tàgʷš V_KWEDAD "buy sm" ;
 !cuyayus+V:cuyayus V_KWEDAD  "busy oneself" ;
 yayus+V:yayus V_KWEDAD  "busy oneself" ;!2022-12-20
 cut+V:cut V_HELHED "say" ;
+kʷukʷcut+V:kʷukʷcut V_HELHED "cook" ;
 ʔux̌ʷ+V:ʔux̌ʷ V_KWEDAD "" ;
 tuləkʷ+V:tuləkʷ V_KWEDAD "" ;
 ʔəƛ̕+V:ʔəƛ̕ V_KWEDAD "" ;
@@ -72,6 +73,7 @@ q̓ʷuʔ+V:q̓ʷuʔ IV_HELHED "gather" ;
 səx̌əb+V:səx̌əb V_HELHED "dance" ;
 yəcəb+V:yəcəb V_HELHED "give news" ;
 huyutəb+V:huyutəb V_HELHED "make, prepare (passive)" ;
+ɬiʔɬdahəb+V:ɬiʔɬdahəb V_HELHED "troll for fish" ;
 ɬič̓itəb+V:ɬič̓itəb V_HELHED "cut (passive)" ;
 wiliq̓ʷitəb+V:wíliq̓ʷitəb V_HELHED "ask (passive)" ;
 t̕uk̓ʷtub+V:t̕uk̓ʷtub V_HELHED "take home (passive? t̕uk̓ʷtxʷ)" ;
@@ -92,11 +94,15 @@ p̓ayəq+V:p̓áyəq V_HELHED "hew" ;
 k̓ʷil+V:k̓ʷil V_HELHED "peek" ;
 ʔitut+V:ʔítut V_HELHED "sleep" ;
 gʷəč̓əb+V:gʷəč̓əb V_HELHED "search for (agOr)" ;
+c̓əbəb+V:c̓əbəb V_HELHED "pick berries" ;
 
 ʔiɬšxʷ+V:ʔiɬšxʷ V_HELHED "paddle" ;
 ʔəɬəd+V:ʔəɬəd V_HELHED "eat" ;
+lək̓ʷəd+V:lək̓ʷəd V_HELHED "devour" ;
 ʔuluɬ+V:ʔuluɬ V_HELHED "travel by water" ;
 ƛ̕ax̌ʷ+V:ƛ̕ax̌ʷ V_HELHED "grow" ;
+
+ʔuləx̌əd+V:ʔuləx̌əd V_HELHED "gather from nature" ;
 
 č̓itil+V:č̓itil V_HELHED "draw near" ;
 ǰuʔil+V:ǰuʔil V_HELHED "enjoy oneself" ;
