@@ -64,6 +64,7 @@ pus+N+Dial/-NL:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pus N_with_PL_RED2 "" ;
 
 
 bad+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bad N-MSC_with-PL_RED2 "" ;
+bubx̌əd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bubx̌əd N-MSC_with-PL_RED2 "horsetail" ;
 buusil+v1+Dial/-SL+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}buusil N_with_PL_RED2 "" ;
 buusil+v2+Dial/-NL+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}buusi N_with_PL_RED2 "" ;
 buʔqʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}buʔqʷ N_with_PL_RED2 "" ;
@@ -202,6 +203,7 @@ suq̓ʷaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}suq̓ʷaʔ N_with_PL_RED2 "" ;
 swədaʔx̌+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wədaʔx̌ N_with_PL_RED2 "huckleberry" ;
 swəwaʔ+v1+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wəwaʔ N_with_PL_RED2 "" ;
 swəwaʔ+v2+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wawaʔ N_with_PL_RED2 "" ;
+swəwaʔdis+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wəwaʔdis N_with_PL_RED2 "dandelion" ;
 swatixʷtəd+v1+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}watixʷtəd N_with_PL_RED2 "land, earth, world, country" ;
 swatixʷtəd+v2+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}watxʷixʷtxʷəd N_with_PL_RED2 "land, earth, world, country" ;
 sx̌ayus+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ayus N_with_PL_RED2 "" ;
@@ -254,6 +256,7 @@ x̌aʔx̌alus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌aʔx̌alus N_with_PL_RED2 "" ;
 x̌aʔx̌aʔəɬdat+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌aʔx̌aʔəɬdat N_with_PL_RED2 "" ;
 x̌qp̓ucid+N:x̌%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qp̓ucid N_with_PL_RED2 "" ;
 x̌ədx̌əd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ədx̌əd N_with_PL_RED2 "" ;
+x̌payʔac+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌payʔac N-MSC_with-PL_RED2 "cedar tree" ;
 x̌ʷəlč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷəlč N_with_PL_RED2 "" ;
 yubəč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yubəč N_with_PL_RED2 "king salmon" ;
 yəlab+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəláb N_with_PL_RED2 "uncle" ;
@@ -269,9 +272,11 @@ yəx̌ʷəlaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəx̌ʷulaʔ N_with_PL_RED2 "eag
 č̓itabac+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓itabac N_with_PL_RED2 "" ;
 č̓itabac+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓itabəc N_with_PL_RED2 "" ;
 č̓ič̓əlpyaqid+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓ič̓əlpyaqid N_with_PL_RED2 "" ;
+šəgʷaʔac+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šəgʷaʔac N-MSC_with-PL_RED2 "salmonberry sprout" ;
 šukʷə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šukʷə N_with_PL_RED2 "" ;
 ƛ̕aƛ̕ac̓apəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕aƛ̕ac̓apəd N_with_PL_RED2 "" ;
 ƛ̕aɬəb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕aɬəb N_with_PL_RED2 "" ;
+ƛ̕ax̌ʷdup+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕ax̌ʷdup N_with_PL_RED2 "plants" ;
 ƛ̕iq̓s+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕iq̓s N_with_PL_RED2 "" ;
 ƛ̕ux̌ʷƛ̕ux̌ʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕ux̌ʷƛ̕ux̌ʷ N_with_PL_RED2 "" ;
 ƛ̕xʷayʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕xʷayʔ N_with_PL_RED2 "dogsalmon" ;
