@@ -222,7 +222,7 @@ LEXICON HUNDREDS
 4:buus  CUODI ;
 5:cəlac  CUODI ;
 6:yəlaʔc  CUODI ;
-6:dᶻəlačiʔ  CUODI ;
+6:dᶻəlačiʔ+Use/NG+OLANG/SLH  CUODI ;
 7:c̓ukʷs  CUODI ;
 8:təqačiʔ  CUODI ;
 9:x̌ʷəl  CUODI ;
@@ -274,6 +274,7 @@ LEXICON ONES
 :% yəxʷ% kʷi% +Use/NG+OLANG/SLH ORDINAL ;
 
 LEXICON ONES_ALONE
+%0:p̓aƛ̕aƛ̕ COMMA ;
 1:dəč̓uʔ COMMA ;
 CARDINAL ;
 ORDINAL ;
