@@ -216,7 +216,8 @@ LEXICON UNDERTHOUSAND
 
 
 LEXICON HUNDREDS
-1:dəč̓uʔ CUODI ;
+1:č̓uʔ CUODI ;
+1:dəč̓uʔ+Use/NG CUODI ;
 2:saliʔ  CUODI ;
 3:ɬixʷ  CUODI ;
 4:buus  CUODI ;
@@ -266,7 +267,8 @@ LEXICON LUHKIE
 :ačiʔ  ONES ;
 
 LEXICON ONES
-1:% ʔi% kʷi% dč̓uʔ COMMA ;
+1:% ʔi% kʷi% č̓uʔ COMMA ;
+1:% ʔi% kʷi% dč̓uʔ+Use/NG COMMA ;
 1:% yəxʷ% kʷi% dəč̓uʔ+Use/NG+OLANG/SLH COMMA ;
 :% ʔi% kʷi%  CARDINAL ;
 :% yəxʷ% kʷi% +Use/NG+OLANG/SLH CARDINAL ;
@@ -275,7 +277,8 @@ LEXICON ONES
 
 LEXICON ONES_ALONE
 %0:p̓aƛ̕aƛ̕ COMMA ;
-1:dəč̓uʔ COMMA ;
+1:č̓uʔ COMMA ;
+1:dəč̓uʔ+Use/NG COMMA ;
 CARDINAL ;
 ORDINAL ;
 
