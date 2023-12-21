@@ -24,6 +24,8 @@ place holders
 
 * %^RedPL123123:0  3-segment reduplication 
 
+* %^RedPL130130:0  ƛ̕xʷay: ƛ̕xʷaƛ̕xʷay 
+
 * %^Pen:0  this combines with subsequent RmVow or perhaps RmCns
 * %^RmVOW:0  this removes previous vowel or with Pen the penultimate vowel
 * %^d2t:0  this devoices d to t specifically
@@ -96,6 +98,8 @@ sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
 
 **u:0 in preceding ƛ̕**
 
+**%{pØ%}:a in reduplication**
+
 **%{p2%}:ə in reduplication**
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^RedPL123123*
 * *00bəlbəlups0*
@@ -117,6 +121,8 @@ pišpiš+N+Distr+Nom: **cat/kissa**
 **%{p2%}:a in reduplication**
 
 **%{p2%}:á in reduplication**
+
+**%{pØ%}:0**
 
 **%{p1%}:0**
 

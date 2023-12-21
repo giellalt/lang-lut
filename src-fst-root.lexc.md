@@ -274,6 +274,7 @@ symbols in the lexicon files:
 *  {aä} {oö} {uü}  
 
 place holders
+* %{pØ%}  
 * %{p1%}  
 * %{p2%}  
 * %{p3%}  
@@ -294,6 +295,7 @@ And following triggers to control variation
 * %^RedPL1i1i13  2-segment to 3-segments with vowel change Distr sčətxʷəd:sčičičtxʷəd Der/Red1_1i13_Distr_1212 
 * %^RedPL123123  3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
 * %^Red12323  should work for Red3 and Red5
+* %^RedPL130130  ƛ̕xʷay: ƛ̕xʷaƛ̕xʷay 
 
 * %^Pen  this combines with subsequent RmVow or perhaps RmCns
 * %^RmVOW  this removes previous vowel or with Pen the penultimate vowel
