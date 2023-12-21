@@ -18,6 +18,13 @@ LEXICON N_with_PL_RED2
 : SG-SUF ;
 : PL_RED2 ;
 
+LEXICON N_with_PL_RED130
+!%^RedPL130130
+: SG-SUF ;
+@D.PossPx@+Distr+Nom:@D.PossPx@%^RedPL130130 PRE-POSS_01 ;
++Distr+Nom:%^RedPL130130	PRE-POSS_01 ;
+
+
 LEXICON N_with_Distr_12323_RED5 !Der/Red5_12323
 !%^Red12323
 !: DIM_CV1toCV2C ;

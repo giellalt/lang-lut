@@ -176,6 +176,16 @@ x̌ʷ
 %{p1%}:y̓
 %{p1%}:ʔ
 
+%{pØ%}:a
+%{pØ%}:i
+!%{pØ%}:o
+%{pØ%}:u
+!%{pØ%}:á
+!%{pØ%}:ú
+!%{pØ%}:í
+!%{pØ%}:ə́
+%{pØ%}:ə
+
 
 
 ! 3-segment reduplication
@@ -184,6 +194,7 @@ R31:b R31:l
 R32:l
 E3:ə
 !! place holders
+%{pØ%}:0
 %{p1%}:0
 %{p2%}:0
 %{p3%}:0
@@ -205,6 +216,7 @@ E3:ə
 
 %^RedPL123123:0 !!= * @CODE@ 3-segment reduplication 
 
+%^RedPL130130:0 !!= * @CODE@ ƛ̕xʷay: ƛ̕xʷaƛ̕xʷay 
 
 %^Pen:0 !!= * @CODE@ this combines with subsequent RmVow or perhaps RmCns
 %^RmVOW:0 !!= * @CODE@ this removes previous vowel or with Pen the penultimate vowel
@@ -369,6 +381,13 @@ Rules
 !         [ # | %^√:0 | %< ] Cns _ 0: [ Cns | Vow ] Lts:* %^Red1i13: ;
 !         [ # | %^√:0 | %< ] 0: 0: Cns _ 0: [ Cns | Vow ] Lts:* %^RedPL1i1i13: ;
 
+"%{pØ%}:a in reduplication"
+!! **@RULENAME@**
+ %{pØ%}:a <=> %{p3%}: %{p2%}: %{p1%}: _ Cns: Cns: [a|á] Lts:* [%^RedPL130130:] ;
+
+
+
+
 "%{p2%}:ə in reduplication"
 !! **@RULENAME@**
  %{p2%}:ə <=> %{p3%}: _ %{p1%}: Cns: ə Cns: Lts:* [%^RedPL123123:|%^Red12323:|%^Red12123:|%^Red12q13:|%^Red1213:] ;
@@ -409,26 +428,31 @@ Rules
 !! **@RULENAME@**
  %{p2%}:á <=> %{p3%}: _ %{p1%}: Cns:  á:  Cns: Lts:* [%^RedPL123123:|%^Red12323:|%^Red12123:|%^Red12q13:|%^Red1213:] ;
 
+"%{pØ%}:0"
+!! **@RULENAME@**
+ %{pØ%}:0 <=> %{p1%}: _ Lts:* \[ %^RedPL130130:] [ # | %>: ] ;
+
+
 "%{p1%}:0"
 !! **@RULENAME@**
- %{p1%}:0 <=> _ Lts:* [ %^RedPL1i1i13: | %^Red1i13: |%^Red1213:| # | %>: ] ;
+ %{p1%}:0 <=> _ (%{pØ%}:) Lts:* [ %^RedPL1i1i13: | %^Red1i13: |%^Red1213:| # | %>: ] ;
 
 "%{p2%}:0"
 !! **@RULENAME@**
  %{p2%}:0 <=> _ %{p1%}: Lts:* \[ %^RedPL1i1i13: | %^Red1i13: | %^RedPL123123: | %^Red12323: | %^Red1i123: |%^Red12123:| %^Red1iq13:|%^Red1iq123:] [ # | %>: ] ;
-              
+            _ %{p1%}: %{pØ%}: Cns: Cns: Vow: Lts:* %^RedPL130130: ;   
 
 "%{p3%}:0"
 !! **@RULENAME@**
- %{p3%}:0 <=> _ %{p2%}:  %{p1%}: Lts:* \[ %^RedPL1i1i13: | %^Red1i13: | %^RedPL123123: | %^Red12323: | %^Red1i123: |%^Red1iq13:|%^Red1iq123:|%^Red12123:] [ # | %>: ] ;
+ %{p3%}:0 <=> _ %{p2%}:  %{p1%}: (%{pØ%}:) Lts:* \[ %^RedPL1i1i13: | %^Red1i13: | %^RedPL123123: | %^Red12323: | %^Red1i123: |%^Red1iq13:|%^Red1iq123:|%^Red12123:|%^RedPL130130:] [ # | %>: ] ;
 
 "%{p4%}:0"
 !! **@RULENAME@**
- %{p4%}:0 <=> _ %{p3%}:  %{p2%}:  %{p1%}: Lts:*  [ %^RedPL123123: | %^Red12323: | %^Red1i13: | %^Red1iq13:|%^Red1iq123:|%^Red12123:|%^Red12q13:|%^Red1213:| # | %>: ] ;
+ %{p4%}:0 <=> _ %{p3%}:  %{p2%}:  %{p1%}: (%{pØ%}:) Lts:*  [ %^RedPL123123: | %^Red12323: | %^Red1i13: | %^Red1iq13:|%^Red1iq123:|%^Red12123:|%^Red12q13:|%^Red1213:|%^RedPL130130:| # | %>: ] ;
 
 "%{p5%}:0"
 !! **@RULENAME@**
- %{p5%}:0 <=> _ %{p4%}: %{p3%}:  %{p2%}:  %{p1%}: Lts:* [ %^RedPL123123: | %^Red12323: | %^Red1i13: |%^Red1iq13:|%^Red1iq123:|%^Red12123:|%^Red12q13:|%^Red1213:| # | %>: ];
+ %{p5%}:0 <=> _ %{p4%}: %{p3%}:  %{p2%}:  %{p1%}: (%{pØ%}:) Lts:* [ %^RedPL123123: | %^Red12323: | %^Red1i13: |%^Red1iq13:|%^Red1iq123:|%^Red12123:|%^Red12q13:|%^Red1213:|%^RedPL130130:| # | %>: ];
 
 
 !!! ### CONSONANTS
@@ -461,13 +485,13 @@ d:t <=>	[ə:|»|i:|a:|u:] _ %^Pen: %^RmVOW: %^d2t: %> ə b  ;
 
 "%{p1%}:Cx in reduplication"
 !! **@RULENAME@**
- %{p1%}:Cx <=> %{p3%}: %{p2%}: _ Cns: Vow: Cx [ Cns | Vow ]* [%^RedPL123123:|%^Red12323:] ;
+ %{p1%}:Cx <=> %{p3%}: %{p2%}: _ (%{pØ%}:) Cns: (Vow:) Cx [ Cns | Vow ]* [%^RedPL123123:|%^Red12323:|%^RedPL130130:] ;
            where Cx in (kʷ b̓ ǰ n̓ m̓ p p̓ b t t̕ d dᶻ c c̓ č č̓ s š  ɬ ƛ̕  k k̓ k̓ʷ gʷ h xʷ q q̓ qʷ  x̌ x̌ʷ ) ;
 !!2017-11-27where Cx in (p b t t̕ d dᶻ č š l l̕ ɬ ƛ̕ w w̓ y̓ k̓ʷ gʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
 
 "%{p3%}:Cx in reduplication"
 !! **@RULENAME@**
- %{p3%}:Cx <=> _ %{p2%}: %{p1%}: Cx Vow: Cns [ Cns | Vow ]* %^RedPL123123: ;
+ %{p3%}:Cx <=> _ %{p2%}: %{p1%}: (%{pØ%}:) Cx (Vow:) Cns [ Cns | Vow ]* [%^RedPL123123:|%^RedPL130130:] ;
                 _ %{p2%}: %{p1%}: Cx: Vow: Cns [ Cns | Vow ]* %^Red12323: ;
                _ %{p2%}: %{p1%}: Cx Vow: Cns [ Cns | Vow ]* [ %^Red1i13:|%^RedPL1i1i13:|%^Red1iq13:|%^Red1iq123:] ;
                _ %{p2%}: %{p1%}: Cx Vow Cns [ Cns | Vow ]* [ %^Red1i123:|%^Red12123:] ;

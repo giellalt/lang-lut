@@ -307,6 +307,7 @@ y̓   !!= @CODE@
  {aä} {oö} {uü} !!= * @CODE@ 
 
 !! place holders
+%{pØ%} !!= * @CODE@ 
 %{p1%} !!= * @CODE@ 
 %{p2%} !!= * @CODE@ 
 %{p3%} !!= * @CODE@ 
@@ -327,6 +328,7 @@ y̓   !!= @CODE@
 %^RedPL1i1i13 !!= * @CODE@ 2-segment to 3-segments with vowel change Distr sčətxʷəd:sčičičtxʷəd Der/Red1_1i13_Distr_1212 
 %^RedPL123123 !!= * @CODE@ 3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
 %^Red12323 !!= * @CODE@ should work for Red3 and Red5
+%^RedPL130130 !!= * @CODE@ ƛ̕xʷay: ƛ̕xʷaƛ̕xʷay 
 
 %^Pen !!= * @CODE@ this combines with subsequent RmVow or perhaps RmCns
 %^RmVOW !!= * @CODE@ this removes previous vowel or with Pen the penultimate vowel

@@ -279,11 +279,12 @@ yəx̌ʷəlaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəx̌ʷulaʔ N_with_PL_RED2 "eag
 ƛ̕ax̌ʷdup+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕ax̌ʷdup N_with_PL_RED2 "plants" ;
 ƛ̕iq̓s+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕iq̓s N_with_PL_RED2 "" ;
 ƛ̕ux̌ʷƛ̕ux̌ʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕ux̌ʷƛ̕ux̌ʷ N_with_PL_RED2 "" ;
-ƛ̕xʷayʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕xʷayʔ N_with_PL_RED2 "dogsalmon" ;
+ƛ̕xʷayʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕xʷáyʔ N_with_PL_RED2 "dog salmon" ;
+ƛ̕xʷayʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}%{pØ%}ƛ̕xʷáyʔ N_with_PL_RED130 "dog salmon" ;
 ǰəšəd+N:ǰə%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šəd N_with_PL_RED2 "" ;
 ɬalap+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬalap N_with_PL_RED2 "" ;
 ɬaləp̓+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬaləp̓ N_with_PL_RED2 "" ;
-ɬaʔx̌+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬaʔx̌ N_with_PL_RED2 "" ;
+ɬaʔx+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬaʔx̌ N_with_PL_RED2 "" ;
 ʔaləšək+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔaləšək N_with_PL_RED2 "" ;
 ʔalʔal+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔálʔal N_with_PL_RED2 "house" ;
 ʔiišəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔiišəd N_with_PL_RED2 "" ;
