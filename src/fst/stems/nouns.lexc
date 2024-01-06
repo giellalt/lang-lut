@@ -6,7 +6,7 @@ LEXICON Nouns
 
 tubšədad+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}túbšədàd SG-SUF "(tribe members, what is plural?)" ;
 bəqəlšuɬ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəqəlšuɬ SG-SUF "(tribe members, what is plural?)" ;
-dxʷsƛ̕alb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dxʷsƛ̕alb  SG-SUF "(tribe members, what is plural?)" ;
+dxʷsƛ̕alb+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕alb  SG-SUF "(tribe members, what is plural?)" ;
 qayuqʷatx̌+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qayuqʷatx̌ SG-SUF "(tribe members, what is plural?)" ;
 sqaǰət+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qaǰət SG-SUF "(tribe members, what is plural?)" ;
 sq̓ixʷəbš+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ixʷəbš SG-SUF "(tribe members, what is plural?)" ;
@@ -45,7 +45,7 @@ tsibudᶻaɬ+N:tsi%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}budᶻaɬ SG-SUF "woman's n
 
 dxʷləšucid+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dxʷləšucid SG-SUF "Lushootseed (language)" ;
 txʷəlšucid+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}txʷəlšucid SG-SUF "Lushootseed (language)" ;
-wiw̓suʔ+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wiw̓suʔ SG-SUF "Children (only plural)" ;
+wiw̓suʔ+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wiw̓suʔ SG-SUF "Children (only plural)" ;!Correct contlex?
 wiw̓suʔ+v+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wiw̓su SG-SUF "Children (only plural)" ;
 ʔaciɬtalbixʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔaciɬtalbixʷ N_with_Distr_12323_RED5 "" ;
 
@@ -57,19 +57,40 @@ q̓ilbid+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ilbid N_with_PL_RED2 "" ;
 dᶻəgʷəʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dᶻəgʷəʔ N_with_PL_RED2 "" ;
 sqəlubs+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlubs N_with_PL_RED2 "" ;
 syalt+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yalt N_with_PL_RED2 "" ;
-ʔalš+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔalš N_with_PL_RED2 "" ;
+ʔalš+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔalš N_with_PL_RED2 "sibling of opposite sex" ;
 bəlubs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlubs N_with_PL_RED2 "" ;
+čəgʷas+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čəgʷas N_with_PL_RED2 "" ;
 čəgʷəš+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čəgʷəš N_with_PL_RED2 "" ;
 pus+N+Dial/-NL:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pus N_with_PL_RED2 "" ;
 
+dxʷdaʔəb+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}daʔəb  N_with_PL_RED2 "medicine man" ;
+dxʷsdᶻixʷqs+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dᶻixʷqs  N_with_PL_RED2 "leader" ;
 
-bad+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bad N-MSC_with-PL_RED2 "" ;
+dxʷskʷaxʷad+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷaxʷad  N_with_PL_RED2 "counselor" ;
+dxʷskʷukʷcut+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷukʷcut  N_with_PL_RED2 "cook" ;
+dxʷsɬač̓alikʷ+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬač̓alikʷ  N_with_PL_RED2 "firefighter" ;
+dxʷsɬiʔɬdahəb+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬiʔɬdahəb  N_with_PL_RED2 "fisher" ;
+dxʷsƛ̕əladiʔəb+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕əladiʔəb  N_with_PL_RED2 "musician" ;
+dxʷssp̓ayəq+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sp̓ayəq  N_with_PL_RED2 "carver" ;
+dxʷsqiq̓alikʷ+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qiq̓alikʷ  N_with_PL_RED2 "police officer" ;
+dxʷstəlawiltxʷ+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təlawiltxʷ  N_with_PL_RED2 "bus driver" ;
+dxʷst̕ilib+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕ilib  N_with_PL_RED2 "singer" ;
+dxʷstsulčalikʷ+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tsulčalikʷ  N_with_PL_RED2 "drummer" ;
+dxʷsx̌əƛ̕alap+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌əƛ̕alap  N_with_PL_RED2 "skipper" ;
+dxʷsx̌ʷiw̓xʷiw̓əd+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷiw̓xʷiw̓əd  N_with_PL_RED2 "flutist" ;
+dxʷsxʷiʔxʷiʔ+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}xʷiʔxʷiʔ  N_with_PL_RED2 "hunter" ;
+dxʷsʔugʷusalikʷ+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔugʷusalikʷ  N_with_PL_RED2 "teacher" ;
+huygʷas+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}huygʷas  N_with_PL_RED2 "fiance" ;
+dxʷs+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}  N_with_PL_RED2 "" ;
+dxʷs+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}  N_with_PL_RED2 "" ;
+
+bad+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bad N-MSC_with-PL_RED2 "father|dad" ;
 bubx̌əd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bubx̌əd N-MSC_with-PL_RED2 "horsetail" ;
 buusil+v1+Dial/-SL+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}buusil N_with_PL_RED2 "" ;
 buusil+v2+Dial/-NL+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}buusi N_with_PL_RED2 "" ;
 buʔqʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}buʔqʷ N_with_PL_RED2 "" ;
 bəc̓ac+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəc̓ac N_with_PL_RED2 "" ;
-bədaʔ+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bədaʔ N_with_PL_RED2 "" ;
+bədaʔ+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bədaʔ N_with_PL_RED2 "off-spring|child" ;
 bədaʔ+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bədəʔ N_with_PL_RED2 "" ;
 bəlagʷəʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlagʷəʔ N_with_PL_RED2 "" ;
 bəlups+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups N_with_PL_RED2 "" ;
@@ -94,7 +115,7 @@ gʷədbixʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gʷədbixʷ N_with_PL_RED2 "blackber
 gʷidəq+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gʷidəq N_with_PL_RED2 "" ;
 haʔəc+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}haʔəc N_with_PL_RED2 "" ;
 hiʔhaʔəc+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}hiʔhaʔəc N_with_PL_RED2 "" ;
-kayə+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kayə N-FEM_with-PL_RED2 "" ;
+kayə+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kayə N-FEM_with-PL_RED2 "grandmother" ;
 kayə+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kayəʔ N-FEM_with-PL_RED2 "" ;
 kayə+v3+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kayaʔ N-FEM_with-PL_RED2 "" ;
 kay̓kay̓+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kay̓kay̓ N_with_PL_RED2 "" ;
@@ -111,7 +132,7 @@ k̓ʷič̓k̓ʷič̓lax̌ədxʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷič̓k̓ʷi
 k̓ʷəčədiʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ N-MSC_with-PL_RED2 "" ;
 labatu+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}labatú N_with_PL_RED2 "" ;
 lax̌ad+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}lax̌ad N_with_PL_RED2 "" ;
-luƛ̕+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}luƛ̕ N_with_PL_RED2 "" ;
+luƛ̕+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}luƛ̕ N_with_PL_RED2 "elder" ;
 pišpiš+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}píšpiš N_with_PL_RED2 "" ;
 puʔps+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}puʔps N_with_PL_RED2 "" ;
 puʔtəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}puʔtəd N_with_PL_RED2 "" ;
@@ -139,6 +160,7 @@ qədxʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qədxʷ N_with_PL_RED2 "" ;
 qəlb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb N_with-PL_RED1_qelb "" ;
 qəlub+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlub N_with_PL_RED2 "" ;
 qəluʔb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəluʔb N_with_PL_RED2 "" ;
+qəsiʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəsiʔ N_with_PL_RED2 "uncle" ;
 qiw̓x̌+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qiw̓x̌ N_with_PL_RED2 "steelhead" ;
 qʷist+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qʷist N_with_PL_RED2 "" ;
 qʷəq̓ʷal̕+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qʷəq̓ʷal̕ N_with_PL_RED2 "" ;
@@ -149,7 +171,7 @@ q̓ʷəlastəb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ʷəlastəb N_with_PL_RED2 "se
 sbadil+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}badil N_with_PL_RED2 "" ;
 sbiaw+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}biáw N_with_PL_RED2 "" ;
 sbuusəɬdatil+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}buusəɬdatil N_with_PL_RED2 "" ;
-scapaʔ+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}capaʔ N-MSC_with-PL_RED2 "" ;
+scapaʔ+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}capaʔ N-MSC_with-PL_RED2 "grandfather" ;
 scəbdatil+v1+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cəbdatil N_with_PL_RED2 "" ;
 scəbdatil+v2+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cəbdati N_with_PL_RED2 "" ;
 scəlacəɬdatil+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cəlacəɬdatil N_with_PL_RED2 "" ;
@@ -167,14 +189,14 @@ sk̓ʷaqʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sk̓ʷaqʷ N_with_PL_RED2 "raven" ;
 skʷədulč+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷədulč N_with_PL_RED2 "" ;
 skʷəxʷic+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷəxʷic N_with_PL_RED2 "silver salmon" ;
 sk̓ʷic̓i+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷic̓i N_with_PL_RED2 "" ;
-sk̓ʷuy+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sk̓ʷuy N_with_PL_RED2 "" ;
+sk̓ʷuy+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sk̓ʷuy N_with_PL_RED2 "mother" ;
 sk̓ʷətɬ+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷətɬ N_with_PL_RED2 "" ;
 slihibus+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}lihibus N_with_PL_RED2 "" ;
 sʔəɬəd+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəɬəd N_with_PL_RED2 "food" ;
 spiqʷuc+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}piqʷuc N_with_PL_RED2 "" ;
 spud+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pud N_with_PL_RED2 "" ;
 spuyaləpabš+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}puyaləpabš  N_with_PL_RED2 "" ;
-sqa+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qa N_with_PL_RED2 "" ;
+sqa+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qa N_with_PL_RED2 "older sibling" ;
 sqibk̓ʷ+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qibk̓ʷ N_with_PL_RED2 "" ;
 sqigʷəc+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qigʷəc N_with_PL_RED2 "" ;
 sqədᶻuʔ+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qədᶻuʔ N_with_PL_RED2 "" ;
@@ -197,9 +219,9 @@ stxʷub+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}txʷub N_with_PL_RED2 "" ;
 stəbtabəl̕+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təbtabəl̕ N_with_PL_RED2 "" ;
 st̕ək̓ʷəb+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕ək̓ʷəb N_with_PL_RED2 "" ;
 st̕əqxʷ+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕əqxʷ N_with_PL_RED2 "" ;
-stubš+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tubš N_with_PL_RED2 "" ;
+stubš+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tubš N_with_PL_RED2 "man" ;
 sup̓qs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sup̓qs N_with_PL_RED2 "" ;
-suq̓ʷaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}suq̓ʷaʔ N_with_PL_RED2 "" ;
+suq̓ʷaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}suq̓ʷaʔ N_with_PL_RED2 "younger sibling" ;
 swədaʔx̌+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wədaʔx̌ N_with_PL_RED2 "huckleberry" ;
 swəwaʔ+v1+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wəwaʔ N_with_PL_RED2 "" ;
 swəwaʔ+v2+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wawaʔ N_with_PL_RED2 "" ;
@@ -219,14 +241,18 @@ syəyəhub+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəyəhub N_with_PL_RED2 "legen
 sčiʔyu+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čiʔyu N_with_PL_RED2 "strawberry" ;
 sčətxʷəd+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd N-MSC_with-PL_RED2 "" ;
 sčatqɬəb+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čatqɬəb N-MSC_with-PL_RED2 "" ;
+sč̓abiqʷ+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓abiqʷ N_with_PL_RED2 "great grandparent" ;
 sč̓adᶻəp+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓adᶻəp N_with_PL_RED2 "" ;
 sč̓awəyʔ+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓awəyʔ N_with_PL_RED2 "" ;
+sč̓istxʷ+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓istxʷ N_with_PL_RED2 "husband" ;
+sč̓iyuyaʔ+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓iyuyaʔ N_with_PL_RED2 "twins" ;
 səxʷpupuhigʷəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}səxʷpupuhigʷəd N_with_PL_RED2 "" ;
 səxʷšic̓əlwaʔs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}səxʷšic̓əlwaʔs N_with_PL_RED2 "" ;
 sɬagʷidali+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬagʷidali N_with_PL_RED2 "" ;
 sɬax̌il+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬax̌il N_with_PL_RED2 "" ;
-sɬadəyʔ+v1+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬadəyʔ N_with_PL_RED2 "" ;
+sɬadəyʔ+v1+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬadəyʔ N_with_PL_RED2 "woman" ;
 sɬadəyʔ+v2+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬadayʔ N_with_PL_RED2 "" ;
+sɬaɬədəyʔ+v1+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬaɬədəyʔ N_with_PL_RED2 "girl" ;!Correct contlex!
 sɬixʷəɬdatil+v1+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬixʷəɬdatil N_with_PL_RED2 "" ;
 sɬixʷəɬdatil+v2+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬixʷəɬdati N_with_PL_RED2 "" ;
 sʔacus+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔacus N_with_PL_RED2 "" ;
@@ -235,6 +261,7 @@ sʔilalubid+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔilalubid N_with_PL_RED2 "" ;
 sʔilidgʷəs+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔilidgʷəs N_with_PL_RED2 "" ;
 sʔubəd+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔubəd N_with_PL_RED2 "" ;
 sʔuladxʷ+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔuladxʷ N_with_PL_RED2 "salmon" ;
+taktə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}taktə N_with_PL_RED2 "doctor" ;
 talə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}talə N_with_PL_RED2 "" ;
 tatačulbixʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tátačulbixʷ N_with_PL_RED2 "" ;
 titčulbixʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}títčulbixʷ N_with_PL_RED2 "" ;
@@ -260,7 +287,7 @@ x̌payʔac+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌payʔac N-MSC_with-PL_RED2 "cedar 
 x̌ʷəlč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷəlč N_with_PL_RED2 "" ;
 yubəč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yubəč N_with_PL_RED2 "king salmon" ;
 yəlab+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəláb N_with_PL_RED2 "uncle" ;
-yəl̕yəlab+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəl̕yəláb N_with_PL_RED2 "ancestors" ;
+yəl̕yəlab+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəl̕yəláb N_with_PL_RED2 "ancestors|parents" ;!correct contlex
 yəw̓yəɬdaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəw̓yəɬdaʔ N_with_PL_RED2 "" ;
 yəx̌ʷəlaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəx̌ʷəlaʔ N_with_PL_RED2 "eagle" ;
 yəx̌ʷəlaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəx̌ʷulaʔ N_with_PL_RED2 "eagle" ;
@@ -287,10 +314,10 @@ yəx̌ʷəlaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəx̌ʷulaʔ N_with_PL_RED2 "eag
 ɬaʔx+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬaʔx̌ N_with_PL_RED2 "" ;
 ʔaləšək+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔaləšək N_with_PL_RED2 "" ;
 ʔalʔal+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔálʔal N_with_PL_RED2 "house" ;
-ʔiišəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔiišəd N_with_PL_RED2 "" ;
+ʔiišəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔiišəd N_with_PL_RED2 "family" ;
 ʔik̓ʷusəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔik̓ʷusəd N_with_PL_RED2 "" ;
 ʔukʷs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔukʷs N_with_PL_RED2 "" ;
-ʔəpus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəpus N_with_PL_RED2 "" ;
+ʔəpus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəpus N_with_PL_RED2 "aunt" ;
 həduʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}həduʔ N_with_PL_RED2 "humpy salmon" ;
 huhudali+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}huhudali N_with_PL_RED2 "toaster" ;
 sexʷƛ̕uqʷilali+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕uqʷilali N_with_PL_RED2 "refrigerator" ;
@@ -299,6 +326,7 @@ hihudali+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}hihudali N_with_PL_RED2 "microwave oven
 səxʷc̓əgʷulč+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓əgʷulč N_with_PL_RED2 "dish washer" ;
 hudali+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}hudali N_with_PL_RED2 "stove" ;
 hud+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}hud N_with_PL_RED2 "fire" ;
+ʔibac+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔibac N_with_PL_RED2 "grandchild" ;
 
 xʷƛ̕alap+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}xʷƛ̕alap N_with_PL_RED2 "pot" ;
 səxʷq̓ʷuʔgʷəsəd+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ʷuʔgʷəsəd N_with_PL_RED2 "blender" ;
