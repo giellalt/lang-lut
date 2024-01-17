@@ -7,12 +7,10 @@
 # Set these to names of available orthographic rules in regex and
 # xfscript formats
 GT_ORTHOGRAPHIC_REGEX_SRCS=\
+		inituppercase.regex \
 		spellrelax.regex    \
 		spellrelax-mobile-keyboard.regex \
-		spellrelax-tags.regex \
-		split-composed-chars.regex
-
-#		inituppercase.regex 
+		spellrelax-tags.regex
 
 GT_ORTHOGRAPHIC_XFSCRIPT_SRCS=\
 		allcaps.xfscript      \
