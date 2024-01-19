@@ -2,7 +2,7 @@
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
     <locale>lut</locale>
-    <title>Giellatekno/Divvun/UiT fst-based speller for Lushootseed</title>
+    <title>Lushootseed</title>
     <description>This is an fst-based speller for Lushootseed. It is based
     on the normative subset of the morphological analyser for Lushootseed.
     The source code can be found at:
