@@ -11,10 +11,13 @@ labdub+V:labd V_BECHDUB "see sm" ;
 
 bəq̓əd+V:bəq̓əd V_KWEDAD "swallow" ;
 huyud+V:huyud V_KWEDAD "make something; make";
+k̓ʷəšəd+V:k̓ʷəšəd V_KWEDAD "count" ;
 kʷədad+V:kʷədad V_KWEDAD "grab sm; pick up" ;
 q̓ʷuʔəd+V:q̓ʷuʔəd V_KWEDAD "gather sm" ;
 wiliq̓ʷid+V:wíliq̓ʷid V_KWEDAD "ask" ;
+ɬəgʷilbid+V:ɬəgʷilbid V_KWEDAD "leave sm" ;
 
+ɬx̌ilč+V:ɬx̌ilč V_KWEDAD "stand up" ;
 qʷibid+V:qʷibid V_KWEDAD "prepare" ;
 q̓ʷəld+V:q̓ʷəld V_KWEDAD "bake" ;
 q̓ʷəl+V:q̓ʷəl V_KWEDAD "bake; ripe" ;
@@ -50,6 +53,7 @@ q̓ʷibid+V:q̓ʷibid V_KWEDAD "empty" ;
 c̓agʷad+V:c̓agʷad V_KWEDAD "wash sm" ;
 x̌ədəd+V:x̌ədəd V_KWEDAD "push sm" ;
 šulud+V:šulud V_KWEDAD "" ;
+x̌udx̌ud+V:x̌udx̌ud V_KWEDAD "talk" ;
 
 tagʷš+V:tàgʷš V_KWEDAD "buy sm" ;
 !cuyayus+V:cuyayus V_KWEDAD  "busy oneself" ;
@@ -60,13 +64,20 @@ kʷukʷcut+V:kʷukʷcut V_HELHED "cook" ;
 tuləkʷ+V:tuləkʷ V_KWEDAD "" ;
 ʔəƛ̕+V:ʔəƛ̕ V_KWEDAD "" ;
 ƛ̕ax̌ʷ+V:ƛ̕ax̌ʷ V_KWEDAD "grow" ;
-huytxʷ+V:huytxʷ V_KWEDAD "" ;
-ʔux̌ʷtxʷ+V:ʔux̌ʷtxʷ V_KWEDAD "take" ;
-x̌aƛ̕txʷ+V:x̌aƛ̕txʷ V_KWEDAD "like, want" ;
+huytxʷ+V:huytxʷ V_HUYTXW "" ;
+ʔux̌ʷtxʷ+V:ʔux̌ʷtxʷ V_HUYTXW "take" ;
+yəhaw̓txʷ+V:yəhaw̓txʷ V_HUYTXW "proceed" ;
+x̌aƛ̕txʷ+V:x̌aƛ̕txʷ V_HUYTXW "like, want" ;
+ʔəƛɬtxʷ+V:ʔəƛɬtxʷ V_HUYTXW "feed" ;
+
 huyutsut+V:huyutsut V_KWEDAD "prepare oneself (-t-sut)" ;
 c̓agʷatsut+V:c̓agʷatsut V_KWEDAD "wash oneself (-t-sut)" ;
+səlpəd+V:səlpəd V_KWEDAD "spin" ;
+x̌ac̓iǰəd+V:x̌ac̓iǰəd V_KWEDAD "cover" ;
+ʔilid+V:ʔilid V_KWEDAD "sing" ;
 
 t̕ilib+V:t̕ilib V_HELHED "sing" ;
+taxʷačib+V:taxʷačib V_HELHED "clap hands" ;
 təsadiʔ+v1+V:təsadiʔ V_HELHED "drum" ;
 təsadiʔ+v2+V:tsadiʔ V_HELHED "drum" ; ! check this vowel loss
 q̓ʷuʔ+V:q̓ʷuʔ IV_HELHED "gather" ;
@@ -92,6 +103,8 @@ lək̓ʷyid+V:lək̓ʷyid V_KWEDAD "" ;
 
 p̓ayəq+V:p̓áyəq V_HELHED "hew" ;
 k̓ʷil+V:k̓ʷil V_HELHED "peek" ;
+ɬəgʷil+V:ɬəgʷil V_HELHED "leave" ;
+
 ʔitut+V:ʔítut V_HELHED "sleep" ;
 gʷəč̓əb+V:gʷəč̓əb V_HELHED "search for (agOr)" ;
 c̓əbəb+V:c̓əbəb V_HELHED "pick berries" ;

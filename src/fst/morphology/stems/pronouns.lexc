@@ -42,5 +42,6 @@ diɬ+Pron:diɬ K "the one who" ;
 
 LEXICON PRON-INTERR
 stab+Pron:stab PRON-INTERR_ ;
+gʷat+Pron:gʷat PRON-INTERR_ ;
 
 ! vim: set ft=xfst-lexc:
