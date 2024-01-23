@@ -33,7 +33,7 @@ Define inputmark    [ 0:"@PMATCH_INPUT_MARK@" | 0:"@PMATCH_BACKTRACKING@" ];
 !! * The symbol following {•} is byte-order-mark / zero-width no-break space
 !!   `U+FEFF`.
 Define incondform      Punct|
-                       {„}|{“}|{”}|{…}|{‚}|{‘}|{’}|
+                       {„}|{“}|{”}|{…}|{‚}|{‘}|{’}|{√}|
                        {–}|{—}|{­}|{_}|{<}|{>}|{«}|{»}|
                        {@}|{'}|{‹}|{›}|{➤}|{•}|{﻿} ;
 
