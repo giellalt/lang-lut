@@ -439,7 +439,8 @@ Rules
 
 "%{p2%}:0"
 !! **@RULENAME@**
- %{p2%}:0 <=> _ %{p1%}: Lts:* \[ %^RedPL1i1i13: | %^Red1i13: | %^RedPL123123: | %^Red12323: | %^Red1i123: |%^Red12123:| %^Red1iq13:|%^Red1iq123:] [ # | %>: ] ;
+ %{p2%}:0 <=> _ %{p1%}: Lts:* \[ %^RedPL1i1i13: | %^Red1i13: | %^RedPL123123: | %^Red12323: |%^Red12q13:|%^Red1213:| %^Red1i123: |%^Red12123:| %^Red1iq13:|%^Red1iq123:] [ # | %>: ] ;
+! _ %{p1%}: Lts:* \[ %^RedPL1i1i13: | %^Red1i13: | %^RedPL123123: | %^Red12323: | %^Red1i123: |%^Red12123:| %^Red1iq13:|%^Red1iq123:] [ # | %>: ] ;
             _ %{p1%}: %{pØ%}: Cns: Cns: Vow: Lts:* %^RedPL130130: ;   
 
 "%{p3%}:0"
