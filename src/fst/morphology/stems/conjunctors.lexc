@@ -8,5 +8,6 @@ LEXICON Conjunctors
 gʷəl+CC:gʷəl # "and" ;
 gʷələ+CC:gʷələ # "and" ;
 yəxʷ+CC:yəxʷ # "and" ;
+ʔabil̕+CS:ʔabil̕ # "if" ;
 
 ! vim: set ft=xfst-lexc:

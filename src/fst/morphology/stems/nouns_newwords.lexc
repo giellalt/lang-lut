@@ -23,24 +23,33 @@ səpləl+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}səpləl N_with_PL_RED2 "bread" ;
 səbəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}səbəd N_with_PL_RED2 "bee" ;
 qətqtač+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qətqtač N_with_PL_RED2 "woodpecker" ;
 q̓iq̓ax̌ad+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓iq̓ax̌ad N_with_PL_RED2 "goose" ;
-sqigʷəc+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qigʷəc N_with_PL_RED2 "deer" ;
-sq̓ʷalaš+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ʷalaš N_with_PL_RED2 "mallard duck" ;
-səli+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}həli N_with_PL_RED2 "spirit" ;
-səxʷtəč̓alikʷ+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təč̓alikʷ N_with_PL_RED2 "pointer" ;
-səxʷp̓aʔad+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓aʔad N_with_PL_RED2 "what you taste with" ;
-səxʷluudxʷ+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}luudxʷ N_with_PL_RED2 "what you hear with" ;
-səxʷsubud+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}subud N_with_PL_RED2 "what you smell with" ;
-səxʷyayus+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yayus N_with_PL_RED2 "what you do work with" ;
+sqigʷəc+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qigʷəc N_with_PL_RED2 "deer" ;
+sq̓ʷalaš+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ʷalaš N_with_PL_RED2 "mallard duck" ;
+səli+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}həli N_with_PL_RED2 "spirit" ;
+səxʷtəč̓alikʷ+N:səxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təč̓alikʷ N_with_PL_RED2 "pointer" ;
+səxʷp̓aʔad+N:səxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓aʔad N_with_PL_RED2 "what you taste with" ;
+səxʷluudxʷ+N:səxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}luudxʷ N_with_PL_RED2 "what you hear with" ;
+səxʷsubud+N:səxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}subud N_with_PL_RED2 "what you smell with" ;
+səxʷyayus+N:səxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yayus N_with_PL_RED2 "what you do work with" ;
+səxʷč̓əɬab+N:səxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓əɬab N_with_PL_RED2 "video" ;
+sus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sus N_with_PL_RED2 "sauce" ;
 
 təklus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təklus N_with_PL_RED2 "owl" ;
-stəq̓əxʷ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təq̓əxʷ N_with_PL_RED2 "beaver"	;
+stəq̓əxʷ+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təq̓əxʷ N_with_PL_RED2 "beaver"	;
 t̕it̕x̌əlaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕it̕x̌əlaʔ N_with_PL_RED2 "grasshopper" ;
 x̌əč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌əč N_with_PL_RED2 "mind, inner thoughts" ;
 x̌ibx̌ib+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ibx̌ib N_with_PL_RED2 "bird of prey" ;
-syayus+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yayus N_with_PL_RED2 "work" ;
-syəcəb+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəcəb N_with_PL_RED2 "information" ;
+syayus+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yayus N_with_PL_RED2 "work" ;
+syəcəb+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəcəb N_with_PL_RED2 "information" ;
 yuʔyubəč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yuʔyubəč N_with_PL_RED2 "butterfly" ;
 ɬəčəb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬəčəb N_with_PL_RED2 "weasel" ;
-sdəx̌alqsačiʔ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dəx̌alqsačiʔ N_with_PL_RED2 "fingers" ;
+sdəx̌alqsačiʔ+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dəx̌alqsačiʔ N_with_PL_RED2 "fingers" ;
+xʷəlšucid+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}xʷəlšucid N_with_PL_RED2 "" ;
+gʷədᶻadad+N:gʷədᶻadad N_with_PL_RED2 "teachings" ;
+qʷuʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qʷuʔ N_with_PL_RED2 "water" ;
+
+
+! N_with_PL_RED2 "" ;
+! N_with_PL_RED2 "" ;
 
 ! vim: set ft=xfst-lexc:

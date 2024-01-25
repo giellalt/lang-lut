@@ -3,7 +3,7 @@
 !! Adjectives in the Lushootseed language describe things.
 
 LEXICON Adjectives
-dᶻixʷ+A%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dᶻixʷ A_with-PL_RED2 "first" ;
+dᶻixʷ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dᶻixʷ A_with-PL_RED2 "first" ;
 x̌aʔx̌aʔ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌aʔx̌aʔ A_with-PL_RED2 "great|sacred" ;
 x̌əɬ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌əɬ A_with-PL_RED2 "sick" ;
 x̌əɬəɬx̌əč+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌əɬəɬx̌əč A_with-PL_RED2 "sad" ;
@@ -12,7 +12,7 @@ x̌icil+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌icil A_with-PL_RED2 "angry" ;
 cəwəɬ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cəwəɬ A_with-PL_RED2 "hungry" ;
 cək̓ʷ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cək̓ʷ A_with-PL_RED2 "straight|correct" ;
 bəɬ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəɬ A_with-PL_RED2 "full from eating" ;
-stabaɬ+A:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tabaɬ A_with-PL_RED2 "what kind of" ;
+stabaɬ+A:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tabaɬ A_with-PL_RED2 "what kind of" ;
 x̌ičəc+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ičəc A_with-PL_RED2 "red" ;
 kay̓kay̓alus+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kay̓kay̓alus A_with-PL_RED2 "sky blue" ;
 č̓uɬəyʔalus+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓uɬəyʔalus A_with-PL_RED2 "green" ;

@@ -30,8 +30,10 @@ tiʔiɬ+v1+Pron:tiʔiɬ PRON-DEM-MSC-DIST_ ;
 tiʔiɬ+v2+Pron:tiiɬ PRON-DEM-MSC-DIST_ ;
 tiʔiɬ+v1+Pron:tsiʔiɬ PRON-DEM-FEM-DIST_ ;
 tiʔiɬ+v2+Pron:tsiiɬ PRON-DEM-FEM-DIST_ ;
-kʷi+Pron:kʷi PRON-DEM-MSC-REM_ ;
-kʷi+Pron:kʷsi PRON-DEM-FEM-REM_ ;
+kʷi+v1+Pron:kʷi PRON-DEM-MSC-REM_ ;
+kʷi+v2+Pron:kʷə PRON-DEM-MSC-REM_ ;!paradigmatic
+kʷi+v1+Pron:kʷsi PRON-DEM-FEM-REM_ ;
+kʷi+v2+Pron:kʷsə PRON-DEM-FEM-REM_ ;!paradigmatic
 ti+Pron:ti PRON-DEM-MSC_ ;
 ti+Pron:tsi PRON-DEM-FEM_ ;
 tiʔəʔ+v1+Pron:tiʔəʔ PRON-DEM-MSC-PROX_ ;
