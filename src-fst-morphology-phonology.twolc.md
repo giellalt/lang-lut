@@ -83,7 +83,7 @@ Red 1 qəlb: qiqəlb %^Red1i123
 * *bəq̓əd^Pen^RmVOW^d2t>əb*
 * *bəq̓0t000>əb*
 
-sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
+sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
 * *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^RedPL1i1i13*
 * *s%^√čiči0č0txʷəd0*
 
@@ -109,10 +109,10 @@ sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
 **%{p2%}:í in reduplication**
 
 **%{p2%}:i in reduplication**
-qəlb+N+Distr+Nom: **rain showers**
+qəlb+N+Pl+Nom: **rain showers**
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1i123*
 * *00qi0qəlb0*
-pišpiš+N+Distr+Nom: **cat/kissa**
+pišpiš+N+Pl+Nom: **cat/kissa**
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^RedPL123123*
 * *00pišpišpiš0*
 
@@ -150,7 +150,7 @@ pišpiš+N+Distr+Nom: **cat/kissa**
 **%{p3%}:Cx in reduplication**
 
 **%{p5%}:Cx in reduplication**
-sčətxʷəd+N+Der/Dimin+N+Distr+Nom bear
+sčətxʷəd+N+Der/Dimin+N+Pl+Nom bear
 * *s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^RedPL1i1i13*
 * *s%^√čičič0txʷəd0*
 
