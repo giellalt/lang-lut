@@ -27,6 +27,10 @@ sqigʷəc+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qigʷəc N_with_PL_RED2 "deer" ;
 sq̓ʷalaš+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ʷalaš N_with_PL_RED2 "mallard duck" ;
 səli+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}həli N_with_PL_RED2 "spirit" ;
 səxʷtəč̓alikʷ+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təč̓alikʷ N_with_PL_RED2 "pointer" ;
+səxʷp̓aʔad+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓aʔad N_with_PL_RED2 "what you taste with" ;
+səxʷluudxʷ+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}luudxʷ N_with_PL_RED2 "what you hear with" ;
+səxʷsubud+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}subud N_with_PL_RED2 "what you smell with" ;
+səxʷyayus+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yayus N_with_PL_RED2 "what you do work with" ;
 
 təklus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təklus N_with_PL_RED2 "owl" ;
 stəq̓əxʷ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təq̓əxʷ N_with_PL_RED2 "beaver"	;
