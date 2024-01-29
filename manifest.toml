@@ -1,6 +1,18 @@
 name = "Lushootseed"
 version = "0.1.1"
 
+# Name of the speller package in various languages.
+# The default is English + autonym:
+[speller.name]
+en = "Lushootseed spellchecker"
+lut = "Autonym spellchecker"
+
+# Description of the speller package in various languages.
+# The default is English + autonym:
+[speller.description]
+en = "A spellchecker for Lushootseed, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
+lut = "TRANSLATE: A spellchecker for Lushootseed, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
+
 [macos]
 system_pkg_id = "no.divvun.MacDivvun.lut"
 
