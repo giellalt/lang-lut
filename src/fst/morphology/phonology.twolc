@@ -338,7 +338,7 @@ Rules
 
 "ə:0 in inflection"
 !! **@RULENAME@**
- ə:0 <=>  _ d: %> s: Vow ;
+ ə:0 <=>  _ d: %> c: Vow ;!CHECKME
 !!€ x̌əd»əd%>sid
 !!€ x̌əd000%>cid
         _ d: %^Pen: %^RmVOW: %^d2t: %>  ; !-t-əb Passive
@@ -469,7 +469,7 @@ Rules
 d:0 <=>	_ %> [ c ]  ;
  %{p1%}: _ Vow: [ Cns | Vow ]* %^Red12323: ; ! see Cns:0 in reduplication 3 and 5
 !d:0 <=>	_ %> [ s: #| c ]  ;
-!!!€ ʔu%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷədad%>s
+!!!€ ʔu%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷədad%>c
 !!!€ ʔu000000kʷəda0%>c
 !!€ ʔu%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷədad%>cid
 !!€ ʔu000000kʷəda0%>cid
