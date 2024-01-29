@@ -239,11 +239,11 @@ LEXICON OCPL2
 LEXICON DVN-POSS
 !@R.TAM@ K ;
 @D.PossPx@ K ;!CHECK 2021-07-10
-@R.PossPx.Sg1@@D.OBJ.1@+Der/s+N+Sg+Nom:@R.PossPx.Sg1@@D.OBJ.1@ PXSG1 ;
-@R.PossPx.Sg2@@D.OBJ.2@+Der/s+N+Sg+Nom:@R.PossPx.Sg2@@D.OBJ.2@ PXSG2 ;
-@U.PossPx.SP3@+Der/s+N+Sg+Nom:@U.PossPx.SP3@ PXSP3 ;
-@U.PossPx.Pl1@@D.OBJ.1@+Der/s+N+Sg+Nom:@U.PossPx.Pl1@@D.OBJ.1@0 PXPL1 ;
-@U.PossPx.Pl2@@D.OBJ.2@+Der/s+N+Sg+Nom:@U.PossPx.Pl2@@D.OBJ.2@0 PXPL2 ;
+@R.PossPx.Sg1@@D.OBJ.1@+Der/s+N+Sg:@R.PossPx.Sg1@@D.OBJ.1@ PXSG1 ;
+@R.PossPx.Sg2@@D.OBJ.2@+Der/s+N+Sg:@R.PossPx.Sg2@@D.OBJ.2@ PXSG2 ;
+@U.PossPx.SP3@+Der/s+N+Sg:@U.PossPx.SP3@ PXSP3 ;
+@U.PossPx.Pl1@@D.OBJ.1@+Der/s+N+Sg:@U.PossPx.Pl1@@D.OBJ.1@0 PXPL1 ;
+@U.PossPx.Pl2@@D.OBJ.2@+Der/s+N+Sg:@U.PossPx.Pl2@@D.OBJ.2@0 PXPL2 ;
 
 
 

@@ -21,8 +21,8 @@ LEXICON N_with_PL_RED2
 LEXICON N_with_PL_RED130
 !%^RedPL130130
 : SG-SUF ;
-@D.PossPx@+Pl+Nom:@D.PossPx@%^RedPL130130 PRE-POSS_01 ;
-+Pl+Nom:%^RedPL130130	PRE-POSS_01 ;
+@D.PossPx@+Pl:@D.PossPx@%^RedPL130130 PRE-POSS_01 ;
++Pl:%^RedPL130130	PRE-POSS_01 ;
 
 
 LEXICON N_with_Distr_12323_RED5 !Der/Red5_12323
@@ -56,40 +56,40 @@ LEXICON DIM_CV1toCV2C
 @D.PossPx@+Err/Orth+Der+Der/Dimin_12123+N:@D.PossPx@%^Red12123 SG-SUF ; !+Der/Red1_12123
 @R.PossPx@+Err/Orth+Der+Der/Dimin_12123+N:@R.PossPx@%^Red12123 SG-SUF ; !+Der/Red1_12123
 
-@D.PossPx@+Der+Der/Dimin_1i1i13+N+Pl+Nom:@D.PossPx@%^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
-@R.PossPx@+Der+Der/Dimin_1i1i13+N+Pl+Nom:@R.PossPx@%^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
+@D.PossPx@+Der+Der/Dimin_1i1i13+N+Pl:@D.PossPx@%^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
+@R.PossPx@+Der+Der/Dimin_1i1i13+N+Pl:@R.PossPx@%^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
 
 ! Declension
 LEXICON SG-SUF
-!@D.PossPx@+Sg+Nom:@D.PossPx@ # ; !CHECKME 2021-07
-+Sg+Nom: PRE-POSS_01 ;
+!@D.PossPx@+Sg:@D.PossPx@ # ; !CHECKME 2021-07
++Sg: PRE-POSS_01 ;
 
 
 LEXICON PL_RED1_qelb
-@D.PossPx@+Pl+Nom:@D.PossPx@%^Red1i123   # ;
-+Pl+Nom:%^Red2CV2CiCV        PRE-POSS_01 ;
-!! qəlb+N+Pl+Nom: **rain showers**
+@D.PossPx@+Pl:@D.PossPx@%^Red1i123   # ;
++Pl:%^Red2CV2CiCV        PRE-POSS_01 ;
+!! qəlb+N+Pl: **rain showers**
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1i123
 !!€ 00qi0qəlb0
 
 LEXICON PL_RED2
-@D.PossPx@+Pl+Nom:@D.PossPx@%^RedPL123123 PRE-POSS_01 ;
-!@D.PossPx@+Pl+Nom:@D.PossPx@%^RedPL123123 # ;
-+Pl+Nom:%^RedPL123123	PRE-POSS_01 ;
-!! bəlups+N+Pl+Nom
+@D.PossPx@+Pl:@D.PossPx@%^RedPL123123 PRE-POSS_01 ;
+!@D.PossPx@+Pl:@D.PossPx@%^RedPL123123 # ;
++Pl:%^RedPL123123	PRE-POSS_01 ;
+!! bəlups+N+Pl
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^RedPL123123
 !!€ 00bəlbəlups0
 !!$ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^RedPL123123
 !!$ 00000bəlups0
-!! k̓ʷəčədiʔ+N+Pl+Nom: __rabbit/jänis__
+!! k̓ʷəčədiʔ+N+Pl: __rabbit/jänis__
 !!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^RedPL123123
 !!€ 00k̓ʷəčk̓ʷəčədiʔ0
-!!$ k̓ʷəčədiʔ: k̓ʷəčədiʔ+N+Pl+Nom
+!!$ k̓ʷəčədiʔ: k̓ʷəčədiʔ+N+Pl
 
 LEXICON PL_RED5
 !ʔaciɬtalbixʷ:ʔacaciɬtalbixʷ
-@D.PossPx@+Pl+Nom:@D.PossPx@%^Red12323 PRE-POSS_01 ;
-@R.PossPx@+Pl+Nom:@R.PossPx@%^Red12323	PRE-POSS_01 ;
+@D.PossPx@+Pl:@D.PossPx@%^Red12323 PRE-POSS_01 ;
+@R.PossPx@+Pl:@R.PossPx@%^Red12323	PRE-POSS_01 ;
 
 LEXICON PRE-POSS_01
 @R.TAM-SUBJ.SUBJ@+Mod/Subj:@R.TAM-SUBJ.SUBJ@ PRE-POSS_02 ;
@@ -116,7 +116,7 @@ LEXICON PRE-POSS_05
 @D.TAM-A@ PRE-POSS_06 ;
 
 LEXICON PRE-POSS_06
-@R.NMZ.V2N@+Der/s+N+Sg+Nom:@R.NMZ.V2N@ POSS ;
+@R.NMZ.V2N@+Der/s+N+Sg:@R.NMZ.V2N@ POSS ;
 @R.NMZ.V2A@+Ptc:@R.NMZ.V2A@ POSS ;
 @D.NMZ@ POSS ;
 

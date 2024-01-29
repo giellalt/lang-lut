@@ -4,22 +4,22 @@
 !! nouns, but with a colon (':') as separator.
 
 LEXICON PRON-PERS-SG1
-+Pers+Sg1+Nom:   #  ;
++Pers+Sg1:   #  ;
 
 LEXICON PRON-PERS-SG2
-+Pers+Sg2+Nom:   #  ;
++Pers+Sg2:   #  ;
 
 LEXICON PRON-PERS-SG3
-+Pers+Sg3+Nom:   #  ;
++Pers+Sg3:   #  ;
 
 LEXICON	PRON-PERS-PL1
-+Pers+Pl1+Nom:   #  ;
++Pers+Pl1:   #  ;
 
 LEXICON PRON-PERS-PL2
-+Pers+Pl2+Nom:   #  ;
++Pers+Pl2:   #  ;
 
 LEXICON PRON-PERS-PL3
-+Pers+Pl3+Nom:   #  ;
++Pers+Pl3:   #  ;
 
 LEXICON PRON-INTERR_
 +Interr: K ;
