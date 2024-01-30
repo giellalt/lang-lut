@@ -727,10 +727,13 @@ Numerals are classified under:
 
 Verb moods are:
 *  +Ind +Pot +Cond +Imprt  
+* +Anew     * bə%<
 
-Verb tenses and aspect are:
+Verb/Predicate tenses and aspect are:
 *  +Fut  * future 
 *  +Prs +Prt 
+*  +Hab 	  * habitual ƛ̕u%<
+*  +Irr     * Irrealis (future) ɬu%<
 *  +RemPst  * remote past tu%<
 * +Asp/Pfv  * perfective aspect ʔu%< , (Beck) punctual
 * +Asp/Prog  * progressive aspect lə%<
