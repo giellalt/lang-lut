@@ -3,7 +3,6 @@
 !! Verbs in the Lushootseed language are actions.
 
 LEXICON Verbs
-verb    Persons   ;
 ʔəɬtub+V:ʔəɬt V_BECHDUB "feed sm" ;
 x̌aƛ̕tub+V:x̌aƛ̕t V_BECHDUB "" ;
 bəčdub+V:bəčd V_BECHDUB "knock sm down" ;
@@ -12,7 +11,7 @@ labdub+V:labd V_BECHDUB "see sm" ;
 bəq̓əd+V:bəq̓əd TV_SELPED "swallow" ;
 ɬuq̓ʷud+V:ɬuq̓ʷud V_KWEDAD "peel sm" ;
 x̌ək̓ʷud+V:x̌ək̓ʷud V_KWEDAD "flib sm" ;
-šulud+V:šulud V_KWEDAD "" ;
+šulud+V:šulud V_SELPED "crawl" ;
 x̌udx̌ud+V:x̌udx̌ud V_KWEDAD "talk" ;
 huyud+V:huyud V_KWEDAD "make something; make";
 huy+V:huy V_HUY "make|do|finish|be thus" ;
@@ -100,16 +99,18 @@ cut+V:cut V_HELHED "say" ;
 kʷukʷcut+V:kʷukʷcut V_HELHED "cook" ;
 ʔux̌ʷ+V:ʔux̌ʷ V_KWEDAD "" ;
 
-ʔəƛ̕+V:ʔəƛ̕ V_KWEDAD "" ;
+ʔəƛ̕+V:ʔəƛ̕ V_KWEDAD "come" ;
+ʔəƛ̕c+V:ʔəƛ̕c V_KWEDAD "come after something" ;
+ʔəƛ̕txʷ+V:ʔəƛ̕t TV_HUYTXW "cause to come|bring someone or something" ;
 ƛ̕ax̌ʷ+V:ƛ̕ax̌ʷ V_KWEDAD "grow" ;
-huytxʷ+V:huyt V_HUYTXW "" ;
-ʔux̌ʷtxʷ+V:ʔux̌ʷt V_HUYTXW "take" ;
+huytxʷ+V:huyt TV_HUYTXW "" ;
+ʔux̌ʷtxʷ+V:ʔux̌ʷt TV_HUYTXW "take" ;
 yəhaw̓txʷ+V:yəhaw̓t V_HUYTXW "proceed" ;
-x̌aƛ̕txʷ+V:x̌aƛ̕t V_HUYTXW "like, want" ;
-ʔəƛɬtxʷ+V:ʔəƛɬt V_HUYTXW "feed" ;
-ʔəy̓dxʷ+V:ʔəy̓d V_HUYTXW "find" ;
-haydxʷ+V:hayd V_HUYTXW "know" ;
-ləhaydxʷ+V:ləhayd V_HUYTXW "learn" ;
+x̌aƛ̕txʷ+V:x̌aƛ̕t TV_HUYTXW "like, want" ;
+ʔəƛɬtxʷ+V:ʔəƛɬt TV_HUYTXW "feed" ;
+ʔəy̓dxʷ+V:ʔəy̓d TV_HUYTXW "find" ;
+haydxʷ+V:hayd TV_HUYTXW "know" ;
+ləhaydxʷ+V:ləhayd TV_HUYTXW "learn" ;
 tix̌ix̌dxʷ+V:tix̌ix̌d V_HUYTXW "take care of it" ;
 tix̌ix̌dubut+V:tix̌ix̌dubut V_HUYTXW "take care of ones self" ;
 
@@ -164,16 +165,20 @@ pədixʷalusil+V:pədixʷalusil V_HELHED "get brown" ;
 ɬaʔačiʔb+V:ɬaʔačiʔb V_HELHED "touch" ;
 ƛ̕uq̓ʷəld+V:ƛ̕uq̓ʷəld V_HELHED "barbecue" ;
 qʷiʔaac+V:qʷiʔaac V_HELHED "call out" ;
+ʔux̌ʷc+V:ʔux̌ʷc V_HELHED "go after something" ;
 saq̓ʷ+V:saq̓ʷ V_KWEDAD "fly" ;
 šəqačiʔb+V:šəqačiʔb V_KWEDAD "raise hand" ;
 šub+V:šub  V_KWEDAD "disappear|missing" ;
 šuləlwaʔs+V:šuləlwaʔs  V_KWEDAD "put paddle in canoe" ;
+ʔusils+V:ʔusils V_KWEDAD "dive after something (ʔusils)" ;
 sʔabalikʷ+V:sʔabalikʷ V_KWEDAD "give away" ;
 t̕ədədaxʷ+V:t̕ədədaxʷ  V_KWEDAD "line up" ;
 ʔitut+V:ʔítut V_HELHED "sleep" ;
 gʷəč̓əb+V:gʷəč̓əb V_CUTEB "search for (agOr)" ;
 c̓əbəb+V:c̓əbəb V_CUTEB "pick berries" ;
-
+q̓ʷəlb+v1+V:q̓ʷəlb V_CUTEB "roast something|cook" ;
+q̓ʷəlb+v2+V:q̓ʷələb V_CUTEB "roast something|cook" ;
+gʷəč̓təb+V:gʷəč̓təb V_CUTEB "look for something" ;
 ʔiɬšxʷ+V:ʔiɬšxʷ V_HELHED "paddle" ;
 ʔəɬəd+V:ʔəɬəd V_HELHED "eat" ;
 lək̓ʷəd+V:lək̓ʷəd V_HELHED "devour" ;
