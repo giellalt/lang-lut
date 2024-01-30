@@ -2,29 +2,19 @@
 ! ---------------
 !! The Lushootseed language verbs inflect in object persons.
 
-! Hagiwara :7
-! +OcSg1:%>s
-! +OcSg2:%>sid
+! (cf. Hagiwara :7)
+! +OcSg1:%>c
+! +OcSg2:%>cid
 ! +OcPl1:%>ubuɬ
 ! +OcPl2:%>ubuɬəd
 ! +Oc3:%>d
-! +Refl:%>sut
+! +Refl:%>cut
 ! +Recip:%>agʷəl
 ! +Mid:%>əb
 !
 
 !LEXICON COP_
 !+Cop:	# ;
-
-LEXICON Persons
-+1sg:en   #   ;
-+2sg:et   #   ;
-+3sg:e    #   ;
-+1pl:ien  #   ;
-+2pl:iet  #   ;
-+3pl:iet  #   ;
-+inf:0    #   ;
-!#:0   Nouns   ;
 
 !LEXICON TV_BECHDUB
 !+TV: 0V_BECHDUB ;
@@ -64,6 +54,8 @@ LEXICON 0V_BECHDUB_06
 @R.NMZ.V2A@+Ptc:@R.NMZ.V2A@ OC1/2_š_OR_OCSP3_OR_DVN-POSS ;
 @D.NMZ@ OC1/2_š_OR_OCSP3_OR_DVN-POSS ;
 
+LEXICON TV_HUYTXW
+ V_HUYTXW ;
 LEXICON V_HUYTXW !CHECKME 2024-01-23
  V_BECHDUB ;
 :xʷ 0V_KWEDAD ;
@@ -72,6 +64,9 @@ LEXICON V_CUTEB !CHECKME 2024-01-24
 : 0V_KWEDAD ;
 
 LEXICON TV_SELPED !səlpəd:səlpəd
+: 0V_KWEDAD ;
+
+LEXICON V_SELPED !səlpəd:səlpəd
 : 0V_KWEDAD ;
 
 !LEXICON TV_KWEDAD
