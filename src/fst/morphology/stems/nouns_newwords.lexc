@@ -57,6 +57,32 @@ yayustəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yayustəd N_with_PL_RED2 "tools" ;
 st̕ac̓adil+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕ac̓adil N_with_PL_RED2 "shapes" ;
 sqʷəbayʔ+v1+Dial/-SL+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qʷəbáyʔ N_with_PL_RED2 "dog" ;
 sqʷəbayʔ+v2+Dial/-NL+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qʷubáyʔ N_with_PL_RED2 "dog" ;
+c̓akʷdisbəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓akʷdisbəd N_with_PL_RED2 "toothbrush" ;
+č̓awəyulč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓awəyulč N_with_PL_RED2 "bowl" ;
+cəq̓disbad+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cəq̓disbad N_with_PL_RED2 "fork" ;
+dəxʷtulalikʷ+N:dəxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tulalikʷ N_with_PL_RED2 "book" ;
+dxʷšiʔšɬbəd+N:dxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šiʔšɬbəd N_with_PL_RED2 "window|mirror" ;
+gʷədᶻalʔtxʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gʷədᶻalʔtxʷ N_with_PL_RED2 "building blocks" ;
+hikʷ% səxʷgʷədil+N:hikʷ% səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gʷədil N_with_PL_RED2 "couch" ;
+ləsisu+N:lə%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sisu N_with_PL_RED2 "scissors" ;
+p̓ayəqəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓ayəqəd N_with_PL_RED2 "adze" ;
+p̓ilic̓a+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓ilic̓a N_with_PL_RED2 "fabric" ;
+qʷuʔqʷaʔtəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qʷuʔqʷaʔtəd N_with_PL_RED2 "cup" ;
+sbəkʷ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəkʷ N_with_PL_RED2 "ball" ;
+sc̓əbəbulč+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓əbəbulč N_with_PL_RED2 "berry basket" ;
+šəgʷɬ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šəgʷɬ N_with_PL_RED2 "door|doorway" ;
+səxʷc̓axʷad+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓axʷad N_with_PL_RED2 "club" ;
+səxʷč̓əɬab+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓əɬab N_with_PL_RED2 "television" ;
+səxʷgʷədil+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gʷədil N_with_PL_RED2 "chair" ;
+səxʷkacacutulč+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kacacutulč N_with_PL_RED2 "battery" ;
+səxʷk̓atač+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓atač N_with_PL_RED2 "ladder" ;
+səxʷɬič̓id+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬič̓id N_with_PL_RED2 "lawn mower" ;
+
+
+!Diminutives need different plural
+bibədaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bibədaʔ N_DIM_with_PL_12123 "doll ()" ;
+
+
 
 ! N_with_PL_RED2 "" ;
 ! N_with_PL_RED2 "" ;

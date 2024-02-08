@@ -59,6 +59,10 @@ LEXICON DIM_CV1toCV2C
 @D.PossPx@+Der+Der/Dimin_1i1i13+N+Pl:@D.PossPx@%^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
 @R.PossPx@+Der+Der/Dimin_1i1i13+N+Pl:@R.PossPx@%^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
 
+LEXICON N_DIM_with_PL_12123 !bibədaʔ, bibibədaʔ
++Dim: SG-SUF ;
++Dim+Pl:%^Red12123 PRE-POSS_01 ;
+
 ! Declension
 LEXICON SG-SUF
 !@D.PossPx@+Sg:@D.PossPx@ # ; !CHECKME 2021-07
