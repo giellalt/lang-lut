@@ -60,8 +60,8 @@ LEXICON DIM_CV1toCV2C
 @R.PossPx@+Der+Der/Dimin_1i1i13+N+Pl:@R.PossPx@%^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
 
 LEXICON N_DIM_with_PL_12123 !bibədaʔ, bibibədaʔ
-+Dim: SG-SUF ;
-+Dim+Pl:%^Red12123 PRE-POSS_01 ;
++Dimin: SG-SUF ;
++Dimin+Pl:%^Red12123 PRE-POSS_01 ;
 
 ! Declension
 LEXICON SG-SUF
