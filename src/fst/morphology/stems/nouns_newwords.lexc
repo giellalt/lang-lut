@@ -111,11 +111,12 @@ səxʷƛ̕əladiʔalikʷ+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕əladiʔalik�
 səxʷƛ̕ux̌ʷilali+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕ux̌ʷilali N_with_PL_RED2  "refrigerator" ;
 səxʷp̓ac̓+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓ac̓ N_with_PL_RED2 "sewing machine" ;
 səxʷƛ̕aʔapəq̓+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕aʔapəq̓ N_with_PL_RED2 "smoke detector" ;
+p̓ilic̓aʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓ilic̓aʔ N_with_PL_RED2 "fabric" ;
+
 
 !Diminutives need different plural
 bibədaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bibədaʔ N_DIM_with_PL_12123 "doll ()" ;
 yiyəq̓ʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yiyəq̓ʷ N_DIM_with_PL_12123 "pocket knife" ;
-
 
 
 ! N_with_PL_RED2 "" ;
