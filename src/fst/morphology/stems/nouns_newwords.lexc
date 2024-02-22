@@ -75,12 +75,46 @@ səxʷc̓axʷad+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓axʷad N_with_PL_RED2 "
 səxʷč̓əɬab+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓əɬab N_with_PL_RED2 "television" ;
 səxʷgʷədil+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gʷədil N_with_PL_RED2 "chair" ;
 səxʷkacacutulč+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kacacutulč N_with_PL_RED2 "battery" ;
-səxʷk̓atač+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓atač N_with_PL_RED2 "ladder" ;
+səxʷkʷatač+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷatač N_with_PL_RED2 "ladder" ;
 səxʷɬič̓id+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬič̓id N_with_PL_RED2 "lawn mower" ;
 
+sɬagʷid+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬagʷid N_with_PL_RED2 "bed" ;
+sk̓ayiɬus+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ayiɬus N_with_PL_RED2 "mask" ;
+sgʷədulč+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gʷədulč N_with_PL_RED2 "container" ;
+səxʷʔayilic̓aʔali:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔayilic̓aʔali N_with_PL_RED2 "dresser" ;
+skəkiʔ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kəkiʔ N_with_PL_RED2 "cradleboard" ;
+sɬič̓aʔkʷčup+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬič̓aʔkʷčup N_with_PL_RED2 "hand saw" ;
+sp̓ac̓təd+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓ac̓təd N_with_PL_RED2 "needle" ;
+spəčuʔ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pəčuʔ N_with_PL_RED2 "basket" ;
+sqaʔkʷqidtəd+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qaʔkʷqidtəd N_with_PL_RED2 "pillow" ;
+sx̌alacut+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌alacut N_with_PL_RED2 "picture" ;
+sx̌əlaʔs+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌əlaʔs N_with_PL_RED2 "chalkboard" ;
+sʔəsluʔilc+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəsluʔilc N_with_PL_RED2 "beads" ;
+sʔic̓əb+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔic̓əb N_with_PL_RED2 "blanket" ;
+t̕altəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕altəd N_with_PL_RED2 "knife" ;
+tibu+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tibu N_with_PL_RED2 "table" ;
+t̕ukʷtəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕ukʷtəd N_with_PL_RED2 "ruler" ;
+wəq̓əb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wəq̓əb N_with_PL_RED2 "box" ;
+x̌altəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌altəd N_with_PL_RED2 "pen|pencil" ;
+x̌ədx̌əx̌gʷil+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ədx̌əx̌gʷil N_with_PL_RED2 "stroller" ;
+x̌əɬidup+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌əɬidup N_with_PL_RED2 "rug" ;
+x̌əƛ̕yačəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌əƛ̕yačəd N_with_PL_RED2 "fish spear" ;
+xʷax̌ʷaʔəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}xʷax̌ʷaʔəd N_with_PL_RED2 "clam basket" ;
+x̌ʷiləb+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷiləb N_with_PL_RED2 "thread" ;
+x̌ʷt̕agʷxʷtəd+N:x̌ʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕agʷxʷtəd N_with_PL_RED2 "shelf" ;
+ʔaləxʷk̓ʷid+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔaləxʷk̓ʷid N_with_PL_RED2 "clock" ;
+ʔikʷpipə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔikʷpipə N_with_PL_RED2 "toilet paper" ;
+səxʷqʷiʔaac+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qʷiʔaac N_with_PL_RED2  "slide" ;
+səxʷqʷəcap+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qʷəcap N_with_PL_RED2  "phone" ;
+səxʷqʷuʔqʷaʔ+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qʷuʔqʷaʔ N_with_PL_RED2  "drinkng glass" ;
+səxʷƛ̕əladiʔalikʷ+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕əladiʔalikʷ N_with_PL_RED2  "CD player" ;
+səxʷƛ̕ux̌ʷilali+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕ux̌ʷilali N_with_PL_RED2  "refrigerator" ;
+səxʷp̓ac̓+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓ac̓ N_with_PL_RED2 "sewing machine" ;
+səxʷƛ̕aʔapəq̓+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕aʔapəq̓ N_with_PL_RED2 "smoke detector" ;
 
 !Diminutives need different plural
 bibədaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bibədaʔ N_DIM_with_PL_12123 "doll ()" ;
+yiyəq̓ʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yiyəq̓ʷ N_DIM_with_PL_12123 "pocket knife" ;
 
 
 
