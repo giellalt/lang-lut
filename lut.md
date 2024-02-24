@@ -741,6 +741,8 @@ Verb/Predicate tenses and aspect are:
 * +Asp/ProgStat  * progressive stative aspect lə%<ʔəs%<
 * +Asp/Cont  * ləcu 
 
+* +Dat 	   * verbal derivation -yid/šid
+
 *  +LOC  * lack of control %>dxʷ
 *  +Imprt  = %>ɬi
 
