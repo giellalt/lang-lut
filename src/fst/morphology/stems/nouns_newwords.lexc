@@ -77,7 +77,6 @@ səxʷgʷədil+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gʷədil N_with_PL_RED2 "ch
 səxʷkacacutulč+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kacacutulč N_with_PL_RED2 "battery" ;
 səxʷkʷatač+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷatač N_with_PL_RED2 "ladder" ;
 səxʷɬič̓id+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬič̓id N_with_PL_RED2 "lawn mower" ;
-
 sɬagʷid+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬagʷid N_with_PL_RED2 "bed" ;
 sk̓ayiɬus+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ayiɬus N_with_PL_RED2 "mask" ;
 sgʷədulč+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gʷədulč N_with_PL_RED2 "container" ;
@@ -112,12 +111,22 @@ səxʷƛ̕ux̌ʷilali+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕ux̌ʷilali N_wi
 səxʷp̓ac̓+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓ac̓ N_with_PL_RED2 "sewing machine" ;
 səxʷƛ̕aʔapəq̓+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕aʔapəq̓ N_with_PL_RED2 "smoke detector" ;
 p̓ilic̓aʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓ilic̓aʔ N_with_PL_RED2 "fabric" ;
-
+səxʷʔayilalikʷali+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔayilalikʷali N_with_PL_RED2 "website" ;
+dxʷləšucidəladxʷ+N:dxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ləšucidəladxʷ N_with_PL_RED2 "calendar" ;
+sʔəɬədali+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəɬədali N_with_PL_RED2 "dinning room" ;
+kawič+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kawič N_with_PL_RED2 "hunched back" ;
+x̌ʷayux̌ʷaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷayux̌ʷaʔ N_with_PL_RED2 "fly" ;
+x̌ačuʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ačuʔ N_with_PL_RED2 "lake" ;
+č̓əƛ̕əʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓əƛ̕əʔ N_with_PL_RED2 "rock" ;
+bayac+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bayac N_with_PL_RED2 "meat" ;
+sq̓ʷəlaɬad+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ʷəlaɬad N_with_PL_RED2 "berry|fruit" ;
+st̕qəxʷ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕qəxʷ N_with_PL_RED2 "beaver" ;
 
 !Diminutives need different plural
 bibədaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bibədaʔ N_DIM_with_PL_12123 "doll ()" ;
 yiyəq̓ʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yiyəq̓ʷ N_DIM_with_PL_12123 "pocket knife" ;
-
+kiʔkawič+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kiʔkawič N_with_PL_RED2 "little hunched back" ;
+sxʷiuk̓ʷ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}xʷiuk̓ʷ N_DIM_with_PL_12123 "basket ogress" ;
 
 ! N_with_PL_RED2 "" ;
 ! N_with_PL_RED2 "" ;

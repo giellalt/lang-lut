@@ -3,8 +3,10 @@
 !! Adjectives in the Lushootseed language describe things.
 
 LEXICON Adjectives
+šəq+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šəq A_with-PL_RED2 "high" ;
 dᶻixʷ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dᶻixʷ A_with-PL_RED2 "first" ;
-x̌aʔx̌aʔ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌aʔx̌aʔ A_with-PL_RED2 "great|sacred" ;
+x̌aʔx̌aʔ+v1+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌aʔx̌aʔ A_with-PL_RED2 "great|sacred" ;
+x̌aʔx̌aʔ+v2+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ax̌aʔ A_with-PL_RED2 "great|sacred" ;
 x̌əɬ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌əɬ A_with-PL_RED2 "sick" ;
 x̌əɬəɬx̌əč+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌əɬəɬx̌əč A_with-PL_RED2 "sad" ;
 wələx̌ʷ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wələx̌ʷ A_with-PL_RED2 "strong" ;
@@ -29,9 +31,12 @@ wiʔx̌ʷ+v1+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wiʔx̌ʷ A_with-PL_RED2 "lost" ;
 wiʔx̌ʷ+v2+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wix̌ʷ A_with-PL_RED2 "lost" ;
 bəsad+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəsad A_with-PL_RED2 "dark" ;
 xʷəxʷaʔxʷəʔ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}xʷəxʷaʔxʷəʔ A_with-PL_RED2 "swift" ;
+ɬaw̓t+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬaw̓t  A_with-PL_RED2 "new|latest" ;
 
+ša+v1+Det:ša PRON_DEM "the|a|neutral demonstrative" ;
+ša+v2+Det:šə PRON_DEM "the|a|neutral demonstrative" ;
 tə+Det:tə DET-NEUTRAL-MSC_ "the|a|neutral demonstrative" ;
 tə+Det:tsə DET-NEUTRAL-FEM_ "the|a|neutral demonstrative" ;
 
-
+!  A_with-PL_RED2 "" ;
 ! vim: set ft=xfst-lexc:

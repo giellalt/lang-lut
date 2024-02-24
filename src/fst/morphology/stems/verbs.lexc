@@ -9,6 +9,7 @@ bəčdub+V:bəčd V_BECHDUB "knock sm down" ;
 labdub+V:labd V_BECHDUB "see sm" ;
 
 bəq̓əd+V:bəq̓əd TV_SELPED "swallow" ;
+cuud+V:cuud V_KWEDAD "tell" ;
 ɬuq̓ʷud+V:ɬuq̓ʷud V_KWEDAD "peel sm" ;
 x̌ək̓ʷud+V:x̌ək̓ʷud V_KWEDAD "flib sm" ;
 šulud+V:šulud V_SELPED "crawl" ;
@@ -46,6 +47,7 @@ t̓ək̓ʷəb+V:t̓ək̓ʷəb V_CUTEB "" ;
 qələb+V:qələb V_CUTEB "" ;
 bəƛ̕əd+V:bəƛ̕əd TV_SELPED "touch" ;
 k̓ʷit̕+V:k̓ʷit̕ V_KWEDAD "go down to the waters edge, but no further" ;
+ʔatəbəd+V:ʔatəbəd V_SELPED "die" ;
 
 bəƛ̕šadəb+V:bəƛ̕šadəb  V_CUTEB "touch ones feet" ;
 šəqšəqačib+V:šəqšəqačib V_CUTEB "raise hands" ;
@@ -91,6 +93,7 @@ q̓ʷibid+V:q̓ʷibid V_KWEDAD "empty" ;
 ƛ̕iqid+V:ƛ̕iqid V_KWEDAD "take out" ;
 c̓agʷad+V:c̓agʷad V_KWEDAD "wash sm" ;
 x̌ədəd+V:x̌ədəd TV_SELPED "push sm" ;
+c̓agʷačiʔb+V:c̓agʷačiʔb V_HELHED "wash hands" ;
 
 tagʷš+V:tàgʷš V_KWEDAD "buy sm" ;
 !cuyayus+V:cuyayus V_KWEDAD  "busy oneself" ;
@@ -200,7 +203,8 @@ gʷədil+V:gʷədil V_HELHED "sit down" ;
 gəqil+V:gəqil V_HELHED "shine brightly (comment:gʷ vs g)" ;
 həliʔil+V:həliʔil V_HELHED "become well" ;
 ləliʔil+V:ləliʔil V_HELHED "change" ;
-ləx̌il+V:ləx̌il V_HELHED "become light" ;
+ləx̌il+v1+V:ləx̌il V_HELHED "become light" ;
+ləx̌il+v2+V:ləx̌i V_HELHED "become light" ;
 luƛ̕il+V:luƛ̕il V_HELHED "grow up" ;
 ɬax̌il+V:ɬax̌il V_HELHED "become dark" ;
 ƛ̕iqagʷil+V:ƛ̕iqagʷil V_HELHED "come out of enclosure" ;
@@ -211,7 +215,13 @@ wəliʔil+v1+V:wəliʔil V_HELHED "showing, appearing" ;
 wəliʔil+v2+V:wəliʔi V_HELHED "showing, appearing" ;
 xʷəʔaʔxʷəʔil+V:xʷəʔaʔxʷəʔil V_HELHED "become swift" ;
 x̌aƛ̕il+V:x̌áƛ̕il V_HELHED "argue" ;
+ɬəčil+v1+V:ɬəčil V_HELHED "arrive" ;
+ɬəčil+v2+V:ɬəči V_HELHED "arrive" ;
 bəɬ+V:bəɬ  V_HELHED "full (is this verb or adjective)" ;
+x̌aƛ̕+V:x̌aƛ̕ V_HELHED "like" ;
+t̓uk̓ʷ+V:t̓uk̓ʷ V_HELHED "go home" ;
+q̓ax̌ʷ+V:q̓ax̌ʷ V_HELHED "freeze" ;
+
 
 gʷəqilič+V:gʷəqilič V_HELHED "become enveloped in brightness" ;
 ləx̌ilič+V:ləx̌ilič V_HELHED "become enveloped in light" ;

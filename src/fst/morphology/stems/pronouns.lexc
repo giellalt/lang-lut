@@ -12,7 +12,9 @@ bək̓ʷaʔkʷbixʷ+Pron:bək̓ʷaʔkʷbixʷ K "everyone" ;
 LEXICON PRON-PERS
 čəd+Pron:čəd PRON-PERS-SG1 ;
 čəxʷ+Pron:čəxʷ PRON-PERS-SG2 ;
+čəxʷə+Pron:čəxʷə PRON-PERS-SG2 ;!pron and conj?
 čəɬ+Pron:čəɬ PRON-PERS-PL1 ;
+čəɬə+Pron:čəɬə PRON-PERS-PL1 ;!pron and conj?
 čələp+Pron:čələp PRON-PERS-PL2 ;
 əlgʷəʔ+v1+Pron:əlgʷəʔ PRON-PERS-PL3 ;
 əlgʷəʔ+v2+Pron:həlgʷəʔ PRON-PERS-PL3 ;
@@ -26,24 +28,24 @@ cədiɬ+Pron:cədiɬ PRON-PERS-SG3 "(independent and emphatic)" ;
 caadiɬ+Pron:caadiɬ PRON-PERS-PL3 "(independent and emphatic)" ;
 
 LEXICON PRON-DEM
-tiʔiɬ+v1+Pron:tiʔiɬ PRON-DEM-MSC-DIST_ ;
-tiʔiɬ+v2+Pron:tiiɬ PRON-DEM-MSC-DIST_ ;
-tiʔiɬ+v1+Pron:tsiʔiɬ PRON-DEM-FEM-DIST_ ;
-tiʔiɬ+v2+Pron:tsiiɬ PRON-DEM-FEM-DIST_ ;
-kʷi+v1+Pron:kʷi PRON-DEM-MSC-REM_ ;
-kʷi+v2+Pron:kʷə PRON-DEM-MSC-REM_ ;!paradigmatic
-kʷi+v1+Pron:kʷsi PRON-DEM-FEM-REM_ ;
-kʷi+v2+Pron:kʷsə PRON-DEM-FEM-REM_ ;!paradigmatic
-ti+Pron:ti PRON-DEM-MSC_ ;
-ti+Pron:tsi PRON-DEM-FEM_ ;
-tiʔəʔ+v1+Pron:tiʔəʔ PRON-DEM-MSC-PROX_ ;
-tiʔəʔ+v2+Pron:tiəʔ PRON-DEM-MSC-PROX_ ;
-tiʔəʔ+v1+Pron:tsiʔəʔ PRON-DEM-FEM-PROX_ ;
-tiʔəʔ+v2+Pron:tsiəʔ PRON-DEM-FEM-PROX_ ;
+tiʔiɬ+v1+Pron:tiʔiɬ PRON_DEM_MSC_DIST ;
+tiʔiɬ+v2+Pron:tiiɬ PRON_DEM_MSC_DIST ;
+tiʔiɬ+v1+Pron:tsiʔiɬ PRON_DEM_FEM_DIST ;
+tiʔiɬ+v2+Pron:tsiiɬ PRON_DEM_FEM_DIST ;
+kʷi+v1+Pron:kʷi PRON_DEM_MSC_REM ;
+kʷi+v2+Pron:kʷə PRON_DEM_MSC_REM ;!paradigmatic
+kʷi+v1+Pron:kʷsi PRON_DEM_FEM_REM ;
+kʷi+v2+Pron:kʷsə PRON_DEM_FEM_REM ;!paradigmatic
+ti+Pron:ti PRON_DEM_MSC ;
+ti+Pron:tsi PRON_DEM_FEM ;
+tiʔəʔ+v1+Pron:tiʔəʔ PRON_DEM_MSC_PROX ;
+tiʔəʔ+v2+Pron:tiəʔ PRON_DEM_MSC_PROX ;
+tiʔəʔ+v1+Pron:tsiʔəʔ PRON_DEM_FEM_PROX ;
+tiʔəʔ+v2+Pron:tsiəʔ PRON_DEM_FEM_PROX ;
 diɬ+Pron:diɬ K "the one who" ;
 
 LEXICON PRON-INTERR
-stab+Pron:stab PRON-INTERR_ ;
-gʷat+Pron:gʷat PRON-INTERR_ ;
+stab+Pron:stab PRON_INTERR ;
+gʷat+Pron:gʷat PRON_INTERR ;
 
 ! vim: set ft=xfst-lexc:

@@ -8,7 +8,8 @@ LEXICON Interjections
 hay+Interj:hay # "now, well" ;
 huy̓+Interj:huy̓ # "good-bye" ;
 wiʔaac+Interj:wiʔaac # "hello" ;
-habuʔ+Interj:habuʔ # "(I'm listening)" ;
+habuʔ+v1+Interj:habuʔ # "(I'm listening)" ;
+habuʔ+v2+Interj:habu # "(I'm listening)" ;
 həmuʔ+Interj:həmuʔ # "(I'm listening)" ;
 
 ! vim: set ft=xfst-lexc:

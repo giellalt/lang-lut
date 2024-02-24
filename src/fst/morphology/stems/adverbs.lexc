@@ -37,6 +37,7 @@ tiləb+v1+Adv:tiləb ADV_SPAT "right there, suddenly" ;
 tiləb+v2+Adv:tiiləb ADV_SPAT "right there, suddenly" ;
 dxʷt̕aq̓t+Adv:dxʷt̕aq̓t ADV_SPAT "on shore" ;
 dxʷq̓ixʷ+Adv:dxʷq̓ixʷ ADV_SPAT "upstream (towards)" ;
+til+Adv:til ADV_TEMP "after a while" ;
 
 ʔaɬ+Adv:ʔáɬ ADV_ "fast; quickly" ;
 ʔaɬaɬ+Adv:ʔáɬaɬ ADV_ "hurry up! (OC_12323)" ;
@@ -65,12 +66,13 @@ xʷuʔələʔ+Adv:xʷuʔələʔ ADV_PARENTHETIC "maybe, perhaps" ;
 tux̌ʷ+Adv:tux̌ʷ ADV_PARENTHETIC "in contrast to the usual or expected" ;
 
 ƛ̕ub+Aux:ƛ̕ub # "well; ought, should" ;
-xʷiʔ+v1+Aux+Neg:xʷiʔ # "no; not" ;
-xʷiʔ+v2+Aux+Neg:xʷiiʔ # "no; not" ;
+xʷiʔ+v1+Aux+Neg:xʷiʔ K "no; not" ;
+xʷiʔ+v2+Aux+Neg:xʷiiʔ K "no; not" ;
 gʷəl+Aux+Top:gʷəl # "topic?" ;
 
 ʔu+Pcle+Qst:ʔu PCLE_ "question";
-əw̓ə+Pcle:əw̓ə PCLE_ ;
+əw̓ə+v1+Pcle:əw̓ə PCLE_ ;
+əw̓ə+v1+Pcle:həw̓ə PCLE_ ;
 dᶻəɬ+Pcle:dᶻəɬ PCLE_ ;
 uʔxʷ+Pcle:uʔxʷ PCLE_ ;
 
