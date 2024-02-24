@@ -235,12 +235,18 @@ ləx̌ilič+V:ləx̌ilič V_HELHED "become enveloped in light" ;
 
 !adsuʔəɬəd. ʔuʔəɬəd
 !adsux̌alšid. ʔux̌alšid
-ʔux̌ʷyid+V:ʔux̌ʷyid V_KWEDAD ;!check for SL variant in š
-kʷədyid+v1+V:kʷədyíd V_KWEDAD ;
-kʷədyid+v2+V:kʷədayíd V_KWEDAD ;
-ʔux̌ʷtxʷyid+V:ʔux̌ʷtxʷyid V_KWEDAD ;
-ʔabyid+V:ʔabyid V_KWEDAD ;
-ʔəy̓dxʷyid+V:ʔəy̓dxʷyid V_KWEDAD ;
+ʔux̌ʷyid+v1+Dial/-SL+V:ʔux̌ʷ»yid V_KWEDYID ;!check for SL variant in š
+ʔux̌ʷyid+v2+Dial/-NL+V:ʔux̌ʷ»šid V_KWEDYID ;! » causes problems
+kʷədyid+v1+Dial/-SL+V:kʷəd»yíd V_KWEDYID ;
+kʷədyid+v1+Dial/-NL+V:kʷəd»šíd V_KWEDYID ;
+kʷədyid+v2+Dial/-SL+V:kʷəda»yíd V_KWEDYID ;
+kʷədyid+v2+Dial/-NL+V:kʷəda»šíd V_KWEDYID ;
+ʔux̌ʷtxʷyid+v1+Dial/-SL+V:ʔux̌ʷtxʷ»yid V_KWEDYID ;
+ʔux̌ʷtxʷyid+v2+Dial/-NL+V:ʔux̌ʷtxʷ»šid V_KWEDYID ;
+ʔabyid+v1+Dial/-SL+V:ʔab»yid V_KWEDYID "pass Dat" ;
+ʔabyid+v2+Dial/-NL+V:ʔab»šid V_KWEDYID "pass Dat" ;
+ʔəy̓dxʷyid+v1+Dial/-SL+V:ʔəy̓dxʷ»yid V_KWEDYID ;
+ʔəy̓dxʷyid+v2+Dial/-NL+V:ʔəy̓dxʷ»šid V_KWEDYID ;
 
 
 x̌alšid+V:x̌alšid V_KWEDAD ;

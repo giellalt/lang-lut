@@ -62,6 +62,8 @@ LEXICON V_HUYTXW !CHECKME 2024-01-23
 
 LEXICON V_HUY !CHECKME 2024-02-24
 : 0V_KWEDAD ;
+LEXICON V_KWEDYID ! kʷədyid+V:kʷədyíd
++Dat: V_KWEDAD ;
 
 LEXICON V_CUTEB !CHECKME 2024-01-24
 : 0V_KWEDAD ;
@@ -198,7 +200,7 @@ LEXICON OC1/2_š
  OCSP3 ;
  
 LEXICON OC1/2_s
- OCSG1_s ;
+ OCSG1_c ;
  OCSG2_cid ;
 :ub OCPL1 ;!CHECKME ub twice?
 :ub OCPL2 ;
@@ -208,8 +210,8 @@ LEXICON OC1/2_s
 LEXICON OCSG1_š
 @U.OBJ.1@+OcSg1:@U.OBJ.1@%>š DVN-POSS ;
 
-LEXICON OCSG1_s
-@U.OBJ.1@+OcSg1:@U.OBJ.1@%>s DVN-POSS ;
+LEXICON OCSG1_c ! this has a -d counter part as in Hungarian Sg3 
+@U.OBJ.1@+OcSg1:@U.OBJ.1@%>c DVN-POSS ;
 
 LEXICON OCSG2_icid
 @U.OBJ.2@+OcSg2:@U.OBJ.2@%>icid DVN-POSS ;

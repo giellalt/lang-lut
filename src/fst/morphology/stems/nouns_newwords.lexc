@@ -121,6 +121,19 @@ x̌ačuʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ačuʔ N_with_PL_RED2 "lake" ;
 bayac+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bayac N_with_PL_RED2 "meat" ;
 sq̓ʷəlaɬad+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ʷəlaɬad N_with_PL_RED2 "berry|fruit" ;
 st̕qəxʷ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕qəxʷ N_with_PL_RED2 "beaver" ;
+sqəbuʔ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəbuʔ N_with_PL_RED2 "breast|milk" ;
+dəxʷp̓aʔ+N:dəxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓aʔ N_with_PL_RED2 "taste" ;
+sqigʷəcaɬc̓iʔ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qigʷəcaɬc̓iʔ N_with_PL_RED2 "venison" ;
+qʷistaɬc̓iʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qʷistaɬc̓iʔ N_with_PL_RED2 "beef" ;
+sgʷəlubaɬc̓iʔ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}gʷəlubaɬc̓iʔ N_with_PL_RED2 "chicken meat" ;
+sqʷaliʔ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qʷaliʔ N_with_PL_RED2 "salad" ;
+šəgʷaq+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šəgʷaq N_with_PL_RED2 "carrots" ;
+bidᶻ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bidᶻ N_with_PL_RED2 "beans" ;
+lipli+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}lipli N_with_PL_RED2 "corn" ;
+sɬub+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬub N_with_PL_RED2 "soup" ;
+c̓ix̌+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}c̓ix̌ N_with_PL_RED2 "fry" ;
+ʔəʔus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəʔus N_with_PL_RED2 "egg" ;
+čidᶻ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čidᶻ N_with_PL_RED2 "cheese" ;
 
 !Diminutives need different plural
 bibədaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bibədaʔ N_DIM_with_PL_12123 "doll ()" ;
