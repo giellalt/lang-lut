@@ -15,10 +15,24 @@ LEXICON N_NEWWORDS
 !!swaq̓waq̓ # "February" ;
 !!sɬali # "January" ;
 
-haʔkʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}haʔkʷ N_with_PL_RED2 "long time" ;
+čəlis+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čəlis N_with_PL_RED2 "cherry" ;
+sčiy̓uʔ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čiy̓uʔ N_with_PL_RED2 "strawberry" ;
+ʔapəl+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔapəl N_with_PL_RED2 "apple" ;
+səxʷqʷuʔqʷaʔtəd+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qʷuʔqʷaʔtəd N_with_PL_RED2 "glass" ;
+ʔik̓ʷaʔdəl+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔik̓ʷaʔdəl N_with_PL_RED2 "napkin|paper towel" ;
+skʷədʔulč+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷədʔulč N_with_PL_RED2 "bowl" ;
+kupi+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kupi N_with_PL_RED2 "coffee" ;
+qʷagʷəbalqʷuʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qʷagʷəbalqʷuʔ N_with_PL_RED2 "pop|juice|sweet drink" ;
+dxʷshədalqʷuʔ+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}hədalqʷuʔ N_with_PL_RED2 "tea" ;
+sq̓axʷalqʷuʔ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓axʷalqʷuʔ N_with_PL_RED2 "smoothie" ;
+sʔəɬədalʔtxʷ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəɬədalʔtxʷ N_with_PL_RED2 "restaurant|store" ;
+č̓əɬabalʔtxʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓əɬabalʔtxʷ N_with_PL_RED2 "movie theater" ;
+taw̓d+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}taw̓d N_with_PL_RED2 "town" ;
+sʔukʷukʷ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔukʷukʷ N_with_PL_RED2 "game" ;
 
 
 !Diminutives need different plural
+cəq̓disəbəd+N:cəq̓disəbəd N_with_PL_RED2 "fork" ;
 
 ! N_with_PL_RED2 "" ;
 ! N_with_PL_RED2 "" ;
