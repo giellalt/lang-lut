@@ -69,6 +69,8 @@ The Usage extents are marked using following tags:
 *  +Err/Orth  
 *  +Err/Spellrelax 
 *  +Use/-Spell  
+* **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
+* **+Use/-TTS** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
 
 Dialect tags:
 
@@ -79,7 +81,7 @@ The nominals are inflected in the following Case and Number
 *  +Sg +Du +Pl  
 *  +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh  
 
-The possessor indices are marked as such:
+Possession is marked as follows:
 *  +PxSg1  first person singular
 *  +PxSg2  second person singular
 *  +PxSP3  third person singular or plural
