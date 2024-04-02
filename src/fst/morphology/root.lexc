@@ -88,7 +88,9 @@ y̓   !!= @CODE@
  +Err/Orth  !!= * @CODE@
  +Err/Spellrelax !!= * @CODE@
  +Use/-Spell  !!= * @CODE@
- 
+ +Use/TTS          !!≈ * **@CODE@** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
+ +Use/-TTS         !!≈ * **@CODE@** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
+
 !! Dialect tags:
 
  +Dial/-NL  !!≈ * **@CODE@** not north Lushootseed
@@ -98,7 +100,7 @@ y̓   !!= @CODE@
  +Sg +Du +Pl  !!= * @CODE@
  +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh  !!= * @CODE@
 
-!! The possessor indices are marked as such:
+!! Possession is marked as follows:
  +PxSg1 !!= * @CODE@ first person singular
  +PxSg2 !!= * @CODE@ second person singular
  +PxSP3 !!= * @CODE@ third person singular or plural

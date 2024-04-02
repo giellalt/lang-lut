@@ -311,8 +311,8 @@ sk̓ʷic̓i+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷic̓i N_with_PL_RED2 "sea
 sk̓ʷuy+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sk̓ʷuy N_with_PL_RED2 "mother" ;
 sləx̌il+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ləx̌il N_with_PL_RED2 "daylight" ;
 slihibus+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}lihibus N_with_PL_RED2 "April" ;
-sɬadəyʔ+v1+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬadəyʔ N_with_PL_RED2 "woman" ;
-sɬadəyʔ+v2+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬadayʔ N_with_PL_RED2 "woman" ;
+sɬadəyʔ+v1+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬadəyʔ N_with_PL_RED2_Dial/-NL "woman" ;
+sɬadəyʔ+v2+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬadayʔ N_with_PL_RED2_Dial/-SL "woman" ;
 sɬagʷid+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬagʷid N_with_PL_RED2 "bed" ;
 sɬagʷidali+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬagʷidali N_with_PL_RED2 "bedroom" ;
 sɬaɬədəyʔ+v1+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬaɬədəyʔ N_DIM_with_PL_12123 "girl" ;!Correct contlex!
@@ -333,8 +333,8 @@ spuyaləpabš+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}puyaləpabš  N_with_PL_RED2
 sqa+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qa N_with_PL_RED2 "older sibling" ;
 sq̓aƛ̕+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓aƛ̕ N_with_PL_RED2 "otter" ;
 sqaʔkʷqidtəd+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qaʔkʷqidtəd N_with_PL_RED2 "pillow" ;
-sq̓əbayʔ+v1+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓əbáyʔ N_with_PL_RED2 "skunk" ;
-sq̓əbayʔ+v2+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓əbiyəʔ N_with_PL_RED2 "skunk" ;
+sq̓əbayʔ+v1+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓əbáyʔ N_with_PL_RED2_Dial/-SL "skunk" ;
+sq̓əbayʔ+v2+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓əbiyəʔ N_with_PL_RED2_Dial/-NL "skunk" ;
 sq̓əbayʔ+v3+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓əbiyuʔ N_with_PL_RED2 "skunk" ;
 sqəbuʔ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəbuʔ N_with_PL_RED2 "breast|milk" ;
 sq̓əbyaʔ+v4+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓əbyaʔ N_with_PL_RED2 "skunk" ;
@@ -373,8 +373,8 @@ sus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}sus N_with_PL_RED2 "sauce" ;
 swatixʷtəd+v1+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}watixʷtəd N_with_PL_RED2 "land, earth, world, country" ;
 swatixʷtəd+v2+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}watxʷixʷtxʷəd N_with_PL_RED2 "land, earth, world, country" ;
 swədaʔx̌+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wədaʔx̌ N_with_PL_RED2 "huckleberry" ;
-swəwaʔ+v1+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wəwaʔ N_with_PL_RED2 "cougar" ;
-swəwaʔ+v2+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wawaʔ N_with_PL_RED2 "cougar" ;
+swəwaʔ+v1+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wəwaʔ N_with_PL_RED2_Dial/-NL "cougar" ;
+swəwaʔ+v2+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wawaʔ N_with_PL_RED2_Dial/-SL "cougar" ;
 swəwaʔdis+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wəwaʔdis N_with_PL_RED2 "dandelion" ;
 sx̌alacut+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌alacut N_with_PL_RED2 "picture" ;
 sx̌ayus+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ayus N_with_PL_RED2 "head" ;
@@ -456,16 +456,16 @@ yayustəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yayustəd N_with_PL_RED2 "tools" ;
 yəlab+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəláb N_with_PL_RED2 "uncle|either parent's sibling of either sex when parent is deceased" ;
 yəl̕yəlab+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəl̕yəláb N_with_PL_RED2 "ancestors|parents" ;!correct contlex
 yəw̓yəɬdaʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəw̓yəɬdaʔ N_with_PL_RED2 "fawn" ;
-yəx̌ʷəlaʔ+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəx̌ʷəlaʔ N_with_PL_RED2 "eagle" ;
-yəx̌ʷəlaʔ+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəx̌ʷulaʔ N_with_PL_RED2 "eagle" ;
+yəx̌ʷəlaʔ+v1+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəx̌ʷəlaʔ N_with_PL_RED2_Dial/-SL "eagle" ;
+yəx̌ʷəlaʔ+v2+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yəx̌ʷulaʔ N_with_PL_RED2_Dial/-NL "eagle" ;
 yiyəq̓ʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yiyəq̓ʷ N_DIM_with_PL_12123 "pocket knife" ;
-yubəč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yubəč N_with_PL_RED2 "king salmon" ;
+yubəč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yubəč N_with_PL_RED2_Dial/-SL "king salmon" ;
 yuʔyubəč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yuʔyubəč N_with_PL_RED2 "butterfly" ;
 ʔaləšək+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔaləšək N_with_PL_RED2 "turtle" ;
 ʔaləxʷk̓ʷid+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔaləxʷk̓ʷid N_with_PL_RED2 "clock" ;
 ʔalš+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔalš N_with_PL_RED2 "sibling of opposite sex" ;
 ʔalʔal+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔálʔal N_with_PL_RED2 "house" ;
-ʔəpus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəpus N_with_PL_RED2 "aunt" ;
+ʔəpus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəpus N_with_PL_RED2_Dial/-SL "aunt" ;
 ʔəʔus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəʔus N_with_PL_RED2 "egg" ;
 ʔibac+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔibac N_with_PL_RED2 "grandchild" ;
 ʔiišəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔiišəd N_with_PL_RED2 "family" ;
@@ -473,5 +473,20 @@ yuʔyubəč+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}yuʔyubəč N_with_PL_RED2 "butterfl
 ʔik̓ʷpipə+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔik̓ʷpipə N_with_PL_RED2 "toilet paper" ;
 ʔik̓ʷusəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔik̓ʷusəd N_with_PL_RED2 "towel|napkin" ;
 ʔukʷs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔukʷs N_with_PL_RED2 "chiton (large)" ;
+čəlis+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čəlis N_with_PL_RED2 "cherry" ;
+sčiy̓uʔ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čiy̓uʔ N_with_PL_RED2 "strawberry" ;
+ʔapəl+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔapəl N_with_PL_RED2 "apple" ;
+səxʷqʷuʔqʷaʔtəd+N:səxʷ%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qʷuʔqʷaʔtəd N_with_PL_RED2 "glass" ;
+ʔik̓ʷaʔdəl+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔik̓ʷaʔdəl N_with_PL_RED2 "napkin|paper towel" ;
+skʷədʔulč+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷədʔulč N_with_PL_RED2 "bowl" ;
+kupi+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kupi N_with_PL_RED2 "coffee" ;
+qʷagʷəbalqʷuʔ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qʷagʷəbalqʷuʔ N_with_PL_RED2 "pop|juice|sweet drink" ;
+dxʷshədalqʷuʔ+N:dxʷs%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}hədalqʷuʔ N_with_PL_RED2 "tea" ;
+sq̓axʷalqʷuʔ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓axʷalqʷuʔ N_with_PL_RED2 "smoothie" ;
+sʔəɬədalʔtxʷ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔəɬədalʔtxʷ N_with_PL_RED2 "restaurant|store" ;
+č̓əɬabalʔtxʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓əɬabalʔtxʷ N_with_PL_RED2 "movie theater" ;
+taw̓d+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}taw̓d N_with_PL_RED2 "town" ;
+sʔukʷukʷ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ʔukʷukʷ N_with_PL_RED2 "game" ;
+cəq̓disəbəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cəq̓disəbəd N_with_PL_RED2 "fork" ;
 
 ! vim: set ft=xfst-lexc:
