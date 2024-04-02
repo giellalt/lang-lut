@@ -1,61 +1,64 @@
 authors: # for whole infra, add / replace
-  - family-names: Wiechetek
-    given-names: Linda
-    orcid: "https://orcid.org/0000-0002-5171-0841"
-  - family-names: Hiovain-Asikainen
-    given-names: Katri
-    orcid: ""
-  - family-names: Mikkelsen
-    given-names: Inga Lill Sigga
-    orcid: ""
-  - family-names: Moshagen
-    given-names: Sjur N.
-    orcid: ""
-  - family-names: Pirinen
-    given-names: Flammie A
-    orcid: "https://orcid.org/0000-0003-1207-5395"
-  - family-names: Trosterud
-    given-names: Trond
-    orcid: ""
-  - family-names: Gaup
-    given-names: Børre
-    orcid: ""
+  - family-names: Rueter
+    given-names: Jack
+    orcid: "https://orcid.org/0000-0002-3076-7929"
+  - family-names: Hämäläinen
+    given-names: Mika
+    orcid: "https://orcid.org/0000-0001-9315-1278"
+  - family-names: Alnajjar
+    given-names: Khalid
+    orcid: "https://orcid.org/0000-0002-7986-2994"
 cff-version: 1.2.0
-date-released: "2022-06-19"
+date-released: "2023"
 identifiers:
   - description: ACL anthology
     type: url
-    value: https://aclanthology.org/2022.lrec-1.125/
+    value: https://aclanthology.org/2023.americasnlp-1.6/
 keywords:
   - Lushootseed
+  - Southern Puget Sound Salish
+  - Reduplication
   - NLP
   - morphology
-  - spell-checking
-  - grammar-checking
-  - stemming
-  - tokenisation
+  - LSTM
+  - FST
 message: If you use this software, please cite it using these metadata.
-repository-code: "https://github.com/giellalt/lang-lut"
-title: GiellaLT repository (__LANG__ language)
+repository-code: "https://github.com/giellalt/lang-slh"
+title: Modelling the Reduplicating Lushootseed Morphology with an FST and LSTM
 version: 0.0.0
 preferred-citation: # whole repo, replace with specific if one exists!
   authors:
-      - family-names: Wiechetek
-        given-names: Linda
-      - family-names: Hiovain-Asikainen
-        given-names: Katri
-      - family-names: Mikkelsen
-        given-names: Inga Lill Sigg
-      - family-names: Moshagen
-        given-names: Sjur N.
-      - family-names: Pirinen
-        given-names: Flammie A
-      - family-names: Trosterud
-        given-names: Trond
-      - family-names: Gaup
-        given-names: Børre
-  title: "Unmasking the Myth of Effortless Big Data - Making an Open Source Multi-lingual Infrastructure and Building Language Resources from Scratch"
+      - family-names: Rueter
+        given-names: Jack
+      - family-names: Hämäläinen
+        given-names: Mika
+      - family-names: Alnajjar
+        given-names: Khalid
+
+  title: "Modelling the Reduplicating Lushootseed Morphology with an FST and LSTM"
   type: article
+
+
+Rueter, J., Hämäläinen, M., & Alnajjar, K. (2023). Modelling the Reduplicating Lushootseed Morphology with an FST and LSTM. In M. Mager, A. Ebrahimi, & A. Oncevay, et al. (Eds.), Proceedings of the Workshop on Natural Language Processing for Indigenous Languages of the Americas (AmericasNLP) (pp. 40-46). The Association for Computational Linguistics. https://doi.org/10.18653/v1/2023.americasnlp-1.6
+
+````bibtex
+@inproceedings{f61050ee279c40a18cf138859332d422,
+title = "Modelling the Reduplicating Lushootseed Morphology with an FST and LSTM",
+abstract = "In this paper, we present an FST based approach for conducting morphological analysis, lemmatization and generation of Lushootseed words. Furthermore, we use the FST to generate training data for an LSTM based neural model and train this model to do morphological analysis. The neural model reaches a 71.9% accuracy on the test data. Furthermore, we discuss reduplication types in the Lushootseed language forms. The approach involves the use of both attested instances of reduplication and bare stems for applying a variety of reduplications to, as it is unclear just how much variation can be attributed to the individual speakers and authors of the source materials. That is, there may be areal factors that can be aligned with certain types of reduplication and their frequencies.",
+keywords = "6121 Languages, 113 Computer and information sciences",
+author = "Jack Rueter and Mika H{\"a}m{\"a}l{\"a}inen and Khalid Alnajjar",
+year = "2023",
+month = jul,
+doi = "10.18653/v1/2023.americasnlp-1.6",
+language = "English",
+pages = "40--46",
+editor = "Mager, {Manuel } and Ebrahimi, {Abteen } and {Oncevay, et al.}, {Arturo }",
+booktitle = "Proceedings of the Workshop on Natural Language Processing for Indigenous Languages of the Americas (AmericasNLP)",
+publisher = "The Association for Computational Linguistics",
+address = "United States",
+note = "Workshop on Natural Language Processing for indigenous Languages of the Americas ; Conference date: 14-06-2023 Through 14-06-2023",
+url = "https://turing.iimas.unam.mx/americasnlp/2023_workshop.html",
+```
+ 
 license: __LICENCE__
 url: https://github.com/giellalt/lang-lut/
-
