@@ -105,6 +105,28 @@ Citing
 
 <!-- Add language specific citation stuff here and to the CITATION.cff -->
 
+> Rueter, J., Hämäläinen, M., & Alnajjar, K. (2023). Modelling the Reduplicating Lushootseed Morphology with an FST and LSTM. In M. Mager, A. Ebrahimi, & A. Oncevay, et al. (Eds.), Proceedings of the Workshop on Natural Language Processing for Indigenous Languages of the Americas (AmericasNLP) (pp. 40-46). The Association for Computational Linguistics. https://doi.org/10.18653/v1/2023.americasnlp-1.6
+
+````bibtex
+@inproceedings{f61050ee279c40a18cf138859332d422,
+title = "Modelling the Reduplicating Lushootseed Morphology with an FST and LSTM",
+abstract = "In this paper, we present an FST based approach for conducting morphological analysis, lemmatization and generation of Lushootseed words. Furthermore, we use the FST to generate training data for an LSTM based neural model and train this model to do morphological analysis. The neural model reaches a 71.9% accuracy on the test data. Furthermore, we discuss reduplication types in the Lushootseed language forms. The approach involves the use of both attested instances of reduplication and bare stems for applying a variety of reduplications to, as it is unclear just how much variation can be attributed to the individual speakers and authors of the source materials. That is, there may be areal factors that can be aligned with certain types of reduplication and their frequencies.",
+keywords = "6121 Languages, 113 Computer and information sciences",
+author = "Jack Rueter and Mika H{\"a}m{\"a}l{\"a}inen and Khalid Alnajjar",
+year = "2023",
+month = jul,
+doi = "10.18653/v1/2023.americasnlp-1.6",
+language = "English",
+pages = "40--46",
+editor = "Mager, {Manuel } and Ebrahimi, {Abteen } and {Oncevay, et al.}, {Arturo }",
+booktitle = "Proceedings of the Workshop on Natural Language Processing for Indigenous Languages of the Americas (AmericasNLP)",
+publisher = "The Association for Computational Linguistics",
+address = "United States",
+note = "Workshop on Natural Language Processing for indigenous Languages of the Americas ; Conference date: 14-06-2023 Through 14-06-2023",
+url = "https://turing.iimas.unam.mx/americasnlp/2023_workshop.html",
+```
+
+
 If you use language data from more than one GiellaLT language, consider citing
 [our LREC 2022 article on whole
 infra](https://aclanthology.org/2022.lrec-1.125/):
