@@ -118,7 +118,7 @@ Verb/Predicate tenses and aspect are:
 
 * +Surprise  * surprise %>əw̓ə
 *  +Top  * topic marker 
-*  +Now  * focus? %>əxʷ
+*  +Now  * focus? %>axʷ  %>əxʷ
 * +Qst          *   Question Particle: ʔu
 
 Verb personal forms are:
@@ -233,7 +233,7 @@ reduplication type 6 involves the all three letters of the three-letter reduplic
 * +Der/Red6_122123  * This is Red6 
 *  +Der/Red6_1aa1ə3  * This is Red6 sɬaaɬədəyʔ < sɬadəyʔ
 
-* +Clt  %>əxʷ
+* +Clt/Now  %>áxʷ %>əxʷ
 
 ### Tags distinguishing different versions of the same lemma (before POS)
 * +v1
