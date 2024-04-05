@@ -17,30 +17,30 @@ Tests:
 
 
   Noun - sčətxʷəd: # Noun 102 'eng bear' - full paradigm
-     sčətxʷəd+N+Msc+Sg+Nom: sčətxʷəd
-     sčətxʷəd+N+Msc+Sg+Nom+PxSg1: dsčətxʷəd
-     sčətxʷəd+N+Msc+Sg+Nom+PxSg2: adsčətxʷəd
-     sčətxʷəd+N+Msc+Sg+Nom+PxSP3: sčətxʷəc
-     sčətxʷəd+N+Msc+Sg+Nom+PxPl1: sčətxʷədčəɬ
-     sčətxʷəd+N+Msc+Sg+Nom+PxPl2: [sčətxʷədləp, sčətxʷədlap]
-     sčətxʷəd+N+Msc+Distr+Nom: sčətčətxʷəd
-     sčətxʷəd+N+Msc+Distr+Nom+PxSg1: dsčətčətxʷəd
-     sčətxʷəd+N+Msc+Distr+Nom+PxSg2: adsčətčətxʷəd
-     sčətxʷəd+N+Msc+Distr+Nom+PxSP3: sčətčətxʷəds
-     sčətxʷəd+N+Msc+Distr+Nom+PxPl1: sčətčətxʷədčəɬ
-     sčətxʷəd+N+Msc+Distr+Nom+PxPl2: [sčətčətxʷədləp, sčətčətxʷədlap]
+     sčətxʷəd+N+Msc+Sg: sčətxʷəd
+     sčətxʷəd+N+Msc+Sg+PxSg1: dsčətxʷəd
+     sčətxʷəd+N+Msc+Sg+PxSg2: adsčətxʷəd
+     sčətxʷəd+N+Msc+Sg+PxSP3: sčətxʷəds
+     sčətxʷəd+N+Msc+Sg+PxPl1: sčətxʷədčəɬ
+     sčətxʷəd+N+Msc+Sg+PxPl2: [sčətxʷədlap, sčətxʷədləp]
+     sčətxʷəd+N+Msc+Pl: sčətčətxʷəd
+     sčətxʷəd+N+Msc+Pl+PxSg1: dsčətčətxʷəd
+     sčətxʷəd+N+Msc+Pl+PxSg2: adsčətčətxʷəd
+     sčətxʷəd+N+Msc+Pl+PxSP3: sčətčətxʷəds
+     sčətxʷəd+N+Msc+Pl+PxPl1: sčətčətxʷədčəɬ
+     sčətxʷəd+N+Msc+Pl+PxPl2: [sčətčətxʷədlap, sčətčətxʷədləp]
 # bear cubs seem to be regular derivation
-     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Sg+Nom: sčičtxʷəd
-     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Sg+Nom+PxSg1: dsčičtxʷəd
-     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Sg+Nom+PxSg2: adsčičtxʷəd
-     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Sg+Nom+PxSP3: sčičtxʷəds
-     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Sg+Nom+PxPl1: sčičtxʷədčəɬ
-     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Sg+Nom+PxPl2: [sčičtxʷədləp, sčičtxʷədlap]
-     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Distr+Nom: sčičičtxʷəd
-     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Distr+Nom+PxSg1: dsčičičtxʷəd
-     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Distr+Nom+PxSg2: adsčičičtxʷəd
-     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Distr+Nom+PxSP3: sčičičtxʷəds
-     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Distr+Nom+PxPl1: sčičičtxʷədčəɬ
-     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Distr+Nom+PxPl2: [sčičičtxʷədləp, sčičičtxʷədlap]
+     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Sg: sčičtxʷəd
+     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Sg+PxSg1: dsčičtxʷəd
+     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Sg+PxSg2: adsčičtxʷəd
+     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Sg+PxSP3: sčičtxʷəds
+     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Sg+PxPl1: sčičtxʷədčəɬ
+     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Sg+PxPl2: [sčičtxʷədlap, sčičtxʷədləp]
+     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Pl: sčičičtxʷəd
+     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Pl+PxSg1: dsčičičtxʷəd
+     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Pl+PxSg2: adsčičičtxʷəd
+     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Pl+PxSP3: sčičičtxʷəds
+     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Pl+PxPl1: sčičičtxʷədčəɬ
+     sčətxʷəd+N+Msc+Der+Der/Dimin+N+Pl+PxPl2: [sčičičtxʷədlap, sčičičtxʷədləp]
 
 
