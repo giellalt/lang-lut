@@ -141,7 +141,7 @@ y̓   !!= @CODE@
 
 +Surprise !!= * @CODE@ * surprise %>əw̓ə
  +Top !!= * @CODE@ * topic marker 
- +Now !!= * @CODE@ * focus? %>əxʷ
+ +Now !!= * @CODE@ * focus? %>axʷ  %>əxʷ
 +Qst         !!= * @CODE@ *   Question Particle: ʔu
 
 !! Verb personal forms are:
@@ -261,7 +261,7 @@ y̓   !!= @CODE@
 +Der/Red6_122123 !!= * @CODE@ * This is Red6 
  +Der/Red6_1aa1ə3 !!= * @CODE@ * This is Red6 sɬaaɬədəyʔ < sɬadəyʔ
  
-+Clt !!= * @CODE@ %>əxʷ
++Clt/Now !!= * @CODE@ %>áxʷ %>əxʷ
 
 !! ### Tags distinguishing different versions of the same lemma (before POS)
 +v1   !!≈ * @CODE@
@@ -469,8 +469,8 @@ LEXICON NUM_
  K ;
 
 LEXICON K !!= * **@CODE@** Clitic lexicon
-+Clt+Dial/-NL:%>əxʷ ENDLEX "now" ;
-+Clt+Dial/-SL:%>áxʷ ENDLEX "now" ;
++Clt/Now+Dial/-NL:%>əxʷ ENDLEX "now" ;
++Clt/Now+Dial/-SL:%>áxʷ ENDLEX "now" ;
 ENDLEX ; 
 
 LEXICON ENDLEX !!= * **@CODE@**
