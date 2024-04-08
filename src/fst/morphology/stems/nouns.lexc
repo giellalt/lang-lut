@@ -323,6 +323,7 @@ sɬixʷəɬdatil+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬixʷəɬdatil N_with_PL
 sɬixʷəɬdatil+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬixʷəɬdati N_with_PL_RED2_Dial/-NL "Wednesday" ;
 sɬub+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬub N_with_PL_RED2 "soup" ;
 sƛ̕alalic̓aʔ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ƛ̕alalic̓aʔ N_with_PL_RED2 "clothing" ;
+spaʔc+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}paʔc N_with_PL_RED2 "black bear" ;
 sp̓ac̓təd+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓ac̓təd N_with_PL_RED2 "needle" ;
 sp̓aƛ̕aƛ̕+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}p̓aƛ̕aƛ̕ N_with_PL_RED2 "trash" ;
 spəčuʔ+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pəčuʔ N_with_PL_RED2 "basket" ;
@@ -377,7 +378,8 @@ swəwaʔ+v1+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wəwaʔ N_with_PL_RED2_Dial/-N
 swəwaʔ+v2+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wawaʔ N_with_PL_RED2_Dial/-SL "cougar" ;
 swəwaʔdis+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wəwaʔdis N_with_PL_RED2 "dandelion" ;
 sx̌alacut+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌alacut N_with_PL_RED2 "picture" ;
-sx̌ayus+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ayus N_with_PL_RED2 "head" ;
+sx̌əy̓us+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌əy̓ús N_with_PL_RED2_Dial/-SL "head" ;
+sx̌əy̓us+v2+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ay̓us N_with_PL_RED2_Dial/-NL "head" ;
 sx̌aʔaʔ+N:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌aʔaʔ N_with_PL_RED2 "little neck steamer clams" ;
 sx̌əčtəd+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌əčtəd N_with_PL_RED2 "numbers" ;
 sx̌əlaʔs+N:s%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌əlaʔs N_with_PL_RED2 "chalkboard" ;
@@ -411,7 +413,7 @@ t̕altəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕altəd N_with_PL_RED2 "knife" ;
 t̕aɬigʷs+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}t̕aɬigʷs N_with_PL_RED2 "rock cod" ;
 tatačulbixʷ+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tátačulbixʷ N_with_PL_RED2 "large animals (mammals), are those bigger than a wolf|animals that are used as food" ;
 təǰabac+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təǰabac N_with_PL_RED2 "sea cucumber" ;
-təklus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təklus N_with_PL_RED2 "owl" ;
+təkʷlus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təkʷlus N_with_PL_RED2 "owl" ;
 təkʷtəkʷəlus+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təkʷtəkʷəlus N_with_PL_RED2 "great horned owl" ;
 tətiʔəd+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tətiʔəd N_with_PL_RED2 "humming bird" ;
 tətupəl̕+N:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tətupəl̕ N_with_PL_RED2 "spider" ;
