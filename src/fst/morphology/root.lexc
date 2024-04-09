@@ -71,6 +71,7 @@ y̓   !!= @CODE@
 
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef  !!= * @CODE@
+ 
  +Aux +Cop  !!= * @CODE@
  +Pass  !!= * @CODE@ -t-əb
  +Prox +Dist +Rem +Distr +Random
@@ -97,7 +98,7 @@ y̓   !!= @CODE@
  +Dial/-SL  !!≈ * **@CODE@** not south Lushootseed
 
 !! The nominals are inflected in the following Case and Number
- +Sg +Du +Pl  !!= * @CODE@
+ +Sg +Du +Pl +SP  !!= * @CODE@
  +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh  !!= * @CODE@
 
 !! Possession is marked as follows:
@@ -205,6 +206,7 @@ y̓   !!= @CODE@
 !! source and target part-of-speech.
  +V→N +V→V +V→A !!= * @CODE@ 
  +Der
+ +Dimin
  +Der/xxx !!= * @CODE@ 
  +Der/Dimin !!= * @CODE@ * diminutive
  +Der/Dimin_12123 !!= * @CODE@ * diminutive pa-pasted ^Red12123
@@ -311,6 +313,8 @@ y̓   !!= @CODE@
 !! symbols in the lexicon files:
  {aä} {oö} {uü} !!= * @CODE@ 
 
+%{lØ%}   !!= * @CODE@ in slh stem-final l tends to be lost, but it is retained before Clt/Now
+
 !! place holders
 %{pØ%} !!= * @CODE@ 
 %{p1%} !!= * @CODE@ 
@@ -323,6 +327,7 @@ y̓   !!= @CODE@
 
 !! And following triggers to control variation
  {front} {back} !!= * @CODE@ 
+
 %^Red1i123 !!= * @CODE@ qəlb: qiqəlb *rain showers*
 %^Red1i13 !!= * @CODE@ 2-segment to 3-segments with vowel change sčətxʷəd:sčičtxʷəd Der/Red1_1i13
 %^Red12q13 !!= * @CODE@ 
@@ -338,8 +343,6 @@ y̓   !!= @CODE@
 %^Pen !!= * @CODE@ this combines with subsequent RmVow or perhaps RmCns
 %^RmVOW !!= * @CODE@ this removes previous vowel or with Pen the penultimate vowel
 %^d2t !!= * @CODE@ this devoices d to t specifically
-
-
 
 !! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
