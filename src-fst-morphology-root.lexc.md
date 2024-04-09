@@ -53,6 +53,7 @@ The parts-of-speech are:
 
 The parts of speech are further split up into:
 *  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef  
+
 *  +Aux +Cop  
 *  +Pass   -t-əb
 
@@ -78,7 +79,7 @@ Dialect tags:
 * **+Dial/-SL** not south Lushootseed
 
 The nominals are inflected in the following Case and Number
-*  +Sg +Du +Pl  
+*  +Sg +Du +Pl +SP  
 *  +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh  
 
 Possession is marked as follows:
@@ -280,6 +281,8 @@ To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 *  {aä} {oö} {uü}  
 
+* %{lØ%}    in slh stem-final l tends to be lost, but it is retained before Clt/Now
+
 place holders
 * %{pØ%}  
 * %{p1%}  
@@ -292,6 +295,7 @@ place holders
 
 And following triggers to control variation
 *  {front} {back}  
+
 * %^Red1i123  qəlb: qiqəlb *rain showers*
 * %^Red1i13  2-segment to 3-segments with vowel change sčətxʷəd:sčičtxʷəd Der/Red1_1i13
 * %^Red12q13  
