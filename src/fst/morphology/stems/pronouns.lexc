@@ -36,8 +36,10 @@ kʷi+v1+Pron:kʷi PRON_DEM_MSC_REM ;
 kʷi+v2+Pron:kʷə PRON_DEM_MSC_REM ;!paradigmatic
 kʷi+v1+Pron:kʷsi PRON_DEM_FEM_REM ;
 kʷi+v2+Pron:kʷsə PRON_DEM_FEM_REM ;!paradigmatic
-ti+Pron:ti PRON_DEM_MSC ;
-ti+Pron:tsi PRON_DEM_FEM ;
+ti+v1+Pron:ti PRON_DEM_MSC ;
+ti+v2+Pron:tə PRON_DEM_MSC ;
+ti+v1+Pron:tsi PRON_DEM_FEM ;
+ti+v2+Pron:tsə PRON_DEM_FEM ;
 tiʔəʔ+v1+Pron:tiʔəʔ PRON_DEM_MSC_PROX ;
 tiʔəʔ+v2+Pron:tiəʔ PRON_DEM_MSC_PROX ;
 tiʔəʔ+v1+Pron:tsiʔəʔ PRON_DEM_FEM_PROX ;
