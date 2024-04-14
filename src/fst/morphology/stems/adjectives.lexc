@@ -4,37 +4,38 @@
 
 LEXICON Adjectives
 
-taqʷuʔ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}taqʷuʔ A_with-PL_RED2 "hungry" ;
-tagʷəxʷ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tagʷəxʷ A_with-PL_RED2 "thirsty" ;
-šəq+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šəq A_with-PL_RED2 "high" ;
-dᶻixʷ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}dᶻixʷ A_with-PL_RED2 "first" ;
-x̌aʔx̌aʔ+v1+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌aʔx̌aʔ A_with-PL_RED2 "great|sacred" ;
-x̌aʔx̌aʔ+v2+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ax̌aʔ A_with-PL_RED2 "great|sacred" ;
-x̌əɬ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌əɬ A_with-PL_RED2 "sick" ;
-x̌əɬəɬx̌əč+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌əɬəɬx̌əč A_with-PL_RED2 "sad" ;
-wələx̌ʷ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wələx̌ʷ A_with-PL_RED2 "strong" ;
-x̌icil+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌icil A_with-PL_RED2 "angry" ;
-cəwəɬ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cəwəɬ A_with-PL_RED2 "hungry" ;
-cək̓ʷ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}cək̓ʷ A_with-PL_RED2 "straight|correct" ;
-bəɬ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəɬ A_with-PL_RED2 "full from eating" ;
-stabaɬ+A:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}tabaɬ A_with-PL_RED2 "what kind of" ;
-x̌ičəc+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ičəc A_with-PL_RED2 "red" ;
-kay̓kay̓alus+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kay̓kay̓alus A_with-PL_RED2 "sky blue" ;
-č̓uɬəyʔalus+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}č̓uɬəyʔalus A_with-PL_RED2 "green" ;
-x̌ibəč̓+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ibəč̓ A_with-PL_RED2 "black" ;
-x̌ʷiqʷəq̓ʷ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷiqʷəq̓ʷ A_with-PL_RED2 "white" ;
-x̌ʷiqʷac+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷiqʷac A_with-PL_RED2 "yellow" ;
-hikʷ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}hikʷ A_with-PL_RED2 "big" ;
-haʔɬ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}haʔɬ A_with-PL_RED2 "good" ;
-miʔman̓+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}miʔman̓ A_with-PL_RED2 "small" ;
-q̓ič+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ič A_with-PL_RED2 "expensive" ;
+bəsad+A:bəsad A_with_PL_RED2 "dark" ;
+bəɬ+A:bəɬ A_with_PL_RED2 "full from eating" ;
+cək̓ʷ+A:cək̓ʷ A_with_PL_RED2 "straight|correct" ;
+cəwəɬ+A:cəwəɬ A_with-PL_RED2_Dial/-NL "hungry" ;
+dᶻixʷ+A:dᶻixʷ A_with_PL_RED2 "first" ;
+haʔɬ+A:haʔɬ A_with_PL_RED2 "good" ;
+hikʷ+A:hikʷ A_with_PL_RED2 "big" ;
+kay̓kay̓alus+A:kay̓kay̓alus A_with_PL_RED2 "sky blue" ;
+miʔman̓+A:miʔman̓ A_with_PL_RED2 "small" ;
+qʷiq̓ʷ+A:qʷiq̓ʷ A_with_PL_RED2 "" ;
+q̓ič+A:q̓ič A_with_PL_RED2 "expensive" ;
+stabaɬ+A:tabaɬ A_with_PL_RED2_PRF/s "what kind of" ;
+tagʷəxʷ+A:tagʷəxʷ A_with_PL_RED2 "hungry" ;
+taqʷuʔ+A:taqʷuʔ A_with_PL_RED2 "thirsty" ;
+təɬ+A:təɬ A_with_PL_RED2 "true|real" ;
+wələx̌ʷ+A:wələx̌ʷ A_with-PL_RED2_Dial/-NL "strong" ;
+wiʔx̌ʷ+v1+A:wiʔx̌ʷ A_with_PL_RED2 "lost" ;
+wiʔx̌ʷ+v2+A:wix̌ʷ A_with_PL_RED2 "lost" ;
+xʷəxʷaʔxʷəʔ+A:xʷəxʷaʔxʷəʔ A_with_PL_RED2 "swift" ;
+x̌aʔx̌aʔ+v1+A:x̌aʔx̌aʔ A_with_PL_RED2 "great|sacred" ;
+x̌aʔx̌aʔ+v2+A:x̌ax̌aʔ A_with_PL_RED2 "great|sacred" ;
+x̌ibəč̓+A:x̌ibəč̓ A_with_PL_RED2 "black" ;
+x̌icil+A:x̌icil A_with_PL_RED2 "angry" ;
+x̌ičəc+A:x̌ičəc A_with_PL_RED2 "red" ;
+x̌əɬ+A:x̌əɬ A_with_PL_RED2 "sick" ;
+x̌əɬəɬx̌əč+A:x̌əɬəɬx̌əč A_with_PL_RED2 "sad" ;
+x̌ʷiqʷac+A:x̌ʷiqʷac A_with_PL_RED2 "yellow" ;
+x̌ʷiqʷəq̓ʷ+A:x̌ʷiqʷəq̓ʷ A_with_PL_RED2 "white" ;
+č̓uɬəyʔalus+A:č̓uɬəyʔalus A_with_PL_RED2 "green" ;
+šəq+A:šəq A_with_PL_RED2 "high" ;
+ɬaw̓t+A:ɬaw̓t A_with_PL_RED2 "new|latest" ;
 
-təɬ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}təɬ A_with-PL_RED2 "true|real" ;
-wiʔx̌ʷ+v1+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wiʔx̌ʷ A_with-PL_RED2 "lost" ;
-wiʔx̌ʷ+v2+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}wix̌ʷ A_with-PL_RED2 "lost" ;
-bəsad+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəsad A_with-PL_RED2 "dark" ;
-xʷəxʷaʔxʷəʔ+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}xʷəxʷaʔxʷəʔ A_with-PL_RED2 "swift" ;
-ɬaw̓t+A:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬaw̓t  A_with-PL_RED2 "new|latest" ;
 
 ša+v1+Det:ša PRON_DEM "the|a|neutral demonstrative" ;
 ša+v2+Det:šə PRON_DEM "the|a|neutral demonstrative" ;
