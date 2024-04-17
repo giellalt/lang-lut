@@ -396,6 +396,14 @@ y̓   !!= @CODE@
 @D.PossPx@	   !!= * @CODE@ 
 @C.PossPx@	   !!= * @CODE@ 
 
+@U.NPrefix.ZERO@ !!= * @CODE@
+@U.NPrefix.s@ !!= * @CODE@
+@R.NPrefix.ZERO@ !!= * @CODE@
+@R.NPrefix.s@ !!= * @CODE@
+@D.NPrefix@ !!= * @CODE@
+@C.NPrefix@ !!= * @CODE@
+
+
 !! ### VERBS
 @U.TAM-SUBJ.SUBJ@ !!= * @CODE@ gʷə%<
 @R.TAM-SUBJ.SUBJ@ !!= * @CODE@ gʷə%<
@@ -421,6 +429,7 @@ y̓   !!= @CODE@
 @R.TAM-T.REM@	 !!= * @CODE@ tu%<
 @D.TAM-T@	 !!= * @CODE@ tu%<
 
+@N.TAM-A@	 !!= * @CODE@ ʔu%<
 @D.TAM-A@	 !!= * @CODE@ ʔu%<
 @U.TAM-A.PFV@	 !!= * @CODE@ ʔu%<
 @R.TAM-A.PFV@	 !!= * @CODE@ ʔu%<
@@ -464,7 +473,6 @@ LEXICON Root !!= * **@CODE@** Root lexicon
 0   Prefixes    ;   !!= * @CODE@
     Punctuation ;
     Symbols     ;
-
 
 LEXICON PCLE_
  K ;
