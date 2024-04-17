@@ -86,10 +86,11 @@ Prefixes_01c ;
  DVNouns_01 ;
 
 LEXICON Prefixes_01c
- Nouns ;
+NOUNS_PREFIX_PREP ;
+!Nouns ;
 ! These are the first Northern Lushootseed
- N_NEWWORDS ;
- DVNouns   ;
+! N_NEWWORDS ;
+! DVNouns   ;
 
 
 LEXICON DVNouns
@@ -133,9 +134,15 @@ LEXICON DVNouns_02-3
 
 
 LEXICON VERBS_OR_NOUNS
-:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}  Verbs ;
- N_NEWWORDS ;
+00000:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}  Verbs ;
+
+@U.NPrefix.ZERO@00000:@U.NPrefix.ZERO@%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
+@U.NPrefix.s@0000000:@U.NPrefix.s@s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
+
+LEXICON NOUNS_PREFIX_PREP
+N_NEWWORDS ;
  Nouns ;
  Adjectives ;
- 
+ Propernouns ;
+
 ! vim: set ft=xfst-lexc:
