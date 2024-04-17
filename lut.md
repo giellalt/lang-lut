@@ -1032,9 +1032,13 @@ given the proper use of these flags.
 * @C.PossPx@	    
 
 * @U.NPrefix.ZERO@ 
+* @U.NPrefix.dxws@ 
 * @U.NPrefix.s@ 
+* @U.NPrefix.sexw@ 
 * @R.NPrefix.ZERO@ 
+* @R.NPrefix.dxws@ 
 * @R.NPrefix.s@ 
+* @R.NPrefix.sexw@ 
 * @D.NPrefix@ 
 * @C.NPrefix@ 
 
