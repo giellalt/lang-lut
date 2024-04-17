@@ -1031,6 +1031,13 @@ given the proper use of these flags.
 * @D.PossPx@	    
 * @C.PossPx@	    
 
+* @U.NPrefix.ZERO@ 
+* @U.NPrefix.s@ 
+* @R.NPrefix.ZERO@ 
+* @R.NPrefix.s@ 
+* @D.NPrefix@ 
+* @C.NPrefix@ 
+
 ### VERBS
 * @U.TAM-SUBJ.SUBJ@  gʷə%<
 * @R.TAM-SUBJ.SUBJ@  gʷə%<
@@ -1056,6 +1063,7 @@ given the proper use of these flags.
 * @R.TAM-T.REM@	  tu%<
 * @D.TAM-T@	  tu%<
 
+* @N.TAM-A@	  ʔu%<
 * @D.TAM-A@	  ʔu%<
 * @U.TAM-A.PFV@	  ʔu%<
 * @R.TAM-A.PFV@	  ʔu%<
