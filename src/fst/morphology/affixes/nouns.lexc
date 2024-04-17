@@ -17,10 +17,26 @@ LEXICON N_with-PL_RED1_qelb
 
 LEXICON N_with_PL_RED2_Dial/-SL
 +Dial/-SL: N_with_PL_RED2 ;
+LEXICON N_with_PL_RED2_PRF/s_Dial/-SL
+ N_with_PL_RED2_PRF/s ;
+
 LEXICON N_with_PL_RED2_Dial/-NL
 +Dial/-NL: N_with_PL_RED2 ;
+LEXICON N_with_PL_RED2_PRF/s_Dial/-NL
+ N_with_PL_RED2_PRF/s ;
+
+LEXICON N_with_PL_RED2_PRF/s
+@R.NPrefix.s@:@R.NPrefix.s@ N0_with_PL_RED2 ;
+
 LEXICON N_with_PL_RED2
-: DIM_CV1toCV2C ;
+@R.NPrefix.ZERO@:@R.NPrefix.ZERO@ N0_with_PL_RED2 ;
+
+
+LEXICON N0_with_PL_RED2
+@D.NMZ@ N1_with_PL_RED2 ;
+
+LEXICON N1_with_PL_RED2
+!2024-04-12: DIM_CV1toCV2C ;
 : SG-SUF ;
 : PL_RED2 ;
 
