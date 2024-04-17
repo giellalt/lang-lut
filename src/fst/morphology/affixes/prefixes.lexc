@@ -134,10 +134,12 @@ LEXICON DVNouns_02-3
 
 
 LEXICON VERBS_OR_NOUNS
-00000:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}  Verbs ;
+:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}  Verbs ;
 
-@U.NPrefix.ZERO@00000:@U.NPrefix.ZERO@%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
-@U.NPrefix.s@0000000:@U.NPrefix.s@s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
+@U.NPrefix.ZERO@:@U.NPrefix.ZERO@%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
+@U.NPrefix.dxws@:@U.NPrefix.dxws@dxʷs%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
+@U.NPrefix.s@:@U.NPrefix.s@s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
+@U.NPrefix.sexw@:@U.NPrefix.sexw@səxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
 
 LEXICON NOUNS_PREFIX_PREP
 N_NEWWORDS ;
