@@ -1,4 +1,4 @@
-! Divvun & Giellatekno - open source grammars for LUSHOOTSEED language
+ Divvun & Giellatekno - open source grammars for LUSHOOTSEED language
 ! Copyright © 2015 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
@@ -397,10 +397,12 @@ y̓   !!= @CODE@
 @C.PossPx@	   !!= * @CODE@ 
 
 @U.NPrefix.ZERO@ !!= * @CODE@
+@U.NPrefix.dxw@ !!= * @CODE@
 @U.NPrefix.dxws@ !!= * @CODE@
 @U.NPrefix.s@ !!= * @CODE@
 @U.NPrefix.sexw@ !!= * @CODE@
 @R.NPrefix.ZERO@ !!= * @CODE@
+@R.NPrefix.dxw@ !!= * @CODE@
 @R.NPrefix.dxws@ !!= * @CODE@
 @R.NPrefix.s@ !!= * @CODE@
 @R.NPrefix.sexw@ !!= * @CODE@
