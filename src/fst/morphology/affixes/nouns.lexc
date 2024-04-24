@@ -34,6 +34,9 @@ LEXICON N_with_PL_RED2_PRF/dxws
 LEXICON N_with_PL_RED2_PRF/s
 @R.NPrefix.s@:@R.NPrefix.s@ N0_with_PL_RED2 ;
 
+LEXICON N_with_PL_RED2_PRF/sxw
+@R.NPrefix.sxw@:@R.NPrefix.sxw@ N0_with_PL_RED2 ;
+
 LEXICON N_with_PL_RED2_PRF/sexw
 @R.NPrefix.sexw@:@R.NPrefix.sexw@ N0_with_PL_RED2 ;
 

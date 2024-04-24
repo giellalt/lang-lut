@@ -29,7 +29,7 @@ duqʷəčabš+N:duqʷəčabš N_with_PL_RED2 "(tribe members, what is plural?)" 
 shiʔwəbš+N:hiʔwəbš N_with_PL_RED2_PRF/s "(tribe members, what is plural?)" ;
 kikiyalus+N:kikiyalus N_with_PL_RED2 "(tribe members, what is plural?)" ;
 dxʷləbiʔ+N:ləbiʔ N_with_PL_RED2_PRF/dxw "(tribe members, what is plural?)" ;
-sxʷq̓ʷupabš+N:xʷq̓ʷupabš N_with_PL_RED2_PRF/s "(tribe members, what is plural?)" ;
+sxʷq̓ʷupabš+N:q̓ʷupabš N_with_PL_RED2_PRF/sxw "(tribe members, what is plural?)" ;
 saʔkʷbixʷ+N:saʔkʷbixʷ N_with_PL_RED2 "(tribe members, what is plural?)" ;
 st̕əč̓asəbš+N:t̕əč̓asəbš N_with_PL_RED2_PRF/s "(tribe members, what is plural?)" ;
 
@@ -357,12 +357,12 @@ steq̓əxʷ+N:teq̓əxʷ N_with_PL_RED2_PRF/s "" ;
 stəbtabəl̕+N:təbtabəl̕ N_with_PL_RED2_PRF/s "grizzly" ;
 stəgʷad+N:təgʷad N_with_PL_RED2_PRF/s "salmonberry" ;
 st̕ək̓ʷəb+N:t̕ək̓ʷəb N_with_PL_RED2_PRF/s "log|stick" ;
-stəq̓əxʷ+N:təq̓əxʷ N_with_PL_RED2_PRF/s "beaver"	;
 stəqiw̓+N:təqiw̓ N_with_PL_RED2_PRF/s "" ;
+stəq̓əxʷ+N:təq̓əxʷ N_with_PL_RED2_PRF/s "beaver"	;!checkme
 st̕əqxʷ+N:t̕əqxʷ N_with_PL_RED2_PRF/s "beaver" ;
+st̕qəxʷ+N:t̕qəxʷ N_with_PL_RED2_PRF/s "beaver" ;
 stiqayuʔ+N:tiqáyuʔ N_with_PL_RED2_PRF/s "wolf" ;
 stiqiw+N:tiqíw N_with_PL_RED2_PRF/s "horse" ;
-st̕qəxʷ+N:t̕qəxʷ N_with_PL_RED2_PRF/s "beaver" ;
 stubš+N:tubš N_with_PL_RED2_PRF/s "man" ;
 stulc̓əʔ+N:túlc̓əʔ N_with_PL_RED2_PRF/s "moose" ;
 stxʷub+N:txʷub N_with_PL_RED2_PRF/s "butter clam" ;
