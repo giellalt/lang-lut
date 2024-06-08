@@ -137,11 +137,15 @@ LEXICON VERBS_OR_NOUNS
 :%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}  Verbs ;
 
 @U.NPrefix.ZERO@:@U.NPrefix.ZERO@%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
+@U.NPrefix.c@:@U.NPrefix.c@c%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
 @U.NPrefix.dxw@:@U.NPrefix.dxw@dxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
 @U.NPrefix.dxws@:@U.NPrefix.dxws@dxʷs%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
+@U.NPrefix.je@:@U.NPrefix.je@ǰə%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
+@U.NPrefix.le@:@U.NPrefix.le@lə%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
 @U.NPrefix.s@:@U.NPrefix.s@s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
 @U.NPrefix.sxw@:@U.NPrefix.sxw@sxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
 @U.NPrefix.sexw@:@U.NPrefix.sexw@səxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
+@U.NPrefix.xh@:@U.NPrefix.xh@x̌%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
 
 LEXICON NOUNS_PREFIX_PREP
 N_NEWWORDS ;
