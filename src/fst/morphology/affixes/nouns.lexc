@@ -8,7 +8,8 @@
 ! %>əb ~ %>b
 
 
-LEXICON N_with-PL_RED1_qelb
+LEXICON N_with_PL_RED1_qelb
+!LEXICON N_with-PL_RED1_qelb
 !: DIM_CV1toCV2C ; What should this be?
 : SG-SUF ;
 : PL_RED1_qelb ;
@@ -22,14 +23,36 @@ LEXICON N_with_PL_RED2_PRF/s_Dial/-SL
 
 LEXICON N_with_PL_RED2_Dial/-NL
 +Dial/-NL: N_with_PL_RED2 ;
+
+LEXICON N_with_PL_RED2_0/l_Dial/-NL
++Dial/-NL: N_with_PL_RED2_0/l ;
+
+LEXICON N_with_PL_RED2_0/l !!fixme 2024-06-08
+: N_with_PL_RED2 ;
+
+LEXICON N_with_PL_RED2_PRF/je_Dial/-NL
++Dial/-NL: N_with_PL_RED2_PRF/je ;
+
 LEXICON N_with_PL_RED2_PRF/s_Dial/-NL
- N_with_PL_RED2_PRF/s ;
++Dial/-NL: N_with_PL_RED2_PRF/s ;
+
+LEXICON N_with_PL_RED2_PRF/c
+@R.NPrefix.c@:@R.NPrefix.c@ N0_with_PL_RED2 ;
 
 LEXICON N_with_PL_RED2_PRF/dxw
 @R.NPrefix.dxw@:@R.NPrefix.dxw@ N0_with_PL_RED2 ;
 
+LEXICON N_with_PL_RED2_PRF/dexw
+@R.NPrefix.dexw@:@R.NPrefix.dexw@ N0_with_PL_RED2 ;
+
 LEXICON N_with_PL_RED2_PRF/dxws
 @R.NPrefix.dxws@:@R.NPrefix.dxws@ N0_with_PL_RED2 ;
+
+LEXICON N_with_PL_RED2_PRF/je
+@R.NPrefix.je@:@R.NPrefix.je@ N0_with_PL_RED2 ;
+
+LEXICON N_with_PL_RED2_PRF/le
+@R.NPrefix.le@:@R.NPrefix.le@ N0_with_PL_RED2 ;
 
 LEXICON N_with_PL_RED2_PRF/s
 @R.NPrefix.s@:@R.NPrefix.s@ N0_with_PL_RED2 ;
@@ -39,6 +62,9 @@ LEXICON N_with_PL_RED2_PRF/sxw
 
 LEXICON N_with_PL_RED2_PRF/sexw
 @R.NPrefix.sexw@:@R.NPrefix.sexw@ N0_with_PL_RED2 ;
+
+LEXICON N_with_PL_RED2_PRF/xh
+@R.NPrefix.xh@:@R.NPrefix.xh@ N0_with_PL_RED2 ;
 
 LEXICON N_with_PL_RED2
 @R.NPrefix.ZERO@:@R.NPrefix.ZERO@ N0_with_PL_RED2 ;
@@ -65,12 +91,17 @@ LEXICON N_with_Distr_12323_RED5 !Der/Red5_12323
 : SG-SUF ;
 : PL_RED5 ;
 
-LEXICON N-FEM_with-PL_RED2
+LEXICON N_FEM_with_PL_RED2
+!LEXICON N-FEM_with-PL_RED2
 +Fem: DIM_CV1toCV2C ;
 +Fem: SG-SUF ;
 +Fem: PL_RED2 ;
 
-LEXICON N-MSC_with-PL_RED2
+LEXICON N_MSC_with_PL_RED2_PRF/s
+@R.NPrefix.sexw@ N_MSC_with_PL_RED2 ;
+
+LEXICON N_MSC_with_PL_RED2
+!LEXICON N-MSC_with-PL_RED2
 +Msc: DIM_CV1toCV2C ;
 +Msc: SG-SUF ;
 +Msc: PL_RED2 ;
@@ -92,6 +123,9 @@ LEXICON DIM_CV1toCV2C
 
 @D.PossPx@+Der+Der/Dimin_1i1i13+N+Pl:@D.PossPx@%^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
 @R.PossPx@+Der+Der/Dimin_1i1i13+N+Pl:@R.PossPx@%^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
+
+LEXICON N_DIM_with_PL_12123_PRF/sexw
+@R.NPrefix.sexw@ N_DIM_with_PL_12123 ;
 
 LEXICON N_DIM_with_PL_12123 !bibədaʔ, bibibədaʔ
 +Dimin: SG-SUF ;
