@@ -397,17 +397,27 @@ y̓   !!= @CODE@
 @C.PossPx@	   !!= * @CODE@ 
 
 @U.NPrefix.ZERO@ !!= * @CODE@
+@U.NPrefix.c@ !!= * @CODE@
+@U.NPrefix.dexw@ !!= * @CODE@
 @U.NPrefix.dxw@ !!= * @CODE@
 @U.NPrefix.dxws@ !!= * @CODE@
+@U.NPrefix.je@ !!= * @CODE@
+@U.NPrefix.le@ !!= * @CODE@
 @U.NPrefix.s@ !!= * @CODE@
 @U.NPrefix.sxw@ !!= * @CODE@
 @U.NPrefix.sexw@ !!= * @CODE@
+@U.NPrefix.xh@ !!= * @CODE@
 @R.NPrefix.ZERO@ !!= * @CODE@
+@R.NPrefix.c@ !!= * @CODE@
+@R.NPrefix.dexw@ !!= * @CODE@
 @R.NPrefix.dxw@ !!= * @CODE@
 @R.NPrefix.dxws@ !!= * @CODE@
+@R.NPrefix.je@ !!= * @CODE@
+@R.NPrefix.le@ !!= * @CODE@
 @R.NPrefix.s@ !!= * @CODE@
 @R.NPrefix.sxw@ !!= * @CODE@
 @R.NPrefix.sexw@ !!= * @CODE@
+@R.NPrefix.xh@ !!= * @CODE@
 @D.NPrefix@ !!= * @CODE@
 @C.NPrefix@ !!= * @CODE@
 
