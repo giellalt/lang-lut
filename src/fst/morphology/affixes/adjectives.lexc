@@ -2,15 +2,18 @@
 ! --------------------
 !! The Lushootseed language adjectives are inflected in much the same way as nouns and verbs.
 
-LEXICON A_with-PL_RED2
+LEXICON A_with_PL_RED2
+!LEXICON A_with-PL_RED2
 : DIM_CV1toCV2C ;
 : SG-SUF ;
 : PL_RED2 ;
 
-LEXICON A_with-PL_RED2_PRF/s
-: DIM_CV1toCV2C ;
-: SG-SUF ;
-: PL_RED2 ;
+LEXICON A_with_PL_RED2_Dial/-NL
+A_with_PL_RED2 ;
+
+LEXICON A_with_PL_RED2_PRF/s
+!LEXICON A_with-PL_RED2_PRF/s
+@R.NPrefix.s@ A_with_PL_RED2 ;
 
 !LEXICON A_
 !!: K ; CHECKME 2021-07-10
