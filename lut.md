@@ -743,10 +743,12 @@ The Usage extents are marked using following tags:
 * **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
 * **+Use/-TTS** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
 
+* +URL * For tagging URLs
+
 Dialect tags:
 
-* **+Dial/-NL** not north Lushootseed
-* **+Dial/-SL** not south Lushootseed
+* **+Dial/-NL** not North Lushootseed
+* **+Dial/-SL** not South Lushootseed
 
 The nominals are inflected in the following Case and Number
 *  +Sg +Du +Pl +SP  
