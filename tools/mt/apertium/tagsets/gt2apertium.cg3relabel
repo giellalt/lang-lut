@@ -39,6 +39,12 @@ MAP (Comma) (cm);
 MAP (Cmpnd) (cmp);
 MAP (Cmpar) (comp);
 
+MAP (OcSg1) (o_sg1);
+MAP (OcSg2) (o_sg2);
+MAP (OcSg3) (o_sp3);
+MAP (OcPl1) (o_pl1);
+MAP (OcPl2) (o_pl2);
+
 MAP (PxSg1) (px1sg);
 MAP (PxSg2) (px2sg);
 MAP (PxSg3) (px3sg);
