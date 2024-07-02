@@ -68,6 +68,7 @@ Types of adverbs also include
 
 The Usage extents are marked using following tags:
 *  +Err/Orth  
+*  +Err/Orth-no-q   missing glottal stop
 *  +Err/Spellrelax 
 *  +Use/-Spell  
 * **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser

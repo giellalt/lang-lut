@@ -370,16 +370,16 @@ Noun inflection
 The Lushootseed language nouns inflect in time person aspect.
 
 qəlb+N+Pl: **rain showers**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1i123*
+* *{p5}{p4}{p3}{p2}{p1}qəlb^Red1i123*
 * *00qi0qəlb0*
 
 bəlups+N+Pl
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^RedPL123123*
+* *{p5}{p4}{p3}{p2}{p1}bəlups^RedPL123123*
 * *00bəlbəlups0*
-* ★*%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^RedPL123123* (is not standard language)
+* ★*{p5}{p4}{p3}{p2}{p1}bəlups^RedPL123123* (is not standard language)
 * ★*00000bəlups0* (is not standard language)
 k̓ʷəčədiʔ+N+Pl: __rabbit/jänis__
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^RedPL123123*
+* *{p5}{p4}{p3}{p2}{p1}k̓ʷəčədiʔ^RedPL123123*
 * *00k̓ʷəčk̓ʷəčədiʔ0*
 * ★*k̓ʷəčədiʔ:* `k̓ʷəčədiʔ+N+Pl` (is not standard language)
 
@@ -745,6 +745,7 @@ Types of adverbs also include
 
 The Usage extents are marked using following tags:
 *  +Err/Orth  
+*  +Err/Orth-no-q   missing glottal stop
 *  +Err/Spellrelax 
 *  +Use/-Spell  
 * **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
