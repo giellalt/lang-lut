@@ -87,6 +87,7 @@ y̓   !!= @CODE@
 
 !! The Usage extents are marked using following tags:
  +Err/Orth  !!= * @CODE@
+ +Err/Orth-no-q  !!= * @CODE@ missing glottal stop
  +Err/Spellrelax !!= * @CODE@
  +Use/-Spell  !!= * @CODE@
  +Use/TTS          !!≈ * **@CODE@** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
