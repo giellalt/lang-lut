@@ -141,7 +141,7 @@ LEXICON PL_RED1_qelb
 @D.PossPx@+Pl:@D.PossPx@%^Red1i123   # ;
 +Pl:%^Red2CV2CiCV        PRE-POSS_01 ;
 !! qəlb+N+Pl: **rain showers**
-!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1i123
+!!€ {p5}{p4}{p3}{p2}{p1}qəlb^Red1i123
 !!€ 00qi0qəlb0
 
 LEXICON PL_RED2
@@ -149,12 +149,12 @@ LEXICON PL_RED2
 !@D.PossPx@+Pl:@D.PossPx@%^RedPL123123 # ;
 +Pl:%^RedPL123123	PRE-POSS_01 ;
 !! bəlups+N+Pl
-!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^RedPL123123
+!!€ {p5}{p4}{p3}{p2}{p1}bəlups^RedPL123123
 !!€ 00bəlbəlups0
-!!$ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^RedPL123123
+!!$ {p5}{p4}{p3}{p2}{p1}bəlups^RedPL123123
 !!$ 00000bəlups0
 !! k̓ʷəčədiʔ+N+Pl: __rabbit/jänis__
-!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^RedPL123123
+!!€ {p5}{p4}{p3}{p2}{p1}k̓ʷəčədiʔ^RedPL123123
 !!€ 00k̓ʷəčk̓ʷəčədiʔ0
 !!$ k̓ʷəčədiʔ: k̓ʷəčədiʔ+N+Pl
 
