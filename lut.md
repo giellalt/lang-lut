@@ -595,11 +595,14 @@ sčətxʷəd+N+Der/Dimin+N+Pl __bear/karhu__
 **%{p2%}:í in reduplication**
 
 **%{p2%}:i in reduplication**
+
+* *{p5}{p4}{p3}{p2}{p1}x̌aʔx̌aʔ^Red1iq13*
+* *00x̌iʔx̌0ʔx̌aʔ0*
 qəlb+N+Pl: **rain showers**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1i123*
+* *{p5}{p4}{p3}{p2}{p1}qəlb^Red1i123*
 * *00qi0qəlb0*
 pišpiš+N+Pl: **cat/kissa**
-* *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^RedPL123123*
+* *{p5}{p4}{p3}{p2}{p1}pišpiš^RedPL123123*
 * *00pišpišpiš0*
 
 **%{p4%}:i in reduplication**
@@ -649,6 +652,10 @@ liquids
 **%{p1%}:w̓ in reduplication**
 
 **%{p1%}:ʔ in reduplication**
+
+x̌aʔx̌aʔ+N+Der+Der/Dimin+N+Sg: **sacred/pyhä**
+* *{p5}{p4}{p3}̌{p2}{p1}x̌aʔx̌aʔ^Red1iq123*
+* *00x̌iqx̌aʔx̌aʔ0*
 
 **%{p1%}:Cx in reduplication**
 * *%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^RedPL123123*
