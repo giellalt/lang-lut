@@ -368,7 +368,8 @@ Rules
 !! **@RULENAME@**
  a:0 <=>
         _ d: %^Pen: %^RmVOW: %^d2t: %>  ; !-t-əb Passive
-
+    %{p1%}: (%{pØ%}:) Cns _ [ Cns | Vow ] [ Lts: | » ]* [%^Red1i13:|%^RedPL1i1i13:|%^Red1iq13:|%^Red12q13:|%^Red1213:] ;
+    
 "ə:0 in inflection"
 !! **@RULENAME@**
  ə:0 <=>  _ d: %> c: Vow ;!CHECKME
@@ -441,11 +442,15 @@ Rules
  %{p2%}:i <=>  _ %{p1%}: (%{pØ%}:) Cns: i: Cns: [ Lts: | » ]* [%^RedPL123123:|%^Red12323:|%^RedPL1i1i13:|%^Red1i13:|%^Red1iq13:|%^Red1iq123:|%^Red12123:|%^Red12q13:|%^Red1213:] ;
                _ %{p1%}: (%{pØ%}:) Cns: ə: Cns: [ Lts: | » ]* [%^RedPL1i1i13:|%^Red1i13:|%^Red1iq13:|%^Red1iq123:] ;
                _ %{p1%}: (%{pØ%}:) Cns: ə Cns: [ Lts: | » ]* [%^Red1i123:|%^Red1iq13:|%^Red1iq123:] ; 
+               _ %{p1%}: (%{pØ%}:) Cns: [a:|u:|i:|á:|à:|í:|ì:|ú:|ù:] Cns: [ Lts: | » ]* [%^Red1i123:|%^Red1iq13:|%^Red1iq123:|%^Red1i13:|%^RedPL1i1i13:] ; 
+
+!!€ {p5}{p4}{p3}{p2}{p1}x̌aʔx̌aʔ^Red1iq13
+!!€ 00x̌iʔx̌0ʔx̌aʔ0
 !! qəlb+N+Pl: **rain showers**
-!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1i123
+!!€ {p5}{p4}{p3}{p2}{p1}qəlb^Red1i123
 !!€ 00qi0qəlb0
 !! pišpiš+N+Pl: **cat/kissa**
-!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}pišpiš%^RedPL123123
+!!€ {p5}{p4}{p3}{p2}{p1}pišpiš^RedPL123123
 !!€ 00pišpišpiš0
 
 "%{p4%}:i in reduplication"
@@ -567,6 +572,10 @@ d:t <=>	[ə:|»|i:|a:|u:] _ %^Pen: %^RmVOW: %^d2t: %> ə b  ;
              %{p3%}: %{p2%}: _ (%{pØ%}:) Cns Vow: ʔ [ Lts | » ]* %^RedPL123123: ;
              %{p3%}: %{p2%}: _ (%{pØ%}:) Cns Vow: Cns: [ Lts | » ]* [%^Red1iq13:|%^Red1iq123:] ;
 
+!! x̌aʔx̌aʔ+N+Der+Der/Dimin+N+Sg: **sacred/pyhä**
+!!€ {p5}{p4}{p3}̌{p2}{p1}x̌aʔx̌aʔ^Red1iq123
+!!€ 00x̌iqx̌aʔx̌aʔ0
+
 "%{p1%}:Cx in reduplication"
 !! **@RULENAME@**
  %{p1%}:Cx <=> %{p3%}: %{p2%}: _ (%{pØ%}:) [Cns - [q|y]] Vow: Cx [ Lts | » ]* %^RedPL123123: ;
@@ -592,6 +601,13 @@ d:t <=>	[ə:|»|i:|a:|u:] _ %^Pen: %^RmVOW: %^d2t: %> ə b  ;
 CnsNoGlotOrD:0 <=> %{p1%}: (%{pØ%}:) _ Vow: Cns: [ Lts | » ]* %^Red12323: ;
 !{p5}{p4}{p3}{p2}{p1}ʔaciɬtalbixʷ^Red12323
 !00ʔac0aciɬtalbixʷ0
+
+
+!"Disallow full vowel removal with Red1iq13 type of reduplication"
+!!! **@RULENAME@**
+!13:0 /<=
+!  %{p1%}: (%{pØ%}:) Cns [a: | á: | à: | i: | í: | ì: | u: | ú: | ù:]  [ Lts | » ]* _ [ %> | # ]; ! full vowel not lost
+!  where 13 in (%^RedPL1i1i13 %^Red1i13 %^Red12q13 %^Red1iq13 %^RedPL130130);
 
 !2016-12-20!"0:p in reduplication"
 !2016-12-20!!! __@RULENAME@__
