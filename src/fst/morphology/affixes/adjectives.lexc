@@ -4,16 +4,21 @@
 
 LEXICON A_with_PL_RED2
 !LEXICON A_with-PL_RED2
-: DIM_CV1toCV2C ;
-: SG-SUF ;
-: PL_RED2 ;
+@R.NPrefix.ZERO@:@R.NPrefix.ZERO@ DIM_CV1toCV2C ;
+@R.NPrefix.ZERO@:@R.NPrefix.ZERO@ SG-SUF ;
+@R.NPrefix.ZERO@:@R.NPrefix.ZERO@ PL_RED2 ;
+
+LEXICON A_with_PL_RED2_ERRORTH_NOQ
++Err/Orth-no-q: A_with_PL_RED2 ;
 
 LEXICON A_with_PL_RED2_Dial/-NL
 A_with_PL_RED2 ;
 
 LEXICON A_with_PL_RED2_PRF/s
 !LEXICON A_with-PL_RED2_PRF/s
-@R.NPrefix.s@ A_with_PL_RED2 ;
+@R.NPrefix.s@ DIM_CV1toCV2C ;
+@R.NPrefix.s@ SG-SUF ;
+@R.NPrefix.s@ PL_RED2 ;
 
 !LEXICON A_
 !!: K ; CHECKME 2021-07-10
