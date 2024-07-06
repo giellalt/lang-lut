@@ -172,6 +172,7 @@ y̓   !!= @CODE@
 
 !! The verbs are syntactically split according to transitivity:
  +TV +IV !!= * @CODE@ 
+ +Mid
  
 !! Special multiword units are analysed with:
  +Multi !!= * @CODE@ 
@@ -466,11 +467,19 @@ y̓   !!= @CODE@
 @R.TAM.NO@ !!= * @CODE@ 
 
 
-@U.OBJ.1@	 !!= * @CODE@ 
-@U.OBJ.2@	 !!= * @CODE@ 
+@U.OBJ.SG1@	 !!= * @CODE@ 
+@U.OBJ.SG2@	 !!= * @CODE@ 
+@U.OBJ.PL1@	 !!= * @CODE@ 
+@U.OBJ.PL2@	 !!= * @CODE@ 
+@U.OBJ.SP3@	 !!= * @CODE@ 
+@U.OBJ.NO@	 !!= * @CODE@ 
 
-@D.OBJ.1@	 !!= * @CODE@ 
-@D.OBJ.2@	 !!= * @CODE@ 
+@D.OBJ.SG1@	 !!= * @CODE@ 
+@D.OBJ.SG2@	 !!= * @CODE@ 
+@D.OBJ.PL1@	 !!= * @CODE@ 
+@D.OBJ.PL2@	 !!= * @CODE@ 
+@D.OBJ.SP3@	 !!= * @CODE@ 
+@D.OBJ@	 !!= * @CODE@ 
 
 @R.TAM@		 !!= * @CODE@ 
 @D.TAM@		 !!= * @CODE@ 

@@ -25,17 +25,17 @@ q̓ʷuʔəd+V:q̓ʷuʔəd TV_SELPED "gather sm" ;
 wiliq̓ʷid+V:wíliq̓ʷid V_KWEDAD "ask" ;
 ɬəgʷilbid+V:ɬəgʷilbid V_KWEDAD "leave sm" ;
 
-idigʷat+V:idigʷat V_KWEDAD "teach" ;
-ɬx̌ilč+V:ɬx̌ilč V_KWEDAD_Dial/-NL "stand up" ;
+ʔidigʷat+V:ʔidigʷat IV_BASE "teach" ;
+ɬx̌ilč+V:ɬx̌ilč IV_BASE_Dial/-NL "stand up" ;
 qʷibid+V:qʷibid V_KWEDAD "prepare" ;
 q̓ʷəld+V:q̓ʷəld V_KWEDAD "bake" ;
 q̓ʷəl+V:q̓ʷəl V_KWEDAD "bake; ripe" ;
 
 k̓ʷasəb+V:k̓ʷasəb V_CUTEB "roast" ;
-labdxʷ+V:labd V_HUYTXW "manage to see" ;
-təɬildxʷ+V:təɬild V_HUYTXW "believe" ;
-šudxʷ+V:šudxʷ V_HUYTXW "see" ;
-ʔukʷukʷ+V:ʔukʷukʷ V_KWEDAD "play" ;
+labdxʷ+V:labd V_LABDXW "manage to see" ;
+təɬildxʷ+V:təɬild V_LABDXW "believe" ;
+šudxʷ+V:šudxʷ V_LABDXW "see" ;
+ʔukʷukʷ+V:ʔukʷukʷ IV_BASE "play" ;
 ʔišil+V:ʔišil V_KWEDAD "swim (of a fish)" ;
 laʔbəd+V:laʔbəd TV_SELPED "look" ;
 ʔiʔɬəd+V:ʔiʔɬəd TV_SELPED "eat a little|nibble" ;
@@ -113,10 +113,10 @@ huytxʷ+V:huyt TV_HUYTXW "" ;
 yəhaw̓txʷ+V:yəhaw̓t V_HUYTXW "proceed" ;
 x̌aƛ̕txʷ+V:x̌aƛ̕t TV_HUYTXW "like|want" ;
 ʔəƛɬtxʷ+V:ʔəƛɬt TV_HUYTXW "feed" ;
-ʔəy̓dxʷ+V:ʔəy̓d TV_HUYTXW "find" ;
-haydxʷ+V:hayd TV_HUYTXW "know" ;
-ləhaydxʷ+V:ləhayd TV_HUYTXW "learn" ;
-tix̌ix̌dxʷ+V:tix̌ix̌d V_HUYTXW "take care of it" ;
+ʔəy̓dxʷ+V:ʔəy̓d TV_LABDXW "find" ;
+haydxʷ+V:hayd TV_LABDXW "know" ;
+ləhaydxʷ+V:ləhayd TV_LABDXW "learn" ;
+tix̌ix̌dxʷ+V:tix̌ix̌d V_LABDXW "take care of it" ;
 tix̌ix̌dubut+V:tix̌ix̌dubut V_HUYTXW "take care of ones self" ;
 
 
@@ -132,27 +132,27 @@ təsadiʔ+v1+V:təsadiʔ V_HELHED "drum" ;
 təsadiʔ+v2+V:tsadiʔ V_HELHED "drum" ; ! check this vowel loss
 q̓ʷuʔ+V:q̓ʷuʔ IV_HELHED "gather" ;
 
-c̓agʷatsut+V:c̓agʷatsut V_KWEDAD "wash oneself (-t-sut)" ;
-huyutsut+V:huyutsut V_KWEDAD "prepare oneself (-t-sut)" ;
-huyutəb+V:huyutəb V_CUTEB "make|prepare (passive)" ;
+c̓agʷacut+V:c̓agʷacut V_KWEDAD "wash oneself (-t-sut)" ;
+huyucut+V:huyucut V_KWEDAD "prepare oneself (-t-sut)" ;
+huyutəb+V:huyutəb V_MID_TEB "make|prepare (passive)" ;
 səx̌əb+V:səx̌əb V_CUTEB "dance" ;
 yəcəb+V:yəcəb V_CUTEB "give news" ;
 ɬiʔɬdahəb+V:ɬiʔɬdahəb V_CUTEB "troll for fish" ;
-ɬič̓itəb+V:ɬič̓itəb V_CUTEB "cut (passive)" ;
+ɬič̓itəb+V:ɬič̓itəb V_MID_TEB "cut (passive)" ;
 ɬič̓txʷ+V:ɬič̓t V_HUYTXW "" ;
-wiliq̓ʷitəb+V:wíliq̓ʷitəb V_CUTEB "ask (passive)" ;
+wiliq̓ʷitəb+V:wíliq̓ʷitəb V_MID_TEB "ask (passive)" ;
 t̕uk̓ʷtub+V:t̕uk̓ʷt V_BECHDUB "take home (passive? t̕uk̓ʷtxʷ)" ;
-q̓ʷuʔtəb+V:q̓ʷuʔtəb V_CUTEB "get gathered" ;
+q̓ʷuʔtəb+V:q̓ʷuʔtəb V_MID_TEB "get gathered" ;
 q̓ʷuʔtxʷ+V:q̓ʷuʔt V_HUYTXW "" ;
-bəq̓təb+V:bəq̓təb V_CUTEB "get swallowed" ;
+bəq̓təb+V:bəq̓təb V_MID_TEB "get swallowed" ;
 xʷak̓ʷisəb+V:xʷak̓ʷisəb V_CUTEB "to tire sm" ;
-kʷədayitəb+V:kʷədayitəb V_CUTEB "" ;
-ʔabyitəb+V:ʔabyitəb V_CUTEB "" ;
-ʔux̌ʷtxʷyitəb+V:ʔux̌ʷtxʷyitəb V_CUTEB "" ;
-ʔəy̓dxʷyitəb+V:ʔəy̓dxʷyitəb V_CUTEB "" ;
-lək̓ʷyitəb+V:lək̓ʷyitəb V_CUTEB "" ;
+kʷədayitəb+V:kʷəda»yitəb V_MID_TEB "" ;
+ʔabyitəb+V:ʔab»yitəb V_MID_TEB "" ;
+ʔux̌ʷtxʷyitəb+V:ʔux̌ʷtxʷ»yitəb V_MID_TEB "" ;
+ʔəy̓dxʷyitəb+V:ʔəy̓dxʷ»yitəb V_MID_TEB "" ;
+lək̓ʷyitəb+V:lək̓ʷ»yitəb V_MID_TEB "" ;
 
-lək̓ʷyid+V:lək̓ʷyid V_KWEDAD "" ;
+lək̓ʷyid+V:lək̓ʷ»yid V_KWEDAD "" ;
 cilid+V:cilid V_KWEDAD "" ;
 
 
