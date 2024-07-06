@@ -1106,11 +1106,19 @@ given the proper use of these flags.
 * @U.TAM.NO@  
 * @R.TAM.NO@  
 
-* @U.OBJ.1@	  
-* @U.OBJ.2@	  
+* @U.OBJ.SG1@	  
+* @U.OBJ.SG2@	  
+* @U.OBJ.PL1@	  
+* @U.OBJ.PL2@	  
+* @U.OBJ.SP3@	  
+* @U.OBJ.NO@	  
 
-* @D.OBJ.1@	  
-* @D.OBJ.2@	  
+* @D.OBJ.SG1@	  
+* @D.OBJ.SG2@	  
+* @D.OBJ.PL1@	  
+* @D.OBJ.PL2@	  
+* @D.OBJ.SP3@	  
+* @D.OBJ@	  
 
 * @R.TAM@		  
 * @D.TAM@		  
