@@ -1,3 +1,10 @@
+# This file should contain language specific, non-standard spelling variants
+# e.g. if most people write s instead of š, including it in this file makes
+# it available in descriptive analysers
+#
+# Explanation:
+# lexical side (->) input 
+
 #ʔ (->) ˀ, # LATIN LETTER GLOTAL STOP U+0294 allows MODIFIER LETTER GLOTAL STOP U+02C0
 {t̕} (->) {t̓}, # t WITH U+0315 COMBINING COMMA ABOVE RIGHT allows t WITH U+0313 COMBINING COMMA ABOVE
 # No keyboards for lut in use
