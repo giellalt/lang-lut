@@ -13,9 +13,9 @@ GT_ORTHOGRAPHIC_REGEX_SRCS=\
 		spellrelax.regex    \
 		spellrelax-mobile-keyboard.regex \
 		spellrelax-tags.regex \
+		inituppercase.regex \
 		split-composed-chars.regex
 
-#		inituppercase.regex 
 
 GT_ORTHOGRAPHIC_XFSCRIPT_SRCS=\
 		allcaps.xfscript      \
