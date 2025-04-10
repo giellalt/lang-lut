@@ -56,7 +56,7 @@ CUSTOM_FSTS=
 				 save stack $@\n\
 				 quit\n" | $(XFST_TOOL)
 
-# And also for the normative analyser (foma and hfst):
+# And also for the normative analyser:
 .generated/analyser-gt-norm.%: .generated/analyser-gt-norm.tmp.% \
 										filters/remove-illegal-derivation-strings-flagbased.% \
 										filters/insert-default-compounding-tags.% \
@@ -83,22 +83,6 @@ CUSTOM_FSTS=
 				 $(INVERT_HFST)\
 				 save stack $@\n\
 				 quit\n" | $(XFST_TOOL)
-
-# The operation 'twosided flag-diacritics" crashes Xerox badly, so we do with
-# a simpler, less restrictive normative fst when building with Xerox:
-.generated/analyser-gt-norm.xfst: .generated/analyser-gt-norm.tmp.xfst \
-										filters/remove-illegal-derivation-strings.xfst	  \
-										filters/remove-letter-acute.xfst			  \
-										filters/remove-letter-grave.xfst
-		$(AM_V_XFST)$(PRINTF) "read regex \
-						 @\"filters/remove-illegal-derivation-strings.xfst\"	\
-						.o. @\"$<\"												   \
-						.o. @\"filters/remove-letter-acute.xfst\"			   \
-						.o. @\"filters/remove-letter-grave.xfst\"			   \
-						;\n\
-				 save stack $@\n\
-				 quit\n" | $(XFST) $(VERBOSITY)
-
 
 # We need special treatment of the disamb fst going to further pmatch processing
 # mainly due to the target pattern, thus listed here. The rule body and the
@@ -180,7 +164,7 @@ $(foreach fst,hfst xfst foma,$(eval $(call giella_generators,$(fst))))
 				 $(AM_V_HPRUNE)$(HFST_PRUNE_ALPHABET) -i $@.tmp -o $@
 				 $(AM_V_at)rm -f $@.tmp
 
-# Xfst and Foma version:
+# Foma version:
 .generated/analyser-raw-gt-desc.%: .generated/analyser-raw-gt-desc.tmp.% \
 										orthography/split-composed-chars.compose.%
 		$(AM_V_XFST_TOOL)$(PRINTF) "read regex			  \
