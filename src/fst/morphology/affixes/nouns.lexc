@@ -66,7 +66,7 @@ LEXICON N_with_PL_RED2_PRF/sexw
 LEXICON N_with_PL_RED2_PRF/xh
 @R.NPrefix.xh@:@R.NPrefix.xh@ N0_with_PL_RED2 ;
 
-LEXICON N_with_PL_RED2
+LEXICON N_with_PL_RED2 !This is the typical noun with plural reduplication 123123 
 @R.NPrefix.ZERO@:@R.NPrefix.ZERO@ N0_with_PL_RED2 ;
 
 
@@ -144,7 +144,7 @@ LEXICON PL_RED1_qelb
 !!€ {p5}{p4}{p3}{p2}{p1}qəlb^Red1i123
 !!€ 00qi0qəlb0
 
-LEXICON PL_RED2
+LEXICON PL_RED2 !! where reduplication happens
 @D.PossPx@+Pl:@D.PossPx@%^RedPL123123 PRE-POSS_01 ;
 !@D.PossPx@+Pl:@D.PossPx@%^RedPL123123 # ;
 +Pl:%^RedPL123123	PRE-POSS_01 ;
