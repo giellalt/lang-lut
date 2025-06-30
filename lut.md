@@ -373,6 +373,7 @@ qəlb+N+Pl: **rain showers**
 * *{p5}{p4}{p3}{p2}{p1}qəlb^Red1i123*
 * *00qi0qəlb0*
 
+where reduplication happens
 bəlups+N+Pl
 * *{p5}{p4}{p3}{p2}{p1}bəlups^RedPL123123*
 * *00bəlbəlups0*
