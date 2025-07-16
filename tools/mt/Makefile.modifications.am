@@ -28,7 +28,6 @@ analyser-mt-gt-desc.hfst: analyser-mt-gt-desc.tmp.hfst \
 					 .o. @\"$(top_builddir)/src/fst/filters/remove-letter-grave.hfst\" \
 					 .o. @\"$(top_builddir)/src/fst/filters/remove-letter-acute.hfst\"           \
     					 ;\n\
-			         $(HFST_INVERT)\
 				 twosided flag-diacritics\n\
 				 eliminate flag NMZ\n\
 				 eliminate flag NPrefix\n\
@@ -59,3 +58,6 @@ generator-mt-gt-norm.hfst: generator-mt-gt-norm.tmp.hfst \
 				 eliminate flag TAM-T\n\
 				 save stack $@\n\
 				 quit\n" | $(XFST_TOOL)
+
+
+include $(top_srcdir)/../giella-core/am-shared/xfscript-include.am
