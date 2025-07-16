@@ -18,3 +18,29 @@ CLEAN_FILES+=
 
 ##################################################################
 #### Build rules - add targets and their build rules below:
+
+# We want to eliminate flags in the apertium-targeted analyser:
+analyser-mt-gt-desc.hfst: analyser-mt-gt-desc.tmp.hfst \
+			$(top_builddir)/src/fst/filters/remove-letter-acute.hfst           \
+			$(top_builddir)/src/fst/filters/remove-letter-grave.hfst 
+	$(AM_V_RGX2FST)$(PRINTF) "\
+		@\"$(top_builddir)/src/fst/filters/remove-letter-grave.hfst\" \
+	.o. @\"$(top_builddir)/src/fst/filters/remove-letter-acute.hfst\"           \
+   	.o. @\"$<\" \
+    	;" \
+	        | $(HFST_REGEXP2FST) $(HFST_FLAGS) $(HFST_FORMAT) \
+			-S --xerox-composition=ON \
+		| $(HFST_INVERT) $(HFSTFLAGS) \
+		-o $@
+
+generator-mt-gt-norm.hfst: generator-mt-gt-norm.tmp.hfst \
+			$(top_builddir)/src/fst/filters/remove-letter-acute.hfst             \
+			$(top_builddir)/src/fst/filters/remove-letter-grave.hfst   
+	$(AM_V_RGX2FST)$(PRINTF) "\
+		@\"$(top_builddir)/src/fst/filters/remove-letter-grave.hfst\"   \
+	.o. @\"$(top_builddir)/src/fst/filters/remove-letter-acute.hfst\"             \
+   	.o. @\"$<\" \
+    	;" \
+		| $(HFST_REGEXP2FST) $(HFST_FLAGS) $(HFST_FORMAT) \
+			-S --xerox-composition=ON \
+		-o $@
