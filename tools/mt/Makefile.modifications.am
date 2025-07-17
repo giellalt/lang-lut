@@ -28,6 +28,7 @@ analyser-mt-gt-desc.hfst: analyser-mt-gt-desc.tmp.hfst \
 					 .o. @\"$(top_builddir)/src/fst/filters/remove-letter-grave.hfst\" \
 					 .o. @\"$(top_builddir)/src/fst/filters/remove-letter-acute.hfst\"           \
     					 ;\n\
+				 $(INVERT_HFST)\
 				 twosided flag-diacritics\n\
 				 eliminate flag NMZ\n\
 				 eliminate flag NPrefix\n\
@@ -41,23 +42,29 @@ analyser-mt-gt-desc.hfst: analyser-mt-gt-desc.tmp.hfst \
 				 quit\n" | $(XFST_TOOL)
 
 generator-mt-gt-norm.hfst: generator-mt-gt-norm.tmp.hfst \
+						$(top_builddir)/src/fst/orthography/split-composed-chars.compose.hfst \
 			$(top_builddir)/src/fst/filters/remove-letter-acute.hfst             \
 			$(top_builddir)/src/fst/filters/remove-letter-grave.hfst   
-		$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
-						 @\"$<\" 		\
-					    	;\n\
-				 $(INVERT_XFST)$(INVERT_FOMA)\
-				 twosided flag-diacritics\n\
-				 eliminate flag NMZ\n\
-				 eliminate flag NPrefix\n\
-				 eliminate flag PossPx\n\
-				 eliminate flag TAM-A\n\
-				 eliminate flag TAM-HAB\n\
-				 eliminate flag TAM-RE\n\
-				 eliminate flag TAM-SUBJ\n\
-				 eliminate flag TAM-T\n\
-				 save stack $@\n\
-				 quit\n" | $(XFST_TOOL)
+		$(AM_V_HXFST)$(PRINTF) "\
+			read regex                                                 \
+				@\"$(top_builddir)/src/fst/orthography/split-composed-chars.compose.hfst\".i \
+			.o. @\"$(top_builddir)/src/fst/filters/remove-letter-acute.hfst\" \
+			.o. @\"$(top_builddir)/src/fst/filters/remove-letter-grave.hfst\" \
+			.o. @\"$<\" 		\
+			.o. @\"$(top_builddir)/src/fst/orthography/split-composed-chars.compose.hfst\" \
+			; \n\
+			twosided flag-diacritics\n\
+			eliminate flag NMZ\n\
+			eliminate flag NPrefix\n\
+			eliminate flag PossPx\n\
+			eliminate flag TAM-A\n\
+			eliminate flag TAM-HAB\n\
+			eliminate flag TAM-RE\n\
+			eliminate flag TAM-SUBJ\n\
+			eliminate flag TAM-T\n\
+			save stack $@\n\
+			quit\n" | $(HFST_XFST) -p $(MORE_VERBOSITY) $(HFST_FORMAT)
+
 
 
 include $(top_srcdir)/../giella-core/am-shared/xfscript-include.am
