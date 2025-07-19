@@ -1,5 +1,5 @@
 
-S O U T H   S Á M I   D I S A M B I G U A T O R          
+L U S H O O T S E E D   D I S A M B I G U A T O R          
 
 # Delimiters 
 
@@ -46,6 +46,8 @@ MAINV
 
 * BOUNDARY SETS
 
+make common nouns set by subtraction <lut>
+
 # Disambiguation #
 
 ## @NO CODE@
@@ -65,6 +67,8 @@ Possessive suffix
 Short Pronouns
 
 Proper nouns
+
+<lut>
 
 Trivialia
 
