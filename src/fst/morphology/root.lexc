@@ -479,9 +479,10 @@ y̓   !!= @CODE@
 @U.TAM.NO@ !!= * @CODE@ What is this? 2025-07-18
 @R.TAM.NO@ !!= * @CODE@ 
 
-
-@U.OBJ.1@      !!= * @CODE@
-@U.OBJ.2@      !!= * @CODE@
+@U.OBJ.ZERO@     !!= * @CODE@
+@U.OBJ.1@        !!= * @CODE@
+@U.OBJ.2@        !!= * @CODE@
+@U.OBJ.3@        !!= * @CODE@
 
 @U.OBJ.SG1@	 !!= * @CODE@ 
 @U.OBJ.SG2@	 !!= * @CODE@ 
