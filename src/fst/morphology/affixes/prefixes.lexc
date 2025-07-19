@@ -30,107 +30,104 @@
 !! lə<bə<ləcu<gʷaadgʷad
 
 LEXICON Prefixes
-Prefixes_01 ;
-@U.TAM-SUBJ.SUBJ@:@U.TAM-SUBJ.SUBJ@gʷə%< Prefixes_01 ; !sbj = subjunctive
-@U.TAM-HAB.IRR@:@U.TAM-HAB.IRR@ɬu%< Prefixes_01 ; ! qəlb 'rain': ɬuqəlb 'rain in the future' is this a noun, too? _intention to_
+ L7_ ;
 
 !Lonsdale 2001:211-212
 !ɬubələskʷaxʷyildutəxʷčəɬ
 !ɬu<bə<ləs<kʷaxʷ>y>il>d>ut>əxʷ>čəɬ
 !Fut+ANEW+PgrSttv+help+YI+il+Trx+Rfx+Inc+our
-@U.TAM-HAB.IRR@@U.TAM-RE.RE@@U.TAM-A.PROGSTAT@:@U.TAM-HAB.IRR@@U.TAM-RE.RE@@U.TAM-A.PROGSTAT@ɬu%<bə%<ləs%< VERBS_OR_NOUNS ;
-@U.TAM-HAB.IRR@@U.TAM-RE.RE@@U.TAM-A.PROGSTAT@:@U.TAM-HAB.IRR@@U.TAM-RE.RE@@U.TAM-A.PROGSTAT@ɬu%<bə%<las%< VERBS_OR_NOUNS ;
-@U.TAM-HAB.IRR@@U.TAM-RE.RE@:@U.TAM-HAB.IRR@@U.TAM-RE.RE@ɬu%<bə%< DVNouns   ; ! direct to PxSg1
+!@U.TAM-HAB.IRR@@U.TAM-RE.RE@@U.TAM-A.PROGSTAT@:@U.TAM-HAB.IRR@@U.TAM-RE.RE@@U.TAM-A.PROGSTAT@ɬu%<bə%<ləs%< VERBS_OR_NOUNS ;
+!@U.TAM-HAB.IRR@@U.TAM-RE.RE@@U.TAM-A.PROGSTAT@:@U.TAM-HAB.IRR@@U.TAM-RE.RE@@U.TAM-A.PROGSTAT@ɬu%<bə%<las%< VERBS_OR_NOUNS ;
+!@U.TAM-HAB.IRR@@U.TAM-RE.RE@:@U.TAM-HAB.IRR@@U.TAM-RE.RE@ɬu%<bə%< DVNouns   ; ! direct to PxSg1
 !gʷə%<ƛ̕u%<ʔas– Sbj+Hab+Stat
-@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.HAB@@U.TAM-A.STAT@:@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.HAB@@U.TAM-A.STAT@gʷə%<ƛ̕u%<ʔəs%< VERBS_OR_NOUNS ;
-@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.HAB@@U.TAM-A.STAT@:@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.HAB@@U.TAM-A.STAT@gʷə%<ƛ̕u%<ʔas%< VERBS_OR_NOUNS ;
-@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.HAB@:@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.HAB@gʷə%<ƛ̕u%< DVNouns   ; ! direct to PxSg1
+!@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.HAB@@U.TAM-A.STAT@:@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.HAB@@U.TAM-A.STAT@gʷə%<ƛ̕u%<ʔəs%< VERBS_OR_NOUNS ;
+!@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.HAB@@U.TAM-A.STAT@:@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.HAB@@U.TAM-A.STAT@gʷə%<ƛ̕u%<ʔas%< VERBS_OR_NOUNS ;
+!@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.HAB@:@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.HAB@gʷə%<ƛ̕u%< DVNouns   ; ! direct to PxSg1
 !ƛ̕u%<ʔas– Hab+Stat
-@U.TAM-HAB.HAB@@U.TAM-A.STAT@:@U.TAM-HAB.HAB@@U.TAM-A.STAT@ƛ̕u%<ʔəs%< VERBS_OR_NOUNS ;
-@U.TAM-HAB.HAB@@U.TAM-A.STAT@:@U.TAM-HAB.HAB@@U.TAM-A.STAT@ƛ̕u%<ʔas%< VERBS_OR_NOUNS ;
+!@U.TAM-HAB.HAB@@U.TAM-A.STAT@:@U.TAM-HAB.HAB@@U.TAM-A.STAT@ƛ̕u%<ʔəs%< VERBS_OR_NOUNS ;
+!@U.TAM-HAB.HAB@@U.TAM-A.STAT@:@U.TAM-HAB.HAB@@U.TAM-A.STAT@ƛ̕u%<ʔas%< VERBS_OR_NOUNS ;
 !ʔəsq̓iʔq̓aƛ̕əb _partly cloudy_ ɬasq̓iʔq̓aƛ̕əb __partly cloudy in the future__
 !ʔəsgiʔgəqəb __partly sunny__ ɬasgiʔgəqəb __partly sunny in the future__
 !ʔiɬgəqil __mostly sunny__ ɬasʔiɬgəqil __mostly sunny in the future__
 !ʔəsgəqəb __sunny__ ɬasgəqil __sunny in the future__
-@U.TAM-HAB.IRR@@U.TAM-A.STAT@:@U.TAM-HAB.IRR@@U.TAM-A.STAT@ɬəs%<  VERBS_OR_NOUNS ;
-@U.TAM-HAB.IRR@@U.TAM-A.STAT@:@U.TAM-HAB.IRR@@U.TAM-A.STAT@ɬas%<  VERBS_OR_NOUNS ;
+!@U.TAM-HAB.IRR@@U.TAM-A.STAT@:@U.TAM-HAB.IRR@@U.TAM-A.STAT@ɬəs%<  VERBS_OR_NOUNS ;
+!@U.TAM-HAB.IRR@@U.TAM-A.STAT@:@U.TAM-HAB.IRR@@U.TAM-A.STAT@ɬas%<  VERBS_OR_NOUNS ;
+
 !ƛ̕u=bə= Hab+Add (check ordering)
-@U.TAM-HAB.HAB@@U.TAM-RE.RE@:@U.TAM-HAB.HAB@@U.TAM-RE.RE@ƛ̕u%<bə%< DVNouns   ; ! direct to PxSg1
+!@U.TAM-HAB.HAB@@U.TAM-RE.RE@:@U.TAM-HAB.HAB@@U.TAM-RE.RE@ƛ̕u%<bə%< DVNouns   ; ! direct to PxSg1
+
 !bə%<ƛ̕u%< Add+Hab (check ordering)
-@U.TAM-RE.RE@@U.TAM-HAB.HAB@:@U.TAM-RE.RE@@U.TAM-HAB.HAB@bə%<ƛ̕u%< DVNouns   ; ! direct to PxSg1
+!@U.TAM-RE.RE@@U.TAM-HAB.HAB@:@U.TAM-RE.RE@@U.TAM-HAB.HAB@bə%<ƛ̕u%< DVNouns   ; ! direct to PxSg1
+
 !gʷə%<tu%< Sbj+Rem
-@U.TAM-SUBJ.SUBJ@@U.TAM-T.REM@:@U.TAM-SUBJ.SUBJ@@U.TAM-T.REM@gʷə%<tu%< DVNouns   ; ! direct to PxSg1
+!@U.TAM-SUBJ.SUBJ@@U.TAM-T.REM@:@U.TAM-SUBJ.SUBJ@@U.TAM-T.REM@gʷə%<tu%< DVNouns   ; ! direct to PxSg1
+
 !ƛ̕u%<ʔu%< Hab+Pfv
-@U.TAM-HAB.HAB@@U.TAM-A.PFV@:@U.TAM-HAB.HAB@@U.TAM-A.PFV@ƛ̕u%<ʔu%< VERBS_OR_NOUNS ;
+!@U.TAM-HAB.HAB@@U.TAM-A.PFV@:@U.TAM-HAB.HAB@@U.TAM-A.PFV@ƛ̕u%<ʔu%< VERBS_OR_NOUNS ;
+
 !ƛ̕u%<tu%<lə%< Hab+Rem+Prog
-@U.TAM-HAB.HAB@@U.TAM-T.REM@@U.TAM-A.PROG@:@U.TAM-HAB.HAB@@U.TAM-T.REM@@U.TAM-A.PROG@ƛ̕u%<tu%<lə%< VERBS_OR_NOUNS ;
+!@U.TAM-HAB.HAB@@U.TAM-T.REM@@U.TAM-A.PROG@:@U.TAM-HAB.HAB@@U.TAM-T.REM@@U.TAM-A.PROG@ƛ̕u%<tu%<lə%< VERBS_OR_NOUNS ;
+
 !ƛ̕u%<0%<lə%< Hab+Prog
-@U.TAM-HAB.HAB@@U.TAM-A.PROG@:@U.TAM-HAB.HAB@@U.TAM-A.PROG@ƛ̕u%<lə%< VERBS_OR_NOUNS ;
+!@U.TAM-HAB.HAB@@U.TAM-A.PROG@:@U.TAM-HAB.HAB@@U.TAM-A.PROG@ƛ̕u%<lə%< VERBS_OR_NOUNS ;
 
+!@U.TAM-A.PROG@:@U.TAM-A.PROG@lə%< Prefixes_01b ;
 
-
-LEXICON Prefixes_01
-Prefixes_01a ;
-@U.TAM-RE.RE@:@U.TAM-RE.RE@bə%< Prefixes_01a ;
-
-LEXICON Prefixes_01a
-Prefixes_01b ;
-@U.TAM-HAB.HAB@:@U.TAM-HAB.HAB@ƛ̕u%< Prefixes_01b ;
-@U.TAM-A.PROG@:@U.TAM-A.PROG@lə%< Prefixes_01b ;
 !bələhuy: __again/also it is done__
 
-LEXICON Prefixes_01b
-Prefixes_01c ;
-!@U.PossPx.Sg1@:@U.PossPx.Sg1@d%<     Prefixes_01c   ;
-!@U.PossPx.Sg2@:@U.PossPx.Sg2@ad%<    Prefixes_01c   ;
- DVNouns_01 ;
-
-LEXICON Prefixes_01c
-NOUNS_PREFIX_PREP ;
-!Nouns ;
-! These are the first Northern Lushootseed
-! N_NEWWORDS ;
-! DVNouns   ;
-
-
-LEXICON DVNouns
-!@U.NMZ.V2N@:@U.NMZ.V2N@s%< DVNouns_01 ; !Need to mark this with flags 2021-06-30
-!@U.NMZ.V2A@:@U.NMZ.V2A@dəxʷ%< DVNouns_01 ; !2022-12-25 moved to DVNouns_02-02
- DVNouns_01 ; !
  
 !ƛ̕u=s=ʔəs Hab+Nmz+Stat
 
 !ɬu=d=s=ʔaʔ Irr+PxSg1+Nmlz+be.there
 
-LEXICON DVNouns_01
-! followed by PX
-@U.TAM-T.REM@:@U.TAM-T.REM@tu%< DVNouns_02-1 ; !remote past, any predicate
-DVNouns_02-1 ;
 
-LEXICON DVNouns_02-1
-!@U.PossPx.Sg1@:@U.PossPx.Sg1@d%<     Prefixes_01c   ;!CHECKME2022
-!@U.PossPx.Sg2@:@U.PossPx.Sg2@ad%<    Prefixes_01c   ;
-@U.PossPx.Sg1@:@U.PossPx.Sg1@d%<     DVNouns_02-2   ;!CHECKME2022
-@U.PossPx.Sg2@:@U.PossPx.Sg2@ad%<    DVNouns_02-2   ;
-DVNouns_02-2 ;
 
-LEXICON DVNouns_02-2
-@U.NMZ.V2N@:@U.NMZ.V2N@s%< DVNouns_02-3 ; !Need to mark this with flags 2021-06-30
-@U.NMZ.V2A@:@U.NMZ.V2A@dəxʷ%< DVNouns_02-3 ; !
-DVNouns_02-3 ;
 
-LEXICON DVNouns_02-3
-!@U.TAM.NO@:@U.TAM.NO@ Verbs ; 
-!verbprefix-     Verbs   ;
- VERBS_OR_NOUNS ;
+!!Begin
+LEXICON L7_
+@U.TAM-SUBJ.SUBJ@:@U.TAM-SUBJ.SUBJ@gʷə%< L6_ ; !sbj = subjunctive
+@U.TAM-SUBJ.ZERO@                        L6_ ;
+
+LEXICON L6_
+@U.TAM-HAB.HAB@:@U.TAM-HAB.HAB@ƛ̕u%< L5_ ;
+@U.TAM-HAB.IRR@:@U.TAM-HAB.IRR@ɬu%< L4_ ;! qəlb 'rain': ɬuqəlb 'rain in the future' is this a noun, too? _intention to_
+@U.TAM-HAB.ZERO@  L5_ ;
+
+LEXICON L5_
+@U.TAM-T.REM@:@U.TAM-T.REM@tu%< L4_ ;
+@U.TAM-T.ZERO@ L4_ ;
+
+LEXICON L4_
+@U.TAM-RE.RE@:@U.TAM-RE.RE@bə%< L3_ ;
+@U.TAM-RE.ZERO@ L3_ ;
+
+LEXICON L3_
+@U.PossPx.Sg1@:@U.PossPx.Sg1@d%< L2_ ;
+@U.PossPx.Sg2@:@U.PossPx.Sg2@ad%< L2_ ;
+@U.PossPx.Pl1@:@U.PossPx.Pl1@ L2_ ;
+@U.PossPx.Pl2@:@U.PossPx.Pl2@ L2_ ;
+@U.PossPx.ZERO@ L2_ ;
+@U.PossPx.SP3@ L2_ ;
+ 
+LEXICON L2_
+@U.NMZ.V2N@:@U.NMZ.V2N@s%< L1_ ; !Need to mark this with flags 2021-06-30
+@U.NMZ.V2A@:@U.NMZ.V2A@dəxʷ%< L1_ ; 
+
+@U.NMZ.ZERO@  L1_ ;
+@U.TAM-A.CONT@:@U.TAM-A.CONT@ləcu%< VERBS_OR_NOUNS ;
+@U.TAM-A.PROGSTAT@:@U.TAM-A.PROGSTAT@ləs%< VERBS_OR_NOUNS ;
 @U.TAM-A.PROG@:@U.TAM-A.PROG@lə%< VERBS_OR_NOUNS ;!non-circumscribed, progressive
+@U.NMZ.V2N@@U.TAM-A.PROG@:@U.NMZ.V2N@@U.TAM-A.PROG@s%<ə%< VERBS_OR_NOUNS ;
+@U.NMZ.V2A@@U.TAM-A.PROG@:@U.NMZ.V2A@@U.TAM-A.PROG@dəxʷ%<ə%< VERBS_OR_NOUNS ; 
+
+
+LEXICON L1_
+@U.TAM-A.ZERO@:@U.TAM-A.ZERO@ VERBS_OR_NOUNS ;
 @U.TAM-A.STAT@:@U.TAM-A.STAT@ʔəs%< VERBS_OR_NOUNS ; !ongoing state
 @U.TAM-A.STAT@:@U.TAM-A.STAT@ʔas%< VERBS_OR_NOUNS ; !ongoing state
-@U.TAM-A.PROGSTAT@:@U.TAM-A.PROGSTAT@ləs%< VERBS_OR_NOUNS ;
 @U.TAM-A.PFV@:@U.TAM-A.PFV@ʔu%< VERBS_OR_NOUNS ; ! qəlb 'rain': ʔuqəlb 'raining' doesn't sound perfect to me
-@U.TAM-A.CONT@:@U.TAM-A.CONT@ləcu%< VERBS_OR_NOUNS ;
 
-
+!!END
 
 
 LEXICON VERBS_OR_NOUNS
@@ -138,14 +135,18 @@ LEXICON VERBS_OR_NOUNS
 
 @U.NPrefix.ZERO@:@U.NPrefix.ZERO@%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
 @U.NPrefix.c@:@U.NPrefix.c@c%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
+!@U.NPrefix.dexw@:@U.NPrefix.dexw@dəxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
 @U.NPrefix.dxw@:@U.NPrefix.dxw@dxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
 @U.NPrefix.dxws@:@U.NPrefix.dxws@dxʷs%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
 @U.NPrefix.je@:@U.NPrefix.je@ǰə%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
 @U.NPrefix.le@:@U.NPrefix.le@lə%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
 @U.NPrefix.s@:@U.NPrefix.s@s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
-@U.NPrefix.sxw@:@U.NPrefix.sxw@sxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
 @U.NPrefix.sexw@:@U.NPrefix.sexw@səxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
+@U.NPrefix.sxw@:@U.NPrefix.sxw@sxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
+!@U.NPrefix.tsi@:@U.NPrefix.tsi@tsi%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
 @U.NPrefix.xh@:@U.NPrefix.xh@x̌%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
+!@U.NPrefix.xhw@:@U.NPrefix.xhw@x̌ʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
+!@U.NPrefix.xw@:@U.NPrefix.xw@xʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
 
 LEXICON NOUNS_PREFIX_PREP
 N_NEWWORDS ;
