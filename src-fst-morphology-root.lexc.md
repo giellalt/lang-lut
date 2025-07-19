@@ -350,6 +350,7 @@ given the proper use of these flags.
 
 ###  NOUNS
 
+* @U.PossPx.ZERO@ 
 * @U.PossPx.SP3@  
 * @U.PossPx.Sg1@  
 * @U.PossPx.Sg2@  
@@ -372,9 +373,13 @@ given the proper use of these flags.
 * @U.NPrefix.je@ 
 * @U.NPrefix.le@ 
 * @U.NPrefix.s@ 
-* @U.NPrefix.sxw@ 
 * @U.NPrefix.sexw@ 
+* @U.NPrefix.sxw@ 
+* @U.NPrefix.tsi@ 
 * @U.NPrefix.xh@ 
+* @U.NPrefix.xhw@ 
+* @U.NPrefix.xw@ 
+
 * @R.NPrefix.ZERO@ 
 * @R.NPrefix.c@ 
 * @R.NPrefix.dexw@ 
@@ -383,38 +388,41 @@ given the proper use of these flags.
 * @R.NPrefix.je@ 
 * @R.NPrefix.le@ 
 * @R.NPrefix.s@ 
-* @R.NPrefix.sxw@ 
 * @R.NPrefix.sexw@ 
+* @R.NPrefix.sxw@ 
+* @R.NPrefix.tsi@ 
 * @R.NPrefix.xh@ 
+* @R.NPrefix.xhw@ 
+* @R.NPrefix.xw@ 
 * @D.NPrefix@ 
 * @C.NPrefix@ 
 
 ### VERBS
+* @U.TAM-SUBJ.ZERO@  
 * @U.TAM-SUBJ.SUBJ@  gʷə%<
 * @R.TAM-SUBJ.SUBJ@  gʷə%<
-* @D.TAM-SUBJ@  gʷə%<
 
+* @U.TAM-HAB.ZERO@  
 * @U.TAM-HAB.IRR@	  ɬu%< also FUT
 * @R.TAM-HAB.IRR@	  ɬu%< also FUT
 * @U.TAM-HAB.HAB@	  ƛ̕u%<
 * @R.TAM-HAB.HAB@	  ƛ̕u%<
-* @D.TAM-HAB@	  ƛ̕u%<
 
-* @U.TAM-RE.RE@   bə
-* @R.TAM-RE.RE@   bə Anew, re-
-* @D.TAM-RE.RE@   bə
+* @U.TAM-RE.ZERO@   
+* @U.TAM-RE.RE@   bə Anew, re-
+* @R.TAM-RE.RE@   bə
 
+* @U.NMZ.ZERO@  
 * @U.NMZ.V2N@   s%^√
 * @R.NMZ.V2N@   s%^√
 * @U.NMZ.V2A@   dəxʷ
 * @R.NMZ.V2A@   dəxʷ
-* @D.NMZ@       s%^√ dəxʷ
 
+* @U.TAM-T.ZERO@	  
 * @U.TAM-T.REM@	  tu%<
 * @R.TAM-T.REM@	  tu%<
-* @D.TAM-T@	  tu%<
 
-* @N.TAM-A@	  ʔu%<
+* @U.TAM-A.ZERO@	  none of these
 * @D.TAM-A@	  ʔu%<
 * @U.TAM-A.PFV@	  ʔu%<
 * @R.TAM-A.PFV@	  ʔu%<
@@ -426,15 +434,18 @@ given the proper use of these flags.
 * @R.TAM-A.PROG@	  progressive lə%<
 * @U.TAM-A.STAT@  ʔəs%<
 * @R.TAM-A.STAT@  ʔəs%<
-* @U.TAM.NO@  
+* @U.TAM.NO@  What is this? 2025-07-18
 * @R.TAM.NO@  
+
+* @U.OBJ.1@      
+* @U.OBJ.2@      
 
 * @U.OBJ.SG1@	  
 * @U.OBJ.SG2@	  
 * @U.OBJ.PL1@	  
 * @U.OBJ.PL2@	  
 * @U.OBJ.SP3@	  
-* @U.OBJ.NO@	  
+* @U.OBJ.ZERO@	  
 
 * @D.OBJ.SG1@	  
 * @D.OBJ.SG2@	  
@@ -451,15 +462,13 @@ given the proper use of these flags.
 The word forms in LUSHOOTSEED language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
-* 0   Adjectives  ;   
-* 0   Adpositions  ;  
-* 0   Adverbs  ;	    
-* 0   Conjunctors  ;	    
-* 0   Interjections  ;	    
-* 0   Pronouns    ;   
-* 0   Propernouns    ;   
-* 0   Numerals    ;   
-* 0   Prefixes    ;   
+*    Adpositions  ;  
+*    Adverbs  ;	    
+*    Conjunctors  ;	    
+*    Interjections  ;	    
+*    Pronouns    ;   
+*    Numerals    ;   
+*    Prefixes    ;    Feeds Adjectives, Nouns, Propernouns, Verbs
 
 * **LEXICON K ** Clitic lexicon
 

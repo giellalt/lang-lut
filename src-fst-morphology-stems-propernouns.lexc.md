@@ -1,5 +1,6 @@
 Proper nouns
-Proper nouns in LUSHOOTSEED language 
+Proper nouns in LUSHOOTSEED language inflect in the same way as common
+nouns
 
 * * *
 
