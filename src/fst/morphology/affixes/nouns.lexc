@@ -37,41 +37,41 @@ LEXICON N_with_PL_RED2_PRF/s_Dial/-NL
 +Dial/-NL: N_with_PL_RED2_PRF/s ;
 
 LEXICON N_with_PL_RED2_PRF/c
-@R.NPrefix.c@:@R.NPrefix.c@ N0_with_PL_RED2 ;
-
-LEXICON N_with_PL_RED2_PRF/dxw
-@R.NPrefix.dxw@:@R.NPrefix.dxw@ N0_with_PL_RED2 ;
+@U.NPrefix.c@:@U.NPrefix.c@ N0_with_PL_RED2 ;
 
 LEXICON N_with_PL_RED2_PRF/dexw
-@R.NPrefix.dexw@:@R.NPrefix.dexw@ N0_with_PL_RED2 ;
+@U.NPrefix.dexw@:@U.NPrefix.dexw@ N0_with_PL_RED2 ;
 
 LEXICON N_with_PL_RED2_PRF/dxws
-@R.NPrefix.dxws@:@R.NPrefix.dxws@ N0_with_PL_RED2 ;
+@U.NPrefix.dxws@:@U.NPrefix.dxws@ N0_with_PL_RED2 ;
+
+LEXICON N_with_PL_RED2_PRF/dxw
+@U.NPrefix.dxw@:@U.NPrefix.dxw@ N0_with_PL_RED2 ;
 
 LEXICON N_with_PL_RED2_PRF/je
-@R.NPrefix.je@:@R.NPrefix.je@ N0_with_PL_RED2 ;
+@U.NPrefix.je@:@U.NPrefix.je@ N0_with_PL_RED2 ;
 
 LEXICON N_with_PL_RED2_PRF/le
-@R.NPrefix.le@:@R.NPrefix.le@ N0_with_PL_RED2 ;
+@U.NPrefix.le@:@U.NPrefix.le@ N0_with_PL_RED2 ;
 
 LEXICON N_with_PL_RED2_PRF/s
-@R.NPrefix.s@:@R.NPrefix.s@ N0_with_PL_RED2 ;
-
-LEXICON N_with_PL_RED2_PRF/sxw
-@R.NPrefix.sxw@:@R.NPrefix.sxw@ N0_with_PL_RED2 ;
+@U.NPrefix.s@:@U.NPrefix.s@ N0_with_PL_RED2 ;
 
 LEXICON N_with_PL_RED2_PRF/sexw
-@R.NPrefix.sexw@:@R.NPrefix.sexw@ N0_with_PL_RED2 ;
+@U.NPrefix.sexw@:@U.NPrefix.sexw@ N0_with_PL_RED2 ;
+
+LEXICON N_with_PL_RED2_PRF/sxw
+@U.NPrefix.sxw@:@U.NPrefix.sxw@ N0_with_PL_RED2 ;
 
 LEXICON N_with_PL_RED2_PRF/xh
-@R.NPrefix.xh@:@R.NPrefix.xh@ N0_with_PL_RED2 ;
+@U.NPrefix.xh@:@U.NPrefix.xh@ N0_with_PL_RED2 ;
 
 LEXICON N_with_PL_RED2 !This is the typical noun with plural reduplication 123123 
-@R.NPrefix.ZERO@:@R.NPrefix.ZERO@ N0_with_PL_RED2 ;
+@U.NPrefix.ZERO@:@U.NPrefix.ZERO@ N0_with_PL_RED2 ;
 
 
 LEXICON N0_with_PL_RED2
-@D.NMZ@ N1_with_PL_RED2 ;
+@U.NMZ.ZERO@ N1_with_PL_RED2 ;
 
 LEXICON N1_with_PL_RED2
 !2024-04-12: DIM_CV1toCV2C ;
@@ -81,7 +81,7 @@ LEXICON N1_with_PL_RED2
 LEXICON N_with_PL_RED130
 !%^RedPL130130
 : SG-SUF ;
-@D.PossPx@+Pl:@D.PossPx@%^RedPL130130 PRE-POSS_01 ;
+@U.PossPx.ZERO@+Pl:@U.PossPx.ZERO@%^RedPL130130 PRE-POSS_01 ;
 +Pl:%^RedPL130130	PRE-POSS_01 ;
 
 
@@ -98,34 +98,38 @@ LEXICON N_FEM_with_PL_RED2
 +Fem: PL_RED2 ;
 
 LEXICON N_MSC_with_PL_RED2_PRF/s
-@R.NPrefix.sexw@ N_MSC_with_PL_RED2 ;
-
-LEXICON N_MSC_with_PL_RED2
-!LEXICON N-MSC_with-PL_RED2
-+Msc: DIM_CV1toCV2C ;
-+Msc: SG-SUF ;
-+Msc: PL_RED2 ;
+@U.NPrefix.s@ DIM_CV1toCV2C ;
+@U.NPrefix.s@ SG-SUF ;
+@U.NPrefix.s@ PL_RED2 ;
+!+Msc: DIM_CV1toCV2C ;
+!+Msc: SG-SUF ;
+!+Msc: PL_RED2 ;
 
 ! Derivation
 LEXICON DIM_CV1toCV2C
-@D.PossPx@+Der+Der/Dimin_1i13+N:@D.PossPx@%^Red1i13 SG-SUF ; !+Der/Red1_1i13
-@R.PossPx@+Der+Der/Dimin_1i13+N:@R.PossPx@%^Red1i13 SG-SUF ; !+Der/Red1_1i13
-@D.PossPx@+Err/Orth+Der+Der/Dimin_1iq13+N:@D.PossPx@%^Red1iq13 SG-SUF ; !+Der/Red1_1iq13
-@R.PossPx@+Err/Orth+Der+Der/Dimin_1iq13+N:@R.PossPx@%^Red1iq13 SG-SUF ; !+Der/Red1_1iq13
++Der+Der/Dimin_1i13+N:%^Red1i13 SG-SUF ; !+Der/Red1_1i13
+!@R.PossPx@+Der+Der/Dimin_1i13+N:@R.PossPx@%^Red1i13 SG-SUF ; !+Der/Red1_1i13
++Err/Orth+Der+Der/Dimin_1iq13+N:%^Red1iq13 SG-SUF ; !+Der/Red1_1iq13
+!@R.PossPx@+Err/Orth+Der+Der/Dimin_1iq13+N:@R.PossPx@%^Red1iq13 SG-SUF ; !+Der/Red1_1iq13
 
-@D.PossPx@+Err/Orth+Der+Der/Dimin_1iq123+N:@D.PossPx@%^Red1iq123 SG-SUF ; !+Der/Red1_1iq123
-@R.PossPx@+Err/Orth+Der+Der/Dimin_1iq123+N:@R.PossPx@%^Red1iq123 SG-SUF ; !+Der/Red1_1iq123
++Err/Orth+Der+Der/Dimin_1iq123+N:%^Red1iq123 SG-SUF ; !+Der/Red1_1iq123
+!@R.PossPx@+Err/Orth+Der+Der/Dimin_1iq123+N:@R.PossPx@%^Red1iq123 SG-SUF ; !+Der/Red1_1iq123
 
-@D.PossPx@+Err/Orth+Der+Der/Dimin_1i123+N:@D.PossPx@%^Red1i123 SG-SUF ; !+Der/Red1_1i123
-@R.PossPx@+Err/Orth+Der+Der/Dimin_1i123+N:@R.PossPx@%^Red1i123 SG-SUF ; !+Der/Red1_1i123
-@D.PossPx@+Err/Orth+Der+Der/Dimin_12123+N:@D.PossPx@%^Red12123 SG-SUF ; !+Der/Red1_12123
-@R.PossPx@+Err/Orth+Der+Der/Dimin_12123+N:@R.PossPx@%^Red12123 SG-SUF ; !+Der/Red1_12123
++Err/Orth+Der+Der/Dimin_1i123+N:%^Red1i123 SG-SUF ; !+Der/Red1_1i123
+!@R.PossPx@+Err/Orth+Der+Der/Dimin_1i123+N:@R.PossPx@%^Red1i123 SG-SUF ; !+Der/Red1_1i123
++Err/Orth+Der+Der/Dimin_12123+N:%^Red12123 SG-SUF ; !+Der/Red1_12123
+!@R.PossPx@+Err/Orth+Der+Der/Dimin_12123+N:@R.PossPx@%^Red12123 SG-SUF ; !+Der/Red1_12123
 
-@D.PossPx@+Der+Der/Dimin_1i1i13+N+Pl:@D.PossPx@%^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
-@R.PossPx@+Der+Der/Dimin_1i1i13+N+Pl:@R.PossPx@%^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
++Der+Der/Dimin_1i1i13+N+Pl:%^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
+!@R.PossPx@+Der+Der/Dimin_1i1i13+N+Pl:@R.PossPx@%^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
 
-LEXICON N_DIM_with_PL_12123_PRF/sexw
-@R.NPrefix.sexw@ N_DIM_with_PL_12123 ;
+!LEXICON N_DIM_with_PL_12123_PRF/s !bibədaʔ, bibibədaʔ
+!@U.NPrefix.s@+Dimin:@U.NPrefix.s@ SG-SUF ;
+!@U.NPrefix.s@+Dimin+Pl:@U.NPrefix.s@%^Red12123 PRE-POSS_01 ;
+
+LEXICON N_DIM_with_PL_12123_PRF/sexw !bibədaʔ, bibibədaʔ 
+@U.NPrefix.sexw@+Dimin:@U.NPrefix.sexw@ SG-SUF ;
+@U.NPrefix.sexw@+Dimin+Pl:@U.NPrefix.sexw@%^Red12123 PRE-POSS_01 ; 
 
 LEXICON N_DIM_with_PL_12123 !bibədaʔ, bibibədaʔ
 +Dimin: SG-SUF ;
@@ -138,16 +142,14 @@ LEXICON SG-SUF
 
 
 LEXICON PL_RED1_qelb
-@D.PossPx@+Pl:@D.PossPx@%^Red1i123   # ;
+@U.PossPx.ZERO@+Pl:@U.PossPx.ZERO@%^Red1i123   # ;   
 +Pl:%^Red2CV2CiCV        PRE-POSS_01 ;
 !! qəlb+N+Pl: **rain showers**
 !!€ {p5}{p4}{p3}{p2}{p1}qəlb^Red1i123
 !!€ 00qi0qəlb0
 
 LEXICON PL_RED2 !! where reduplication happens
-@D.PossPx@+Pl:@D.PossPx@%^RedPL123123 PRE-POSS_01 ;
-!@D.PossPx@+Pl:@D.PossPx@%^RedPL123123 # ;
-+Pl:%^RedPL123123	PRE-POSS_01 ;
++Pl:%^RedPL123123 PRE-POSS_01 ;
 !! bəlups+N+Pl
 !!€ {p5}{p4}{p3}{p2}{p1}bəlups^RedPL123123
 !!€ 00bəlbəlups0
@@ -160,45 +162,45 @@ LEXICON PL_RED2 !! where reduplication happens
 
 LEXICON PL_RED5
 !ʔaciɬtalbixʷ:ʔacaciɬtalbixʷ
-@D.PossPx@+Pl:@D.PossPx@%^Red12323 PRE-POSS_01 ;
-@R.PossPx@+Pl:@R.PossPx@%^Red12323	PRE-POSS_01 ;
++Pl:%^Red12323 PRE-POSS_01 ;
+!@R.PossPx@+Pl:@R.PossPx@%^Red12323	PRE-POSS_01 ;
 
 LEXICON PRE-POSS_01
-@R.TAM-SUBJ.SUBJ@+Mod/Subj:@R.TAM-SUBJ.SUBJ@ PRE-POSS_02 ;
-@D.TAM-SUBJ@ PRE-POSS_02 ;
+@U.TAM-SUBJ.SUBJ@+Mod/Subj:@U.TAM-SUBJ.SUBJ@ PRE-POSS_02 ; 
+@U.TAM-SUBJ.ZERO@ PRE-POSS_02 ; 
 
 LEXICON PRE-POSS_02
-@R.TAM-HAB.HAB@+Hab:@R.TAM-HAB.HAB@ PRE-POSS_03 ;
-@R.TAM-HAB.IRR@+Irr:@R.TAM-HAB.IRR@ PRE-POSS_03 ;
-@D.TAM-HAB@ PRE-POSS_03 ;
+@U.TAM-HAB.HAB@+Hab:@U.TAM-HAB.HAB@ PRE-POSS_03 ;
+@U.TAM-HAB.IRR@+Irr:@U.TAM-HAB.IRR@ PRE-POSS_03 ; 
+@U.TAM-HAB.ZERO@ PRE-POSS_03 ;  
 
 LEXICON PRE-POSS_03
-@R.TAM-RE.RE@+Anew:@R.TAM-RE.RE@ PRE-POSS_04 ;
-@D.TAM-RE.RE@ PRE-POSS_04 ;
+@U.TAM-RE.RE@+Anew:@U.TAM-RE.RE@ PRE-POSS_04 ; 
+@U.TAM-RE.ZERO@ PRE-POSS_04 ; 
 
 LEXICON PRE-POSS_04
-@R.TAM-T.REM@+RemPst:@R.TAM-T.REM@ PRE-POSS_05 ;
-@D.TAM-T@ PRE-POSS_05 ;
+@U.TAM-T.REM@+RemPst:@U.TAM-T.REM@ PRE-POSS_05 ;
+@U.TAM-T.ZERO@ PRE-POSS_05 ;
 
 LEXICON PRE-POSS_05
-@R.TAM-A.STAT@+Asp/Stat:@R.TAM-A.STAT@ PRE-POSS_06 ;
-@R.TAM-A.PROG@+Asp/Prog:@R.TAM-A.PROG@ PRE-POSS_06 ;
-@R.TAM-A.PROGSTAT@+Asp/ProgStat:@R.TAM-A.PROGSTAT@ PRE-POSS_06 ;
-@R.TAM-A.PFV@+Asp/Pfv:@R.TAM-A.PFV@ PRE-POSS_06 ;
-@D.TAM-A@ PRE-POSS_06 ;
+@U.TAM-A.STAT@+Asp/Stat:@U.TAM-A.STAT@ PRE-POSS_06 ;
+@U.TAM-A.PROG@+Asp/Prog:@U.TAM-A.PROG@ PRE-POSS_06 ;
+@U.TAM-A.PROGSTAT@+Asp/ProgStat:@U.TAM-A.PROGSTAT@ PRE-POSS_06 ;
+@U.TAM-A.PFV@+Asp/Pfv:@U.TAM-A.PFV@ PRE-POSS_06 ;
+@U.TAM-A.ZERO@ PRE-POSS_06 ;!2025-06-16 ? Asp/None?
 
 LEXICON PRE-POSS_06
-@R.NMZ.V2N@+Der/s+N+Sg:@R.NMZ.V2N@ POSS ;
-@R.NMZ.V2A@+Ptc:@R.NMZ.V2A@ POSS ;
-@D.NMZ@ POSS ;
+@U.NMZ.V2N@+Der/s+N+Sg:@U.NMZ.V2N@ POSS ;
+@U.NMZ.V2A@+Ptc:@U.NMZ.V2A@ POSS ;
+@U.NMZ.ZERO@ POSS ;
 
 LEXICON POSS
-@D.PossPx@:@D.PossPx@ K ;
-@R.PossPx.Sg1@ PXSG1 ;
-@R.PossPx.Sg2@ PXSG2 ;
-@D.PossPx@ PXSP3 ;
-@D.PossPx@ PXPL1 ;
-@D.PossPx@ PXPL2 ;
+@U.PossPx.ZERO@:@U.PossPx.ZERO@ K ;   
+@U.PossPx.Sg1@ PXSG1 ;
+@U.PossPx.Sg2@ PXSG2 ;
+@U.PossPx.SP3@ PXSP3 ;
+@U.PossPx.Pl1@ PXPL1 ; 
+@U.PossPx.Pl2@ PXPL2 ;
 
 LEXICON PXSG1
 +PxSg1: K ;
