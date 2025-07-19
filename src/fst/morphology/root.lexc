@@ -386,6 +386,7 @@ y̓   !!= @CODE@
 
 !! ###  NOUNS
 
+@U.PossPx.ZERO@ !!= * @CODE@
 @U.PossPx.SP3@ !!= * @CODE@ 
 @U.PossPx.Sg1@ !!= * @CODE@ 
 @U.PossPx.Sg2@ !!= * @CODE@ 
@@ -408,9 +409,13 @@ y̓   !!= @CODE@
 @U.NPrefix.je@ !!= * @CODE@
 @U.NPrefix.le@ !!= * @CODE@
 @U.NPrefix.s@ !!= * @CODE@
-@U.NPrefix.sxw@ !!= * @CODE@
 @U.NPrefix.sexw@ !!= * @CODE@
+@U.NPrefix.sxw@ !!= * @CODE@
+@U.NPrefix.tsi@ !!= * @CODE@
 @U.NPrefix.xh@ !!= * @CODE@
+@U.NPrefix.xhw@ !!= * @CODE@
+@U.NPrefix.xw@ !!= * @CODE@
+
 @R.NPrefix.ZERO@ !!= * @CODE@
 @R.NPrefix.c@ !!= * @CODE@
 @R.NPrefix.dexw@ !!= * @CODE@
@@ -419,39 +424,47 @@ y̓   !!= @CODE@
 @R.NPrefix.je@ !!= * @CODE@
 @R.NPrefix.le@ !!= * @CODE@
 @R.NPrefix.s@ !!= * @CODE@
-@R.NPrefix.sxw@ !!= * @CODE@
 @R.NPrefix.sexw@ !!= * @CODE@
+@R.NPrefix.sxw@ !!= * @CODE@
+@R.NPrefix.tsi@ !!= * @CODE@
 @R.NPrefix.xh@ !!= * @CODE@
+@R.NPrefix.xhw@ !!= * @CODE@
+@R.NPrefix.xw@ !!= * @CODE@
 @D.NPrefix@ !!= * @CODE@
 @C.NPrefix@ !!= * @CODE@
 
 
 !! ### VERBS
+@U.TAM-SUBJ.ZERO@ !!= * @CODE@ 
 @U.TAM-SUBJ.SUBJ@ !!= * @CODE@ gʷə%<
 @R.TAM-SUBJ.SUBJ@ !!= * @CODE@ gʷə%<
-@D.TAM-SUBJ@ !!= * @CODE@ gʷə%<
 
+
+@U.TAM-HAB.ZERO@ !!= * @CODE@ 
 @U.TAM-HAB.IRR@	 !!= * @CODE@ ɬu%< also FUT
 @R.TAM-HAB.IRR@	 !!= * @CODE@ ɬu%< also FUT
 @U.TAM-HAB.HAB@	 !!= * @CODE@ ƛ̕u%<
 @R.TAM-HAB.HAB@	 !!= * @CODE@ ƛ̕u%<
-@D.TAM-HAB@	 !!= * @CODE@ ƛ̕u%<
 
-@U.TAM-RE.RE@  !!= * @CODE@ bə
-@R.TAM-RE.RE@  !!= * @CODE@ bə Anew, re-
-@D.TAM-RE.RE@  !!= * @CODE@ bə
 
+@U.TAM-RE.ZERO@  !!= * @CODE@ 
+@U.TAM-RE.RE@  !!= * @CODE@ bə Anew, re-
+@R.TAM-RE.RE@  !!= * @CODE@ bə
+
+
+@U.NMZ.ZERO@ !!= * @CODE@ 
 @U.NMZ.V2N@  !!= * @CODE@ s%^√
 @R.NMZ.V2N@  !!= * @CODE@ s%^√
 @U.NMZ.V2A@  !!= * @CODE@ dəxʷ
 @R.NMZ.V2A@  !!= * @CODE@ dəxʷ
-@D.NMZ@      !!= * @CODE@ s%^√ dəxʷ
 
+@U.TAM-T.ZERO@	 !!= * @CODE@ 
 @U.TAM-T.REM@	 !!= * @CODE@ tu%<
 @R.TAM-T.REM@	 !!= * @CODE@ tu%<
-@D.TAM-T@	 !!= * @CODE@ tu%<
 
-@N.TAM-A@	 !!= * @CODE@ ʔu%<
+
+
+@U.TAM-A.ZERO@	 !!= * @CODE@ none of these
 @D.TAM-A@	 !!= * @CODE@ ʔu%<
 @U.TAM-A.PFV@	 !!= * @CODE@ ʔu%<
 @R.TAM-A.PFV@	 !!= * @CODE@ ʔu%<
@@ -463,16 +476,19 @@ y̓   !!= @CODE@
 @R.TAM-A.PROG@	 !!= * @CODE@ progressive lə%<
 @U.TAM-A.STAT@ !!= * @CODE@ ʔəs%<
 @R.TAM-A.STAT@ !!= * @CODE@ ʔəs%<
-@U.TAM.NO@ !!= * @CODE@ 
+@U.TAM.NO@ !!= * @CODE@ What is this? 2025-07-18
 @R.TAM.NO@ !!= * @CODE@ 
 
+
+@U.OBJ.1@      !!= * @CODE@
+@U.OBJ.2@      !!= * @CODE@
 
 @U.OBJ.SG1@	 !!= * @CODE@ 
 @U.OBJ.SG2@	 !!= * @CODE@ 
 @U.OBJ.PL1@	 !!= * @CODE@ 
 @U.OBJ.PL2@	 !!= * @CODE@ 
 @U.OBJ.SP3@	 !!= * @CODE@ 
-@U.OBJ.NO@	 !!= * @CODE@ 
+@U.OBJ.ZERO@	 !!= * @CODE@ 
 
 @D.OBJ.SG1@	 !!= * @CODE@ 
 @D.OBJ.SG2@	 !!= * @CODE@ 
@@ -491,16 +507,16 @@ LEXICON Root !!= * **@CODE@** Root lexicon
 !! word classes, or optionally from prefixes:
 
 !   Nouns   ; This is fed entirely by Prefixes
-!0   Verbs   ;	    !!= * @CODE@
-0   Adjectives  ;   !!= * @CODE@
-0   Adpositions  ;  !!= * @CODE@
-0   Adverbs  ;	    !!= * @CODE@
-0   Conjunctors  ;	    !!= * @CODE@
-0   Interjections  ;	    !!= * @CODE@
-0   Pronouns    ;   !!= * @CODE@
-0   Propernouns    ;   !!= * @CODE@
-0   Numerals    ;   !!= * @CODE@
-0   Prefixes    ;   !!= * @CODE@
+!   Verbs   ;	    !!= * @CODE@ This is fed entirely by Prefixes
+!   Adjectives  ;   !!= * @CODE@ This is fed entirely by Prefixes
+   Adpositions  ;  !!= * @CODE@
+   Adverbs  ;	    !!= * @CODE@
+   Conjunctors  ;	    !!= * @CODE@
+   Interjections  ;	    !!= * @CODE@
+   Pronouns    ;   !!= * @CODE@
+!   Propernouns    ;   !!= * @CODE@ This is fed entirely by Prefixes
+   Numerals    ;   !!= * @CODE@
+   Prefixes    ;   !!= * @CODE@ Feeds Adjectives, Nouns, Propernouns, Verbs
     Punctuation ;
     Symbols     ;
 
