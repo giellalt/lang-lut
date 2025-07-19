@@ -4,10 +4,11 @@
 !! nouns, but with a colon (':') as separator.
 
 
-LEXICON PROP_with-PL_RED2
-: DIM_CV1toCV2C ;
-: SG-SUF ;
+LEXICON PROP_with_PL_RED2
+@U.NPrefix.ZERO@:@U.NPrefix.ZERO@ N0_with_PL_RED2 ;
 
+LEXICON PROP_with_PL_RED2_PRF/s
+@U.NPrefix.s@:@U.NPrefix.s@ N0_with_PL_RED2 ;
 
 ! vim: set ft=xfst-lexc:
 
