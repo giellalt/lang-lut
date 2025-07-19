@@ -3,7 +3,7 @@
 
 # =================================================================== #
 # =================================================================== #
-#!! S O U T H   S Á M I   D I S A M B I G U A T O R          
+#!! L U S H O O T S E E D   D I S A M B I G U A T O R          
 # =================================================================== #
 # =================================================================== #
 
@@ -400,6 +400,8 @@ LIST A-DER-SUF = (".*ldihkie"r) (".*ijes"r) (".*ihks"r) (".*les"r) (".*ldahke"r)
 
 LIST PASS = Der/PassS Der/PassL ;
 
+SET COMMONNOUN = N - Prop; #!! make common nouns set by subtraction <lut>
+
 SET LEX-V = V - V-DER;
 
 SET LEX-N = N - N-DER;
@@ -498,6 +500,8 @@ REMOVE:notFAMILY PX (0 N - FAMILY) ;
 
 #!! Proper nouns
 
+REMOVE:R_Prop_when_preceded_by_kwi Prop IF (-1 ("kʷi")) (0 COMMONNOUN) ;#!! <lut>
+	## ƛ̕uʔa kʷi kʷagʷičəd ʔal ti sbadbadil.
 REMOVE:R_Nom_ABBR_Prop Nom IF (0 (ABBR Attr) OR (Prop Attr))(1  Prop OR ABBR);
 REMOVE:R_Attr_ABBR Attr IF (0 ABBR + Nom)(NOT 1 Prop OR ABBR);
 	## Trond Trosterud
