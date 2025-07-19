@@ -1,15 +1,16 @@
 !! Proper nouns
 !  -----
-!! Proper nouns in LUSHOOTSEED language 
+!! Proper nouns in LUSHOOTSEED language inflect in the same way as common
+!! nouns
 
 LEXICON Propernouns
-kʷagʷičəd+N+Prop:kʷágʷičəd PROP_with-PL_RED2 "Big Dipper" ;
+kʷagʷičəd+N+Prop:kʷágʷičəd PROP_with_PL_RED2 "Big Dipper" ;
 
 ! CHECKME
-sɬəp̓qs+N+Prop:s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}ɬəp̓qs PROP_with-PL_RED2 "Marysville" ;
-x̌ʷuyšəd+N+Prop:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}x̌ʷuyšəd PROP_with-PL_RED2 "Camano Head" ;
-šidut+N+Prop:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}šidut PROP_with-PL_RED2 "(name)" ;
-sq̓ʷəcɬ+N+Prop:s^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}q̓ʷəcɬ PROP_with-PL_RED2 "(name)" ;
+sɬəp̓qs+N+Prop:ɬəp̓qs PROP_with_PL_RED2_PRF/s "Marysville" ;
+x̌ʷuyšəd+N+Prop:x̌ʷuyšəd PROP_with_PL_RED2 "Camano Head" ;
+šidut+N+Prop:šidut PROP_with_PL_RED2 "(name)" ;
+sq̓ʷəcɬ+N+Prop:q̓ʷəcɬ PROP_with_PL_RED2_PRF/s "(name)" ;
 
 
 ! vim: set ft=xfst-lexc:
