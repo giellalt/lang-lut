@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-lut)](https://github.com/giellalt/lang-lut/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-lut)](https://github.com/giellalt/lang-lut/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-lut?label=CI)](https://builds.giellalt.org/pipelines/lang-lut/builds/latest)
-[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/__GLOTTOLOG_ID__)
 
 This page documents the work on the **Lushootseed language model** (Southern Puget Sound Salish).
 
