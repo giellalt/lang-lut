@@ -3,10 +3,20 @@
 !! Verbs in the Lushootseed language are actions.
 
 LEXICON Verbs
-ʔəɬtub+V:ʔəɬt V_BECHDUB "feed sm" ;
-x̌aƛ̕tub+V:x̌aƛ̕t V_BECHDUB "" ;
-bəčdub+V:bəčd V_BECHDUB "knock sm down" ;
-labdub+V:labd V_BECHDUB "see sm" ;
+bəčdxʷ+V:bəčd V_LABDXW "knock sm down" ;
+labdxʷ+V:labd V_LABDXW "manage to see sm" ;
+ləhaydxʷ+V:ləhayd TV_LABDXW "learn" ;
+šudxʷ+V:šud V_LABDXW "see sm" ;
+təɬildxʷ+V:təɬild V_LABDXW "believe sm" ;
+tix̌ix̌dxʷ+V:tix̌ix̌d V_LABDXW "take care of it" ;
+
+ʔəɬtxʷ+V:ʔəɬt TV_HUYTXW "feed sm" ;
+ʔəƛ̕txʷ+V:ʔəƛ̕t TV_HUYTXW "cause to come|bring someone or something" ;
+ʔux̌ʷtxʷ+V:ʔux̌ʷt TV_HUYTXW "take" ;
+huytxʷ+V:huyt TV_HUYTXW "" ;
+qʷalctxʷ+V:qʷalct TV_HUYTXW "boil" ;
+x̌aƛ̕txʷ+V:x̌aƛ̕t TV_HUYTXW "like|want" ;
+yəhaw̓txʷ+V:yəhaw̓t V_HUYTXW "proceed" ;
 
 bəq̓əd+V:bəq̓əd TV_SELPED "swallow" ;
 cuud+V:cuud V_KWEDAD "tell" ;
@@ -28,20 +38,19 @@ wiliq̓ʷid+V:wíliq̓ʷid V_KWEDAD "ask" ;
 ʔidigʷat+V:ʔidigʷat IV_BASE "teach" ;
 ɬx̌ilč+V:ɬx̌ilč IV_BASE_Dial/-NL "stand up" ;
 qʷibid+V:qʷibid V_KWEDAD "prepare" ;
-q̓ʷəld+V:q̓ʷəld V_KWEDAD "bake" ;
+q̓ʷəld+V:q̓ʷəld TV_KWEDAD "bake" ;
 q̓ʷəl+V:q̓ʷəl V_KWEDAD "bake; ripe" ;
 
 k̓ʷasəb+V:k̓ʷasəb V_CUTEB "roast" ;
-labdxʷ+V:labd V_LABDXW "manage to see" ;
-təɬildxʷ+V:təɬild V_LABDXW "believe" ;
-šudxʷ+V:šudxʷ V_LABDXW "see" ;
 ʔukʷukʷ+V:ʔukʷukʷ IV_BASE "play" ;
 ʔišil+V:ʔišil V_KWEDAD "swim (of a fish)" ;
 laʔbəd+V:laʔbəd TV_SELPED "look" ;
 ʔiʔɬəd+V:ʔiʔɬəd TV_SELPED "eat a little|nibble" ;
 ʔiʔɬadəb+V:ʔìʔɬádəb V_CUTEB "eat berries as you pick them" ;
-qʷalctxʷ+V:qʷalct V_HUYTXW "boil" ;
+
+
 c̓ix̌id+V:c̓ix̌id V_KWEDAD "fry sm" ;
+
 t̕it̕əb+V:t̕it̕əb V_CUTEB "bathe" ;
 x̌aab+V:x̌aab V_CUTEB "cry" ;
 x̌ayəb+V:x̌áyəb V_CUTEB "laugh" ;
@@ -106,17 +115,9 @@ kʷukʷcut+V:kʷukʷcut V_HELHED "cook" ;
 
 ʔəƛ̕+V:ʔəƛ̕ V_KWEDAD "come" ;
 ʔəƛ̕c+V:ʔəƛ̕c V_KWEDAD "come after something" ;
-ʔəƛ̕txʷ+V:ʔəƛ̕t TV_HUYTXW "cause to come|bring someone or something" ;
 ƛ̕ax̌ʷ+V:ƛ̕ax̌ʷ V_KWEDAD "grow" ;
-huytxʷ+V:huyt TV_HUYTXW "" ;
-ʔux̌ʷtxʷ+V:ʔux̌ʷt TV_HUYTXW "take" ;
-yəhaw̓txʷ+V:yəhaw̓t V_HUYTXW "proceed" ;
-x̌aƛ̕txʷ+V:x̌aƛ̕t TV_HUYTXW "like|want" ;
-ʔəƛɬtxʷ+V:ʔəƛɬt TV_HUYTXW "feed" ;
 ʔəy̓dxʷ+V:ʔəy̓d TV_LABDXW "find" ;
 haydxʷ+V:hayd TV_LABDXW "know" ;
-ləhaydxʷ+V:ləhayd TV_LABDXW "learn" ;
-tix̌ix̌dxʷ+V:tix̌ix̌d V_LABDXW "take care of it" ;
 tix̌ix̌dubut+V:tix̌ix̌dubut V_HUYTXW "take care of ones self" ;
 
 
