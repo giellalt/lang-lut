@@ -149,7 +149,8 @@ y̓   !!= @CODE@
 +Qst         !!= * @CODE@ *   Question Particle: ʔu
 
 !! Verb personal forms are:
- +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3 !!= * @CODE@ 
+ +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3 !!= * @CODE@ 
+ +ScCon !!= * @CODE@ = subject is contextual not specified
  
 !! ## Direct Object conjugation
  +OcSg1 !!= * @CODE@ = object conjugation first person singular
@@ -172,7 +173,7 @@ y̓   !!= @CODE@
 
 !! The verbs are syntactically split according to transitivity:
  +TV +IV !!= * @CODE@ 
- +Mid
+ +Mid  !!= * @CODE@ -təb, -tub, -dub
  
 !! Special multiword units are analysed with:
  +Multi !!= * @CODE@ 
@@ -490,12 +491,14 @@ y̓   !!= @CODE@
 @U.OBJ.PL2@	 !!= * @CODE@ 
 @U.OBJ.SP3@	 !!= * @CODE@ 
 @U.OBJ.ZERO@	 !!= * @CODE@ 
+@U.OBJ.MID@	 !!= * @CODE@ 
 
 @D.OBJ.SG1@	 !!= * @CODE@ 
 @D.OBJ.SG2@	 !!= * @CODE@ 
 @D.OBJ.PL1@	 !!= * @CODE@ 
 @D.OBJ.PL2@	 !!= * @CODE@ 
 @D.OBJ.SP3@	 !!= * @CODE@ 
+@D.OBJ.MID@	 !!= * @CODE@ 
 @D.OBJ@	 !!= * @CODE@ 
 
 @R.TAM@		 !!= * @CODE@ 
