@@ -18,10 +18,10 @@ Tests:
 
   Verb - kʷədad: # Verb pg 207 'eng grab sm' - partial paradigm
 # Perfect aspect
-     kʷədad+V+TV+Asp/Prf+OcSg1: ʔukʷədac # grabbed me 
-     kʷədad+V+TV+Asp/Prf+OcSg2: ʔukʷədacid # grabbed you Sg 
-     kʷədad+V+TV+Asp/Prf+OcSP3: ʔukʷədadxʷ # grabbed him/her/it/them
-     kʷədad+V+TV+Asp/Prf+OcPl1: ʔukʷədadubuɬ # grabbed us 
-     kʷədad+V+TV+Asp/Prf+OcPl2: ʔukʷədadubuɬəd # grabbed you (guys)
-     kʷədad+V+TV+Asp/Prf+Rc: ʔukʷədacut # grabbed myself, yourself... 
+     kʷədad+V+TV+Asp/Prf+ScCon+OcSg1: ʔukʷədac # grabbed me 
+     kʷədad+V+TV+Asp/Prf+ScCon+OcSg2: ʔukʷədacid # grabbed you Sg 
+     kʷədad+V+TV+Asp/Prf+ScCon+OcSP3: ʔukʷədad # grabbed him/her/it/them
+     kʷədad+V+TV+Asp/Prf+ScCon+OcPl1: ʔukʷədadubuɬ # grabbed us 
+     kʷədad+V+TV+Asp/Prf+ScCon+OcPl2: ʔukʷədadubuɬəd # grabbed you (guys)
+     kʷədad+V+TV+Asp/Prf+Mid: ʔukʷədatəb # 
 

@@ -16,11 +16,12 @@ Tests:
 # Then: run analyser, then correct.
 
 
-  Verb - bəčdub: # Verb pg 207 'eng knock sm down' - partial paradigm
+  Verb - bəčdxʷ: # Verb pg 207 'eng knock sm down' - partial paradigm
 # Perfect aspect
-     bəčdub+V+TV+Asp/Prf+OcSg1: ʔubəčdubš # knocked me down
-     bəčdub+V+TV+Asp/Prf+OcSg2: ʔubəčdubicid # knocked you Sg down
-     bəčdub+V+TV+Asp/Prf+OcSP3: ʔubəčdxʷ # knocked him/her/it/them down
-     bəčdub+V+TV+Asp/Prf+OcPl1: ʔubəčdubuɬ # knocked us down
-     bəčdub+V+TV+Asp/Prf+OcPl2: ʔubəčdubuɬəd # knocked you (guys) down
+     bəčdxʷ+V+TV+Asp/Prf+ScCon+OcSg1: ʔubəčdubš # knocked me down
+     bəčdxʷ+V+TV+Asp/Prf+ScCon+OcSg2: ʔubəčdubicid # knocked you Sg down
+     bəčdxʷ+V+TV+Asp/Prf+ScCon+OcSP3: ʔubəčdxʷ # knocked him/her/it/them down
+     bəčdxʷ+V+TV+Asp/Prf+ScCon+OcPl1: ʔubəčdubuɬ # knocked us down
+     bəčdxʷ+V+TV+Asp/Prf+ScCon+OcPl2: ʔubəčdubuɬəd # knocked you (guys) down
+     bəčdxʷ+V+TV+Asp/Prf+Mid: ʔubəčdub # knocked him/her/it/them down
 
