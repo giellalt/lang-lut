@@ -1,8 +1,8 @@
 Verb inflection
 The Lushootseed language verbs inflect in object persons.
 
-bəčdub:bəčd
-bəčdub:bəčd
+bəčdxʷ+V:bəčd
+bəčdxʷ:bəčd
 
 kʷədad:kʷədad
 

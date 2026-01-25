@@ -126,7 +126,8 @@ Verb/Predicate tenses and aspect are:
 * +Qst          *   Question Particle: ʔu
 
 Verb personal forms are:
-*  +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3  
+*  +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3  
+*  +ScCon  = subject is contextual not specified
 
 ## Direct Object conjugation
 *  +OcSg1  = object conjugation first person singular
@@ -147,6 +148,7 @@ Special symbols are classified with:
 
 The verbs are syntactically split according to transitivity:
 *  +TV +IV  
+*  +Mid   -təb, -tub, -dub
 
 Special multiword units are analysed with:
 *  +Multi  
@@ -448,12 +450,14 @@ given the proper use of these flags.
 * @U.OBJ.PL2@	  
 * @U.OBJ.SP3@	  
 * @U.OBJ.ZERO@	  
+* @U.OBJ.MID@	  
 
 * @D.OBJ.SG1@	  
 * @D.OBJ.SG2@	  
 * @D.OBJ.PL1@	  
 * @D.OBJ.PL2@	  
 * @D.OBJ.SP3@	  
+* @D.OBJ.MID@	  
 * @D.OBJ@	  
 
 * @R.TAM@		  
