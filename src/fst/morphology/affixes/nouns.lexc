@@ -97,6 +97,8 @@ LEXICON N_FEM_with_PL_RED2
 +Fem: SG-SUF ;
 +Fem: PL_RED2 ;
 
+LEXICON N_MSC_with_PL_RED2 !this is simply for retaining information in the lexicon name for deriving CG sets 202602
+N_with_PL_RED2 ;
 LEXICON N_MSC_with_PL_RED2_PRF/s
 @U.NPrefix.s@ DIM_CV1toCV2C ;
 @U.NPrefix.s@ SG-SUF ;
