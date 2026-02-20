@@ -26,13 +26,14 @@ analyser-mt-gt-desc.hfst: analyser-mt-gt-desc.tmp.hfst \
 		$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
 					 @\"$<\" 					\
 					 .o. @\"$(top_builddir)/src/fst/filters/remove-letter-grave.hfst\" \
-					 .o. @\"$(top_builddir)/src/fst/filters/remove-letter-acute.hfst\"           \
+					 .o. @\"$(top_builddir)/src/fst/filters/remove-letter-acute.hfst\"  \
     					 ;\n\
 				 $(INVERT_HFST)\
 				 twosided flag-diacritics\n\
 				 eliminate flag NMZ\n\
 				 eliminate flag NPrefix\n\
 				 eliminate flag PossPx\n\
+				 eliminate flag REDUPL\n\
 				 eliminate flag TAM-A\n\
 				 eliminate flag TAM-HAB\n\
 				 eliminate flag TAM-RE\n\
@@ -57,6 +58,7 @@ generator-mt-gt-norm.hfst: generator-mt-gt-norm.tmp.hfst \
 			eliminate flag NMZ\n\
 			eliminate flag NPrefix\n\
 			eliminate flag PossPx\n\
+			eliminate flag REDUPL\n\
 			eliminate flag TAM-A\n\
 			eliminate flag TAM-HAB\n\
 			eliminate flag TAM-RE\n\
