@@ -301,16 +301,19 @@ place holders
 And following triggers to control variation
 *  {front} {back}  
 
+* %^RedPL123123  3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
+* %^Red123123  3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
+* %^Red12323  should work for Red3 and Red5
+* %^Red12q123  
+* %^Red12q13  
+* %^Red12123  papastəd
+* %^Red1213 
+* %^Red1iq123  iʔ   biʔbədəʔs
+* %^Red1iq13  iʔ
 * %^Red1i123  qəlb: qiqəlb *rain showers*
 * %^Red1i13  2-segment to 3-segments with vowel change sčətxʷəd:sčičtxʷəd Der/Red1_1i13
-* %^Red12q13  
-* %^Red1213 
-* %^Red1iq13  iʔ
-* %^Red1iq123  iʔ   biʔbədəʔs
-* %^Red12123  papastəd
 * %^RedPL1i1i13  2-segment to 3-segments with vowel change Distr sčətxʷəd:sčičičtxʷəd Der/Red1_1i13_Distr_1212 
-* %^RedPL123123  3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
-* %^Red12323  should work for Red3 and Red5
+* %^Red2CV2CiCV 
 * %^RedPL130130  ƛ̕xʷay: ƛ̕xʷaƛ̕xʷay 
 
 * %^Pen  this combines with subsequent RmVow or perhaps RmCns
@@ -398,6 +401,26 @@ given the proper use of these flags.
 * @R.NPrefix.xw@ 
 * @D.NPrefix@ 
 * @C.NPrefix@ 
+
+### REDUPLICATION
+* @U.REDUPL.ZERO@      no reduplication
+* @U.REDUPL.PL123123@  +Pl:%^RedPL123123 OR +Der/Red2_3L
+* @U.REDUPL.123123@    %^Red123123 +Der/Red2_3L
+* @U.REDUPL.12323@     +Pl:%^Red12323 PRE-POSS_01 ;
+* @U.REDUPL.12q123@    %^Red12q123 !+Der/Dimin_12q123
+* @U.REDUPL.12q13@     %^Red12q13 !+Der/Dimin_12q13
+* @U.REDUPL.12123@     %^Red12123  !+Der/Red1_12123  OR Der/Dimin_12123
+* @U.REDUPL.1213@      %^Red1213 Der/Dimin_1213
+* @U.REDUPL.1iq123@    %^Red1iq123 !+Der/Red1_1iq123 OR Der/Dimin_1iq123
+* @U.REDUPL.1iq13@     %^Red1iq13  !+Der/Red1_1iq13 OR Der/Dimin_12q13
+* @U.REDUPL.1i123@     %^Red1i123  !+Der/Red1_1i123 OR Der/Dimin_1i123
+* @U.REDUPL.1i13@      %^Red1i13  !+Der/Red1_1i13 OR Der/Dimin_1i13
+
+* @U.REDUPL.PL1i1i13@  %^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
+* @U.REDUPL.2CV2CiCV@  +Pl:%^Red2CV2CiCV        PRE-POSS_01 ;
+* @U.REDUPL.130130@      %^RedPL130130 
+
+* @C.REDUPL@  remove replication flags
 
 ### VERBS
 * @U.TAM-SUBJ.ZERO@  
