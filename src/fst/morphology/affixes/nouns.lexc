@@ -11,7 +11,7 @@
 LEXICON N_with_PL_RED1_qelb
 !LEXICON N_with-PL_RED1_qelb
 !: DIM_CV1toCV2C ; What should this be?
-: SG-SUF ;
+@U.REDUPL.ZERO@:@U.REDUPL.ZERO@ SG-SUF ;
 : PL_RED1_qelb ;
 
 
@@ -75,33 +75,36 @@ LEXICON N0_with_PL_RED2
 
 LEXICON N1_with_PL_RED2
 !2024-04-12: DIM_CV1toCV2C ;
-: SG-SUF ;
+@U.REDUPL.ZERO@:@U.REDUPL.ZERO@ SG-SUF ;
 : PL_RED2 ;
 
 LEXICON N_with_PL_RED130
 !%^RedPL130130
-: SG-SUF ;
-@U.PossPx.ZERO@+Pl:@U.PossPx.ZERO@%^RedPL130130 PRE-POSS_01 ;
-+Pl:%^RedPL130130	PRE-POSS_01 ;
+@U.REDUPL.ZERO@:@U.REDUPL.ZERO@ SG-SUF ;
+@U.PossPx.ZERO@@U.REDUPL.130130@+Pl:@U.PossPx.ZERO@@U.REDUPL.130130@ PRE-POSS_01 ;
+@U.REDUPL.130130@+Pl:@U.REDUPL.130130@	PRE-POSS_01 ;
 
 
 LEXICON N_with_Distr_12323_RED5 !Der/Red5_12323
 !%^Red12323
 !: DIM_CV1toCV2C ;
-: SG-SUF ;
+@U.REDUPL.ZERO@:@U.REDUPL.ZERO@ SG-SUF ;
 : PL_RED5 ;
 
 LEXICON N_FEM_with_PL_RED2
 !LEXICON N-FEM_with-PL_RED2
-+Fem: DIM_CV1toCV2C ;
-+Fem: SG-SUF ;
-+Fem: PL_RED2 ;
+!+Fem: DIM_CV1toCV2C ;
+!+Fem: SG-SUF ;
+!+Fem: PL_RED2 ;
+: DIM_CV1toCV2C ;
+@U.REDUPL.ZERO@:@U.REDUPL.ZERO@ SG-SUF ;
+: PL_RED2 ;
 
 LEXICON N_MSC_with_PL_RED2 !this is simply for retaining information in the lexicon name for deriving CG sets 202602
 N_with_PL_RED2 ;
 LEXICON N_MSC_with_PL_RED2_PRF/s
 @U.NPrefix.s@ DIM_CV1toCV2C ;
-@U.NPrefix.s@ SG-SUF ;
+@U.NPrefix.s@@U.REDUPL.ZERO@:@U.NPrefix.s@@U.REDUPL.ZERO@ SG-SUF ;
 @U.NPrefix.s@ PL_RED2 ;
 !+Msc: DIM_CV1toCV2C ;
 !+Msc: SG-SUF ;
@@ -109,49 +112,41 @@ LEXICON N_MSC_with_PL_RED2_PRF/s
 
 ! Derivation
 LEXICON DIM_CV1toCV2C
-+Der+Der/Dimin_1i13+N:%^Red1i13 SG-SUF ; !+Der/Red1_1i13
-!@R.PossPx@+Der+Der/Dimin_1i13+N:@R.PossPx@%^Red1i13 SG-SUF ; !+Der/Red1_1i13
-+Err/Orth+Der+Der/Dimin_1iq13+N:%^Red1iq13 SG-SUF ; !+Der/Red1_1iq13
-!@R.PossPx@+Err/Orth+Der+Der/Dimin_1iq13+N:@R.PossPx@%^Red1iq13 SG-SUF ; !+Der/Red1_1iq13
+@U.REDUPL.1i13@+Der+Der/Dimin_1i13+N:@U.REDUPL.1i13@ ; !+Der/Red1_1i13
+@U.REDUPL.1iq13@+Err/Orth+Der+Der/Dimin_1iq13+N:@U.REDUPL.1iq13@ SG-SUF ; !+Der/Red1_1iq13
 
-+Err/Orth+Der+Der/Dimin_1iq123+N:%^Red1iq123 SG-SUF ; !+Der/Red1_1iq123
-!@R.PossPx@+Err/Orth+Der+Der/Dimin_1iq123+N:@R.PossPx@%^Red1iq123 SG-SUF ; !+Der/Red1_1iq123
+@U.REDUPL.1iq13@+Err/Orth+Der+Der/Dimin_1iq123+N:@U.REDUPL.1iq13@ SG-SUF ; !+Der/Red1_1iq123
 
-+Err/Orth+Der+Der/Dimin_1i123+N:%^Red1i123 SG-SUF ; !+Der/Red1_1i123
-!@R.PossPx@+Err/Orth+Der+Der/Dimin_1i123+N:@R.PossPx@%^Red1i123 SG-SUF ; !+Der/Red1_1i123
-+Err/Orth+Der+Der/Dimin_12123+N:%^Red12123 SG-SUF ; !+Der/Red1_12123
-!@R.PossPx@+Err/Orth+Der+Der/Dimin_12123+N:@R.PossPx@%^Red12123 SG-SUF ; !+Der/Red1_12123
+@U.REDUPL.1i123@+Err/Orth+Der+Der/Dimin_1i123+N:@U.REDUPL.1i123@ SG-SUF ; !+Der/Red1_1i123
+@U.REDUPL.12123@+Err/Orth+Der+Der/Dimin_12123+N:@U.REDUPL.12123@ ; !+Der/Red1_12123
 
-+Der+Der/Dimin_1i1i13+N+Pl:%^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
-!@R.PossPx@+Der+Der/Dimin_1i1i13+N+Pl:@R.PossPx@%^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
-
-!LEXICON N_DIM_with_PL_12123_PRF/s !bibədaʔ, bibibədaʔ
-!@U.NPrefix.s@+Dimin:@U.NPrefix.s@ SG-SUF ;
-!@U.NPrefix.s@+Dimin+Pl:@U.NPrefix.s@%^Red12123 PRE-POSS_01 ;
+@U.REDUPL.PL1i1i13@+Der+Der/Dimin_1i1i13+N+Pl:@U.REDUPL.PL1i1i13@ PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
 
 LEXICON N_DIM_with_PL_12123_PRF/sexw !bibədaʔ, bibibədaʔ 
-@U.NPrefix.sexw@+Dimin:@U.NPrefix.sexw@ SG-SUF ;
-@U.NPrefix.sexw@+Dimin+Pl:@U.NPrefix.sexw@%^Red12123 PRE-POSS_01 ; 
+@U.NPrefix.sexw@@U.REDUPL.ZERO@+Dimin:@U.NPrefix.sexw@@U.REDUPL.ZERO@ SG-SUF ;
+@U.NPrefix.sexw@@U.REDUPL.12123@+Dimin+Pl:@U.NPrefix.sexw@@U.REDUPL.12123@ PRE-POSS_01 ; 
 
 LEXICON N_DIM_with_PL_12123 !bibədaʔ, bibibədaʔ
-+Dimin: SG-SUF ;
-+Dimin+Pl:%^Red12123 PRE-POSS_01 ;
+@U.REDUPL.ZERO@+Dimin:@U.REDUPL.ZERO@ SG-SUF ;
+@U.REDUPL.12123@+Dimin+Pl:@U.REDUPL.12123@ PRE-POSS_01 ;
 
 ! Declension
 LEXICON SG-SUF
-!@D.PossPx@+Sg:@D.PossPx@ # ; !CHECKME 2021-07
 +Sg: PRE-POSS_01 ;
 
 
 LEXICON PL_RED1_qelb
-@U.PossPx.ZERO@+Pl:@U.PossPx.ZERO@%^Red1i123   # ;   
-+Pl:%^Red2CV2CiCV        PRE-POSS_01 ;
+!@U.PossPx.ZERO@+Pl:@U.PossPx.ZERO@%^Red1i123   # ;   
+@U.PossPx.ZERO@@U.REDUPL.1i123@+Pl:@U.PossPx.ZERO@@U.REDUPL.1i123@   # ; !+Der/Red1_1i123   
+
+!+Pl:%^Red2CV2CiCV        PRE-POSS_01 ;
+@U.REDUPL.2CV2CiCV@+Pl:@U.REDUPL.2CV2CiCV@        PRE-POSS_01 ;!ADD info
 !! qəlb+N+Pl: **rain showers**
 !!€ {p5}{p4}{p3}{p2}{p1}qəlb^Red1i123
 !!€ 00qi0qəlb0
 
 LEXICON PL_RED2 !! where reduplication happens
-+Pl:%^RedPL123123 PRE-POSS_01 ;
+@U.REDUPL.PL123123@+Pl:@U.REDUPL.PL123123@ PRE-POSS_01 ;
 !! bəlups+N+Pl
 !!€ {p5}{p4}{p3}{p2}{p1}bəlups^RedPL123123
 !!€ 00bəlbəlups0
@@ -164,8 +159,7 @@ LEXICON PL_RED2 !! where reduplication happens
 
 LEXICON PL_RED5
 !ʔaciɬtalbixʷ:ʔacaciɬtalbixʷ
-+Pl:%^Red12323 PRE-POSS_01 ;
-!@R.PossPx@+Pl:@R.PossPx@%^Red12323	PRE-POSS_01 ;
+@U.REDUPL.12323@+Pl:@U.REDUPL.12323@ PRE-POSS_01 ;
 
 LEXICON PRE-POSS_01
 @U.TAM-SUBJ.SUBJ@+Mod/Subj:@U.TAM-SUBJ.SUBJ@ PRE-POSS_02 ; 
@@ -181,7 +175,7 @@ LEXICON PRE-POSS_03
 @U.TAM-RE.ZERO@ PRE-POSS_04 ; 
 
 LEXICON PRE-POSS_04
-@U.TAM-T.REM@+RemPst:@U.TAM-T.REM@ PRE-POSS_05 ;
+@R.TAM-T.REM@+RemPst:@R.TAM-T.REM@ PRE-POSS_05 ;
 @U.TAM-T.ZERO@ PRE-POSS_05 ;
 
 LEXICON PRE-POSS_05

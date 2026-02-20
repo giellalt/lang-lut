@@ -131,22 +131,54 @@ LEXICON L1_
 
 
 LEXICON VERBS_OR_NOUNS
-:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}  Verbs ;
+:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}  REDUPL_FOR_VERBS ;
 
-@U.NPrefix.ZERO@:@U.NPrefix.ZERO@%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
-@U.NPrefix.c@:@U.NPrefix.c@c%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
-!@U.NPrefix.dexw@:@U.NPrefix.dexw@dəxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
-@U.NPrefix.dxw@:@U.NPrefix.dxw@dxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
-@U.NPrefix.dxws@:@U.NPrefix.dxws@dxʷs%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
-@U.NPrefix.je@:@U.NPrefix.je@ǰə%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
-@U.NPrefix.le@:@U.NPrefix.le@lə%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
-@U.NPrefix.s@:@U.NPrefix.s@s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
-@U.NPrefix.sexw@:@U.NPrefix.sexw@səxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
-@U.NPrefix.sxw@:@U.NPrefix.sxw@sxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
-!@U.NPrefix.tsi@:@U.NPrefix.tsi@tsi%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
-@U.NPrefix.xh@:@U.NPrefix.xh@x̌%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
-!@U.NPrefix.xhw@:@U.NPrefix.xhw@x̌ʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
-!@U.NPrefix.xw@:@U.NPrefix.xw@xʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} NOUNS_PREFIX_PREP ;
+@U.NPrefix.ZERO@:@U.NPrefix.ZERO@%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.c@:@U.NPrefix.c@c%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
+!@U.NPrefix.dexw@:@U.NPrefix.dexw@dəxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.dxw@:@U.NPrefix.dxw@dxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.dxws@:@U.NPrefix.dxws@dxʷs%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.je@:@U.NPrefix.je@ǰə%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.le@:@U.NPrefix.le@lə%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.s@:@U.NPrefix.s@s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.sexw@:@U.NPrefix.sexw@səxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.sxw@:@U.NPrefix.sxw@sxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
+!@U.NPrefix.tsi@:@U.NPrefix.tsi@tsi%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.xh@:@U.NPrefix.xh@x̌%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
+!@U.NPrefix.xhw@:@U.NPrefix.xhw@x̌ʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
+!@U.NPrefix.xw@:@U.NPrefix.xw@xʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
+
+LEXICON REDUPL_FOR_VERBS
+@U.REDUPL.ZERO@  Verbs ;
+@U.REDUPL.123123@:@U.REDUPL.123123@%^Red123123  Verbs ;
+@U.REDUPL.PL123123@:@U.REDUPL.PL123123@%^RedPL123123 Verbs ;
+@U.REDUPL.12123@:@U.REDUPL.12123@%^Red12123  Verbs ;
+@U.REDUPL.12q123@:@U.REDUPL.12q123@%^Red12q123  Verbs ;
+@U.REDUPL.1213@:@U.REDUPL.1213@%^Red1213  Verbs ;
+@U.REDUPL.12q13@:@U.REDUPL.12q13@%^Red12q13  Verbs ;
+@U.REDUPL.1i123@:@U.REDUPL.1i123@%^Red1i123  Verbs ;
+@U.REDUPL.1i13@:@U.REDUPL.1i13@%^Red1i13  Verbs ;
+@U.REDUPL.1iq123@:@U.REDUPL.1iq123@%^Red1iq123  Verbs ;
+@U.REDUPL.1iq13@:@U.REDUPL.1iq13@%^Red1iq13  Verbs ;
+
+LEXICON REDUPL_FOR_NOMINALS
+@U.REDUPL.ZERO@  NOUNS_PREFIX_PREP ;
+@U.REDUPL.123123@:@U.REDUPL.123123@%^Red123123  NOUNS_PREFIX_PREP ;
+@U.REDUPL.PL123123@:@U.REDUPL.PL123123@%^RedPL123123 NOUNS_PREFIX_PREP ;
+@U.REDUPL.12323@:@U.REDUPL.12323@%^Red12323 NOUNS_PREFIX_PREP ;
+@U.REDUPL.12q123@:@U.REDUPL.12q123@%^Red12q123 NOUNS_PREFIX_PREP ;
+@U.REDUPL.12q13@:@U.REDUPL.12q13@%^Red12q13 NOUNS_PREFIX_PREP ;
+@U.REDUPL.12123@:@U.REDUPL.12123@%^Red12123 NOUNS_PREFIX_PREP ;
+@U.REDUPL.1213@:@U.REDUPL.1213@%^Red1213 NOUNS_PREFIX_PREP ;
+@U.REDUPL.1iq123@:@U.REDUPL.1iq123@%^Red1iq123 NOUNS_PREFIX_PREP ;
+@U.REDUPL.1iq13@:@U.REDUPL.1iq13@%^Red1iq13 NOUNS_PREFIX_PREP ;
+@U.REDUPL.1i123@:@U.REDUPL.1i123@%^Red1i123 NOUNS_PREFIX_PREP ;
+@U.REDUPL.1i13@:@U.REDUPL.1i13@%^Red1i13 NOUNS_PREFIX_PREP ;
+@U.REDUPL.PL1i1i13@:@U.REDUPL.PL1i1i13@%^RedPL1i1i13 NOUNS_PREFIX_PREP ;
+@U.REDUPL.2CV2CiCV@:@U.REDUPL.2CV2CiCV@%^Red2CV2CiCV NOUNS_PREFIX_PREP ;
+@U.REDUPL.130130@:@U.REDUPL.130130@%^RedPL130130 NOUNS_PREFIX_PREP ;
+
+
 
 LEXICON NOUNS_PREFIX_PREP
 N_NEWWORDS ;
