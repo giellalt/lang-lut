@@ -318,17 +318,17 @@ y̓   !!= @CODE@
 !! symbols in the lexicon files:
  {aä} {oö} {uü} !!= * @CODE@ 
 
-%{lØ%}   !!= * @CODE@ in slh stem-final l tends to be lost, but it is retained before Clt/Now
+{lØ}   !!= * @CODE@ in slh stem-final l tends to be lost, but it is retained before Clt/Now
 
 !! place holders
-%{pØ%} !!= * @CODE@ 
-%{p1%} !!= * @CODE@ 
-%{p2%} !!= * @CODE@ 
-%{p3%} !!= * @CODE@ 
-%{p4%} !!= * @CODE@ 
-%{p5%} !!= * @CODE@ 
-%{p6%} !!= * @CODE@ 
-%{p7%} !!= * @CODE@ 
+{pØ} !!= * @CODE@ 
+{p1} !!= * @CODE@ 
+{p2} !!= * @CODE@ 
+{p3} !!= * @CODE@ 
+{p4} !!= * @CODE@ 
+{p5} !!= * @CODE@ 
+{p6} !!= * @CODE@ 
+{p7} !!= * @CODE@ 
 
 !! And following triggers to control variation
  {front} {back} !!= * @CODE@ 

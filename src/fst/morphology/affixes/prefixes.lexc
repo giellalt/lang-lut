@@ -131,22 +131,22 @@ LEXICON L1_
 
 
 LEXICON VERBS_OR_NOUNS
-:%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}  REDUPL_FOR_VERBS ;
+:{p5}{p4}{p3}{p2}{p1}  REDUPL_FOR_VERBS ;
 
-@U.NPrefix.ZERO@:@U.NPrefix.ZERO@%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
-@U.NPrefix.c@:@U.NPrefix.c@c%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
-!@U.NPrefix.dexw@:@U.NPrefix.dexw@dəxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
-@U.NPrefix.dxw@:@U.NPrefix.dxw@dxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
-@U.NPrefix.dxws@:@U.NPrefix.dxws@dxʷs%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
-@U.NPrefix.je@:@U.NPrefix.je@ǰə%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
-@U.NPrefix.le@:@U.NPrefix.le@lə%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
-@U.NPrefix.s@:@U.NPrefix.s@s%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
-@U.NPrefix.sexw@:@U.NPrefix.sexw@səxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
-@U.NPrefix.sxw@:@U.NPrefix.sxw@sxʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
-!@U.NPrefix.tsi@:@U.NPrefix.tsi@tsi%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
-@U.NPrefix.xh@:@U.NPrefix.xh@x̌%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
-!@U.NPrefix.xhw@:@U.NPrefix.xhw@x̌ʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
-!@U.NPrefix.xw@:@U.NPrefix.xw@xʷ%^√%{p5%}%{p4%}%{p3%}%{p2%}%{p1%} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.ZERO@:@U.NPrefix.ZERO@{p5}{p4}{p3}{p2}{p1} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.c@:@U.NPrefix.c@c%^√{p5}{p4}{p3}{p2}{p1} REDUPL_FOR_NOMINALS ;
+!@U.NPrefix.dexw@:@U.NPrefix.dexw@dəxʷ%^√{p5}{p4}{p3}{p2}{p1} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.dxw@:@U.NPrefix.dxw@dxʷ%^√{p5}{p4}{p3}{p2}{p1} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.dxws@:@U.NPrefix.dxws@dxʷs%^√{p5}{p4}{p3}{p2}{p1} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.je@:@U.NPrefix.je@ǰə%^√{p5}{p4}{p3}{p2}{p1} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.le@:@U.NPrefix.le@lə%^√{p5}{p4}{p3}{p2}{p1} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.s@:@U.NPrefix.s@s%^√{p5}{p4}{p3}{p2}{p1} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.sexw@:@U.NPrefix.sexw@səxʷ%^√{p5}{p4}{p3}{p2}{p1} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.sxw@:@U.NPrefix.sxw@sxʷ%^√{p5}{p4}{p3}{p2}{p1} REDUPL_FOR_NOMINALS ;
+!@U.NPrefix.tsi@:@U.NPrefix.tsi@tsi%^√{p5}{p4}{p3}{p2}{p1} REDUPL_FOR_NOMINALS ;
+@U.NPrefix.xh@:@U.NPrefix.xh@x̌%^√{p5}{p4}{p3}{p2}{p1} REDUPL_FOR_NOMINALS ;
+!@U.NPrefix.xhw@:@U.NPrefix.xhw@x̌ʷ%^√{p5}{p4}{p3}{p2}{p1} REDUPL_FOR_NOMINALS ;
+!@U.NPrefix.xw@:@U.NPrefix.xw@xʷ%^√{p5}{p4}{p3}{p2}{p1} REDUPL_FOR_NOMINALS ;
 
 LEXICON REDUPL_FOR_VERBS
 @U.REDUPL.ZERO@  Verbs ;
