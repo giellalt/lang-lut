@@ -10,7 +10,7 @@
 ! +ScCon+Oc3:%>d       
 ! +Refl:%>cut
 ! +Recip:%>agʷəl
-! +Mid:%>əb         
+! +Pass:%>əb         
 !
 
 !LEXICON COP_
@@ -93,8 +93,10 @@ LEXICON IV_BASE
 LEXICON IV_BASE_Dial/-NL
 @U.OBJ.ZERO@+Dial/-NL:@U.OBJ.ZERO@ 0V_KWEDAD ;
 
-LEXICON V_MID_TEB
-@U.OBJ.ZERO@+Mid:@U.OBJ.ZERO@ 0V_KWEDAD ;
+!LEXICON V_MID_TEB
+! V_PASS_TEB ;
+LEXICON V_PASS_TEB
+@U.OBJ.ZERO@+Pass:@U.OBJ.ZERO@ 0V_KWEDAD ;
 
 LEXICON TV_SELPED !səlpəd:səlpəd
 : 0V_KWEDAD ;
@@ -232,20 +234,20 @@ LEXICON OC1/2_s_OR_OCSP3
 ! INDOCSP3 ;
 
 LEXICON OC1/2_š
-:ub OCSG1_š ;
-:ub OCSG2_icid ;
-:ub OCPL1 ;
-:ub OCPL2 ;
-:xʷ OCSP3 ;
-:ub  MID ;
++Act:ub OCSG1_š ;
++Act:ub OCSG2_icid ;
++Act:ub OCPL1 ;
++Act:ub OCPL2 ;
++Act:xʷ OCSP3 ;
+:ub  PASS ;
  
 LEXICON OC1/2_s
- OCSG1_c ;
- OCSG2_cid ;
-:ub OCPL1 ;!CHECKME ub twice?
-:ub OCPL2 ;
- OCSP3 ;
-:əb MID ;
++Act: OCSG1_c ;
++Act: OCSG2_cid ;
++Act:ub OCPL1 ;!CHECKME ub twice?
++Act:ub OCPL2 ;
++Act: OCSP3 ;
+:əb PASS ;
 
 LEXICON OCSG1_š
 @U.OBJ.SG1@+ScCon+OcSg1:@U.OBJ.SG1@%>š DVN-POSS ;
@@ -271,8 +273,10 @@ LEXICON OCPL1
 LEXICON OCPL2
 @U.OBJ.PL2@+ScCon+OcPl2:@U.OBJ.PL2@%>uɬəd DVN-POSS ;
 
-LEXICON MID
-@U.OBJ.MID@+Mid:@U.OBJ.MID@ DVN-POSS ;
+!LEXICON MID
+! PASS ;
+LEXICON PASS
+@U.OBJ.PASS@+Pass:@U.OBJ.PASS@ DVN-POSS ;
 
 
 !+ScSg1:%>əd

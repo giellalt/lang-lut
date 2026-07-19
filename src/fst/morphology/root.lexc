@@ -74,7 +74,10 @@ y̓   !!= @CODE@
  
  +Aux +Cop  !!= * @CODE@
  +Pass  !!= * @CODE@ -t-əb
- +Prox +Dist +Rem +Distr +Random
+ +Act  !!= * @CODE@ else (not -t-əb)
+ +Mid  !!= * @CODE@ depricated -təb, -tub, -dub
+
++Prox +Dist +Rem +Distr +Random
 
 !! Types of adverbs also include
  +Deg        !!= * @CODE@ this is degree
@@ -173,7 +176,6 @@ y̓   !!= @CODE@
 
 !! The verbs are syntactically split according to transitivity:
  +TV +IV !!= * @CODE@ 
- +Mid  !!= * @CODE@ -təb, -tub, -dub
  
 !! Special multiword units are analysed with:
  +Multi !!= * @CODE@ 
@@ -513,14 +515,14 @@ y̓   !!= @CODE@
 @U.OBJ.PL2@	 !!= * @CODE@ 
 @U.OBJ.SP3@	 !!= * @CODE@ 
 @U.OBJ.ZERO@	 !!= * @CODE@ 
-@U.OBJ.MID@	 !!= * @CODE@ 
+@U.OBJ.PASS@	 !!= * @CODE@ 
 
 @D.OBJ.SG1@	 !!= * @CODE@ 
 @D.OBJ.SG2@	 !!= * @CODE@ 
 @D.OBJ.PL1@	 !!= * @CODE@ 
 @D.OBJ.PL2@	 !!= * @CODE@ 
 @D.OBJ.SP3@	 !!= * @CODE@ 
-@D.OBJ.MID@	 !!= * @CODE@ 
+@D.OBJ.PASS@	 !!= * @CODE@ 
 @D.OBJ@	 !!= * @CODE@ 
 
 @R.TAM@		 !!= * @CODE@ 
