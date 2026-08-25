@@ -79,14 +79,14 @@ LEXICON N1_with_PL_RED2
 : PL_RED2 ;
 
 LEXICON N_with_PL_RED130
-!%^RedPL130130
+!^RedPL130130
 @U.REDUPL.ZERO@:@U.REDUPL.ZERO@ SG-SUF ;
 @U.PossPx.ZERO@@U.REDUPL.130130@+Pl:@U.PossPx.ZERO@@U.REDUPL.130130@ PRE-POSS_01 ;
 @U.REDUPL.130130@+Pl:@U.REDUPL.130130@	PRE-POSS_01 ;
 
 
 LEXICON N_with_Distr_12323_RED5 !Der/Red5_12323
-!%^Red12323
+!^Red12323
 !: DIM_CV1toCV2C ;
 @U.REDUPL.ZERO@:@U.REDUPL.ZERO@ SG-SUF ;
 : PL_RED5 ;
@@ -136,10 +136,10 @@ LEXICON SG-SUF
 
 
 LEXICON PL_RED1_qelb
-!@U.PossPx.ZERO@+Pl:@U.PossPx.ZERO@%^Red1i123   # ;   
+!@U.PossPx.ZERO@+Pl:@U.PossPx.ZERO@^Red1i123   # ;   
 @U.PossPx.ZERO@@U.REDUPL.1i123@+Pl:@U.PossPx.ZERO@@U.REDUPL.1i123@   # ; !+Der/Red1_1i123   
 
-!+Pl:%^Red2CV2CiCV        PRE-POSS_01 ;
+!+Pl:^Red2CV2CiCV        PRE-POSS_01 ;
 @U.REDUPL.2CV2CiCV@+Pl:@U.REDUPL.2CV2CiCV@        PRE-POSS_01 ;!ADD info
 !! qəlb+N+Pl: **rain showers**
 !!€ {p5}{p4}{p3}{p2}{p1}qəlb^Red1i123
