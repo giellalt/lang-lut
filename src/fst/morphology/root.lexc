@@ -221,7 +221,7 @@ y̓   !!= @CODE@
  +Der/Dimin_12q123 !!= * @CODE@ * diminutive 
  +Der/Dimin_1iq123 !!= * @CODE@ * diminutive 
  +Der/Dimin_1213 !!= * @CODE@ * diminutive pišpiš > pi-pšpiš;  sbádil:sbábdil
- +Der/Dimin_1i13 !!= * @CODE@ * diminutive %^Red1i13 
+ +Der/Dimin_1i13 !!= * @CODE@ * diminutive ^Red1i13 
  +Der/Dimin_12q13 !!= * @CODE@ * diminutive
  +Der/Dimin_1iq13 !!= * @CODE@ * diminutive
  
@@ -234,6 +234,7 @@ y̓   !!= @CODE@
 
  +Der/Distr	   !!= * @CODE@ * distributive
  +Der/Distr_123123 !!= * @CODE@ * distributive
+ +Der/DistrAug_12323123 !!= * @CODE@ * Distributive augmentative sgʷadədgʷad
 
  
  +Der/s !!= * @CODE@ * Noun derivation
@@ -311,7 +312,7 @@ y̓   !!= @CODE@
         !! ```
 
 %- !!≈ * **@CODE@**:  hyphen
-%^√ !!≈ * **@CODE@**:  commence root
+^√ !!≈ * **@CODE@**:  commence root
 %< !!≈ * **@CODE@**: prefix
 
 !! Morphophonology
@@ -335,24 +336,25 @@ y̓   !!= @CODE@
 !! And following triggers to control variation
  {front} {back} !!= * @CODE@ 
 
-%^RedPL123123 !!= * @CODE@ 3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
-%^Red123123 !!= * @CODE@ 3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
-%^Red12323 !!= * @CODE@ should work for Red3 and Red5
-%^Red12q123 !!= * @CODE@ 
-%^Red12q13 !!= * @CODE@ 
-%^Red12123 !!= * @CODE@ papastəd
-%^Red1213 !!= * @CODE@
-%^Red1iq123 !!= * @CODE@ iʔ   biʔbədəʔs
-%^Red1iq13 !!= * @CODE@ iʔ
-%^Red1i123 !!= * @CODE@ qəlb: qiqəlb *rain showers*
-%^Red1i13 !!= * @CODE@ 2-segment to 3-segments with vowel change sčətxʷəd:sčičtxʷəd Der/Red1_1i13
-%^RedPL1i1i13 !!= * @CODE@ 2-segment to 3-segments with vowel change Distr sčətxʷəd:sčičičtxʷəd Der/Red1_1i13_Distr_1212 
-%^Red2CV2CiCV !!= * @CODE@
-%^RedPL130130 !!= * @CODE@ ƛ̕xʷay: ƛ̕xʷaƛ̕xʷay 
+^Red12323123 !!= * @CODE@ CVC-to-CVCVCCVC
+^RedPL123123 !!= * @CODE@ 3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
+^Red123123 !!= * @CODE@ 3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
+^Red12323 !!= * @CODE@ should work for Red3 and Red5
+^Red12q123 !!= * @CODE@ 
+^Red12q13 !!= * @CODE@ 
+^Red12123 !!= * @CODE@ papastəd
+^Red1213 !!= * @CODE@
+^Red1iq123 !!= * @CODE@ iʔ   biʔbədəʔs
+^Red1iq13 !!= * @CODE@ iʔ
+^Red1i123 !!= * @CODE@ qəlb: qiqəlb *rain showers*
+^Red1i13 !!= * @CODE@ 2-segment to 3-segments with vowel change sčətxʷəd:sčičtxʷəd Der/Red1_1i13
+^RedPL1i1i13 !!= * @CODE@ 2-segment to 3-segments with vowel change Distr sčətxʷəd:sčičičtxʷəd Der/Red1_1i13_Distr_1212 
+^Red2CV2CiCV !!= * @CODE@
+^RedPL130130 !!= * @CODE@ ƛ̕xʷay: ƛ̕xʷaƛ̕xʷay 
 
-%^Pen !!= * @CODE@ this combines with subsequent RmVow or perhaps RmCns
-%^RmVOW !!= * @CODE@ this removes previous vowel or with Pen the penultimate vowel
-%^d2t !!= * @CODE@ this devoices d to t specifically
+^Pen !!= * @CODE@ this combines with subsequent RmVow or perhaps RmCns
+^RmVOW !!= * @CODE@ this removes previous vowel or with Pen the penultimate vowel
+^d2t !!= * @CODE@ this devoices d to t specifically
 
 !! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
@@ -441,21 +443,21 @@ y̓   !!= @CODE@
 
 !! ### REDUPLICATION
 @U.REDUPL.ZERO@     !!= * @CODE@ no reduplication
-@U.REDUPL.PL123123@ !!= * @CODE@ +Pl:%^RedPL123123 OR +Der/Red2_3L
-@U.REDUPL.123123@   !!= * @CODE@ %^Red123123 +Der/Red2_3L
-@U.REDUPL.12323@    !!= * @CODE@ +Pl:%^Red12323 PRE-POSS_01 ;
-@U.REDUPL.12q123@   !!= * @CODE@ %^Red12q123 !+Der/Dimin_12q123
-@U.REDUPL.12q13@    !!= * @CODE@ %^Red12q13 !+Der/Dimin_12q13
-@U.REDUPL.12123@    !!= * @CODE@ %^Red12123  !+Der/Red1_12123  OR Der/Dimin_12123
-@U.REDUPL.1213@     !!= * @CODE@ %^Red1213 Der/Dimin_1213
-@U.REDUPL.1iq123@   !!= * @CODE@ %^Red1iq123 !+Der/Red1_1iq123 OR Der/Dimin_1iq123
-@U.REDUPL.1iq13@    !!= * @CODE@ %^Red1iq13  !+Der/Red1_1iq13 OR Der/Dimin_12q13
-@U.REDUPL.1i123@    !!= * @CODE@ %^Red1i123  !+Der/Red1_1i123 OR Der/Dimin_1i123
-@U.REDUPL.1i13@     !!= * @CODE@ %^Red1i13  !+Der/Red1_1i13 OR Der/Dimin_1i13
+@U.REDUPL.PL123123@ !!= * @CODE@ +Pl:^RedPL123123 OR +Der/Red2_3L
+@U.REDUPL.123123@   !!= * @CODE@ ^Red123123 +Der/Red2_3L
+@U.REDUPL.12323@    !!= * @CODE@ +Pl:^Red12323 PRE-POSS_01 ;
+@U.REDUPL.12q123@   !!= * @CODE@ ^Red12q123 !+Der/Dimin_12q123
+@U.REDUPL.12q13@    !!= * @CODE@ ^Red12q13 !+Der/Dimin_12q13
+@U.REDUPL.12123@    !!= * @CODE@ ^Red12123  !+Der/Red1_12123  OR Der/Dimin_12123
+@U.REDUPL.1213@     !!= * @CODE@ ^Red1213 Der/Dimin_1213
+@U.REDUPL.1iq123@   !!= * @CODE@ ^Red1iq123 !+Der/Red1_1iq123 OR Der/Dimin_1iq123
+@U.REDUPL.1iq13@    !!= * @CODE@ ^Red1iq13  !+Der/Red1_1iq13 OR Der/Dimin_12q13
+@U.REDUPL.1i123@    !!= * @CODE@ ^Red1i123  !+Der/Red1_1i123 OR Der/Dimin_1i123
+@U.REDUPL.1i13@     !!= * @CODE@ ^Red1i13  !+Der/Red1_1i13 OR Der/Dimin_1i13
 
-@U.REDUPL.PL1i1i13@ !!= * @CODE@ %^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
-@U.REDUPL.2CV2CiCV@ !!= * @CODE@ +Pl:%^Red2CV2CiCV        PRE-POSS_01 ;
-@U.REDUPL.130130@     !!= * @CODE@ %^RedPL130130 
+@U.REDUPL.PL1i1i13@ !!= * @CODE@ ^RedPL1i1i13 PRE-POSS_01 ;! +Der/Red1_1i13_Distr_1212
+@U.REDUPL.2CV2CiCV@ !!= * @CODE@ +Pl:^Red2CV2CiCV        PRE-POSS_01 ;
+@U.REDUPL.130130@     !!= * @CODE@ ^RedPL130130 
 
 @C.REDUPL@ !!= * @CODE@ remove replication flags
 
@@ -478,8 +480,8 @@ y̓   !!= @CODE@
 
 
 @U.NMZ.ZERO@ !!= * @CODE@ 
-@U.NMZ.V2N@  !!= * @CODE@ s%^√
-@R.NMZ.V2N@  !!= * @CODE@ s%^√
+@U.NMZ.V2N@  !!= * @CODE@ s^√
+@R.NMZ.V2N@  !!= * @CODE@ s^√
 @U.NMZ.V2A@  !!= * @CODE@ dəxʷ
 @R.NMZ.V2A@  !!= * @CODE@ dəxʷ
 
