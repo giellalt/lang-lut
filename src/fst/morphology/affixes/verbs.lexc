@@ -1,13 +1,12 @@
 !! Verb inflection
 ! ---------------
 !! The Lushootseed language verbs inflect in object persons.
-
 ! (cf. Hagiwara :7)
-! +ScCon+OcSg1:%>c   
-! +ScCon+OcSg2:%>cid 
-! +ScCon+OcPl1:%>ubuɬ
-! +ScCon+OcPl2:%>ubuɬəd
-! +ScCon+Oc3:%>d       
+! +OcSg1:%>c   
+! +OcSg2:%>cid 
+! +OcPl1:%>ubuɬ
+! +OcPl2:%>ubuɬəd
+! +Oc3:%>d       
 ! +Refl:%>cut
 ! +Recip:%>agʷəl
 ! +Pass:%>əb         
@@ -15,7 +14,6 @@
 
 !LEXICON COP_
 !+Cop:	# ;
-
 
 !LEXICON TV_BECHDUB
 !+TV: 0V_BECHDUB ;
@@ -25,7 +23,7 @@ LEXICON V_DXW
  0V_DXW ;
 LEXICON 0V_DXW
 !! bəčdxʷ+V:bəčd
-@U.REDUPL.123123@+Der/Red2_3L:@U.REDUPL.123123@ 0V_DXW_01 ;
+@U.REDUPL.PL123123@+Der/Red2_3L:@U.REDUPL.PL123123@ 0V_DXW_01 ;
 @U.REDUPL.ZERO@ 0V_DXW_01 ;
 LEXICON 0V_DXW_01
 !! bəčdxʷ:bəčd
@@ -182,7 +180,7 @@ LEXICON V_HELHED
 : 0V_HELHED ;
 
 LEXICON 0V_HELHED
-@U.REDUPL.123123@+Der/Red2_3L:@U.REDUPL.123123@ 0V_HELHED_01a ;
+@U.REDUPL.PL123123@+Der/Red2_3L:@U.REDUPL.PL123123@ 0V_HELHED_01a ;
 @U.REDUPL.ZERO@ 0V_HELHED_01a ;
 LEXICON 0V_HELHED_01a
  0V_HELHED_01b ;
