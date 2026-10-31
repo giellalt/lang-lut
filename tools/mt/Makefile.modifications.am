@@ -21,12 +21,15 @@ CLEAN_FILES+=
 
 # We want to eliminate flags in the apertium-targeted analyser:
 analyser-mt-gt-desc.hfst: analyser-mt-gt-desc.tmp.hfst \
+			$(top_builddir)/src/fst/orthography/split-composed-chars.compose.hfst \
 			$(top_builddir)/src/fst/filters/remove-letter-acute.hfst           \
-			$(top_builddir)/src/fst/filters/remove-letter-grave.hfst 
+			$(top_builddir)/src/fst/filters/remove-letter-grave.hfst
 		$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
-					 @\"$<\" 					\
+					 @\"$(top_builddir)/src/fst/orthography/split-composed-chars.compose.hfst\".i \
+					 .o. @\"$<\" 					\
 					 .o. @\"$(top_builddir)/src/fst/filters/remove-letter-grave.hfst\" \
 					 .o. @\"$(top_builddir)/src/fst/filters/remove-letter-acute.hfst\"  \
+					 .o. @\"$(top_builddir)/src/fst/orthography/split-composed-chars.compose.hfst\" \
     					 ;\n\
 				 $(INVERT_HFST)\
 				 twosided flag-diacritics\n\
