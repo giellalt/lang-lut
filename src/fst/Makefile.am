@@ -151,15 +151,15 @@ $(foreach fst,hfst xfst foma,$(eval $(call giella_generators,$(fst))))
 ### Split multichar letters early, to avoid repetitive code. Multichar ###
 ### letters must be split on both sides, and then the alphabet pruned, ###
 ### for hfst-tokenise to work without issues.						   ###
+### The letters stay single symbols through lexc/twolc (reduplication  ###
+### copies C1 and C3 as units). The arcs are split with hfst-substitute###
+### instead of composing split-composed-chars on both sides, which	   ###
+### gave 2^n identical analyses for n split letters in the lemma.	   ###
 .generated/generator-raw-gt-desc.hfst: .generated/generator-raw-gt-desc.tmp.hfst \
-										orthography/split-composed-chars.compose.hfst
-		$(AM_V_XFST_TOOL)$(PRINTF) "read regex			  \
-								@\"orthography/split-composed-chars.compose.hfst\".i \
-						.o. @\"$<\"								  \
-						.o. @\"orthography/split-composed-chars.compose.hfst\" \
-						;\n\
-				 save stack $@.tmp\n\
-				 quit\n" | $(XFST_TOOL)
+										$(srcdir)/orthography/split-composed-chars.regex \
+										$(srcdir)/orthography/split-multichar-arcs.py
+		$(AM_V_GEN)$(PYTHON) $(srcdir)/orthography/split-multichar-arcs.py \
+				$(srcdir)/orthography/split-composed-chars.regex $< $@.tmp
 				 $(AM_V_HPRUNE)$(HFST_PRUNE_ALPHABET) -i $@.tmp -o $@
 				 $(AM_V_at)rm -f $@.tmp
 
