@@ -46,12 +46,14 @@ analyser-mt-gt-desc.hfst: analyser-mt-gt-desc.tmp.hfst \
 				 quit\n" | $(XFST_TOOL)
 
 generator-mt-gt-norm.hfst: generator-mt-gt-norm.tmp.hfst \
+			$(top_builddir)/src/fst/filters/remove-dialect-tags.hfst \
 						$(top_builddir)/src/fst/orthography/split-composed-chars.compose.hfst \
 			$(top_builddir)/src/fst/filters/remove-letter-acute.hfst             \
 			$(top_builddir)/src/fst/filters/remove-letter-grave.hfst   
 		$(AM_V_HXFST)$(PRINTF) "\
 			read regex                                                 \
-				@\"$(top_builddir)/src/fst/orthography/split-composed-chars.compose.hfst\".i \
+				@\"$(top_builddir)/src/fst/filters/remove-dialect-tags.hfst\" \
+			.o. @\"$(top_builddir)/src/fst/orthography/split-composed-chars.compose.hfst\".i \
 			.o. @\"$(top_builddir)/src/fst/filters/remove-letter-acute.hfst\" \
 			.o. @\"$(top_builddir)/src/fst/filters/remove-letter-grave.hfst\" \
 			.o. @\"$<\" 		\
