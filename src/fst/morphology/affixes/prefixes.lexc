@@ -85,22 +85,22 @@ LEXICON Prefixes
 
 !!Begin
 LEXICON L7_
-!20261003@U.TAM-SUBJ.SUBJ@:@U.TAM-SUBJ.SUBJ@gʷə%< L6_ ; !sbj = subjunctive
-!20261003@U.TAM-SUBJ.ZERO@                        L6_ ;
-L4_ ;!!20261003
+!20261103@U.TAM-SUBJ.SUBJ@:@U.TAM-SUBJ.SUBJ@gʷə%< L6_ ; !sbj = subjunctive
+!20261103@U.TAM-SUBJ.ZERO@                        L6_ ;
+L4_ ;!!20261103
 
-!20261003LEXICON L6_
-!20261003@U.TAM-HAB.HAB@:@U.TAM-HAB.HAB@ƛ̕u%< L5_ ;
-!20261003@U.TAM-HAB.IRR@:@U.TAM-HAB.IRR@ɬu%< L4_ ;! qəlb 'rain': ɬuqəlb 'rain in the future' is this a noun, too? _intention to_
-!20261003@U.TAM-HAB.ZERO@  L5_ ;
+!20261103LEXICON L6_
+!20261103@U.TAM-HAB.HAB@:@U.TAM-HAB.HAB@ƛ̕u%< L5_ ;
+!20261103@U.TAM-HAB.IRR@:@U.TAM-HAB.IRR@ɬu%< L4_ ;! qəlb 'rain': ɬuqəlb 'rain in the future' is this a noun, too? _intention to_
+!20261103@U.TAM-HAB.ZERO@  L5_ ;
 
-!20261003LEXICON L5_
-!20261003@U.TAM-T.REM@:@U.TAM-T.REM@tu%< L4_ ;
-!20261003@U.TAM-T.ZERO@ L4_ ;
+!20261103LEXICON L5_
+!20261103@U.TAM-T.REM@:@U.TAM-T.REM@tu%< L4_ ;
+!20261103@U.TAM-T.ZERO@ L4_ ;
 
 LEXICON L4_
-!20261003@U.TAM-RE.RE@:@U.TAM-RE.RE@bə%< L3_ ;
-!20261003@U.TAM-RE.ZERO@ L3_ ;
+!20261103@U.TAM-RE.RE@:@U.TAM-RE.RE@bə%< L3_ ;
+!20261103@U.TAM-RE.ZERO@ L3_ ;
 
 !gʷə-
 @U.TAM-SUBJ.SUBJ@@U.TAM-HAB.ZERO@@U.TAM-T.ZERO@@U.TAM-RE.ZERO@:@U.TAM-SUBJ.SUBJ@@U.TAM-HAB.ZERO@@U.TAM-T.ZERO@@U.TAM-RE.ZERO@gʷə%< L3_ ;
@@ -167,8 +167,8 @@ LEXICON L3_
 @U.PossPx.Sg2@:@U.PossPx.Sg2@ad%< L2_ ;
 @U.PossPx.Pl1@:@U.PossPx.Pl1@ L2_ ;
 @U.PossPx.Pl2@:@U.PossPx.Pl2@ L2_ ;
-@U.PossPx.ZERO@ L2_ ;
 @U.PossPx.SP3@ L2_ ;
+@U.PossPx.ZERO@ L2_ ;
  
 LEXICON L2_
 @U.NMZ.V2N@:@U.NMZ.V2N@s%< L1_ ; !Need to mark this with flags 2021-06-30
@@ -245,9 +245,7 @@ LEXICON REDUPL_FOR_NOMINALS
 @U.REDUPL.PL1i1i13@:@U.REDUPL.PL1i1i13@^RedPL1i1i13 NOUNS_PREFIX_PREP_6 ;
 @U.REDUPL.2CV2CiCV@:@U.REDUPL.2CV2CiCV@^Red2CV2CiCV NOUNS_PREFIX_PREP_6 ;
 
-
-
-LEXICON NOUNS_PREFIX_PREP !3
+LEXICON NOUNS_PREFIX_PREP !3 place holders
 :{p3}{p2}{p1}{pØ} NOUNS_PREFIX_PREP_01 ;
 LEXICON NOUNS_PREFIX_PREP_6
 :{p6}{p5}{p4}{p3}{p2}{p1}{pØ} NOUNS_PREFIX_PREP_01 ;
