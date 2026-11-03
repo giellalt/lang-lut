@@ -336,7 +336,7 @@ y̓   !!= @CODE@
 !! And following triggers to control variation
  {front} {back} !!= * @CODE@ 
 
-^Red12323123 !!= * @CODE@ CVC-to-CVCVCCVC
+^Red12323123 !!= * @CODE@ CVC-to-CVCVCCVC Augmentative distributive
 ^RedPL123123 !!= * @CODE@ 3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
 ^Red123123 !!= * @CODE@ 3-segment preposed reduplication CVC-to-CVCCVC bəlups:bəlbəlups 
 ^Red12323 !!= * @CODE@ should work for Red3 and Red5
