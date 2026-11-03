@@ -43,6 +43,18 @@ CUSTOM_FSTS=
 ########################################################
 #### Add language-specific transducer targets here: ####
 
+### Reversed generators. Prefix material is empty on the analysis side and is
+### only constrained by the tags after the lemma, so lookup in the normal
+### generators searches the whole prefix lattice before reading the lemma.
+### Reversed, the tags and stem are read first. Look up with reversed input
+### and reverse the output, see devtools/rev-generate.py.
+if CAN_HFST
+CUSTOM_FSTS+=rev-generator-gt-norm.hfstol \
+			 rev-generator-gt-desc.hfstol
+endif # CAN_HFST
+
+rev-%.hfst: %.hfst
+		$(AM_V_REVERSE)$(HFST_REVERSE) -i $< -o $@
 
 .generated/analyser-gt-desc.%: .generated/analyser-gt-desc.tmp.% \
 										filters/remove-letter-acute.%			   \
