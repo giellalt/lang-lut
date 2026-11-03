@@ -291,10 +291,12 @@ E3:ə
 %^Red1213:0 !!= * @CODE@
 %^Red1iq13:0 !!= * @CODE@ iʔ
 %^Red1iq123:0 !!= * @CODE@ iʔ biʔbədəʔs
+%^Red61223:0 !!= * @CODE@ čəgʷas: čaagʷəs
+%^Red61aa3:0 !!= * @CODE@ čəgʷas: čaagʷəs
 %^Red12123:0 !!= * @CODE@ papastəd
-%^RedPL1i1i13:0 !!= * @CODE@ 2-segment to 3-segments with vowel change Plural
 %^Red12323:0 !!= * @CODE@ works with Red3 and Red5
-
+%^RedPL1i1i13:0 !!= * @CODE@ 2-segment to 3-segments with vowel change Plural
+%^Red61aa1ə3:0  !!= * @CODE@ sɬaaɬədəyʔ < sɬadəyʔ
 %^Red12323123:0 !!= * @CODE@ Distributive augmentative?
 
 %^Red123123:0 !!= * @CODE@ same as following ^RedPL123123
@@ -420,7 +422,9 @@ Rules
 !! **@RULENAME@**
  a:0 <=>
         _ d: %^Pen: %^RmVOW: %^d2t: %>  ; !-t-əb Passive
-    [%^Red1i13:|%^RedPL1i1i13:|%^Red1iq13:|%^Red12q13:|%^Red1213:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:)  Cns _ [ Cns | Vow ] [ Lts: | » ]* ;
+    [%^Red1i13:|%^Red1iq13:|%^Red12q13:|%^Red1213:]  %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:)  Cns _ [ Cns | Vow ] [ Lts: | » ]* ;
+    [%^RedPL1i1i13:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:)  Cns _ [ Cns | Vow ] [ Lts: | » ]* ;
+!    [%^Red1i13:|%^RedPL1i1i13:|%^Red1iq13:|%^Red12q13:|%^Red1213:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:)  Cns _ [ Cns | Vow ] [ Lts: | » ]* ;
     
 "ə:0 in inflection"
 !! **@RULENAME@**
@@ -432,18 +436,23 @@ Rules
 !!€ bəq̓əd^Pen^RmVOW^d2t>əb
 !!€ bəq̓0t000>əb
 
-   [%^Red1i13:|%^RedPL1i1i13:|%^Red1iq13:|%^Red12q13:|%^Red1213:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) Cns _ [ Cns | Vow ] [ Lts: | » ]* ;
+   [%^Red1i13:|%^Red1iq13:|%^Red12q13:|%^Red1213:] %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) Cns _ [ Cns | Vow ] [ Lts: | » ]* ;
+   [%^RedPL1i1i13:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) Cns _ [ Cns | Vow ] [ Lts: | » ]* ;
+!   [%^Red1i13:|%^RedPL1i1i13:|%^Red1iq13:|%^Red12q13:|%^Red1213:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) Cns _ [ Cns | Vow ] [ Lts: | » ]* ;
 !! sčətxʷəd+N+Der/Dimin+N+Pl __bear/karhu__
 !!€ s%^√{p6}%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}čətxʷəd%^RedPL1i1i13
 !!€ s%^√čiči0č0txʷəd0
 
 "i:0 in inflection"
 !! **@RULENAME@**
- i:0 <=>  [%^Red1i13:|%^RedPL1i1i13:|%^Red1iq13:|%^Red12q13:|%^Red1213:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:)  Cns _ [ Cns | Vow ] [ Lts: | » ]* ;
+ i:0 <=>  [%^Red1i13:|%^Red1iq13:|%^Red12q13:|%^Red1213:]  %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:)  Cns _ [ Cns | Vow ] [ Lts: | » ]* ;
+  [%^RedPL1i1i13:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:)  Cns _ [ Cns | Vow ] [ Lts: | » ]* ;
+!  [%^Red1i13:|%^RedPL1i1i13:|%^Red1iq13:|%^Red12q13:|%^Red1213:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:)  Cns _ [ Cns | Vow ] [ Lts: | » ]* ;
 
 "í:0 in inflection"
 !! **@RULENAME@**
- í:0 <=>  [%^Red1i13:|%^RedPL1i1i13:|%^Red1iq13:|%^Red12q13:|%^Red1213:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) Cns _ [ Cns | Vow ] [ Lts: | » ]* ;
+ í:0 <=>  [%^Red1i13:|%^Red1iq13:|%^Red12q13:|%^Red1213:]  %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) Cns _ [ Cns | Vow ] [ Lts: | » ]* ;
+   [%^RedPL1i1i13:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) Cns _ [ Cns | Vow ] [ Lts: | » ]* ;
 
 ! Vowels
 "ʔ:0 in preceding s"
@@ -453,7 +462,8 @@ Rules
 !!€ ad<s<ʔu<ʔəɬəd
 !!€ ad<s<0u<ʔəɬəd
       [ ƛ̕ | t ] u: %< _ a s %< ;
-  %^Red12323:  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) _ Vow: [ Lts | » ]* ; ! see Cns:0 in reduplication 3 and 5
+  %^Red12323:  %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) _ Vow: [ Lts | » ]* ; ! see Cns:0 in reduplication 3 and 5
+!  %^Red12323:  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) _ Vow: [ Lts | » ]* ; ! see Cns:0 in reduplication 3 and 5
 !!
 
 "u:0 in preceding ƛ̕"
@@ -469,32 +479,37 @@ Rules
 
 "%{pØ%}:a in reduplication"
 !! **@RULENAME@**
- %{pØ%}:a <=> [%^RedPL130130:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: _  Cns: Cns: [a|á:] [ Lts: | » ]* ;
+ %{pØ%}:a <=> [%^RedPL130130:]  %{p3%}: %{p2%}: %{p1%}: _  Cns: Cns: [a|á:] [ Lts: | » ]* ;
+!  [%^RedPL130130:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: _  Cns: Cns: [a|á:] [ Lts: | » ]* ;
 
 
 
 
 "%{p2%}:ə in reduplication"
 !! **@RULENAME@**
- %{p2%}:ə <=> [%^RedPL123123:|%^Red12323:|%^Red12123:|%^Red12q13:|%^Red1213:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: _ %{p1%}: (%{pØ%}:) Cns: ə Cns: [ Lts: | » ]* ;
+ %{p2%}:ə <=> [%^RedPL123123:|%^Red12323:|%^Red12123:|%^Red12q13:|%^Red1213:]  %{p3%}: _ %{p1%}: (%{pØ%}:) Cns: ə Cns: [ Lts: | » ]* ;
 !!€ {p6}%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^RedPL123123
 !!€ 00bəlbəlups0
 
 "%{p2%}:u in reduplication"
 !! **@RULENAME@**
- %{p2%}:u <=> [%^RedPL123123:|%^Red12323:|%^Red12123:|%^Red12q13:|%^Red1213:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: _ %{p1%}: (%{pØ%}:) Cns: u Cns: [ Lts: | » ]* ;
+ %{p2%}:u <=> [%^RedPL123123:|%^Red12323:|%^Red12123:|%^Red12q13:|%^Red1213:]  %{p3%}: _ %{p1%}: (%{pØ%}:) Cns: u Cns: [ Lts: | » ]* ;
 
 
 "%{p2%}:í in reduplication"
 !! **@RULENAME@**
- %{p2%}:í <=>  [%^RedPL123123:|%^Red12323:|%^Red12123:|%^Red12q13:|%^Red1213:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: _ %{p1%}: (%{pØ%}:) Cns: í: Cns: [ Lts: | » ]* ;
+ %{p2%}:í <=>  [%^RedPL123123:|%^Red12323:|%^Red12123:|%^Red12q13:|%^Red1213:]  %{p3%}: _ %{p1%}: (%{pØ%}:) Cns: í: Cns: [ Lts: | » ]* ;
+! %{p2%}:í <=>  [%^RedPL123123:|%^Red12323:|%^Red12123:|%^Red12q13:|%^Red1213:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: _ %{p1%}: (%{pØ%}:) Cns: í: Cns: [ Lts: | » ]* ;
 
 "%{p2%}:i in reduplication"
 !! **@RULENAME@**
- %{p2%}:i <=>  [%^RedPL123123:|%^Red12323:|%^RedPL1i1i13:|%^Red1i13:|%^Red1iq13:|%^Red1iq123:|%^Red12123:|%^Red12q13:|%^Red1213:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: _ %{p1%}: (%{pØ%}:) Cns: i: Cns: [ Lts: | » ]* ;
-        [%^RedPL1i1i13:|%^Red1i13:|%^Red1iq13:|%^Red1iq123:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: _ %{p1%}: (%{pØ%}:)  Cns: ə: Cns: [ Lts: | » ]* ;
-               [%^Red1i123:|%^Red1iq13:|%^Red1iq123:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: _ %{p1%}: (%{pØ%}:) Cns: ə Cns: [ Lts: | » ]* ; 
-               [%^Red1i123:|%^Red1iq13:|%^Red1iq123:|%^Red1i13:|%^RedPL1i1i13:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: _ %{p1%}: (%{pØ%}:) Cns: [a:|u:|i:|á:|à:|í:|ì:|ú:|ù:] Cns: [ Lts: | » ]* ; 
+ %{p2%}:i <=>  [%^RedPL123123:|%^Red12323:|%^Red1i13:|%^Red1iq13:|%^Red1iq123:|%^Red12123:|%^Red12q13:|%^Red1213:]   %{p3%}: _ %{p1%}: (%{pØ%}:) Cns: i: Cns: [ Lts: | » ]* ;
+   [%^RedPL1i1i13:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: _ %{p1%}: (%{pØ%}:) Cns: i: Cns: [ Lts: | » ]* ;
+        [%^Red1i13:|%^Red1iq13:|%^Red1iq123:]  %{p3%}: _ %{p1%}: (%{pØ%}:)  Cns: ə: Cns: [ Lts: | » ]* ;
+        [%^RedPL1i1i13:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: _ %{p1%}: (%{pØ%}:)  Cns: ə: Cns: [ Lts: | » ]* ;
+               [%^Red1i123:|%^Red1iq13:|%^Red1iq123:] %{p3%}: _ %{p1%}: (%{pØ%}:) Cns: ə Cns: [ Lts: | » ]* ; 
+               [%^Red1i123:|%^Red1iq13:|%^Red1iq123:|%^Red1i13:]  %{p3%}: _ %{p1%}: (%{pØ%}:) Cns: [a:|u:|i:|á:|à:|í:|ì:|ú:|ù:] Cns: [ Lts: | » ]* ; 
+               [%^RedPL1i1i13:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: _ %{p1%}: (%{pØ%}:) Cns: [a:|u:|i:|á:|à:|í:|ì:|ú:|ù:] Cns: [ Lts: | » ]* ; 
 
 !!€ ^Red1iq13{p6}{p5}{p4}{p3}{p2}{p1}x̌aʔx̌aʔ
 !!€ 000x̌iʔx̌0ʔx̌aʔ
@@ -512,43 +527,44 @@ Rules
 
 "%{p2%}:a in reduplication"
 !! **@RULENAME@**
- %{p2%}:a <=> [%^RedPL123123:|%^Red12323:|%^Red12123:|%^Red12q13:|%^Red1213:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: _ %{p1%}: (%{pØ%}:) Cns:  a  Cns: [ Lts: | » ]* ;
+ %{p2%}:a <=> [%^RedPL123123:|%^Red12323:|%^Red12123:|%^Red12q13:|%^Red1213:]  %{p3%}: _ %{p1%}: (%{pØ%}:) Cns:  a  Cns: [ Lts: | » ]* ;
 
 "%{p2%}:á in reduplication"
 !! **@RULENAME@**
- %{p2%}:á <=> [%^RedPL123123:|%^Red12323:|%^Red12123:|%^Red12q13:|%^Red1213:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: _ %{p1%}: (%{pØ%}:) Cns:  á:  Cns: [ Lts: | » ]* ;
+ %{p2%}:á <=> [%^RedPL123123:|%^Red12323:|%^Red12123:|%^Red12q13:|%^Red1213:]  %{p3%}: _ %{p1%}: (%{pØ%}:) Cns:  á:  Cns: [ Lts: | » ]* ;
 
 "%{pØ%}:0"
 !! **@RULENAME@**
- %{pØ%}:0 <=> \[ %^RedPL130130:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: _ [ Lts: | » ]* [ # | %>: ] ;
+ %{pØ%}:0 <=> \[ %^RedPL130130:|%^RedPL1i1i13:]  %{p3%}: %{p2%}: %{p1%}: _ [ Lts: | » ]* [ # | %>: ] ;
 
 
 "%{p1%}:0"
 !! **@RULENAME@**
- %{p1%}:0 <=> [%^RedPL1i1i13: | %^Red1i13: |%^Red1213:|%^Red12123:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: _ (%{pØ%}:) [ Lts: | » ]+ [  # | %>: ] ;
+ %{p1%}:0 <=> [%^Red1i13: |%^Red1213:|%^Red12123:]  %{p3%}: %{p2%}: _ (%{pØ%}:) [ Lts: | » ]+ [  # | %>: ] ;
+  [%^RedPL1i1i13: ]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: _ (%{pØ%}:) [ Lts: | » ]+ [  # | %>: ] ;
 
 "%{p2%}:0"
 !! **@RULENAME@**
- %{p2%}:0 <=>  \[ %^RedPL1i1i13: | %^Red1i13: | %^RedPL123123: | %^Red12323: |%^Red12q13:|%^Red1213:| %^Red1i123: |%^Red12123:| %^Red1iq13:|%^Red1iq123:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: _ %{p1%}: (%{pØ%}:) [ Lts: | » ]* [ # | %>: ] ;
-!  \[ %^RedPL1i1i13: | %^Red1i13: | %^RedPL123123: | %^Red12323: | %^Red1i123: |%^Red12123:| %^Red1iq13:|%^Red1iq123:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: _ %{p1%}: (%{pØ%}:) [ Lts: | » ]* [ # | %>: ] ;
-      %^RedPL130130:  %{p6%}: %{p5%}: %{p4%}: %{p3%}: _ %{p1%}: (%{pØ%}:) Cns: Cns: Vow: [ Lts: | » ]* ;   
+ %{p2%}:0 <=> 
+      %^RedPL130130:  %{p3%}: _ %{p1%}: (%{pØ%}:) Cns: Cns: Vow: [ Lts: | » ]* ;   
+!  \[ %^RedPL1i1i13: | %^Red1i13: | %^RedPL123123: | %^Red12323: | %^Red1i123: |%^Red12123:| %^Red1iq13:|%^Red1iq123:]  (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: _ %{p1%}: (%{pØ%}:) [ Lts: | » ]* [ # | %>: ] ;
 
 "%{p3%}:0"
 !! **@RULENAME@**
- %{p3%}:0 <=>  \[ %^RedPL1i1i13: | %^Red1i13: | %^RedPL123123: | %^Red12323: | %^Red1i123: |%^Red1iq13:|%^Red1iq123:|%^Red12123:|%^RedPL130130:]  %{p6%}: %{p5%}: %{p4%}: _ %{p2%}: %{p1%}: (%{pØ%}:) [ Lts: | » ]* [ # | %>: ] ;
-
+ %{p3%}:0 <=>  [%^Red61aa1ə3:]  %{p6%}: %{p5%}: %{p4%}: _ %{p2%}: %{p1%}: (%{pØ%}:) [ Lts: | » ]* [ # | %>: ] ;
+! \[ %^RedPL1i1i13: | %^Red1i13: | %^RedPL123123: | %^Red12323: | %^Red1i123: |%^Red1iq13:|%^Red1iq123:|%^Red12123:|%^RedPL130130:]  (%{p6%}: %{p5%}: %{p4%}:) _ %{p2%}: %{p1%}: (%{pØ%}:) [ Lts: | » ]* [ # | %>: ] ;
 
 "%{p4%}:0"
 !! **@RULENAME@**
- %{p4%}:0 <=> \[ %^Red12323123:]  %{p6%}: %{p5%}: _ %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) [ Lts: | » ]* [ # | %>: ] ;
+ %{p4%}:0 <=> [ %^Red61aa1ə3:]  %{p6%}: %{p5%}: _ %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) [ Lts: | » ]* [ # | %>: ] ;
  
-"%{p5%}:0"
-!! **@RULENAME@**
- %{p5%}:0 <=> [%^RedPL123123: | %^Red12323: | %^Red1i13: | %^Red1iq13:|%^Red1iq123:|%^Red12123:|%^Red12q13:|%^Red1213:|%^RedPL130130:]  %{p6%}: _ %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) [ Lts: | » ]*  [  # | %>: ] ;
+!"%{p5%}:0"
+!!! **@RULENAME@**
+! %{p5%}:0 <=> [%^RedPL123123: | %^Red12323: | %^Red1i123: | %^Red1i13: | %^Red1iq13:|%^Red1iq123:|%^Red12123:|%^Red12q13:|%^Red1213:|%^RedPL130130:]  %{p6%}: _ %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) [ Lts: | » ]*  [  # | %>: ] ;
 
-"%{p6%}:0"
-!! **@RULENAME@**
- %{p6%}:0 <=>  [%^RedPL123123: | %^Red12323: | %^Red1i13: |%^Red1iq13:|%^Red1iq123:|%^Red12123:|%^Red12q13:|%^Red1213:|%^RedPL130130:] _ %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) [ Lts: | » ]* [ # | %>: ];
+!"%{p6%}:0"
+!!! **@RULENAME@**
+! %{p6%}:0 <=>  [%^RedPL123123: | %^Red12323: | %^Red1i123: | %^Red1i13: |%^Red1iq13:|%^Red1iq123:|%^Red12123:|%^Red12q13:|%^Red1213:|%^RedPL130130:] _ %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) [ Lts: | » ]* [ # | %>: ];
 
 
 !!! ### CONSONANTS
@@ -562,7 +578,8 @@ Rules
 "d:0 before s:c"
 !! **@RULENAME@**
 d:0 <=>	_ %> [ c ]  ;
- %^Red12323:  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) _ Vow: [ Lts | » ]* ; ! see Cns:0 in reduplication 3 and 5
+ %^Red12323:  %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) _ Vow: [ Lts | » ]* ; ! see Cns:0 in reduplication 3 and 5
+! %^Red12323:  (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) _ Vow: [ Lts | » ]* ; ! see Cns:0 in reduplication 3 and 5
 !d:0 <=>	_ %> [ s: #| c ]  ;
 !!!€ ʔu%^√{p6}%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}kʷədad%>c
 !!!€ ʔu000000kʷəda0%>c
@@ -581,16 +598,16 @@ d:t <=>	[ə:|»|i:|a:|u:] _ %^Pen: %^RmVOW: %^d2t: %> ə b  ;
 
 "%{p1%}:Cx in reduplication"
 !! **@RULENAME@**
- %{p1%}:Cx <=> [%^RedPL123123:|%^Red12323:|%^RedPL130130:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: _ (%{pØ%}:) Cns: (Vow:) Cx [ Lts | » ]* ;
+ %{p1%}:Cx <=> [%^RedPL123123:|%^Red12323:|%^RedPL130130:]  (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: %{p2%}: _ (%{pØ%}:) Cns: (Vow:) Cx [ Lts | » ]* ;
            where Cx in (kʷ b̓ ǰ n̓ m̓ p p̓ b t t̕ d dᶻ c c̓ č č̓ s š  ɬ ƛ̕  k k̓ k̓ʷ gʷ h xʷ q q̓ qʷ  x̌ x̌ʷ ) ;
 !!2017-11-27where Cx in (p b t t̕ d dᶻ č š l l̕ ɬ ƛ̕ w w̓ y̓ k̓ʷ gʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
 
 "%{p3%}:Cx in reduplication"
 !! **@RULENAME@**
- %{p3%}:Cx <=> [%^RedPL123123:|%^RedPL130130:]  %{p6%}: %{p5%}: %{p4%}: _ %{p2%}: %{p1%}: (%{pØ%}:) Cx (Vow:) Cns [ Lts | » ]* ;
-               %^Red12323:  %{p6%}: %{p5%}: %{p4%}: _ %{p2%}: %{p1%}: (%{pØ%}:) Cx: Vow: Cns [ Lts | » ]* ;
-               [ %^Red1i13:|%^RedPL1i1i13:|%^Red1iq13:|%^Red1iq123:]  %{p6%}: %{p5%}: %{p4%}: _ %{p2%}: %{p1%}: (%{pØ%}:) Cx Vow: Cns [ Lts | » ]* ;
-               [ %^Red1i123:|%^Red12123:]  %{p6%}: %{p5%}: %{p4%}: _ %{p2%}: %{p1%}: (%{pØ%}:) Cx Vow Cns [ Lts | » ]* ;
+ %{p3%}:Cx <=> [%^RedPL123123:|%^RedPL130130:]  (%{p6%}: %{p5%}: %{p4%}:) _ %{p2%}: %{p1%}: (%{pØ%}:) Cx (Vow:) Cns [ Lts | » ]* ;
+               %^Red12323:  (%{p6%}: %{p5%}: %{p4%}:) _ %{p2%}: %{p1%}: (%{pØ%}:) Cx: Vow: Cns [ Lts | » ]* ;
+               [ %^Red1i13:|%^RedPL1i1i13:|%^Red1iq13:|%^Red1iq123:]  (%{p6%}: %{p5%}: %{p4%}:) _ %{p2%}: %{p1%}: (%{pØ%}:) Cx Vow: Cns [ Lts | » ]* ;
+               [ %^Red1i123:|%^Red12123:]  (%{p6%}: %{p5%}: %{p4%}:) _ %{p2%}: %{p1%}: (%{pØ%}:) Cx Vow Cns [ Lts | » ]* ;
            where Cx in (kʷ b̓ ǰ n̓ m̓ p p̓ b t t̕ d dᶻ c c̓ č č̓ s š l l̕ ɬ ƛ̕  y w y̓ w̓ k k̓ k̓ʷ g gʷ h xʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
 !2019-03-04           where Cx in (p p̓ b t t̕ d dᶻ c c̓ č č̓ s š l l̕ ɬ ƛ̕ y w y̓ w̓ k k̓ k̓ʷ gʷ h xʷ q q̓ qʷ q̓ʷ x̌ x̌ʷ ʔ) ;
 
@@ -608,26 +625,26 @@ d:t <=>	[ə:|»|i:|a:|u:] _ %^Pen: %^RmVOW: %^d2t: %> ə b  ;
 
 "%{p1%}:l̕ in reduplication"
 !! **@RULENAME@**
- %{p1%}:l̕ <=> %^RedPL123123:  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: _ (%{pØ%}:) [q|y] Vow: l [ Lts | » ]* ;
-             %^RedPL123123:  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: _ (%{pØ%}:) Cns Vow: l̕ [ Lts | » ]* ;
+ %{p1%}:l̕ <=> %^RedPL123123:  (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: %{p2%}: _ (%{pØ%}:) [q|y] Vow: l [ Lts | » ]* ;
+             %^RedPL123123:  (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: %{p2%}: _ (%{pØ%}:) Cns Vow: l̕ [ Lts | » ]* ;
 
 "%{p1%}:y̓ in reduplication"
 !! **@RULENAME@**
- %{p1%}:y̓ <=> %^RedPL123123:  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: _ (%{pØ%}:) q Vow: y [ Lts | » ]* ;
-              %^RedPL123123:  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: _ (%{pØ%}:) Cns Vow: y̓ [ Lts | » ]* ;
+ %{p1%}:y̓ <=> %^RedPL123123:  (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: %{p2%}: _ (%{pØ%}:) q Vow: y [ Lts | » ]* ;
+              %^RedPL123123:  (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: %{p2%}: _ (%{pØ%}:) Cns Vow: y̓ [ Lts | » ]* ;
 
 
 
 "%{p1%}:w̓ in reduplication"
 !! **@RULENAME@**
- %{p1%}:w̓ <=> %^RedPL123123:  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: _ (%{pØ%}:) q Vow: w [ Lts | » ]* ;
-             %^RedPL123123:  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: _ (%{pØ%}:) Cns Vow: w̓ [ Lts | » ]* ;
+ %{p1%}:w̓ <=> %^RedPL123123:  (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: %{p2%}: _ (%{pØ%}:) q Vow: w [ Lts | » ]* ;
+             %^RedPL123123:  (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: %{p2%}: _ (%{pØ%}:) Cns Vow: w̓ [ Lts | » ]* ;
 
 "%{p1%}:ʔ in reduplication"
 !! **@RULENAME@**
- %{p1%}:ʔ <=> %^RedPL123123:  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: _ (%{pØ%}:) s Vow: q̓ʷ [ Lts | » ]* ;
-             %^RedPL123123:  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: _ (%{pØ%}:) Cns Vow: ʔ [ Lts | » ]* ;
-             [%^Red1iq13:|%^Red1iq123:]  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: _ (%{pØ%}:) Cns Vow: Cns: [ Lts | » ]* ;
+ %{p1%}:ʔ <=> %^RedPL123123:  (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: %{p2%}: _ (%{pØ%}:) s Vow: q̓ʷ [ Lts | » ]* ;
+             %^RedPL123123:  (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: %{p2%}: _ (%{pØ%}:) Cns Vow: ʔ [ Lts | » ]* ;
+             [%^Red1iq13:|%^Red1iq123:]  (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: %{p2%}: _ (%{pØ%}:) Cns Vow: Cns: [ Lts | » ]* ;
 
 !! x̌aʔx̌aʔ+N+Der+Der/Dimin+N+Sg: **sacred/pyhä**
 !!€ {p5}{p4}{p3}̌{p2}{p1}x̌aʔx̌aʔ^Red1iq123
@@ -635,27 +652,27 @@ d:t <=>	[ə:|»|i:|a:|u:] _ %^Pen: %^RmVOW: %^d2t: %> ə b  ;
 
 "%{p1%}:Cx in reduplication"
 !! **@RULENAME@**
- %{p1%}:Cx <=> %^RedPL123123: %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: _ (%{pØ%}:) [Cns - [q|y]] Vow: Cx [ Lts | » ]* ;
-  %^Red12323: %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: _ (%{pØ%}:) Cns: Vow: Cx [ Lts | » ]* ;
+ %{p1%}:Cx <=> %^RedPL123123: (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: %{p2%}: _ (%{pØ%}:) [Cns - [q|y]] Vow: Cx [ Lts | » ]* ;
+  %^Red12323: (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: %{p2%}: _ (%{pØ%}:) Cns: Vow: Cx [ Lts | » ]* ;
            where Cx in (l) ;
 !!€ {p6}%{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^RedPL123123
 !!€ 00bəlbəlups0
 	   
 "%{p1%}:Cx in reduplication"
 !! **@RULENAME@**
- %{p1%}:Cx <=> %^RedPL123123: %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: _ (%{pØ%}:) [Cns - q] Vow: Cx [ Lts | » ]* ;
-   %^Red12323: %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: _ (%{pØ%}:) Cns: Vow: Cx [ Lts | » ]* ;
+ %{p1%}:Cx <=> %^RedPL123123: (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: %{p2%}: _ (%{pØ%}:) [Cns - q] Vow: Cx [ Lts | » ]* ;
+   %^Red12323: (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: %{p2%}: _ (%{pØ%}:) Cns: Vow: Cx [ Lts | » ]* ;
            where Cx in (y w) ;
 
 "%{p1%}:Cx in reduplication"
 !! **@RULENAME@**
- %{p1%}:Cx <=> %^RedPL123123: %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: _ (%{pØ%}:) [Cns - s] Vow: Cx [ Lts | » ]* ;
-  %^Red12323: %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: _ (%{pØ%}:) Cns: Vow: Cx [ Lts | » ]* ;
+ %{p1%}:Cx <=> %^RedPL123123: (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: %{p2%}: _ (%{pØ%}:) [Cns - s] Vow: Cx [ Lts | » ]* ;
+  %^Red12323: (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: %{p2%}: _ (%{pØ%}:) Cns: Vow: Cx [ Lts | » ]* ;
            where Cx in (q̓ʷ) ;
 
 "Cns:0 in reduplication 3 and 5"
 !! **@RULENAME@**
-CnsNoGlotOrD:0 <=> %^Red12323:  %{p6%}: %{p5%}: %{p4%}: %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) _ Vow: Cns: [ Lts | » ]* ;
+CnsNoGlotOrD:0 <=> %^Red12323:  (%{p6%}: %{p5%}: %{p4%}:) %{p3%}: %{p2%}: %{p1%}: (%{pØ%}:) _ Vow: Cns: [ Lts | » ]* ;
 !{p5}{p4}{p3}{p2}{p1}ʔaciɬtalbixʷ^Red12323
 !00ʔac0aciɬtalbixʷ0
 

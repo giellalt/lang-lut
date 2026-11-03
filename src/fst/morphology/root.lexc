@@ -268,7 +268,7 @@ y̓   !!= @CODE@
 
 !! reduplication type 6 involves the all three letters of the three-letter reduplication segment with a double vowel
 
-+Der/Red6_122123 !!= * @CODE@ * This is Red6 
++Der/Red6_122123 !!= * @CODE@ * This is Red6 sɬaadəyʔ
  +Der/Red6_1aa1ə3 !!= * @CODE@ * This is Red6 sɬaaɬədəyʔ < sɬadəyʔ
  
 +Clt/Now !!= * @CODE@ %>áxʷ %>əxʷ
@@ -351,6 +351,9 @@ y̓   !!= @CODE@
 ^RedPL1i1i13 !!= * @CODE@ 2-segment to 3-segments with vowel change Distr sčətxʷəd:sčičičtxʷəd Der/Red1_1i13_Distr_1212 
 ^Red2CV2CiCV !!= * @CODE@
 ^RedPL130130 !!= * @CODE@ ƛ̕xʷay: ƛ̕xʷaƛ̕xʷay 
+^Red61223 !!= * @CODE@ čəgʷas: čaagʷəs
+^Red61aa3 !!= * @CODE@ čəgʷas: čaagʷəs
+^Red61aa1ə3 !!= * @CODE@ sɬaaɬədəyʔ < sɬadəyʔ
 
 ^Pen !!= * @CODE@ this combines with subsequent RmVow or perhaps RmCns
 ^RmVOW !!= * @CODE@ this removes previous vowel or with Pen the penultimate vowel
@@ -549,6 +552,15 @@ LEXICON Root !!= * **@CODE@** Root lexicon
    Prefixes    ;   !!= * @CODE@ Feeds Adjectives, Nouns, Propernouns, Verbs
     Punctuation ;
     Symbols     ;
+
+!! Determiners
+ša+v1+Det:ša PRON_DEM "the|a|neutral demonstrative" ;
+ša+v2+Det:šə PRON_DEM "the|a|neutral demonstrative" ;
+tə+Det:tə DET-NEUTRAL-MSC_ "the|a|neutral demonstrative" ;
+tə+Det:tsə DET-NEUTRAL-FEM_ "the|a|neutral demonstrative" ;
+
+
+
 
 LEXICON PCLE_
  K ;
